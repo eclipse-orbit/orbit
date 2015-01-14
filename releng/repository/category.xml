@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+    <feature
+        id="org.eclipse.orbit.releng.recipes.feature.aggregation"
+        version="0.0.0">
+    </feature>
+    <feature
+        id="org.eclipse.orbit.releng.recipes.feature.aggregation.source"
+        version="0.0.0">
+    </feature>
+
+   <category-def name="all" label="All Bundles"/>
+   <iu>
+      <category name="all"/>
+      <query><expression type="match">providedCapabilities.exists(p | p.namespace == 'osgi.bundle')</expression></query>
+   </iu>
+
+   <category-def name="apache" label="Orbit Bundles By Name: org.apache.*"/>
+   <iu>
+      <category name="apache"/>
+      <query><expression type="match">id ~= /org.apache.*/</expression></query>
+   </iu>
+
+   <category-def name="javax" label="Orbit Bundles By Name: javax.*"/>
+   <iu>
+      <category name="javax"/>
+      <query><expression type="match">id ~= /javax.*/</expression></query>
+   </iu>
+
+   <category-def name="google" label="Orbit Bundles By Name: com.google.*"/>
+   <iu>
+      <category name="google"/>
+      <query><expression type="match">id ~= /com.google.*/</expression></query>
+   </iu>
+
+   <category-def name="json" label="Orbit Bundles By Scope: JSON"/>
+   <iu>
+      <category name="json"/>
+      <query><expression type="match">id ~= /org.codehaus.jackson*/</expression></query>
+   </iu>
+   <iu>
+      <category name="json"/>
+      <query><expression type="match">id ~= /*json*/</expression></query>
+   </iu>
+
+   <category-def name="logging" label="Orbit Bundles By Scope: Logging"/>
+   <iu>
+      <category name="logging"/>
+      <query><expression type="match">id ~= /org.slf4j*/</expression></query>
+   </iu>
+   <iu>
+      <category name="logging"/>
+      <query><expression type="match">id ~= /*log4j*/</expression></query>
+   </iu>
+   <iu>
+      <category name="logging"/>
+      <query><expression type="match">id ~= /*logback*/</expression></query>
+   </iu>
+   <iu>
+      <category name="logging"/>
+      <query><expression type="match">id ~= /org.apache.commons.log*/</expression></query>
+   </iu>
+
+   <category-def name="json" label="Orbit Bundles By Scope: NoSQL"/>
+   <iu>
+      <category name="json"/>
+      <query><expression type="match">id ~= /*mongodb*/</expression></query>
+   </iu>
+   <iu>
+      <category name="json"/>
+      <query><expression type="match">id ~= /org.apache.cassandra*/</expression></query>
+   </iu>
+   <iu>
+      <category name="json"/>
+      <query><expression type="match">id ~= /met.prettyprint.hector*/</expression></query>
+   </iu>
+
+   <category-def name="tests" label="Orbit Bundles By Scope: Testing"/>
+   <iu>
+      <category name="tests"/>
+      <query><expression type="match">id ~= /org.junit*/</expression></query>
+   </iu>
+   <iu>
+      <category name="tests"/>
+      <query><expression type="match">id ~= /org.hamcrest*/</expression></query>
+   </iu>
+   <iu>
+      <category name="tests"/>
+      <query><expression type="match">id ~= /org.mockito*/</expression></query>
+   </iu>
+
+</site>
