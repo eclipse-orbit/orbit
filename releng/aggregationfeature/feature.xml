@@ -17,10 +17,16 @@
       %license
   </license>
 
-<!--
+  <plugin id="org.slf4j.api.orbit"            version="1.7.10.qualifier"/>
+  <plugin id="org.slf4j.ext.orbit"            version="1.7.10.qualifier"/>
+  <plugin id="org.slf4j.apis.jcl.orbit"       version="1.7.10.qualifier"/>
+  <plugin id="org.slf4j.apis.log4j.orbit"     version="1.7.10.qualifier"/>
+  <plugin id="org.slf4j.bridge.jul.orbit"     version="1.7.10.qualifier"/>
+  <plugin id="org.slf4j.binding.nop.orbit"    version="1.7.10.qualifier"/>
+  <plugin id="org.slf4j.binding.simple.orbit" version="1.7.10.qualifier"/>
+
   <plugin id="ch.qos.logback.core.orbit"    version="1.1.2.qualifier"/>
   <plugin id="ch.qos.logback.classic.orbit" version="1.1.2.qualifier"/>
   <plugin id="ch.qos.logback.slf4j.orbit"   version="1.1.2.qualifier"/>
--->
 
 </feature>

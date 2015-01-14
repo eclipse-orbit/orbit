@@ -1,0 +1,14 @@
+package-version=${version;===;${Bundle-Version}}
+jcl-version=1.1.1
+
+Export-Package: \
+ !about.html,!about_files, \
+ org.apache.commons.logging.impl.*;x-internal:=true;version="${jcl-version}"", \
+ org.apache.commons.logging.*;version="${jcl-version}"", \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.slf4j.*;version="${range;[===,=+);${package-version}}", \
+ *;resolution:=optional

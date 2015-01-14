@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.slf4j.binding.nop.orbit" version="1.7.10" status="done">
+    <info>
+      <name>SLF4J NOP Binding</name>
+      <origin>SLF4J.org</origin>
+      <reference>http://www.slf4j.org/</reference>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>logging/org.slf4j.binding.nop.orbit</location>
+    </info>
+    <contact>
+      <name>Gunnar Wagenknecht</name>
+      <email>gunnar@wagenknecht.org</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="9139"/>
+      <license>
+        <name>MIT license</name>
+        <reference>http://opensource.org/licenses/MIT</reference>
+      </license>
+      <package>slf4j-nop-1.7.10.jar</package>
+    </legal>
+  </project>
+</ip_log>

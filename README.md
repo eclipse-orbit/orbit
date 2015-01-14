@@ -92,6 +92,13 @@ create a recipe including required Eclipse IP information based on data availabl
     # (note the -DirtyWorkingTree=ignore to ignore uncommitted Git changes for now)
     mvn -U clean package -DdirtyWorkingTree=warning
 
+    # hidden gem: automatically create a CQ for an Eclipse project
+    # (use carefully, creates the CQ if noone is referenced in the ip_log.xml file)
+    #mvn -V clean package -DsubmitCqsToProject=<Eclipse.project.id> -DcqCryptography=<Yes|No|Unknown|Explanation> -DdirtyWorkingTree=warning
+    # (once the CQ is created, source to upload can be found in 'target/sources-for-eclipse-ipzilla')
+    # (after uploading the source, wait for approval)
+    # (after approval, login to the project portal and create the ATO CQ for Orbit and update the CQ number in ip_log.xml as explained below)
+
     # enter the CQ number into the IP log and add any missing information
     # (note, this must be the Add-to-Orbit "ATO" CQ filed against the Orbit project)
     $EDITOR src/eclipse/ip_log.xml

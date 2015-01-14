@@ -16,6 +16,13 @@
   <name>Eclipse Orbit :: Logging Recipes</name>
 
   <modules>
+    <module>org.slf4j.api.orbit_1.7.10</module>
+    <module>org.slf4j.apis.jcl.orbit_1.7.10</module>
+    <module>org.slf4j.apis.log4j.orbit_1.7.10</module>
+    <module>org.slf4j.binding.nop.orbit_1.7.10</module>
+    <module>org.slf4j.binding.simple.orbit_1.7.10</module>
+    <module>org.slf4j.bridge.jul.orbit_1.7.10</module>
+    <module>org.slf4j.ext.orbit_1.7.10</module>
     <module>ch.qos.logback.core.orbit_1.1.2</module>
     <module>ch.qos.logback.classic.orbit_1.1.2</module>
     <module>ch.qos.logback.slf4j.orbit_1.1.2</module>

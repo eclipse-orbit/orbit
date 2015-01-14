@@ -1,8 +1,5 @@
 -include: ~../ch.qos.logback.core.orbit_1.1.2/osgi.bnd
 
-Provide-Capability: org.slf4j.impl; org.slf4j.impl="logback"; version:Version="${slf4j-version}"
-Fragment-Host: org.slf4j.api.orbit;bundle-version="${range;[===,=+);${slf4j-version}}"
-
 slf4j-exports= \
  org.slf4j.impl*;x-internal:=true;version="${slf4j-version}", \
  org.slf4j.*;version="${slf4j-version}"
@@ -10,3 +7,9 @@ slf4j-exports= \
 Export-Package: \
  ${slf4j-exports}, \
  ${logback-exports}
+
+###############
+# SLF4J Binding
+#
+Provide-Capability: org.slf4j.impl; org.slf4j.impl="logback"; version:Version="${slf4j-version}"
+Fragment-Host: org.slf4j.api.orbit;bundle-version="${range;[===,=+);${slf4j-version}}"

@@ -36,6 +36,9 @@
     <!-- remove some clutter from the generated manifests -->
     <recipe.removeheaders>Ignore-Package,Include-Resource,Private-Package,Embed-Dependency,Built-By,Build-Jdk,Bnd-*,Tool</recipe.removeheaders>
 
+    <!-- for Orbit, by default we'll also remove the Require-Bundle header; recipe poms may override if they need this header -->
+    <recipe.removeadditionalheaders>Require-Bundle</recipe.removeadditionalheaders>
+
     <!-- read BND settings from 'osgi.bnd' located next to pom.xml -->
     <recipe.bndfile>osgi.bnd</recipe.bndfile>
 
@@ -101,11 +104,11 @@
                   <goals>
                     <goal>eclipse-ip-info</goal>
                   </goals>
-                  <configuration>
-                    <force>true</force>
-                  </configuration>
                 </execution>
               </executions>
+              <configuration>
+                <force>true</force>
+              </configuration>
             </plugin>
           </plugins>
         </pluginManagement>
@@ -182,7 +185,7 @@
             <Bundle-Name>${recipe.Bundle-Name}</Bundle-Name>
             <Bundle-Vendor>${recipe.Bundle-Vendor}</Bundle-Vendor>
             <Bundle-Description>${recipe.Bundle-Description}</Bundle-Description>
-            <_removeheaders>${recipe.removeheaders}</_removeheaders>
+            <_removeheaders>${recipe.removeheaders},${recipe.removeadditionalheaders}</_removeheaders>
             <_include>-${recipe.bndfile}</_include>
           </bndInstructions>
         </configuration>
