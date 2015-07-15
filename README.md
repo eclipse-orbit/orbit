@@ -1,7 +1,7 @@
 Eclipse Orbit Recipes
 =====================
 
-This repositories hosts recipes for building OSGi bundles as part of the Eclipse Orbit project.
+This repositories hosts recipes for building OSGi bundles as part of the Eclipse Orbit project. This repository is based on functionality provided by the [Eclipse EBR project](https://github.com/eclipse/ebr).
 
 
 
