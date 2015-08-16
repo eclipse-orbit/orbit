@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.eclipse.orbit.bundles</groupId>
+    <artifactId>orbit-recipes</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>jclouds</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Eclipse Orbit :: JClouds Recipes</name>
+
+  <modules>
+  	<module>org.apache.jclouds.api.openstack-cinder_1.8.0</module>
+  	<module>org.apache.jclouds.api.openstack-keystone_1.8.0</module>
+  	<module>org.apache.jclouds.api.openstack-nova_1.8.0</module>
+  	<module>org.apache.jclouds.labs.openstack-neutron_1.8.0</module>  	
+  	<module>org.apache.jclouds.api.swift_1.8.0</module>
+  	<module>org.apache.jclouds.driver.jclouds-slf4j_1.8.0</module>
+  	<module>org.apache.jclouds.labs.docker_1.8.0</module>
+  </modules>
+
+</project>

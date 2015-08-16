@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.jclouds.labs.openstack-neutron" status="done" version="1.8.0">
+    <info>
+      <name>Apache Jclouds OpenStack Neutron API</name>
+      <origin>Apache.org</origin>
+      <reference>https://jclouds.apache.org/</reference>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>jclouds/org.apache.jclouds.labs.openstack-neutron</location>
+    </info>
+    <contact>
+      <name>Nicholas Loulloudes</name>
+      <email>loulloudes.n@cs.ucy.ac.cy</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="9994"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>openstack-neutron-1.8.0.jar</package>
+    </legal>
+  </project>
+</ip_log>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="ch.qos.logback.slf4j.orbit" version="1.1.2" status="done">
+  <project id="ch.qos.logback.slf4j.orbit" status="done" version="1.1.2">
     <info>
       <name>Logback SLF4J Binding</name>
       <origin>QOS.ch</origin>

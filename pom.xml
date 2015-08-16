@@ -25,6 +25,7 @@
 
   <modules>
     <module>logging</module>
+    <module>jclouds</module>
   </modules>
 
 </project>

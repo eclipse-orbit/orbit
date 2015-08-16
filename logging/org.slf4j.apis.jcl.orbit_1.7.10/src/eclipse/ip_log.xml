@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.slf4j.apis.jcl.orbit" version="1.7.10" status="done">
+  <project id="org.slf4j.apis.jcl.orbit" status="done" version="1.7.10">
     <info>
       <name>JCL 1.1.1 implemented over SLF4J</name>
       <origin>SLF4J.org</origin>

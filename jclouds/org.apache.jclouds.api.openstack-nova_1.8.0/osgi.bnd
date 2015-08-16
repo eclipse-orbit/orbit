@@ -1,0 +1,18 @@
+-include: ~../org.apache.jclouds.api.openstack-keystone_1.8.0/osgi.bnd
+
+package-version=${version;===;${Bundle-Version}}
+openstack-keystone-version=${version;===;1.8.0}
+jclouds-compute-version=${version;===;1.8.0}
+clojure-version=${version;===;1.3.0}
+tools.logging-version=${version;===;0.2.3}
+core.incubator-version=${version;===;0.1.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional
+

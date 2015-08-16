@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.slf4j.ext.orbit" version="1.7.10" status="done">
+  <project id="org.slf4j.ext.orbit" status="done" version="1.7.10">
     <info>
       <name>SLF4J Extensions Module</name>
       <origin>SLF4J.org</origin>
