@@ -55,7 +55,7 @@ How to add recipes
 Adding recipes to this repository is part of the general process for adding bundles to Orbit. Please read the
 following additional information first before you proceed.
 
-* [Adding Bundles to Orbit](https://wiki.eclipse.org/Orbit/Adding_Bundles_to_Orbit), especially section "Project Approvals and the CQ Process" 
+* [Adding Bundles to Orbit](https://wiki.eclipse.org/Orbit/Adding_Bundles_to_Orbit), especially section "Project Approvals and the CQ Process"
 * [Bundle Checklist](https://wiki.eclipse.org/Orbit_Bundle_Checklist)
 * [Additional articles](https://wiki.eclipse.org/Category:Orbit)
 
@@ -63,13 +63,13 @@ following additional information first before you proceed.
 ### 1. Pick a Category
 
 Recipes are organized in folders by category. There is no strict rule on categories, i.e. categories do not map to vendor names by definition.
-However, it seems logical to select a category name based on some common critaria shared by recipies. Most of the time, functionalit"origin" of the 3rd 
+However, it seems logical to select a category name based on some common critaria shared by recipies. Most of the time, "origin" of the 3rd
 party libraries seems like a good fit. But occasionally, functionality (eg, 'logging') is also helpful in order to avoid too fine grained grouping (eg., categories with only two recipies).
 
-In case of doubts/questions, please reach out to the [Orbit Committers List](mailto:orbit-dev@eclipse.org). Also, don't be afraid of mistakes. 
+In case of doubts/questions, please reach out to the [Orbit Committers List](mailto:orbit-dev@eclipse.org). Also, don't be afraid of mistakes.
 It's all in a single Git repository so re-organization is possible at any time later on.
 
-Note, when creating a new category please create the category pom.xml first before any recipes. Use another category pom.xml as template to inherit the proper Orbit recipe parent pom. 
+Note, when creating a new category please create the category pom.xml first before any recipes. Use another category pom.xml as template to inherit the proper Orbit recipe parent pom.
 This ensure that proper Orbit defaults are used when creating recipes (for example, the bundle vendor is automatically set to "Eclipse Orbit").
 
 
@@ -110,5 +110,5 @@ create a recipe including required Eclipse IP information based on data availabl
     $EDITOR ../pom.xml
 
     # add, commit the recipe to Git and push it up for review
-    
+
 
