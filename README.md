@@ -29,10 +29,10 @@ the bundles directly from Maven in any Tycho build.
 ### Generate p2 repository
 
 1. Go into the repository root folder.
-2. `cd releng/p2`
-3. `mvn clean package`
+2. `mvn clean install -f releng/aggregationfeature/pom.xml`
+3. `mvn clean package -f releng/repository/pom.xml`
 
-The repository will be made available as archive in `releng/p2/repository/target`.
+The repository will be made available as archive in `releng/repository/target`.
 
 Note, you **must** build the recipes first and *install* the result into your local Maven repository. Otherwise
 the p2 build won't find any bundles.
