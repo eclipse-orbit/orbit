@@ -23,6 +23,8 @@
   	<module>org.apache.jclouds.api.swift_1.8.0</module>
   	<module>org.apache.jclouds.driver.jclouds-slf4j_1.8.0</module>
   	<module>org.apache.jclouds.labs.docker_1.8.0</module>
+	<module>org.apache.jclouds.api.ec2_1.8.0</module>
+	<module>org.apache.jclouds.api.cloudwatch_1.8.0</module>
   </modules>
 
 </project>
