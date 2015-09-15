@@ -16,6 +16,7 @@
   <name>Eclipse Orbit :: JClouds Recipes</name>
 
   <modules>
+	<module>org.apache.jclouds.common.openstack-common_1.8.0</module>
   	<module>org.apache.jclouds.api.openstack-cinder_1.8.0</module>
   	<module>org.apache.jclouds.api.openstack-keystone_1.8.0</module>
   	<module>org.apache.jclouds.api.openstack-nova_1.8.0</module>
