@@ -17,6 +17,11 @@
       %license
   </license>
 
+  <plugin id="org.apache.lucene.analyzers-common"  version="5.2.1.qualifier"/>
+  <plugin id="org.apache.lucene.analyzers-smartcn" version="5.2.1.qualifier"/>
+  <plugin id="org.apache.lucene.core"              version="5.2.1.qualifier"/>
+  <plugin id="org.apache.lucene.queryparser"       version="5.2.1.qualifier"/>
+
   <plugin id="org.slf4j.api.orbit"            version="1.7.10.qualifier"/>
   <plugin id="org.slf4j.ext.orbit"            version="1.7.10.qualifier"/>
   <plugin id="org.slf4j.apis.jcl.orbit"       version="1.7.10.qualifier"/>

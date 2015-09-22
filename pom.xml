@@ -25,6 +25,7 @@
 
   <modules>
     <module>logging</module>
+    <module>lucene</module>
     <module>jclouds</module>
     <module>antlr</module>
   </modules>

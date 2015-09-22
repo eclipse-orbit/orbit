@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.lucene.analyzers-common" version="5.2.1" status="done">
+    <info>
+      <name>Lucene Common Analyzers</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>lucene/org.apache.lucene.analyzers-common</location>
+    </info>
+    <contact>
+      <name>Roland Grunberg</name>
+      <email>rgrunber@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="10146"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>lucene-analyzers-common-5.2.1.jar</package>
+    </legal>
+  </project>
+</ip_log>

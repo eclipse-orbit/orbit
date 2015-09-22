@@ -1,0 +1,16 @@
+package-version=${version;===;${Bundle-Version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+# Do not depend on lucene-queries or lucene-sandbox
+# Functionality is never triggered so avoid building them
+Import-Package: \
+ !org.apache.lucene.queries*, \
+ !org.apache.lucene.sandbox*, \
+ org.apache.lucene.*;version="${range;[===,=+);${package-version}}", \
+ *
+
