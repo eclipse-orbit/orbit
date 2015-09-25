@@ -26,6 +26,7 @@
   <modules>
     <module>logging</module>
     <module>jclouds</module>
+    <module>antlr</module>
   </modules>
 
 </project>

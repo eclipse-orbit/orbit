@@ -29,4 +29,6 @@
   <plugin id="ch.qos.logback.classic.orbit" version="1.1.2.qualifier"/>
   <plugin id="ch.qos.logback.slf4j.orbit"   version="1.1.2.qualifier"/>
 
+  <plugin id="org.antlr.runtime"   version="4.5.1.qualifier"/>
+
 </feature>
