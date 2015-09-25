@@ -28,6 +28,7 @@
     <module>lucene</module>
     <module>jclouds</module>
     <module>antlr</module>
+    <module>freemarker</module>
   </modules>
 
 </project>
