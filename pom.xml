@@ -29,6 +29,7 @@
     <module>jclouds</module>
     <module>antlr</module>
     <module>freemarker</module>
+    <module>onami</module>
   </modules>
 
 </project>

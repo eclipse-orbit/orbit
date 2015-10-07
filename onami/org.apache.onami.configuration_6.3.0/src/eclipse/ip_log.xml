@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.onami.configuration" status="done" version="6.3.0">
+    <info>
+      <name>Apache Onami-Configuration</name>
+      <origin>Apache.org</origin>
+      <reference>http://onami.apache.org/</reference>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>onami/org.apache.onami.configuration</location>
+    </info>
+    <contact>
+      <name>Nicholas Loulloudes</name>
+      <email>loulloudes.n@cs.ucy.ac.cy</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="10220"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>org.apache.onami.configuration-6.3.0.jar</package>
+    </legal>
+  </project>
+</ip_log>
