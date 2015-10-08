@@ -30,6 +30,7 @@
     <module>antlr</module>
     <module>freemarker</module>
     <module>onami</module>
+    <module>assertj</module>
   </modules>
 
 </project>
