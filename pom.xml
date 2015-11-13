@@ -31,6 +31,7 @@
     <module>freemarker</module>
     <module>onami</module>
     <module>assertj</module>
+    <module>apache</module>
   </modules>
 
 </project>

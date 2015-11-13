@@ -39,5 +39,7 @@
   <plugin id="org.freemarker" version="2.3.22.qualifier"/>
 
   <plugin id="org.assertj" version="1.7.1.qualifier"/>
+  
+  <plugin id="org.apache.commons.math" version="3.5.0.qualifier"/>
 
 </feature>
