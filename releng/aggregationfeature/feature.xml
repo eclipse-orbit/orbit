@@ -43,5 +43,6 @@
   <plugin id="org.apache.commons.math" version="3.5.0.qualifier"/>
   
   <plugin id="org.apache.jclouds.api.sts" version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.jclouds-compute" version="1.8.0.qualifier"/>
 
 </feature>
