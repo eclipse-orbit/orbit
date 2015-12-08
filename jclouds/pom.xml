@@ -28,6 +28,9 @@
 	<module>org.apache.jclouds.api.cloudwatch_1.8.0</module>
 	<module>org.apache.jclouds.jclouds-core_1.8.0</module>
 	<module>org.apache.jclouds.jclouds-blobstore_1.8.0</module>
+	<module>org.apache.jclouds.jclouds-compute_1.8.0</module>
+	<module>org.apache.jclouds.api.sts_1.8.0</module>
+	<module>org.apache.jclouds.jclouds-scriptbuilder_1.8.0</module>
   </modules>
 
 </project>
