@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.eclipse.orbit.bundles</groupId>
+    <artifactId>bouncycastle</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>org.bouncycastle.bcprov-jdk15on</artifactId>
+  <version>1.52.0-SNAPSHOT</version>
+  <packaging>eclipse-bundle-recipe</packaging>
+  <name>Bouncy Castle Provider</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk15on</artifactId>
+      <version>1.52</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.ebr</groupId>
+        <artifactId>ebr-maven-plugin</artifactId>
+        <configuration>
+          <!-- Exclude IDEACBCPar, IDEAEngine, IDEA, OCBBlockCipher, as requested in CQ #9554 -->
+          <excludes>
+              <!-- exclude defaults defined in parent -->
+              ${recipe.excludes},
+              <!-- Exclude IDEACBCPar, IDEAEngine, IDEA, OCBBlockCipher, as requested in CQ #9554 -->
+              org/bouncycastle/asn1/misc/IDEACBCPar*,
+              org/bouncycastle/crypto/engines/IDEAEngine*,
+              org/bouncycastle/jcajce/provider/symmetric/IDEA*,
+              org/bouncycastle/crypto/modes/OCBBlockCipher*,
+          </excludes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
