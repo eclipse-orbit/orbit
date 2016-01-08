@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.commons.math" version="3.5.0" status="done">
+  <project id="org.apache.commons.math3" version="3.5.0" status="done">
     <info>
       <name>Apache Commons Math</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>apache/org.apache.commons.math</location>
+      <location>apache/org.apache.commons.math3</location>
     </info>
     <contact>
       <name>Philip Wenig</name>

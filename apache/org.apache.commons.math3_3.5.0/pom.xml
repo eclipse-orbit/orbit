@@ -7,7 +7,7 @@
     <artifactId>apache</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>org.apache.commons.math</artifactId>
+  <artifactId>org.apache.commons.math3</artifactId>
   <version>3.5.0-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>Apache Commons Math</name>
