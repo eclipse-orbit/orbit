@@ -17,6 +17,7 @@
 
   <modules>
     <module>org.bouncycastle.bcpg-jdk15on_1.52.0</module>
+    <module>org.bouncycastle.bcpkix-jdk15on_1.52.0</module>
   </modules>
 
 </project>
