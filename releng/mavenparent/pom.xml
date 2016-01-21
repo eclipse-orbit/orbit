@@ -136,18 +136,77 @@
       <build>
         <plugins>
           <plugin>
+            <groupId>org.eclipse.tycho.extras</groupId>
+            <artifactId>tycho-pack200a-plugin</artifactId>
+            <version>${tycho-version}</version>
+            <configuration>
+              <supportedProjectTypes>
+                <supportedProjectType>eclipse-bundle-recipe</supportedProjectType>
+              </supportedProjectTypes>
+            </configuration>
+            <executions>
+              <execution>
+                <id>pack200-normalize</id>
+                <goals>
+                  <goal>normalize</goal>
+                </goals>
+                <phase>package</phase>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
             <groupId>org.eclipse.cbi.maven.plugins</groupId>
             <artifactId>eclipse-jarsigner-plugin</artifactId>
             <version>1.1.3-SNAPSHOT</version>
             <executions>
               <execution>
                 <id>sign</id>
-                <phase>verify</phase>
+                <phase>package</phase>
                 <goals>
                   <goal>sign</goal>
                 </goals>
               </execution>
             </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.eclipse.tycho.extras</groupId>
+            <artifactId>tycho-pack200b-plugin</artifactId>
+            <version>${tycho-extras-version}</version>
+            <configuration>
+              <supportedProjectTypes>
+                <supportedProjectType>eclipse-bundle-recipe</supportedProjectType>
+              </supportedProjectTypes>
+            </configuration>
+            <executions>
+              <execution>
+                <id>pack200-pack</id>
+                <goals>
+                  <goal>pack</goal>
+                </goals>
+                <phase>package</phase>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.eclipse.tycho</groupId>
+            <artifactId>tycho-p2-plugin</artifactId>
+            <version>${tycho-version}</version>
+            <executions>
+              <execution>
+                <id>p2-metadata</id>
+                <goals>
+                  <goal>p2-metadata</goal>
+                </goals>
+                <phase>package</phase>
+              </execution>
+            </executions>
+            <configuration>
+              <supportedProjectTypes>
+                <supportedProjectType>eclipse-bundle-recipe</supportedProjectType>
+                <supportedProjectType>eclipse-feature</supportedProjectType>
+              </supportedProjectTypes>
+              <defaultP2Metadata>false</defaultP2Metadata>
+            </configuration>
           </plugin>
         </plugins>
       </build>
@@ -177,6 +236,7 @@
               <arch>*</arch>
             </environment>
           </environments>
+          <includePackedArtifacts>true</includePackedArtifacts>
         </configuration>
       </plugin>
 
