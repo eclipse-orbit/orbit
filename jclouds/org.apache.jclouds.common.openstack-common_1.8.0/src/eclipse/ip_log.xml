@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.jclouds.common.openstack-common" status="done" version="1.8.0">
+  <project id="org.apache.jclouds.common.openstack-common" version="1.8.0" status="done">
     <info>
       <name>Apache Jclouds OpenStack Components Core</name>
       <origin>Apache.org</origin>
@@ -9,7 +9,7 @@
       <location>jclouds/org.apache.jclouds.common.openstack-common</location>
     </info>
     <contact>
-       <name>Nicholas Loulloudes</name>
+      <name>Nicholas Loulloudes</name>
       <email>loulloudes.n@cs.ucy.ac.cy</email>
     </contact>
     <legal>

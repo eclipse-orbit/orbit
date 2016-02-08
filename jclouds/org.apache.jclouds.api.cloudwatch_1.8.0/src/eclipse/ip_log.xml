@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.jclouds.api.cloudwatch" status="done" version="1.8.0">
+  <project id="org.apache.jclouds.api.cloudwatch" version="1.8.0" status="done">
     <info>
       <name>Apache Jclouds Cloudwatch API</name>
       <origin>Apache.org</origin>

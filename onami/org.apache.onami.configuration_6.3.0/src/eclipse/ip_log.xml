@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.onami.configuration" status="done" version="6.3.0">
+  <project id="org.apache.onami.configuration" version="6.3.0" status="done">
     <info>
       <name>Apache Onami-Configuration</name>
       <origin>Apache.org</origin>
