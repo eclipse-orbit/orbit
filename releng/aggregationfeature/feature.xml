@@ -42,8 +42,21 @@
 
   <plugin id="org.apache.commons.math3" version="3.5.0.qualifier"/>
 
-  <plugin id="org.apache.jclouds.api.sts" version="1.8.0.qualifier"/>
-  <plugin id="org.apache.jclouds.jclouds-compute" version="1.8.0.qualifier"/>
-  <plugin id="org.apache.jclouds.jclouds-scriptbuilder" version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.api.cloudwatch"          version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.api.ec2"                 version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.api.openstack-cinder"    version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.api.openstack-keystone"  version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.api.openstack-nova"      version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.api.sts"                 version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.common.openstack-common" version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.driver.jclouds-slf4j"    version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.jclouds-blobstore"       version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.jclouds-compute"         version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.jclouds-core"            version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.jclouds-scriptbuilder"   version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.labs.docker"             version="1.8.0.qualifier"/>
+  <plugin id="org.apache.jclouds.labs.openstack-neutron"  version="1.8.0.qualifier"/>
+
+  <plugin id="org.apache.onami.configuration" version="6.3.0.qualifier"/>
 
 </feature>
