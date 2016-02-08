@@ -1,0 +1,1 @@
+-include: ~../org.glassfish.jersey.core.common_2.22.1/osgi.bnd

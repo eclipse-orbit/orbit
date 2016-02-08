@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.eclipse.orbit.bundles</groupId>
+    <artifactId>glassfish-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>jersey-parent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Eclipse Orbit :: Glassfish Jersey Recipes</name>
+
+  <modules>
+    <module>org.glassfish.jersey.bundles.jaxrs.ri_2.22.1</module>
+    <module>org.glassfish.jersey.connectors.apache_2.22.1</module>
+    <module>org.glassfish.jersey.connectors.jetty_2.22.1</module>
+    <module>org.glassfish.jersey.containers.servlet.core_2.22.1</module>
+    <module>org.glassfish.jersey.containers.servlet_2.22.1</module>
+    <module>org.glassfish.jersey.core.client_2.22.1</module>
+    <module>org.glassfish.jersey.core.common_2.22.1</module>
+    <module>org.glassfish.jersey.core.server_2.22.1</module>
+    <module>org.glassfish.jersey.ext.entityfiltering_2.22.1</module>
+    <module>org.glassfish.jersey.media.moxy_2.22.1</module>
+    <module>org.glassfish.jersey.media.multipart_2.22.1</module>
+    <module>org.glassfish.jersey.media.sse_2.22.1</module>
+    <module>org.glassfish.jersey.repackaged.guava_2.22.1</module>
+    <module>org.glassfish.jersey.repackaged.jsr166e_2.22.1</module>
+  </modules>
+
+</project>

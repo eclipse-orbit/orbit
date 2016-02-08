@@ -1,0 +1,9 @@
+-include: ~../org.glassfish.jersey.core.common_2.22.1/osgi.bnd
+
+httpclient-version=${version;===;4.5}
+
+httpclient-connector-imports= \
+ org.apache.http.*;version="${range;[==,+);${httpclient-version}}"
+
+Import-Package: ${httpclient-connector-imports}, \
+ ${jersey-common-imports}

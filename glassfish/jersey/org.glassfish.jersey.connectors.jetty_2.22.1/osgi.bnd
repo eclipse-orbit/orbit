@@ -1,0 +1,9 @@
+-include: ~../org.glassfish.jersey.core.common_2.22.1/osgi.bnd
+
+jetty-client-version=${version;===;9.1.1.v20140108}
+
+jetty-connector-imports= \
+ org.eclipse.jetty.*;version="${range;[==,+);${jetty-client-version}}"
+
+Import-Package: ${jetty-connector-imports}, \
+ ${jersey-common-imports}

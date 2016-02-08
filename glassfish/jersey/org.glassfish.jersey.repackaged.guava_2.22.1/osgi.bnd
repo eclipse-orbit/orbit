@@ -1,0 +1,7 @@
+-include: ~../org.glassfish.jersey.core.common_2.22.1/osgi.bnd
+
+Import-Package: \
+ javax.annotation;resolution:=optional, \
+ sun.misc.*;resolution:=optional, \
+ *;resolution:=optional
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.glassfish.jersey.media.sse" version="2.22.1" status="done">
+    <info>
+      <name>jersey-media-sse</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>glassfish-parent/jersey-parent/org.glassfish.jersey.media.sse</location>
+    </info>
+    <contact>
+      <name>Gunnar Wagenknecht</name>
+      <email>gunnar@wagenknecht.org</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="10877"/>
+      <license>
+        <name>Common Development and Distribution License</name>
+        <reference>https://glassfish.java.net/public/CDDLv1.0.html</reference>
+      </license>
+      <package>jersey-media-sse-2.22.1.jar</package>
+    </legal>
+  </project>
+</ip_log>

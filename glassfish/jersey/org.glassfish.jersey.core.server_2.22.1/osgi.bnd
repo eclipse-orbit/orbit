@@ -1,0 +1,22 @@
+package-version=${version;===;${Bundle-Version}}
+jersey-common-version=${version;===;2.22.1}
+jersey-client-version=${version;===;2.22.1}
+javax.ws.rs-api-version=${version;===;2.0.1}
+jersey-media-jaxb-version=${version;===;2.22.1}
+javax.annotation-api-version=${version;===;1.2}
+hk2-api-version=${version;===;2.4.0-b31}
+javax.inject-version=${version;===;2.4.0-b31}
+hk2-locator-version=${version;===;2.4.0-b31}
+asm-debug-all-version=${version;===;5.0.4}
+validation-api-version=${version;===;1.1.0.Final}
+org.osgi.core-version=${version;===;4.2.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional
+
