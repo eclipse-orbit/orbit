@@ -55,6 +55,9 @@
     <!-- versions of the EBR plug-in to use -->
     <ebr-version>1.0.0-SNAPSHOT</ebr-version>
 
+    <!-- force update of Eclipse IP info on every execution -->
+    <forceIpFilesUpdate>false</forceIpFilesUpdate>
+
     <!-- property for generating Eclipse source reference bundle headers -->
     <tycho.scmUrl>scm:git:https://git.eclipse.org/r/p/orbit/recipes.git</tycho.scmUrl>
 
@@ -121,7 +124,7 @@
                 </execution>
               </executions>
               <configuration>
-                <force>true</force>
+                <force>${forceIpFilesUpdate}</force>
               </configuration>
             </plugin>
           </plugins>
