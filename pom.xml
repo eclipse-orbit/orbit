@@ -24,15 +24,12 @@
   </scm>
 
   <modules>
-    <module>logging</module>
-    <module>lucene</module>
-    <module>jclouds</module>
     <module>antlr</module>
-    <module>freemarker</module>
-    <module>onami</module>
     <module>assertj</module>
     <module>apache</module>
     <module>bouncycastle</module>
+    <module>freemarker</module>
+    <module>logging</module>
   </modules>
 
 </project>
