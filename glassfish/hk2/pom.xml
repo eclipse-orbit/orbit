@@ -16,6 +16,11 @@
   <name>Eclipse Orbit :: Glassfish HK2 Recipes</name>
 
   <modules>
+		<module>org.glassfish.hk2.api_2.5.0</module>
+		<module>org.glassfish.hk2.external.asm_2.5.0</module>
+		<module>org.glassfish.hk2.locator_2.5.0</module>
+		<module>org.glassfish.hk2.osgiresourcelocator_2.5.0</module>
+		<module>org.glassfish.hk2.utils_2.5.0</module>
   </modules>
 
 </project>

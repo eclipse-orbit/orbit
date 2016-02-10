@@ -1,0 +1,6 @@
+-include: ~../org.glassfish.hk2.api_2.5.0/osgi.bnd
+
+Import-Package: \
+ org.osgi.framework.*;version="[1.7,2)", \
+ ${hk2-common-imports}
+

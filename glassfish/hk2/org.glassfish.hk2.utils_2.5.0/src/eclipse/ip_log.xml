@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.glassfish.hk2.utils" version="2.5.0" status="done">
+    <info>
+      <name>HK2 Implementation Utilities</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>glassfish-parent/hk2-parent/org.glassfish.hk2.utils</location>
+    </info>
+    <contact>
+      <name>Gunnar Wagenknecht</name>
+      <email>gunnar@wagenknecht.org</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="10886"/>
+      <license>
+        <name>Common Development and Distribution License</name>
+        <reference>https://glassfish.java.net/public/CDDLv1.0.html</reference>
+      </license>
+      <package>hk2-utils-2.5.0-b03.jar</package>
+    </legal>
+  </project>
+</ip_log>
