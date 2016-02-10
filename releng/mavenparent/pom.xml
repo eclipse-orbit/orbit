@@ -51,6 +51,8 @@
     <!-- versions used for plug-ins below -->
     <tycho-version>0.22.0</tycho-version>
     <tycho-extras-version>0.22.0</tycho-extras-version>
+    <maven-resources-version>2.7</maven-resources-version>
+    <maven-dependency-version>2.10</maven-dependency-version>
 
     <!-- versions of the EBR plug-in to use -->
     <ebr-version>1.0.0-SNAPSHOT</ebr-version>
@@ -351,6 +353,17 @@
           <groupId>org.eclipse.ebr</groupId>
           <artifactId>ebr-maven-plugin</artifactId>
           <version>${ebr-version}</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <version>${maven-dependency-version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>${maven-resources-version}</version>
         </plugin>
       </plugins>
 
