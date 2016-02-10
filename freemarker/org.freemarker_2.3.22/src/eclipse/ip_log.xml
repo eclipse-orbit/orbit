@@ -7,13 +7,15 @@
       <location>freemarker/org.freemarker</location>
     </info>
     <contact>
-      <name></name>
-      <email></email>
-      <company></company>
+      <name>Doug Schaefer</name>
+      <email>cdtdoug@gmail.com</email>
     </contact>
     <legal>
       <ipzilla bug_id="10180"/>
-      <license/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
       <package>freemarker-2.3.22.jar</package>
     </legal>
   </project>

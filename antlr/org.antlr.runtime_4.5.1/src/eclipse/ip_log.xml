@@ -7,9 +7,8 @@
       <location>antlr/org.antlr.runtime</location>
     </info>
     <contact>
-      <name></name>
-      <email></email>
-      <company></company>
+      <name>Doug Schaefer</name>
+      <email>cdtdoug@gmail.com</email>
     </contact>
     <legal>
       <ipzilla bug_id="10181"/>
