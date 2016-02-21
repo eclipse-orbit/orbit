@@ -59,4 +59,7 @@
 
   <plugin id="org.apache.onami.configuration" version="6.3.0.qualifier"/>
 
+  <plugin id="org.bouncycastle.bcpg-jdk15on" version="1.52.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcpkix-jdk15on" version="1.52.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcprov-jdk15on" version="1.52.0.qualifier"/>
 </feature>

@@ -32,6 +32,7 @@
     <module>onami</module>
     <module>assertj</module>
     <module>apache</module>
+    <module>bouncycastle</module>
   </modules>
 
 </project>
