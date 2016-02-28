@@ -15,6 +15,20 @@
 
   <name>Eclipse Orbit :: Bouncycastle Recipes</name>
 
+  <properties>
+    <recipe.base.excludes>
+      <!-- Exclude original JCE signatures -->
+      META-INF/*.SF,
+      META-INF/*.DSA,
+      META-INF/*.RSA
+    </recipe.base.excludes>
+  </properties>
+
+  <!-- TODO(ms): sign bouncycastle bundles using JCE certificate as soon as bugs
+    https://bugs.eclipse.org/bugs/show_bug.cgi?id=467064,
+    https://bugs.eclipse.org/bugs/show_bug.cgi?id=478088
+    are fixed -->
+
   <modules>
     <module>org.bouncycastle.bcpg-jdk15on_1.52.0</module>
     <module>org.bouncycastle.bcpkix-jdk15on_1.52.0</module>
