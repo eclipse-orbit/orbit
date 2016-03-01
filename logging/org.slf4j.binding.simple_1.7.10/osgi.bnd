@@ -14,4 +14,4 @@ Import-Package: \
 # SLF4J Binding
 #
 Provide-Capability: org.slf4j.impl; org.slf4j.impl="simple"; version:Version="${package-version}"
-Fragment-Host: org.slf4j.api.orbit;bundle-version="${range;[===,=+);${package-version}}"
+Fragment-Host: org.slf4j.api;bundle-version="${range;[===,=+);${package-version}}"
