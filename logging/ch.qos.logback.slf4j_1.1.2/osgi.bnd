@@ -12,4 +12,4 @@ Export-Package: \
 # SLF4J Binding
 #
 Provide-Capability: org.slf4j.impl; org.slf4j.impl="logback"; version:Version="${slf4j-version}"
-Fragment-Host: org.slf4j.api.orbit;bundle-version="${range;[===,=+);${slf4j-version}}"
+Fragment-Host: org.slf4j.api;bundle-version="${range;[===,=+);${slf4j-version}}"
