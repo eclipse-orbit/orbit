@@ -62,4 +62,6 @@
   <plugin id="org.bouncycastle.bcpg-jdk15on" version="1.52.0.qualifier"/>
   <plugin id="org.bouncycastle.bcpkix-jdk15on" version="1.52.0.qualifier"/>
   <plugin id="org.bouncycastle.bcprov-jdk15on" version="1.52.0.qualifier"/>
+
+  <plugin id="org.kohsuke.args4j" version="2.33.0.qualifier"/>
 </feature>

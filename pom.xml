@@ -25,6 +25,7 @@
 
   <modules>
     <module>antlr</module>
+    <module>args4j</module>
     <module>assertj</module>
     <module>apache</module>
     <module>bouncycastle</module>
