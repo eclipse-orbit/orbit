@@ -1,6 +1,7 @@
 package-version=${version;===;${Bundle-Version}}
 bcprov-jdk15on-version=${version;===;1.52}
 
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Export-Package: \
  !about.html,!about_files, \
  *.internal*;x-internal:=true;version="${package-version}", \
