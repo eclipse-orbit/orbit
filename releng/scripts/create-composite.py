@@ -8,7 +8,7 @@
 # ORBIT_OLD_LOCATION: relative path to old style Orbit repository
 # ORBIT_NEW_LOCATION: relative path to new style recipe-based Orbit repository
 # -----------------------------------------------------------------
-import datetime, os, sys
+import datetime, os, sys, errno
 
 def getVariable(name):
     try:
@@ -79,10 +79,10 @@ artifact.repository.factory.order = compositeArtifacts.xml,\!
     destination = ROOT_DIR + buildLabel + '-builds/'+ build
     makeDirs(destination)
 
-    writeFile(destination + '/compositeArtifact.xml',
+    writeFile(destination + '/compositeArtifacts.xml',
         ARTIFACT_TEMPLATE.format(build = build, timestamp = buildTimestamp,
             orbitOldLocation = orbitOldLocation, orbitNewLocation = orbitNewLocation))
-    writeFile(destination + '/compositeMetadata.xml',
+    writeFile(destination + '/compositeContent.xml',
         METADATA_TEMPLATE.format(build = build, timestamp = buildTimestamp,
             orbitOldLocation = orbitOldLocation, orbitNewLocation = orbitNewLocation))
     writeFile(destination + '/p2.index', P2_INDEX)
