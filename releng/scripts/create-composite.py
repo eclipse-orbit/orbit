@@ -63,8 +63,8 @@ artifact.repository.factory.order = compositeArtifacts.xml,\!
 """
 
     buildLabel = getVariable('BUILD_LABEL')
-    if not buildLabel or buildLabel not in ['N', 'I', 'R']:
-        sys.exit('variable BUILD_LABEL must be "N" (nightly), "I" (integration), or "R" (recommended)')
+    if not buildLabel or buildLabel not in ['N', 'I', 'S', 'R']:
+        sys.exit('variable BUILD_LABEL must be "N" (nightly), "I" (integration), "S" (stable), or "R" (recommended)')
 
     orbitOldLocation = getVariable('ORBIT_OLD_LOCATION')
     if not orbitOldLocation:
