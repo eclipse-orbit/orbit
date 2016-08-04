@@ -3,7 +3,7 @@
 # N (nightly), I (integration), S (stable), or R (recommended)
 build_label=${BUILD_LABEL}
 # format: NYYYYMMDDHHMM
-timestamp=${build_label}`date -u +"%Y%m%d%H%M"`
+timestamp=${build_label}`date -u +"%Y%m%d%H%M%S"`
 
 drops_loc=/home/data/httpd/download.eclipse.org/tools/orbit/downloads/drops2
 # trailing slashes affect rsync behaviour

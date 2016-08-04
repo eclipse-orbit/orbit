@@ -74,7 +74,7 @@ artifact.repository.factory.order = compositeArtifacts.xml,\!
     if not orbitNewLocation:
         sys.exit('variable ORBIT_NEW_LOCATION is undefined')
 
-    buildTimestamp = datetime.datetime.utcnow().strftime('%Y%m%d%H%M')
+    buildTimestamp = datetime.datetime.utcnow().strftime('%Y%m%d%H%M%S')
     build = buildLabel + buildTimestamp
     destination = ROOT_DIR + buildLabel + '-builds/'+ build
     makeDirs(destination)
