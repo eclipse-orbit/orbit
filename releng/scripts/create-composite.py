@@ -76,7 +76,7 @@ artifact.repository.factory.order = compositeArtifacts.xml,\!
 
     buildTimestamp = datetime.datetime.utcnow().strftime('%Y%m%d%H%M%S')
     build = buildLabel + buildTimestamp
-    destination = ROOT_DIR + buildLabel + '-builds/'+ build
+    destination = ROOT_DIR + buildLabel + '-builds/'+ build + '/repository'
     makeDirs(destination)
 
     writeFile(destination + '/compositeArtifacts.xml',

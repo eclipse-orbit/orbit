@@ -30,7 +30,7 @@ packed_jar_count=`find ${src_repo} -name "*.jar.pack.gz" | wc -l`
 
 echo "${jar_count} jar files and ${packed_jar_count} packed jar files will be promoted"
 
-rsync -av ${src_repo}/ ${dst_repo}
+rsync -av ${src_repo} ${dst_repo}
 res=$?
 if [ "${res}" != "0" ]; then
   echo "Promotion failed with error code ${res}."
