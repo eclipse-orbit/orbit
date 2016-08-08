@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.xmlrpc.client" version="3.1.3" status="done">
+    <info>
+      <name>Apache XML-RPC Client Library</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/org.apache.xmlrpc.client</location>
+    </info>
+    <contact>
+      <name>Erwin De Ley</name>
+      <email>erwindl0@gmail.com</email>
+      <company>iSencia Belgium NV</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="11780"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>xmlrpc-client-3.1.3.jar</package>
+    </legal>
+  </project>
+</ip_log>

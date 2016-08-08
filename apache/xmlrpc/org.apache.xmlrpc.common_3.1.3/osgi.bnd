@@ -1,0 +1,14 @@
+package-version=${version;===;${Bundle-Version}}
+ws-commons-util-version=${version;===;1.0.2}
+jaxmeapi-version=${version;===;0.5.1}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.apache.ws.commons.*;version="${range;[===,=+);${ws-commons-util-version}}", \
+ *
+

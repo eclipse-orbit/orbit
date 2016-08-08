@@ -1,0 +1,13 @@
+package-version=${version;===;${Bundle-Version}}
+junit-version=${version;===;3.8.1}
+xml-apis-version=${version;===;1.0.b2}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *
+

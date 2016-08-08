@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.ws.commons.util" version="1.0.2" status="done">
+    <info>
+      <name>Apache WebServices Common Utilities</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/org.apache.ws.commons.util</location>
+    </info>
+    <contact>
+      <name>Erwin De Ley</name>
+      <email>erwindl0@gmail.com</email>
+      <company>iSencia Belgium NV</company>
+    </contact>
+    <legal>
+<!-- ATO CQ 11780 references CQ 5204, which approved this WS Common Utilities as well -->
+      <ipzilla bug_id="11780"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>ws-commons-util-1.0.2.jar</package>
+    </legal>
+  </project>
+</ip_log>
