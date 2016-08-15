@@ -103,6 +103,15 @@
     </pluginRepository>
   </pluginRepositories>
 
+  <!-- target platform should reference old-style repository content -->
+  <repositories>
+    <repository>
+      <id>eclipse-orbit-old</id>
+      <layout>p2</layout>
+      <url>http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository/</url>
+    </repository>
+  </repositories>
+
   <profiles>
     <profile>
       <!-- define a profile for generating/updating the Eclipse ip_log.xml -->
