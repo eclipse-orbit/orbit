@@ -9,4 +9,5 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
+ org.bouncycastle*;version="${bcprov-jdk15on-version}", \
  *;resolution:=optional
