@@ -7,27 +7,22 @@
     <artifactId>bouncycastle</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>org.bouncycastle.bcprov-jdk15on</artifactId>
+  <artifactId>org.bouncycastle.bcpkix</artifactId>
   <version>1.52.0-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
-  <name>Bouncy Castle Provider</name>
+  <name>Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs</name>
 
   <properties>
     <recipe.excludes>
         <!-- exclude defaults defined in parent -->
-        ${recipe.base.excludes},
-        <!-- Exclude IDEACBCPar, IDEAEngine, IDEA, OCBBlockCipher, as requested in CQ #9554 -->
-        org/bouncycastle/asn1/misc/IDEACBCPar*,
-        org/bouncycastle/crypto/engines/IDEAEngine*,
-        org/bouncycastle/jcajce/provider/symmetric/IDEA*,
-        org/bouncycastle/crypto/modes/OCBBlockCipher*
+        ${recipe.base.excludes}
     </recipe.excludes>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.bouncycastle</groupId>
-      <artifactId>bcprov-jdk15on</artifactId>
+      <artifactId>bcpkix-jdk15on</artifactId>
       <version>1.52</version>
     </dependency>
   </dependencies>

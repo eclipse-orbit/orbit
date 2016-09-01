@@ -7,7 +7,7 @@
     <artifactId>bouncycastle</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>org.bouncycastle.bcpg-jdk15on</artifactId>
+  <artifactId>org.bouncycastle.bcpg</artifactId>
   <version>1.52.0-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>Bouncy Castle OpenPGP API</name>
