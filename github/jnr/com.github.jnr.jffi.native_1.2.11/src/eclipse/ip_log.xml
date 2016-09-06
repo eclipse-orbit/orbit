@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.github.jnr.jffi.native" version="1.2.11" status="done">
+    <info>
+      <name>jffi</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git/jnr/com.git</repository>
+      <location>hub.jnr.jffi.native</location>
+    </info>
+    <contact>
+      <name>Roland Grunberg</name>
+      <email>rgrunber@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="12171"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>jffi-1.2.11-native.jar</package>
+    </legal>
+  </project>
+</ip_log>

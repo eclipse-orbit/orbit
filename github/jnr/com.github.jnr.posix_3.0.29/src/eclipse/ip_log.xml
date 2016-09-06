@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.github.jnr.posix" version="3.0.29" status="done">
+    <info>
+      <name>jnr-posix</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git/jnr/com.git</repository>
+      <location>hub.jnr.posix</location>
+    </info>
+    <contact>
+      <name>Roland Grunberg</name>
+      <email>rgrunber@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="12169"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
+      </license>
+      <package>jnr-posix-3.0.29.jar</package>
+    </legal>
+  </project>
+</ip_log>

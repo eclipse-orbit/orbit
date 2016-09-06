@@ -101,4 +101,13 @@
   <plugin id="org.glassfish.jersey.core.jersey-common" version="2.22.1.qualifier"/>
   <plugin id="org.glassfish.jersey.core.jersey-server" version="2.22.1.qualifier"/>
 
+  <!-- JNR -->
+  <plugin id="com.github.jnr.constants" version="0.9.1.qualifier"/>
+  <plugin id="com.github.jnr.ffi" version="2.0.9.qualifier"/>
+  <plugin id="com.github.jnr.jffi" version="1.2.11.qualifier"/>
+  <plugin id="com.github.jnr.posix" version="3.0.29.qualifier"/>
+  <plugin id="com.github.jnr.enxio" version="0.12.0.qualifier"/>
+  <plugin id="com.github.jnr.jffi.native" version="1.2.11.qualifier"/>
+  <plugin id="com.github.jnr.unixsocket" version="0.12.0.qualifier"/>
+
 </feature>

@@ -17,6 +17,7 @@
 
   <modules>
     <module>javaewah</module>
+    <module>jnr</module>
   </modules>
 
 </project>
