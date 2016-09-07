@@ -32,6 +32,7 @@
     <module>bouncycastle</module>
     <module>freemarker</module>
     <module>github</module>
+    <module>glassfish</module>
     <module>logging</module>
   </modules>
 

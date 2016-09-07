@@ -81,4 +81,19 @@
   <plugin id="org.bouncycastle.bcprov" version="1.52.0.qualifier"/>
 
   <plugin id="org.kohsuke.args4j" version="2.33.0.qualifier"/>
+
+  <!-- HK2 -->
+  <plugin id="org.glassfish.hk2.utils" version="2.5.0.qualifier"/>
+  <plugin id="org.glassfish.hk2.api" version="2.5.0.qualifier"/>
+  <plugin id="org.glassfish.hk2.locator" version="2.5.0.qualifier"/>
+  <plugin id="org.glassfish.hk2.osgi-resource-locator" version="2.5.0.qualifier"/>
+
+  <!-- Jersey -->
+  <plugin id="org.glassfish.jersey.ext.entityfiltering" version="2.22.1.qualifier"/>
+  <plugin id="org.glassfish.jersey.bundles.repackaged.jersey-guava" version="2.22.1.qualifier"/>
+  <!--<plugin id="org.glassfish.jersey.apache.connector" version="2.22.1.qualifier"/>-->
+  <plugin id="org.glassfish.jersey.core.jersey-client" version="2.22.1.qualifier"/>
+  <plugin id="org.glassfish.jersey.core.jersey-common" version="2.22.1.qualifier"/>
+  <plugin id="org.glassfish.jersey.core.jersey-server" version="2.22.1.qualifier"/>
+
 </feature>

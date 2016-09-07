@@ -17,18 +17,18 @@
 
   <modules>
     <module>org.glassfish.jersey.bundles.jaxrs.ri_2.22.1</module>
-    <module>org.glassfish.jersey.connectors.apache_2.22.1</module>
+    <module>org.glassfish.jersey.apache.connector_2.22.1</module>
     <module>org.glassfish.jersey.connectors.jetty_2.22.1</module>
     <module>org.glassfish.jersey.containers.servlet.core_2.22.1</module>
     <module>org.glassfish.jersey.containers.servlet_2.22.1</module>
-    <module>org.glassfish.jersey.core.client_2.22.1</module>
-    <module>org.glassfish.jersey.core.common_2.22.1</module>
-    <module>org.glassfish.jersey.core.server_2.22.1</module>
+    <module>org.glassfish.jersey.core.jersey-client_2.22.1</module>
+    <module>org.glassfish.jersey.core.jersey-common_2.22.1</module>
+    <module>org.glassfish.jersey.core.jersey-server_2.22.1</module>
     <module>org.glassfish.jersey.ext.entityfiltering_2.22.1</module>
     <module>org.glassfish.jersey.media.moxy_2.22.1</module>
     <module>org.glassfish.jersey.media.multipart_2.22.1</module>
     <module>org.glassfish.jersey.media.sse_2.22.1</module>
-    <module>org.glassfish.jersey.repackaged.guava_2.22.1</module>
+    <module>org.glassfish.jersey.bundles.repackaged.jersey-guava_2.22.1</module>
     <module>org.glassfish.jersey.repackaged.jsr166e_2.22.1</module>
   </modules>
 

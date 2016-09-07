@@ -1,4 +1,4 @@
--include: ~../org.glassfish.jersey.core.common_2.22.1/osgi.bnd
+-include: ~../org.glassfish.jersey.core.jersey-common_2.22.1/osgi.bnd
 
 Import-Package: \
  *;resolution:=optional

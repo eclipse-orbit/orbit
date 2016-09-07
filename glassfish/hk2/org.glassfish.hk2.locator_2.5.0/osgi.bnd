@@ -1,1 +1,4 @@
 -include: ~../org.glassfish.hk2.api_2.5.0/osgi.bnd
+
+Import-Package: javassist.util.proxy;version="[3.13.0,4.0.0)", \
+ ${hk2-common-imports}
