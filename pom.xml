@@ -33,6 +33,7 @@
     <module>freemarker</module>
     <module>github</module>
     <module>glassfish</module>
+    <module>google</module>
     <module>jacoco</module>
     <module>logging</module>
   </modules>

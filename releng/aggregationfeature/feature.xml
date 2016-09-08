@@ -17,7 +17,13 @@
       %license
   </license>
 
+  <plugin id="com.google.guava" version="18.0.0.qualifier"/>
+
   <plugin id="org.apache.felix.scr"  version="2.0.6.qualifier"/>
+
+  <!-- HTTPComponents -->
+  <plugin id="org.apache.httpcomponents.httpcore" version="4.4.4.qualifier"/>
+  <plugin id="org.apache.httpcomponents.httpclient" version="4.5.2.qualifier"/>
 
   <plugin id="org.apache.lucene.analyzers-common"  version="5.2.1.qualifier"/>
   <plugin id="org.apache.lucene.analyzers-smartcn" version="5.2.1.qualifier"/>
@@ -96,7 +102,7 @@
   <!-- Jersey -->
   <plugin id="org.glassfish.jersey.ext.entityfiltering" version="2.22.1.qualifier"/>
   <plugin id="org.glassfish.jersey.bundles.repackaged.jersey-guava" version="2.22.1.qualifier"/>
-  <!--<plugin id="org.glassfish.jersey.apache.connector" version="2.22.1.qualifier"/>-->
+  <plugin id="org.glassfish.jersey.apache.connector" version="2.22.1.qualifier"/>
   <plugin id="org.glassfish.jersey.core.jersey-client" version="2.22.1.qualifier"/>
   <plugin id="org.glassfish.jersey.core.jersey-common" version="2.22.1.qualifier"/>
   <plugin id="org.glassfish.jersey.core.jersey-server" version="2.22.1.qualifier"/>

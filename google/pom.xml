@@ -9,21 +9,14 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>apache-parent</artifactId>
+  <artifactId>google</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Eclipse Orbit :: Apache Recipes</name>
+  <name>Eclipse Orbit :: Google Recipes</name>
 
   <modules>
-    <module>org.apache.commons.math3_3.5.0</module>
-    <module>org.apache.onami.configuration_6.3.0</module>
-    <module>org.apache.ws.commons.util_1.0.2</module>
-    <module>felix</module>
-    <module>httpcomponents</module>
-    <module>jclouds</module>
-    <module>lucene</module>
-    <module>xmlrpc</module>
+    <module>com.google.guava_18.0.0</module>
   </modules>
 
 </project>
