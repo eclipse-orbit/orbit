@@ -25,6 +25,7 @@
     <module>org.glassfish.jersey.core.jersey-common_2.22.1</module>
     <module>org.glassfish.jersey.core.jersey-server_2.22.1</module>
     <module>org.glassfish.jersey.ext.entityfiltering_2.22.1</module>
+    <module>org.glassfish.jersey.media.jersey-media-json-jackson_2.22.1</module>
     <module>org.glassfish.jersey.media.moxy_2.22.1</module>
     <module>org.glassfish.jersey.media.multipart_2.22.1</module>
     <module>org.glassfish.jersey.media.sse_2.22.1</module>
