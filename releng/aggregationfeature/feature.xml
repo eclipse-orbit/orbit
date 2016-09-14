@@ -38,6 +38,13 @@
 
   <plugin id="org.freemarker" version="2.3.22.qualifier"/>
 
+  <plugin id="org.objectweb.asm" version="5.1.0.qualifier"/>
+  <plugin id="org.objectweb.asm.analysis" version="5.1.0.qualifier"/>
+  <plugin id="org.objectweb.asm.commons" version="5.1.0.qualifier"/>
+  <plugin id="org.objectweb.asm.tree" version="5.1.0.qualifier"/>
+  <plugin id="org.objectweb.asm.util" version="5.1.0.qualifier"/>
+  <plugin id="org.objectweb.asm.xml" version="5.1.0.qualifier"/>
+
   <plugin id="org.assertj" version="1.7.1.qualifier"/>
 
   <plugin id="org.apache.commons.math3" version="3.5.0.qualifier"/>
