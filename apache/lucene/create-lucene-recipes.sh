@@ -11,12 +11,14 @@ ARTIDS=(
 lucene-analyzers-common
 lucene-analyzers-smartcn
 lucene-core
+lucene-queries
 lucene-queryparser
 )
 BSNS=(
 org.apache.lucene.analyzers-common
 org.apache.lucene.analyzers-smartcn
 org.apache.lucene.core
+org.apache.lucene.queries
 org.apache.lucene.queryparser
 )
 

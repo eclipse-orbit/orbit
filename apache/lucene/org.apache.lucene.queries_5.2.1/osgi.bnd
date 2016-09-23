@@ -7,11 +7,8 @@ Export-Package: \
  *.impl*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
-# Depend on org.apache.lucene.queries|sandbox only optional;
-# their functionality is not triggered in many common use cases
 Import-Package: \
- org.apache.lucene.queries.*;resolution:=optional;version="${range;[===,=+);${package-version}}", \
- org.apache.lucene.sandbox.*;resolution:=optional;version="${range;[===,=+);${package-version}}", \
  org.apache.lucene.*;version="${range;[===,=+);${package-version}}", \
  *
 
+ 
