@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.bouncycastle.bcpg-jdk15on" version="1.52.0" status="done">
+  <project id="org.bouncycastle.bcpg" version="1.52.0" status="done">
     <info>
       <name>Bouncy Castle OpenPGP API</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>bouncycastle/org.bouncycastle.bcpg-jdk15on</location>
+      <location>bouncycastle/org.bouncycastle.bcpg</location>
     </info>
     <contact>
       <name>Matthias Sohn</name>
