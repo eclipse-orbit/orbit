@@ -103,12 +103,18 @@
     </pluginRepository>
   </pluginRepositories>
 
-  <!-- target platform should reference old-style repository content -->
   <repositories>
+    <!-- target platform should reference old-style repository content -->
     <repository>
       <id>eclipse-orbit-old</id>
       <layout>p2</layout>
       <url>http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository/</url>
+    </repository>
+    <!-- some bundles might depend on base platform content -->
+    <repository>
+      <id>eclipse-platform</id>
+      <url>http://download.eclipse.org/eclipse/updates/4.7milestones</url>
+      <layout>p2</layout>
     </repository>
   </repositories>
 
