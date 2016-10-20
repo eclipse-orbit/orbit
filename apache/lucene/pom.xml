@@ -21,6 +21,11 @@
     <module>org.apache.lucene.core_5.2.1</module>
     <module>org.apache.lucene.queries_5.2.1</module>
     <module>org.apache.lucene.queryparser_5.2.1</module>
+    <module>org.apache.lucene.analyzers-common_6.1.0</module>
+    <module>org.apache.lucene.analyzers-smartcn_6.1.0</module>
+    <module>org.apache.lucene.core_6.1.0</module>
+    <module>org.apache.lucene.misc_6.1.0</module>
+    <module>org.apache.lucene.queryparser_6.1.0</module>
   </modules>
 
 </project>
