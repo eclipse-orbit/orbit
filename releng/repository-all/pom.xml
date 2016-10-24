@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.eclipse.orbit.bundles</groupId>
+    <artifactId>releng-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>orbit-bundles-p2-repository-all</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Eclipse Orbit :: P2 Repository (All Content)</name>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho.extras</groupId>
+        <artifactId>tycho-p2-extras-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <configuration>
+          <destination>${project.build.directory}/repository</destination>
+          <includeOptional>true</includeOptional>
+          <includeNonGreedy>true</includeNonGreedy>
+          <compress>true</compress>
+          <append>true</append>
+          <includePacked>true</includePacked>
+        </configuration>
+        <executions>
+          <execution>
+            <id>mirror-orbit-old</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>mirror</goal>
+            </goals>
+            <configuration>
+              <source>
+                <repository>
+                  <url>http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository</url>
+                  <layout>p2</layout>
+                </repository>
+              </source>
+              <ius>
+                <iu>
+                  <id>org.eclipse.orbit.category.all</id>
+                </iu>
+              </ius>
+            </configuration>
+          </execution>
+          <execution>
+            <id>mirror-orbit-recipes</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>mirror</goal>
+            </goals>
+            <configuration>
+              <source>
+                <repository>
+                  <url>file:${project.build.directory}/../../repository/target/repository</url>
+                  <layout>p2</layout>
+                </repository>
+              </source>
+              <ius>
+                <iu>
+                  <id>org.eclipse.orbit.releng.recipes.feature.aggregation.feature.group</id>
+                </iu>
+                <iu>
+                  <id>org.eclipse.orbit.releng.recipes.feature.aggregation.source.feature.group</id>
+                </iu>
+              </ius>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-p2-repository-plugin</artifactId>
+        <configuration>
+          <repositoryName>Orbit Repository (Build ${buildLabel})</repositoryName>
+          <finalName>orbit-buildrepo-${buildId}</finalName>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>archive-repository</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

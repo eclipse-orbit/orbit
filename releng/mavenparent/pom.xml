@@ -69,6 +69,13 @@
     <!-- set default vendor -->
     <bundleVendor>Eclipse Orbit</bundleVendor>
 
+    <!-- values needed for generating repositories -->
+    <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
+    <buildTimestamp>${maven.build.timestamp}</buildTimestamp>
+    <buildType>I</buildType>
+    <buildId>${buildType}${buildTimestamp}</buildId>
+    <buildLabel>${buildType}-${buildId}-${buildTimestamp}</buildLabel>
+
   </properties>
 
   <pluginRepositories>
