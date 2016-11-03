@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>org.glassfish.jersey.repackaged.guava_2.22.1</name>
+	<name>org.glassfish.jersey.bundles.repackaged.jersey-guava_2.22.1</name>
 	<comment></comment>
 	<projects>
 	</projects>

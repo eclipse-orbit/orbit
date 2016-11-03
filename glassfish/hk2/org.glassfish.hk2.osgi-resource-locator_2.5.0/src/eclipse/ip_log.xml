@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.glassfish.hk2.osgiresourcelocator" version="2.5.0" status="done">
+  <project id="org.glassfish.hk2.osgi-resource-locator" version="2.5.0" status="done">
     <info>
       <name>OSGi resource locator</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>glassfish-parent/hk2-parent/org.glassfish.hk2.osgiresourcelocator</location>
+      <location>glassfish-parent/hk2-parent/org.glassfish.hk2.osgi-resource-locator</location>
     </info>
     <contact>
       <name>Gunnar Wagenknecht</name>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.glassfish.jersey.core.server" version="2.22.1" status="done">
+  <project id="org.glassfish.jersey.core.jersey-server" version="2.22.1" status="done">
     <info>
       <name>jersey-core-server</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>glassfish-parent/jersey-parent/org.glassfish.jersey.core.server</location>
+      <location>glassfish-parent/jersey-parent/org.glassfish.jersey.core.jersey-server</location>
     </info>
     <contact>
       <name>Gunnar Wagenknecht</name>
