@@ -18,8 +18,7 @@
   <properties>
     <recipe.excludes>
       <!-- Exclude original signatures -->
-      META-INF/*.SF,
-      META-INF/*.RSA
+      META-INF/*
     </recipe.excludes>
   </properties>
 
