@@ -15,6 +15,14 @@
 
   <name>Eclipse Orbit :: JaCoCo Recipes</name>
 
+  <properties>
+    <recipe.excludes>
+      <!-- Exclude original signatures -->
+      META-INF/*.SF,
+      META-INF/*.RSA
+    </recipe.excludes>
+  </properties>
+
   <modules>
     <module>org.jacoco.agent_0.7.7</module>
     <module>org.jacoco.core_0.7.7</module>
