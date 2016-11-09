@@ -1,0 +1,4 @@
+package-version=${version;===;${Bundle-Version}}
+
+Export-Package: \
+ org.jacoco.agent;version="${package-version}"
