@@ -1,0 +1,22 @@
+package-version=${version;===;${Bundle-Version}}
+ant-version=${version;===;1.9.4}
+args4j-version=${version;===;2.0.21}
+closure-compiler-externs-version=${version;===;v20160315}
+guava-version=${version;===;18.0}
+gson-version=${version;===;2.2.4}
+protobuf-version=${version;===;2.4.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ com.google.common.*;version="${guava-version}", \
+ com.google.gson.*;version="${gson-version}", \
+ com.google.protobuf*;version="${protobuf-version}", \
+ org.apache.tools.ant*;resolution:=optional;version="${ant-version}", \
+ org.kohsuke.args4j*;resolution:=optional;version="${args4j-version}", \
+ *;resolution:=optional
+
