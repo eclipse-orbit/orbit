@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.google.guava" version="18.0.0" status="done">
+    <info>
+      <name>Gson: Google Json Library for Java</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>google/com.google.gson</location>
+    </info>
+    <contact>
+      <name>Dennis Huebner</name>
+      <email>dennis.huebner@typefox.io</email>
+      <company>TypeFox</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="12314"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>gson-2.7.0.jar</package>
+    </legal>
+  </project>
+</ip_log>

@@ -17,6 +17,7 @@
 
   <modules>
     <module>com.google.guava_18.0.0</module>
+    <module>com.google.gson_2.7.0</module>
   </modules>
 
 </project>
