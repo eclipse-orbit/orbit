@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.mongodb.driver" version="3.2.2" status="done">
+    <info>
+      <name>MongoDB Java Driver</name>      
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>com.mongodb/com.mongodb.driver</location>
+    </info>
+    <contact>
+      <name>Rjesh Goteti</name>
+      <email>rgoteti@opentext.com</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="12319"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>com.mongodb.driver-3.2.2-SNAPSHOT</package>
+    </legal>
+  </project>
+</ip_log>
