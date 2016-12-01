@@ -17,7 +17,6 @@
       %license
   </license>
 
-  <plugin id="com.mongodb.driver" version="3.2.2.qualifier"/>
   <plugin id="com.google.guava" version="18.0.0.qualifier"/>
   <plugin id="com.google.gson" version="2.7.0.qualifier"/>
 
