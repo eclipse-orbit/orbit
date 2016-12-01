@@ -19,7 +19,6 @@
     <module>docker</module>
     <module>javaewah</module>
     <module>jnr</module>
-	<module>mongodb</module>
   </modules>
 
 </project>
