@@ -36,8 +36,7 @@
     <module>google</module>
     <module>jackson</module>
     <module>jacoco</module>
-    <module>logging</module>
-	<module>com.mongodb.driver_3.2.2</module>
+    <module>logging</module>	
   </modules>
 
 </project>
