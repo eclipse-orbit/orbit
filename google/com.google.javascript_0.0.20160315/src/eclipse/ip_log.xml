@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.google.javascript" version="0.0.20160315" status="done">
+    <info>
+      <name>Closure Compiler</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>google-parent/com.google.javascript</location>
+    </info>
+    <contact>
+      <name>Gorkem Ercan</name>
+      <email>gorkem.ercan@gmail.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="12299"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>closure-compiler-v20160315.jar</package>
+    </legal>
+  </project>
+</ip_log>
