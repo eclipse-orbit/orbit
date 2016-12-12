@@ -5,21 +5,18 @@
 
   <parent>
     <groupId>org.eclipse.orbit.bundles</groupId>
-    <artifactId>orbit-recipes</artifactId>
+    <artifactId>github-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>github-parent</artifactId>
+  <artifactId>mongodb-parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Eclipse Orbit :: Github Recipes</name>
+  <name>Eclipse Orbit :: MongoDB Recipes</name>
 
   <modules>
-    <module>docker</module>
-    <module>javaewah</module>
-    <module>jnr</module>
-    <module>mongodb</module>
+	<module>org.eclipse.orbit.mongodb_3.2.2</module>
   </modules>
 
 </project>
