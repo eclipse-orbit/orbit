@@ -3,7 +3,7 @@
 # N (nightly), I (integration), S (stable), or R (recommended)
 build_label=${BUILD_LABEL}
 build_time=${BUILD_TIME}
-# format: NYYYYMMDDHHMM
+# format: NYYYYMMDDHHMMSS
 timestamp=${build_label}${build_time}
 
 drops_loc=/home/data/httpd/download.eclipse.org/tools/orbit/downloads/drops2
