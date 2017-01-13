@@ -9,3 +9,5 @@ Export-Package: \
 Import-Package: \
  *
 
+# Override '.,jni' from upstream until fixed
+Bundle-ClassPath: .,jni/
