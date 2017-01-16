@@ -1,0 +1,13 @@
+package-version=${version;===;${Bundle-Version}}
+jzlib-version=${version;===;1.0.7}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ com.jcraft.jzlib;resolution:=optional;version="${jzlib-version}", \
+ *;resolution:=optional
+
