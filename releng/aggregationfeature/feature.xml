@@ -114,6 +114,8 @@
   <plugin id="org.glassfish.jersey.core.jersey-common" version="2.22.1.qualifier"/>
   <plugin id="org.glassfish.jersey.core.jersey-server" version="2.22.1.qualifier"/>
   <plugin id="org.glassfish.jersey.media.jersey-media-json-jackson" version="2.22.1.qualifier"/>
+  <plugin id="org.glassfish.jersey.containers.servlet" version="2.22.1.qualifier"/>
+  <plugin id="org.glassfish.jersey.containers.servlet.core" version="2.22.1.qualifier"/>
 
   <!-- JNR -->
   <plugin id="com.github.jnr.constants" version="0.9.1.qualifier"/>
