@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.commons.fileupload" version="1.3.2" status="done">
+    <info>
+      <name>Apache Commons FileUpload</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/org.apache.commons.fileupload</location>
+    </info>
+    <contact>
+      <name>Roland Grunberg</name>
+      <email>rgrunber@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="12545"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>commons-fileupload-1.3.2.jar</package>
+    </legal>
+  </project>
+</ip_log>
