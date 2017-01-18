@@ -34,6 +34,7 @@
     <module>github</module>
     <module>glassfish</module>
     <module>google</module>
+    <module>icu4j</module>
     <module>jackson</module>
     <module>jacoco</module>
     <module>jcraft</module>
