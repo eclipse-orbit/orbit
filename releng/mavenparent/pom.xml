@@ -115,7 +115,7 @@
     <repository>
       <id>eclipse-orbit-old</id>
       <layout>p2</layout>
-      <url>http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository/</url>
+      <url>http://download.eclipse.org/tools/orbit/downloads/drops/R20170120165020/repository/</url>
     </repository>
     <!-- some bundles might depend on base platform content -->
     <repository>
