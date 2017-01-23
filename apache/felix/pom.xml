@@ -17,6 +17,7 @@
 
   <modules>
 	<module>org.apache.felix.scr_2.0.6</module>
+	<module>org.apache.felix.scr_2.0.8</module>
   </modules>
 
 </project>
