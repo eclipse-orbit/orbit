@@ -18,6 +18,7 @@
   </license>
 
   <plugin id="com.google.guava" version="18.0.0.qualifier"/>
+  <plugin id="com.google.guava" version="21.0.0.qualifier"/>
   <plugin id="com.google.gson" version="2.7.0.qualifier"/>
   <plugin id="com.google.javascript" version="0.0.20160315.qualifier"/>
 
