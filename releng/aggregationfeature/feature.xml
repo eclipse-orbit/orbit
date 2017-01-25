@@ -23,7 +23,6 @@
 
   <plugin id="com.jcraft.jsch" version="0.1.54.qualifier"/>
 
-  <plugin id="org.apache.felix.scr"  version="2.0.6.qualifier"/>
   <plugin id="org.apache.felix.scr"  version="2.0.8.qualifier"/>
 
   <!-- HTTPComponents -->
