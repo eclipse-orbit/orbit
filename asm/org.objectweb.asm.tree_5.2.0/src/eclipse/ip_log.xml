@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.objectweb.asm.tree" version="5.2.0" status="done">
+    <info>
+      <name>ASM Tree</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>asm/org.objectweb.asm.tree</location>
+    </info>
+    <contact>
+      <name>Evgeny Mandrikov</name>
+      <email>mandrikov@gmail.com</email>
+      <company>SonarSource</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="12559"/>
+      <license>
+        <name>New BSD license</name>
+        <reference>http://opensource.org/licenses/BSD-3-Clause</reference>
+      </license>
+      <package>asm-tree-5.2.jar</package>
+    </legal>
+  </project>
+</ip_log>
