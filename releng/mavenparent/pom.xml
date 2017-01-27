@@ -49,8 +49,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- versions used for plug-ins below -->
-    <tycho-version>0.22.0</tycho-version>
-    <tycho-extras-version>0.22.0</tycho-extras-version>
+    <tycho-version>0.26.0</tycho-version>
+    <tycho-extras-version>0.26.0</tycho-extras-version>
     <maven-resources-version>2.7</maven-resources-version>
     <maven-dependency-version>2.10</maven-dependency-version>
 
