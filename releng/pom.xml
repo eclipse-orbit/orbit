@@ -18,6 +18,7 @@
   <modules>
     <module>repository</module>
     <module>repository-all</module>
+    <module>repository-report</module>
   </modules>
 
 </project>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.eclipse.orbit.bundles</groupId>
+    <artifactId>releng-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>orbit-repository-report</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+
+  <name>Eclipse Orbit :: Repository Report</name>
+
+  <properties>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho.extras</groupId>
+        <artifactId>tycho-eclipserun-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <executions>
+          <execution>
+            <phase>verify</phase>
+            <goals>
+              <goal>eclipse-run</goal>
+            </goals>
+            <configuration>
+              <applicationsArgs>
+                <arg>-application</arg>
+                <arg>org.eclipse.cbi.p2repo.analyzers.repoReport</arg>
+              </applicationsArgs>
+              <jvmArgs>
+                <arg>-DreportRepoDir=${project.build.directory}/../../repository-all/target/repository</arg>
+                <arg>-DreportOutputDir=${project.build.directory}</arg>
+                <arg>-DreferenceRepo=/home/data/httpd/download.eclipse.org/tools/orbit/downloads/drops/${referenceRepoBuild}/repository</arg>
+              </jvmArgs>
+              <executionEnvironment>JavaSE-1.8</executionEnvironment>
+              <dependencies>
+              <dependency>
+                <artifactId>org.eclipse.cbi.p2repo.analyzers</artifactId>
+                <type>eclipse-plugin</type>
+              </dependency>
+              <dependency>
+                <artifactId>org.eclipse.equinox.p2.core.feature</artifactId>
+                <type>eclipse-feature</type>
+              </dependency>
+              <dependency>
+                <artifactId>org.eclipse.e4.rcp</artifactId>
+                <type>eclipse-feature</type>
+              </dependency>
+            </dependencies>
+              <repositories>
+                <repository>
+                  <id>cbi-reports</id>
+                  <url>http://download.eclipse.org/cbi/updates/analyzers/4.6/I20161201-1633</url>
+                  <layout>p2</layout>
+                </repository>
+                <repository>
+                  <id>eclipse-4.6.1</id>
+                  <url>http://download.eclipse.org/eclipse/updates/4.6/R-4.6.1-201609071200/</url>
+                  <layout>p2</layout>
+                </repository>
+              </repositories>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

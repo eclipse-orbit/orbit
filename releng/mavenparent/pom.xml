@@ -76,6 +76,9 @@
     <buildId>${buildType}${buildTimestamp}</buildId>
     <buildLabel>${buildType}-${buildId}-${buildTimestamp}</buildLabel>
 
+    <!-- Reference repository for the report, Orbit Oxygen M5 Contribution -->
+    <referenceRepoBuild>S20170120205402</referenceRepoBuild>
+
   </properties>
 
   <pluginRepositories>
