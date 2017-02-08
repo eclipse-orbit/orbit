@@ -30,7 +30,7 @@
   <plugin id="org.apache.felix.scr"  version="2.0.8.qualifier"/>
 
   <!-- HTTPComponents -->
-  <plugin id="org.apache.httpcomponents.httpcore" version="4.4.4.qualifier"/>
+  <plugin id="org.apache.httpcomponents.httpcore" version="4.4.6.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpclient" version="4.5.2.qualifier"/>
 
   <plugin id="org.apache.lucene.analyzers-common"  version="5.2.1.qualifier"/>
