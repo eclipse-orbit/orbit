@@ -114,6 +114,11 @@
   </pluginRepositories>
 
   <repositories>
+    <!-- Artifacts approved for Orbit that can't be taken from Maven Central -->
+    <repository>
+      <id>orbit-approved-artifacts</id>
+      <url>http://repo.eclipse.org/content/repositories/orbit-approved-artifacts</url>
+    </repository>
     <!-- target platform should reference old-style repository content -->
     <repository>
       <id>eclipse-orbit-old</id>
