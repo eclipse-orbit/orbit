@@ -5,13 +5,13 @@ commons-codec-version=${version;===;1.6}
 
 Export-Package: \
  !about.html,!about_files, \
+ !mozilla, \
  *.internal*;x-internal:=true;version="${package-version}", \
  *.impl*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
 Import-Package: \
- org.apache.http.*;version="${httpcore-version}", \
+ org.apache.http.*;version="${range;[===,=+);${httpcore-version}}", \
  org.apache.commons.codec.*;version="${commons-codec-version}", \
  org.apache.commons.logging*;version="${commons-logging-version}", \
  *;resolution:=optional
-

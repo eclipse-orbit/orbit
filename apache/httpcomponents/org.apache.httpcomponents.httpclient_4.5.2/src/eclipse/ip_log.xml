@@ -7,12 +7,36 @@
       <location>apache-parent/httpcomponents/org.apache.httpcomponents.httpclient</location>
     </info>
     <contact>
-      <name>Roland Grunberg</name>
-      <email>rgrunber@redhat.com</email>
-      <company>Red Hat</company>
+      <name>Steffen Pingel</name>
+      <email>steffen.pingel@tasktop.com</email>
+      <company>Tasktop Technologies</company>
     </contact>
     <legal>
-      <ipzilla bug_id="12186"/>
+      <ipzilla bug_id="12664"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>httpclient-4.5.2.jar</package>
+    </legal>
+    <legal>
+      <ipzilla bug_id="12665"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>httpclient-4.5.2.jar</package>
+    </legal>
+    <legal>
+      <ipzilla bug_id="12666"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>httpclient-4.5.2.jar</package>
+    </legal>
+    <legal>
+      <ipzilla bug_id="12667"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
