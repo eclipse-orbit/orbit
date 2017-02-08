@@ -7,10 +7,10 @@ Export-Package: \
  !about.html,!about_files, \
  !mozilla, \
  *.internal*;x-internal:=true;version="${package-version}", \
- *.impl*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
 Import-Package: \
+ ${exports};version="${range;[==,+);${package-version}}", \
  org.apache.http.*;version="${range;[===,=+);${httpcore-version}}", \
  org.apache.commons.codec.*;version="${commons-codec-version}", \
  org.apache.commons.logging*;version="${commons-logging-version}", \
