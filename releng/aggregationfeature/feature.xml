@@ -145,9 +145,9 @@
   <plugin id="com.spotify.docker.client" version="3.6.8.qualifier"/>
 
   <!-- JaCoCo -->
-  <plugin id="org.jacoco.agent" version="0.7.7.qualifier"/>
-  <plugin id="org.jacoco.core" version="0.7.7.qualifier"/>
-  <plugin id="org.jacoco.report" version="0.7.7.qualifier"/>
+  <plugin id="org.jacoco.agent" version="0.7.9.qualifier"/>
+  <plugin id="org.jacoco.core" version="0.7.9.qualifier"/>
+  <plugin id="org.jacoco.report" version="0.7.9.qualifier"/>
 
   <plugin id="org.tukaani.xz" version="1.5.0.qualifier"/>
 

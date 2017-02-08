@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.jacoco.agent" version="0.7.7" status="done">
+  <project id="org.jacoco.agent" version="0.7.9" status="done">
     <info>
       <name>JaCoCo Agent</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
@@ -12,12 +12,12 @@
       <company>SonarSource</company>
     </contact>
     <legal>
-      <ipzilla bug_id="12227"/>
+      <ipzilla bug_id="12668"/>
       <license>
         <name>Eclipse Public License</name>
         <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
       </license>
-      <package>org.jacoco.agent-0.7.7.201606060606.jar</package>
+      <package>org.jacoco.agent-0.7.9.jar</package>
     </legal>
   </project>
 </ip_log>

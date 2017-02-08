@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>org.jacoco.report</artifactId>
-  <version>0.7.7-SNAPSHOT</version>
+  <version>0.7.9-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
 
   <name>JaCoCo Report</name>
@@ -19,7 +19,7 @@
     <dependency>
       <groupId>org.jacoco</groupId>
       <artifactId>org.jacoco.report</artifactId>
-      <version>0.7.7.201606060606</version>
+      <version>0.7.9</version>
     </dependency>
   </dependencies>
 </project>
