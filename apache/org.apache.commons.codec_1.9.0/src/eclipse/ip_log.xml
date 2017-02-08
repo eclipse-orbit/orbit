@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.commons.codec" version="1.9.0" status="done">
+    <info>
+      <name>Apache Commons Codec</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/org.apache.commons.codec</location>
+    </info>
+    <contact>
+      <name>Steffen Pingel</name>
+      <email>steffen.pingel@tasktop.com</email>
+      <company>Tasktop Technologies</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="12676"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>commons-codec-1.9.jar</package>
+    </legal>
+  </project>
+</ip_log>
