@@ -1,0 +1,31 @@
+package-version=${version;===;${Bundle-Version}}
+httpclient-version=${version;===;4.5.2}
+httpcore-version=${version;===;4.4.4}
+commons-logging-version=${version;===;1.1.1}
+commons-codec-version=${version;===;1.6}
+jna-version=${version;===;4.1.0}
+
+Eclipse-PlatformFilter: (osgi.os=win32)
+
+Export-Package: \
+ !about.html,!about_files, \
+ !org.apache.http.impl.client, \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.apache.http.auth*;version="${httpclient-version}", \
+ org.apache.http.client*;version="${httpclient-version}", \
+ org.apache.http.conn*;version="${httpclient-version}", \
+ org.apache.http.cookie*;version="${httpclient-version}", \
+ org.apache.http.entity*;version="${httpclient-version}", \
+ org.apache.http.impl.auth*;version="${httpclient-version}", \
+ org.apache.http.impl.client*;version="${httpclient-version}", \
+ org.apache.http.impl.conn*;version="${httpclient-version}", \
+ org.apache.http.impl.cookie*;version="${httpclient-version}", \
+ org.apache.http.impl.execchain*;version="${httpclient-version}", \
+ org.apache.http.*;version="${httpcore-version}", \
+ org.apache.commons.codec.*;version="${commons-codec-version}", \
+ org.apache.commons.logging*;version="${commons-logging-version}", \
+ com.sun.jna.*;version="${jna-version}", \
+ *;resolution:=optional

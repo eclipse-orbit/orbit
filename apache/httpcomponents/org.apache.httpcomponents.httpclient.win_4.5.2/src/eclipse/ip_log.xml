@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.httpcomponents.httpclient.win" version="4.5.2" status="done">
+    <info>
+      <name>Apache HttpClient Windows features</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache/httpcomponents/org.apache.httpcomponents.httpclient</location>
+    </info>
+    <contact>
+      <name>Carsten Reckord</name>
+      <email>reckord@yatta.de</email>
+      <company>Yatta Solutions GmbH</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="12594"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>httpclient-win-4.5.2.jar</package>
+    </legal>
+  </project>
+</ip_log>

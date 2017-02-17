@@ -7,16 +7,19 @@ function ebr () {
 # Edit these as needed
 GID='org.apache.httpcomponents'
 VERSIONS=(
-4.5
-4.5
+4.4.4
+4.5.2
+4.5.2
 )
 ARTIDS=(
 httpcore
 httpclient
+httpclient-win
 )
 BSNS=(
 org.apache.httpcomponents.httpcore
 org.apache.httpcomponents.httpclient
+org.apache.httpcomponents.httpclient.win
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do
