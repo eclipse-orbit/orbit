@@ -71,6 +71,12 @@
                 <iu>
                   <id>org.eclipse.orbit.releng.recipes.feature.aggregation.source.feature.group</id>
                 </iu>
+                <iu>
+                  <query>
+                    <expression>properties[$0] == $1</expression>
+                    <parameters>org.eclipse.equinox.p2.type.category,true</parameters>
+                  </query>
+                </iu>
               </ius>
             </configuration>
           </execution>
