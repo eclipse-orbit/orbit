@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="com.mongodb.driver" version="3.2.2" status="done">
+  <project id="org.eclipse.orbit.mongodb" version="3.2.2" status="done">
     <info>
       <name>MongoDB Java Driver</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
