@@ -6,13 +6,12 @@ Export-Package: \
  *.impl*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
-Import-Package: \
- *
-
 ############################
 # SLF4J Binding Requirements
 #
 # based on org.slf4j.LoggerFactory#API_COMPATIBILITY_LIST and #versionSanityCheck()
 # 1.6 as well as 1.7 are allowed 'prefixes'
 #
-Import-Package: org.slf4j.impl;version="[1.6.0,1.8)";resolution:=optional
+Import-Package: \
+ org.slf4j.impl;version="[1.6.0,1.8)";resolution:=optional \
+ *

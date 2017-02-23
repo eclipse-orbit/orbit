@@ -2,6 +2,7 @@ package-version=${version;===;${Bundle-Version}}
 
 Export-Package: \
  !about.html,!about_files, \
+ org.slf4j;version="${package-version}";ext=split;mandatory:=ext, \
  *.internal*;x-internal:=true;version="${package-version}", \
  *.impl*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
@@ -9,4 +10,3 @@ Export-Package: \
 Import-Package: \
  org.slf4j.*;version="${range;[===,=+);${package-version}}", \
  *;resolution:=optional
-
