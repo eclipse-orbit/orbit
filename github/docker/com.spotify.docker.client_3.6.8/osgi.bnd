@@ -1,5 +1,5 @@
 package-version=${version;===;${Bundle-Version}}
-slf4j-api-version=${version;===;1.7.10}
+slf4j-api-version=${version;===;1.7.2}
 guava-version=${version;===;18.0}
 jackson-version=${version;===;2.6.0}
 jersey-version=${version;===;2.19}
