@@ -144,6 +144,7 @@
   <plugin id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider" version="2.6.2.qualifier"/>
 
   <plugin id="com.spotify.docker.client" version="3.6.8.qualifier"/>
+  <plugin id="com.spotify.docker.client" version="6.1.1.qualifier"/>
 
   <!-- JaCoCo -->
   <plugin id="org.jacoco.agent" version="0.7.9.qualifier"/>
