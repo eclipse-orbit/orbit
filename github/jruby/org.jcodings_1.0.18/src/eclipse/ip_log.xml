@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.jcodings" version="1.0.18" status="done">
+    <info>
+      <name>JCodings</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>github-parent/jruby-parent/org.jcodings</location>
+    </info>
+    <contact>
+      <name>Mickael Istria</name>
+      <email>mistria@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="12856"/>
+      <license>
+        <name>MIT license</name>
+        <reference>http://opensource.org/licenses/MIT</reference>
+      </license>
+      <package>jcodings-1.0.18.jar</package>
+    </legal>
+  </project>
+</ip_log>
