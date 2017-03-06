@@ -40,7 +40,7 @@
             <configuration>
               <source>
                 <repository>
-                  <url>http://download.eclipse.org/tools/orbit/downloads/drops/R20170120165020/repository</url>
+                  <url>http://download.eclipse.org/tools/orbit/downloads/drops/R20170303204511/repository</url>
                   <layout>p2</layout>
                 </repository>
               </source>
