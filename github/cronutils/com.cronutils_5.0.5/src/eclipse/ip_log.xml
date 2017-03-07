@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.cronutils" version="5.0.5" status="done">
+    <info>
+      <name>cron-utils</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>github-parent/cronutils-parent/com.cronutils</location>
+    </info>
+    <contact>
+      <name>Christian Pontesegger</name>
+      <email>christian.pontesegger@web.de</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="12858"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>cron-utils-5.0.5.jar</package>
+    </legal>
+  </project>
+</ip_log>
