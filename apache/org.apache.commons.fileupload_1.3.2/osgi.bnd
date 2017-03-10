@@ -10,7 +10,6 @@ Export-Package: \
  *;version="${package-version}"
 
 # javax.portlet is a DynamicImport-Package inherited from manifest
-
 Import-Package: \
  !javax.portlet, \
  org.apache.commons.io*;version="${commons-io-version}", \
