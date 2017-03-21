@@ -1,0 +1,19 @@
+package-version=${version;===;${Bundle-Version}}
+maven-resolver-version=${version;===;1.0.3}
+inject-version=${version;===;1}
+sisu-version=${version;===;0.1.1}
+guice-version=${version;===;3.1.6}
+slf4j-version=${version;===;1.6.2}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ com.google.inject.*;version="${range;[==,+);${guice-version}}";resolution:=optional, \
+ javax.inject.*;resolution:=optional, \
+ org.eclipse.aether.*;version="${range;[==,+);${maven-resolver-version}}", \
+ org.eclipse.sisu.*;version="${range;[==,+);${sisu-version}}";resolution:=optional, \
+ org.slf4j.*;version="${range;[==,+);${slf4j-version}}";resolution:=optional, \
+ *;resolution:=optional

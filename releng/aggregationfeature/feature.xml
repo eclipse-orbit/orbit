@@ -158,4 +158,13 @@
 
   <plugin id="org.tukaani.xz" version="1.5.0.qualifier"/>
 
+  <!-- Maven Resolver (ex-Eclipse Aether) -->
+  <plugin id="org.apache.maven.resolver.api" version="1.0.3.qualifier"/>
+  <plugin id="org.apache.maven.resolver.connector.basic" version="1.0.3.qualifier"/>
+  <plugin id="org.apache.maven.resolver.impl" version="1.0.3.qualifier"/>
+  <plugin id="org.apache.maven.resolver.spi" version="1.0.3.qualifier"/>
+  <plugin id="org.apache.maven.resolver.transport.file" version="1.0.3.qualifier"/>
+  <plugin id="org.apache.maven.resolver.transport.http" version="1.0.3.qualifier"/>
+  <plugin id="org.apache.maven.resolver.util" version="1.0.3.qualifier"/>
+
 </feature>

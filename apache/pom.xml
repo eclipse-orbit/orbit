@@ -27,6 +27,7 @@
     <module>httpcomponents</module>
     <module>jclouds</module>
     <module>lucene</module>
+    <module>maven</module>
     <module>xmlrpc</module>
   </modules>
 

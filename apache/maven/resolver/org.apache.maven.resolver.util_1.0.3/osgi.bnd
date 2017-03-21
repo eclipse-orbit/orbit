@@ -1,0 +1,13 @@
+package-version=${version;===;${Bundle-Version}}
+maven-resolver-version=${version;===;1.0.3}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ javax.net.ssl.*;resolution:=optional, \
+ org.eclipse.aether.*;version="${range;[==,+);${maven-resolver-version}}", \
+ *;resolution:=optional

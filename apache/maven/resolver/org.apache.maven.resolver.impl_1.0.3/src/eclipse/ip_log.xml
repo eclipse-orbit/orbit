@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.maven.resolver.impl" version="1.0.3" status="done">
+    <info>
+      <name>Maven Artifact Resolver Implementation</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache/maven/maven-resolver/org.apache.maven.resolver.impl</location>
+    </info>
+    <contact>
+      <name>Andreas Sewe</name>
+      <email>andreas.sewe@codetrails.com</email>
+      <company>Codetrails</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="13126"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>maven-resolver-impl-1.0.3.jar</package>
+    </legal>
+  </project>
+</ip_log>

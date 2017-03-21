@@ -1,0 +1,15 @@
+package-version=${version;===;${Bundle-Version}}
+maven-resolver-version=${version;===;1.0.3}
+httpclient-version=${version;===;4.2.6}
+inject-version=${version;===;1}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *;version="${package-version}"
+
+Import-Package: \
+ javax.inject.*;resolution:=optional, \
+ javax.net.*, \
+ org.apache.http.*;version="${range;[==,+);${httpclient-version}}", \
+ org.eclipse.aether.*;version="${range;[==,+);${maven-resolver-version}}", \
+ *;resolution:=optional
