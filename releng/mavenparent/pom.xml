@@ -387,6 +387,11 @@
           <artifactId>ebr-maven-plugin</artifactId>
           <version>${ebr-version}</version>
         </plugin>
+        <plugin>
+          <groupId>org.eclipse.ebr</groupId>
+          <artifactId>ebr-tycho-extras-plugin</artifactId>
+          <version>${ebr-version}</version>
+        </plugin>
 
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
