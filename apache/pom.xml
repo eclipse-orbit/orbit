@@ -21,6 +21,7 @@
     <module>org.apache.commons.math3_3.5.0</module>
     <module>org.apache.onami.configuration_6.3.0</module>
     <module>org.apache.ws.commons.util_1.0.2</module>
+    <module>ant</module>
     <module>batik</module>
     <module>felix</module>
     <module>httpcomponents</module>

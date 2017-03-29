@@ -27,6 +27,8 @@
 
   <plugin id="com.jcraft.jsch" version="0.1.54.qualifier"/>
 
+  <plugin id="org.apache.ant" version="1.10.1.qualifier"/>
+
   <plugin id="org.apache.batik.css" version="1.8.0.qualifier"/>
   <plugin id="org.apache.batik.util" version="1.8.0.qualifier"/>
   <plugin id="org.apache.batik.util.gui" version="1.8.0.qualifier"/>
