@@ -1,0 +1,10 @@
+package-version=${version;===;${Bundle-Version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ !com.sun.jna.*-*,!com.sun.jna.darwin, \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional
+

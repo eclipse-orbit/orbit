@@ -38,6 +38,7 @@
     <module>jackson</module>
     <module>jacoco</module>
     <module>jcraft</module>
+    <module>jna</module>
     <module>logging</module>
     <module>tukaani</module>
   </modules>
