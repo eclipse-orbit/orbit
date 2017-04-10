@@ -28,6 +28,26 @@
         </configuration>
       </plugin>
 
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>target-platform-configuration</artifactId>
+        <configuration>
+          <environments>
+            <environment>
+              <os>win32</os>
+              <ws>*</ws>
+              <arch>*</arch>
+            </environment>
+            <environment>
+              <os>*</os>
+              <ws>*</ws>
+              <arch>*</arch>
+            </environment>
+          </environments>
+          <includePackedArtifacts>true</includePackedArtifacts>
+        </configuration>
+      </plugin>
+
     </plugins>
   </build>
 </project>
