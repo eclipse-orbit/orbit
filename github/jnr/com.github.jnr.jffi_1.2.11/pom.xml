@@ -18,15 +18,32 @@
       <version>1.2.11</version>
     </dependency>
   </dependencies>
+
   <build>
-    <resources>
-      <resource>
-        <directory></directory>
-        <targetPath>META-INF</targetPath>
-        <includes>
-          <include>p2.inf</include>
-        </includes>
-      </resource>
-    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-p2-inf</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+            <outputDirectory>${project.build.directory}/dependency-bin/META-INF</outputDirectory>
+            <resources>
+              <resource>
+                <directory>${project.basedir}</directory>
+                <includes>
+                  <include>p2.inf</include>
+                </includes>
+              </resource>
+            </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
   </build>
 </project>
