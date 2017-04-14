@@ -45,6 +45,9 @@
     <!-- pattern/format used for the qualifier -->
     <recipe.qualifier.format>'v'yyyyMMdd-HHmm</recipe.qualifier.format>
 
+    <!-- set to false if you want to have dependencies embedded as full jars inside the bundle -->
+    <recipe.unpackdependencies>true</recipe.unpackdependencies>
+
     <!-- project defaults -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -317,6 +320,7 @@
         <configuration>
           <includes>${recipe.includes}</includes>
           <excludes>${recipe.excludes}</excludes>
+          <unpackDependencies>${recipe.unpackdependencies}</unpackDependencies>
           <bndInstructions>
             <Bundle-Name>${recipe.Bundle-Name}</Bundle-Name>
             <Bundle-Vendor>${recipe.Bundle-Vendor}</Bundle-Vendor>
