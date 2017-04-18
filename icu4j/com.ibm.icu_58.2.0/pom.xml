@@ -11,6 +11,13 @@
   <version>58.2.0-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>ICU4J</name>
+
+  <properties>
+    <!-- Remove 'Bundle-Localization: plugin', and let EBR handle it -->
+    <recipe.removeadditionalheaders>Require-Bundle,Bundle-Localization</recipe.removeadditionalheaders>
+    <recipe.excludes>META-INF/maven/**/*.*,plugin.properties</recipe.excludes>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.eclipse.orbit.icu</groupId>
