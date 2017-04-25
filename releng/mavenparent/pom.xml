@@ -321,6 +321,7 @@
           <includes>${recipe.includes}</includes>
           <excludes>${recipe.excludes}</excludes>
           <unpackDependencies>${recipe.unpackdependencies}</unpackDependencies>
+          <stripVersion>${recipe.stripversion}</stripVersion>
           <bndInstructions>
             <Bundle-Name>${recipe.Bundle-Name}</Bundle-Name>
             <Bundle-Vendor>${recipe.Bundle-Vendor}</Bundle-Vendor>
