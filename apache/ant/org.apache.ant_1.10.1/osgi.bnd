@@ -10,3 +10,5 @@ Export-Package: \
 Import-Package: \
  *;resolution:=optional
 
+# this bundle needs to be unzipped (https://bugs.eclipse.org/499717)
+Eclipse-BundleShape: dir
