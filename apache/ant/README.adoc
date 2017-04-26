@@ -1,0 +1,27 @@
+= Apache Ant Notes
+
+`org.apache.ant` is special compared to other recipes. It has a few requirements for
+backwards compatibility reasons.
+
+The whole painful exercise is documented here:
+https://bugs.eclipse.org/499717[https://bugs.eclipse.org/499717]
+
+The exceptions/requirements are:
+1. The bundle must be installed as directory not jar
+2. The bundle must be an all in one bundle of multiple dependencies
+3. All dependencies must be placed as jar files into `lib` folder within the bundle
+4. The dependency jar files must have any version string removed from their names
+5. The `bin` and `etc` folders must be added from the Ant binary distribution zip file
+
+To address #1 the `Eclipse-BundleShape: dir` header must be added in `osgi.bnd`. This acts as
+a default in case nothing is set in `feature.xml`.
+
+For #2, #3 and #4 the EBR plug-in was enhanced to allow that behavior. It's enabled by setting
+`recipe.unpackdependencies` and `recipe.stripversion` property in the recipe's pom.
+
+For #5 the folders were taking from the Ant binary distribution zip file and added to
+`src/main/resources`. This will copy them as part of the recipe build into the bundle.
+
+NOTE: The Ant binary distribution contains a file `ant-bootstrap.jar` in the `etc` folder.
+This jar was purposely excluded because it was not present in older versions of the
+Ant bundle.
