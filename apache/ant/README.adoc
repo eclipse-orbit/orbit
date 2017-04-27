@@ -12,6 +12,9 @@ The exceptions/requirements are:
 3. All dependencies must be placed as jar files into `lib` folder within the bundle
 4. The dependency jar files must have any version string removed from their names
 5. The `bin` and `etc` folders must be added from the Ant binary distribution zip file
+6. Copy DOM-LICENSE and SAX-LICENSE from old ant project
+7. Copy LICENSE and NOTICE from Apache source distribution 
+8. The 'bin', 'etc' and 'lib' as folders should not be exported
 
 To address #1 the `Eclipse-BundleShape: dir` header must be added in `osgi.bnd`. This acts as
 a default in case nothing is set in `feature.xml`.
