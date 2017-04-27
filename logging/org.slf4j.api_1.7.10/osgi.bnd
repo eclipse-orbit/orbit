@@ -13,5 +13,5 @@ Export-Package: \
 # 1.6 as well as 1.7 are allowed 'prefixes'
 #
 Import-Package: \
- org.slf4j.impl;version="[1.6.0,1.8)";resolution:=optional, \
+ !org.slf4j.impl*, \
  *
