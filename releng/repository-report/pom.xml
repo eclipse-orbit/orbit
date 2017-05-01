@@ -15,9 +15,6 @@
 
   <name>Eclipse Orbit :: Repository Report</name>
 
-  <properties>
-  </properties>
-
   <build>
     <plugins>
       <plugin>
