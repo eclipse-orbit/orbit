@@ -48,6 +48,12 @@
     <!-- set to false if you want to have dependencies embedded as full jars inside the bundle -->
     <recipe.unpackdependencies>true</recipe.unpackdependencies>
 
+    <!-- when recipe.unpackdependencies is set to false, this one can be set to true to force removal of the version string from dependency jar names -->
+    <recipe.stripversion>false</recipe.stripversion>
+
+    <!-- when recipe.unpackdependencies is set to false, this one can be set to true to disable inclusion of '.' folder into the Bundle-ClassPath header -->
+    <recipe.excludedotfolder>false</recipe.excludedotfolder>
+
     <!-- project defaults -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -322,6 +328,7 @@
           <excludes>${recipe.excludes}</excludes>
           <unpackDependencies>${recipe.unpackdependencies}</unpackDependencies>
           <stripVersion>${recipe.stripversion}</stripVersion>
+          <excludeDotFolderFromBundleClasspath>${recipe.excludedotfolder}</excludeDotFolderFromBundleClasspath>
           <bndInstructions>
             <Bundle-Name>${recipe.Bundle-Name}</Bundle-Name>
             <Bundle-Vendor>${recipe.Bundle-Vendor}</Bundle-Vendor>
