@@ -19,6 +19,7 @@
     <recipe.excludes>META-INF/maven/**/*.*,images/</recipe.excludes>
     <recipe.unpackdependencies>false</recipe.unpackdependencies>
     <recipe.stripversion>true</recipe.stripversion>
+    <recipe.excludedotfolder>true</recipe.excludedotfolder>
   </properties>
 
   <dependencies>
