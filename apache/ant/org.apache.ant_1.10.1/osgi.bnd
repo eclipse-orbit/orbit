@@ -3,8 +3,8 @@ ant-launcher-version=${version;===;1.10.1}
 
 Export-Package: \
  !about.html,!about_files.*,!bin.*,!etc.*,!images.*,!lib.*, \
- *.internal*;x-internal:=true;version="${package-version}", \
- *.impl*;x-internal:=true;version="${package-version}", \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
 Import-Package: \
