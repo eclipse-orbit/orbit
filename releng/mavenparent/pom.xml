@@ -175,7 +175,9 @@
     <profile>
       <id>eclipse-sign</id>
       <activation>
-        <activeByDefault>false</activeByDefault>
+        <property>
+          <name>eclipse-sign</name>
+        </property>
       </activation>
       <build>
         <plugins>
@@ -212,6 +214,92 @@
                 <goals>
                   <goal>sign</goal>
                 </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.eclipse.tycho.extras</groupId>
+            <artifactId>tycho-pack200b-plugin</artifactId>
+            <version>${tycho-extras-version}</version>
+            <configuration>
+              <supportedProjectTypes>
+                <supportedProjectType>eclipse-bundle-recipe</supportedProjectType>
+              </supportedProjectTypes>
+            </configuration>
+            <executions>
+              <execution>
+                <id>pack200-pack</id>
+                <goals>
+                  <goal>pack</goal>
+                </goals>
+                <phase>package</phase>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.eclipse.tycho</groupId>
+            <artifactId>tycho-p2-plugin</artifactId>
+            <version>${tycho-version}</version>
+            <executions>
+              <execution>
+                <id>p2-metadata</id>
+                <goals>
+                  <goal>p2-metadata</goal>
+                </goals>
+                <phase>package</phase>
+              </execution>
+            </executions>
+            <configuration>
+              <supportedProjectTypes>
+                <supportedProjectType>eclipse-bundle-recipe</supportedProjectType>
+                <supportedProjectType>eclipse-feature</supportedProjectType>
+              </supportedProjectTypes>
+              <defaultP2Metadata>false</defaultP2Metadata>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <!--
+      Bug 513496 : We use the 4.7milestones repository to resolve bundles
+      that have dependencies on content in the platform itself.
+      (eg. org.apache.felix.scr requires org.eclipse.osgi)
+
+      Unfortunately 4.7milestones can include the same bundles that we
+      generate (eg. org.apache.commons.fileupload) and when this happens Tycho
+      attempts to download packed versions (.pack.gz) of these for resolution
+      even when unpacked versions already exist in the local repository. This
+      causes information to be lost (overwritten) and a failure to locate the
+      corresponding source bundles.
+
+      The workaround is to ensure we generate packed artifacts as part of the
+      build at all times (signing not required).
+    -->
+    <profile>
+      <id>do-not-eclipse-sign</id>
+      <activation>
+        <property>
+          <name>!eclipse-sign</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.eclipse.tycho.extras</groupId>
+            <artifactId>tycho-pack200a-plugin</artifactId>
+            <version>${tycho-version}</version>
+            <configuration>
+              <supportedProjectTypes>
+                <supportedProjectType>eclipse-bundle-recipe</supportedProjectType>
+              </supportedProjectTypes>
+            </configuration>
+            <executions>
+              <execution>
+                <id>pack200-normalize</id>
+                <goals>
+                  <goal>normalize</goal>
+                </goals>
+                <phase>package</phase>
               </execution>
             </executions>
           </plugin>
