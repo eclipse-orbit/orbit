@@ -1,0 +1,19 @@
+package-version=${version;===;${Bundle-Version}}
+junit-platform-engine-version=${version;===;1.0.0}
+junit-jupiter-api-version=${version;===;5.0.0}
+opentest4j-version=${version;===;1.0.0}
+junit-platform-commons-version=${version;===;1.0.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.junit.platform.engine.*;version="${range;[===,+);${junit-platform-engine-version}}", \
+ org.junit.jupiter.api.*;version="${range;[===,+);${junit-jupiter-api-version}}", \
+ org.opentest4j;version="${range;[===,+);${opentest4j-version}}", \
+ org.junit.platform.commons.*;version="${range;[===,+);${junit-platform-commons-version}}", \
+ *;resolution:=optional

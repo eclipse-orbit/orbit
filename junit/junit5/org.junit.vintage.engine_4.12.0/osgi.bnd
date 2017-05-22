@@ -1,0 +1,23 @@
+package-version=${version;===;${Bundle-Version}}
+junit-platform-engine-version=${version;===;1.0.0}
+junit-platform-commons-version=${version;===;1.0.0}
+junit-version=${version;===;4.12}
+opentest4j-version=${version;===;1.0.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.junit.platform.engine.*;version="${range;[===,+);${junit-platform-engine-version}}", \
+ org.junit.platform.commons.*;version="${range;[===,+);${junit-platform-commons-version}}", \
+ org.junit.experimental.categories;version="${range;[===,+);${junit-version}}", \
+ org.junit.runner.*;version="${range;[===,+);${junit-version}}", \
+ org.junit;version="${range;[===,+);${junit-version}}", \
+ org.junit.internal.builders;version="${range;[===,+);${junit-version}}", \
+ org.junit.runners.model;version="${range;[===,+);${junit-version}}", \
+ org.opentest4j;version="${range;[===,+);${opentest4j-version}}", \
+ *;resolution:=optional
