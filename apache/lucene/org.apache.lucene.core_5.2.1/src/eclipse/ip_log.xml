@@ -12,7 +12,7 @@
       <company>Red Hat</company>
     </contact>
     <legal>
-      <ipzilla bug_id="10145"/>
+      <ipzilla bug_id="13792"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
