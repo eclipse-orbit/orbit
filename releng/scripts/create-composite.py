@@ -35,9 +35,8 @@ def main(argv):
 <?compositeArtifactRepository version='1.0.0'?>
 <repository name='Eclipse Orbit Composite Site {build}'
     type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
-  <properties size='2'>
+  <properties size='1'>
     <property name='p2.timestamp' value='{timestamp}'/>
-    <property name='p2.statsURI' value='http://download.eclipse.org/stats'/>
   </properties>
   <children size='2'>
     <child location='{orbitOldLocation}'/>
