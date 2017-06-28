@@ -161,6 +161,7 @@
   <plugin id="org.joni" version="2.1.11.qualifier"/>
 
   <plugin id="org.tukaani.xz" version="1.5.0.qualifier"/>
+  <plugin id="org.tukaani.xz" version="1.6.0.qualifier"/>
   
   <!-- JNA -->
   <plugin id="com.sun.jna" version="4.1.0.qualifier"/>
