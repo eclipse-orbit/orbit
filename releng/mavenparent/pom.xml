@@ -148,7 +148,10 @@
       <id>iplog</id>
       <activation>
         <!-- activate the profile by default, can be disabled using '-P-iplog' mvn command line argument-->
-        <activeByDefault>true</activeByDefault>
+        <property>
+          <name>!skipIpLog</name>
+          <value>!true</value>
+        </property>
       </activation>
       <build>
         <pluginManagement>
