@@ -2,7 +2,7 @@
 <ip_log version="1.0">
   <project id="org.junit.jupiter.migrationsupport" version="5.0.0" status="done">
     <info>
-      <name>org.junit.jupiter:junit-jupiter-migration-support</name>
+      <name>org.junit.jupiter:junit-jupiter-migrationsupport</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
       <location>junit-parent/junit5/org.junit.jupiter.migrationsupport</location>
     </info>
@@ -17,7 +17,7 @@
         <name>Eclipse Public License</name>
         <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
       </license>
-      <package>junit-jupiter-migration-support-5.0.0-M4.jar</package>
+      <package>junit-jupiter-migrationsupport-5.0.0-M5.jar</package>
     </legal>
   </project>
 </ip_log>
