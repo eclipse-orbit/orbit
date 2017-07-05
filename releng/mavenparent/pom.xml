@@ -85,8 +85,8 @@
     <buildId>${buildType}${buildTimestamp}</buildId>
     <buildLabel>${buildType}-${buildId}-${buildTimestamp}</buildLabel>
 
-    <!-- Reference repository for the report, Orbit Oxygen M6 Contribution -->
-    <referenceRepoBuild>S20170306214312</referenceRepoBuild>
+    <!-- Reference repository for the report, Orbit Oxygen.0 Contribution -->
+    <referenceRepoBuild>R20170516192513</referenceRepoBuild>
 
   </properties>
 
