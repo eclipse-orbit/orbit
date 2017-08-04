@@ -1,0 +1,13 @@
+package-version=${version;===;${Bundle-Version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.dom4j.*;version="${range;[==,+);${package-version}}", \
+ javax.xml.*, \
+ org.w3c.dom.*, \
+ org.xml.sax.*, \
+ *;resolution:=optional

@@ -42,6 +42,7 @@
     <module>junit</module>
     <module>logging</module>
     <module>tukaani</module>
+    <module>xml</module>
   </modules>
 
 </project>
