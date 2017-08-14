@@ -175,4 +175,6 @@
   <plugin id="org.apache.maven.resolver.transport.http" version="1.0.3.qualifier"/>
   <plugin id="org.apache.maven.resolver.util" version="1.0.3.qualifier"/>
 
+  <!-- Unit API 1.0 -->
+  <plugin id="javax.measure.unit-api" version="1.0.0.qualifier"/>
 </feature>

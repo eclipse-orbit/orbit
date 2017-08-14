@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="javax.measure.unit-api" version="1.0.0" status="done">
+    <info>
+      <name>Units of Measurement API</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>uom-parent/javax.measure.unit-api</location>
+    </info>
+    <contact>
+      <name>Erwin De Ley</name>
+      <email>erwindl0@gmail.com</email>
+      <company>iSencia Belgium NV</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="13967"/>
+      <license>
+        <name>New BSD license</name>
+        <reference>https://github.com/unitsofmeasurement/unit-api/blob/master/LICENSE.txt</reference>
+      </license>
+      <package>unit-api-1.0.jar</package>
+    </legal>
+  </project>
+</ip_log>
