@@ -192,4 +192,7 @@
 
   <!-- XML APIs -->
   <plugin id="org.dom4j" version="1.6.1.qualifier"/>
+
+  <!-- Unit API 1.0 -->
+  <plugin id="javax.measure.unit-api" version="1.0.0.qualifier"/>
 </feature>
