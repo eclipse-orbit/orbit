@@ -195,4 +195,8 @@
 
   <!-- Unit API 1.0 -->
   <plugin id="javax.measure.unit-api" version="1.0.0.qualifier"/>
+
+  <!-- DRMAA -->
+  <plugin id="com.sun.grid.drmaa" version="1.0.0.qualifier"/>
+  <plugin id="org.ggf.drmaa" version="1.0.0.qualifier"/>
 </feature>
