@@ -1,0 +1,9 @@
+package-version=${version;===;${Bundle-Version}}
+drmaa-api-version=${version;===;1.0.0}
+
+Export-Package: \
+ !*
+
+Import-Package: \
+ org.ggf.drmaa.*;version="${range;[===,+==);${drmaa-api-version}}", \
+ *;resolution:=optional

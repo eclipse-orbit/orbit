@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.sun.grid.drmaa" version="1.0.0" status="done">
+    <info>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>drmaa-parent/com.sun.grid.drmaa</location>
+    </info>
+    <contact>
+      <name>Erwin De Ley</name>
+      <email>erwindl0@gmail.com</email>
+      <company>iSencia Belgium NV</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="13998"/>
+      <license>
+        <name>SISSL-1.2</name>
+        <reference>http://gridscheduler.sourceforge.net/Gridengine_SISSL_license.html</reference>
+      </license>
+      <package>com.sun.grid.drmaa-1.0.0.jar</package>
+    </legal>
+  </project>
+</ip_log>

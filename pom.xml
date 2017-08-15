@@ -30,6 +30,7 @@
     <module>assertj</module>
     <module>apache</module>
     <module>bouncycastle</module>
+    <module>drmaa</module>
     <module>freemarker</module>
     <module>github</module>
     <module>glassfish</module>
