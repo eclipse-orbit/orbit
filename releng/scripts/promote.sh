@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# N (nightly), I (integration), S (stable), or R (recommended)
+# N (nightly), I (integration), S (stable), M (maintenance) or R (recommended)
 build_label=${BUILD_LABEL}
 build_time=${BUILD_TIME}
 # format: NYYYYMMDDHHMMSS
