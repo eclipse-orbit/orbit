@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.felix.gogo.runtime" version="1.0.6" status="done">
+    <info>
+      <name>Apache Felix Gogo Runtime</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache/felix/org.apache.felix.gogo.runtime_1.0.6</location>
+    </info>
+    <contact>
+      <name>Thomas Watson</name>
+      <email>tjwatson@us.ibm.com</email>
+      <company>IBM</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="14026"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>org.apache.felix.gogo.runtime-1.0.6.jar</package>
+    </legal>
+  </project>
+</ip_log>

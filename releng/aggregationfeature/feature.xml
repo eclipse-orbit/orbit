@@ -33,6 +33,10 @@
   <plugin id="org.apache.batik.util" version="1.9.0.qualifier"/>
   <plugin id="org.apache.batik.i18n" version="1.9.0.qualifier"/>
 
+  <plugin id="org.apache.felix.gogo.command"  version="1.0.2.qualifier"/>
+  <plugin id="org.apache.felix.gogo.runtime"  version="1.0.6.qualifier"/>
+  <plugin id="org.apache.felix.gogo.shell"  version="1.0.0.qualifier"/>
+
   <plugin id="org.apache.felix.scr"  version="2.0.8.qualifier"/>
   <plugin id="org.apache.felix.scr"  version="2.0.10.qualifier"/>
   <plugin id="org.apache.felix.scr"  version="2.0.12.qualifier"/>
