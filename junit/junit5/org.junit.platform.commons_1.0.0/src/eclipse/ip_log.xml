@@ -17,7 +17,7 @@
         <name>Eclipse Public License</name>
         <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
       </license>
-      <package>junit-platform-commons-1.0.0-RC2.jar</package>
+      <package>junit-platform-commons-1.0.0-RC3.jar</package>
     </legal>
   </project>
 </ip_log>

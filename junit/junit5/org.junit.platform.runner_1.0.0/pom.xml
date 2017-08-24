@@ -15,7 +15,7 @@
     <dependency>
       <groupId>org.junit.platform</groupId>
       <artifactId>junit-platform-runner</artifactId>
-      <version>1.0.0-RC2</version>
+      <version>1.0.0-RC3</version>
     </dependency>
   </dependencies>
 </project>
