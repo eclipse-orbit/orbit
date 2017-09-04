@@ -16,9 +16,9 @@
   <name>Eclipse Orbit :: Batik Recipes</name>
 
   <modules>
-    <module>org.apache.batik.css_1.8.0</module>
-    <module>org.apache.batik.util_1.8.0</module>
-    <module>org.apache.batik.util.gui_1.8.0</module>
+    <module>org.apache.batik.css_1.9.0</module>
+    <module>org.apache.batik.util_1.9.0</module>
+    <module>org.apache.batik.i18n_1.9.0</module>
   </modules>
 
 </project>

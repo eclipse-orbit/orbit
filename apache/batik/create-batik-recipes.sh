@@ -6,16 +6,16 @@ function ebr () {
 
 # Edit these as needed
 GID='org.apache.xmlgraphics'
-VERSION='1.8'
+VERSION='1.9'
 ARTIDS=(
 batik-css
 batik-util
-batik-gui-util
+batik-i18n
 )
 BSNS=(
 org.apache.batik.css
 org.apache.batik.util
-org.apache.batik.util.gui
+org.apache.batik.i18n
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do
