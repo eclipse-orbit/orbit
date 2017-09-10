@@ -15,9 +15,9 @@
       <ipzilla bug_id="13321"/>
       <license>
         <name>Eclipse Public License</name>
-        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
+        <reference>http://www.eclipse.org/legal/epl-v20.html</reference>
       </license>
-      <package>junit-platform-runner-1.0.0-RC3.jar</package>
+      <package>junit-platform-runner-1.0.0.jar</package>
     </legal>
   </project>
 </ip_log>

@@ -22,5 +22,6 @@
     <module>org.junit.platform.suite.api_1.0.0</module>
     <module>org.junit.vintage.engine_4.12.0</module>
     <module>org.opentest4j_1.0.0</module>
+    <module>org.apiguardian_1.0.0</module>
   </modules>
 </project>

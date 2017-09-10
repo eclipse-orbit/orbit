@@ -4,6 +4,7 @@ junit-platform-suite-api-version=${version;===;1.0.0}
 junit-version=${version;===;4.12}
 junit-platform-commons-version=${version;===;1.0.0}
 junit-platform-engine-version=${version;===;1.0.0}
+apiguardian-version=${version;===;1.0.0}
 
 Export-Package: \
  !about.html,!about_files, \
@@ -21,4 +22,5 @@ Import-Package: \
  org.junit.rules;version="${range;[===,+);${junit-version}}", \
  org.junit.runner.*;version="${range;[===,+);${junit-version}}", \
  org.junit.runners.model;version="${range;[===,+);${junit-version}}", \
+ org.apiguardian.api;version="${range;[===,+);${apiguardian-version}}", \
  *;resolution:=optional

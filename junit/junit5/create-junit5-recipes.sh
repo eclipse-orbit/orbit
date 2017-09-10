@@ -6,7 +6,7 @@ function ebr () {
 
 # Edit these as needed for 'org.junit.platform'
 GID_PLATFORM='org.junit.platform'
-VERSION_PLATFORM='1.0.0-RC3'
+VERSION_PLATFORM='1.0.0'
 ARTIDS_PLATFORM=(
 junit-platform-commons
 junit-platform-engine
@@ -28,7 +28,7 @@ done
 
 # Edit these as needed for 'org.junit.jupiter'
 GID_JUPITER='org.junit.jupiter'
-VERSION_JUPITER='5.0.0-RC3'
+VERSION_JUPITER='5.0.0'
 ARTIDS_JUPITER=(
 junit-jupiter-api
 junit-jupiter-engine
@@ -48,7 +48,7 @@ done
 
 # Edit these as needed for 'org.junit.vintage'
 GID_VINTAGE='org.junit.vintage'
-VERSION_VINTAGE='4.12.0-RC3'
+VERSION_VINTAGE='4.12.0'
 ARTIDS_VINTAGE=(
 junit-vintage-engine
 )
@@ -62,7 +62,7 @@ done
 
 # Edit these as needed for 'org.opentest4j'
 GID_OPENTEST4J='org.opentest4j'
-VERSION_OPENTEST4J='1.0.0-RC1'
+VERSION_OPENTEST4J='1.0.0'
 ARTIDS_OPENTEST4J=(
 opentest4j
 )
@@ -72,4 +72,18 @@ org.opentest4j
 
 for (( i=0; i< ${#ARTIDS_OPENTEST4J[@]}; i++ )); do
   ebr ${GID_OPENTEST4J} ${ARTIDS_OPENTEST4J[${i}]} ${VERSION_OPENTEST4J} ${BSNS_OPENTEST4J[${i}]}
+done
+
+# Edit these as needed for 'org.apiguardian'
+GID_APIGUARDIAN='org.apiguardian'
+VERSION_APIGUARDIAN='1.0.0'
+ARTIDS_APIGUARDIAN=(
+apiguardian-api
+)
+BSNS_APIGUARDIAN=(
+org.apiguardian
+)
+
+for (( i=0; i< ${#ARTIDS_APIGUARDIAN[@]}; i++ )); do
+  ebr ${GID_APIGUARDIAN} ${ARTIDS_APIGUARDIAN[${i}]} ${VERSION_APIGUARDIAN} ${BSNS_APIGUARDIAN[${i}]}
 done

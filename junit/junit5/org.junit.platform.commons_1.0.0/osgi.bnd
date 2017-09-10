@@ -1,4 +1,5 @@
 package-version=${version;===;${Bundle-Version}}
+apiguardian-version=${version;===;1.0.0}
 
 Export-Package: \
  !about.html,!about_files, \
@@ -8,4 +9,5 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
+ org.apiguardian.api;version="${range;[===,+);${apiguardian-version}}", \
  *;resolution:=optional

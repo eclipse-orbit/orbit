@@ -1,6 +1,7 @@
 package-version=${version;===;${Bundle-Version}}
 junit-jupiter-api-version=${version;===;5.0.0}
 junit-platform-commons-version=${version;===;1.0.0}
+apiguardian-version=${version;===;1.0.0}
 
 Export-Package: \
  !about.html,!about_files, \
@@ -12,4 +13,5 @@ Export-Package: \
 Import-Package: \
  org.junit.jupiter.api.*;version="${range;[===,+);${junit-jupiter-api-version}}", \
  org.junit.platform.commons.*;version="${range;[===,+);${junit-platform-commons-version}}", \
+ org.apiguardian.api;version="${range;[===,+);${apiguardian-version}}", \
  *;resolution:=optional
