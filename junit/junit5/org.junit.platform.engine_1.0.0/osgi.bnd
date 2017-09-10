@@ -1,0 +1,17 @@
+package-version=${version;===;${Bundle-Version}}
+junit-platform-commons-version=${version;===;1.0.0}
+opentest4j-version=${version;===;1.0.0}
+apiguardian-version=${version;===;1.0.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.opentest4j;version="${range;[===,+);${opentest4j-version}}", \
+ org.junit.platform.commons.*;version="${range;[===,+);${junit-platform-commons-version}}", \
+ org.apiguardian.api;version="${range;[===,+);${apiguardian-version}}", \
+ *;resolution:=optional

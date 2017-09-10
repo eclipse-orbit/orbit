@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.eclipse.orbit.bundles</groupId>
+    <artifactId>junit-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>junit5</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Eclipse Orbit :: JUnit 5 Recipes</name>
+  <modules>
+    <module>org.junit.jupiter.api_5.0.0</module>
+    <module>org.junit.jupiter.engine_5.0.0</module>
+    <module>org.junit.jupiter.migrationsupport_5.0.0</module>
+    <module>org.junit.jupiter.params_5.0.0</module>
+    <module>org.junit.platform.commons_1.0.0</module>
+    <module>org.junit.platform.engine_1.0.0</module>
+    <module>org.junit.platform.launcher_1.0.0</module>
+    <module>org.junit.platform.runner_1.0.0</module>
+    <module>org.junit.platform.suite.api_1.0.0</module>
+    <module>org.junit.vintage.engine_4.12.0</module>
+    <module>org.opentest4j_1.0.0</module>
+    <module>org.apiguardian_1.0.0</module>
+  </modules>
+</project>
