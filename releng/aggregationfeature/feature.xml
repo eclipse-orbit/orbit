@@ -189,6 +189,7 @@
   <plugin id="org.junit.platform.suite.api" version="1.0.0.qualifier"/>
   <plugin id="org.junit.vintage.engine" version="4.12.0.qualifier"/>
   <plugin id="org.opentest4j" version="1.0.0.qualifier"/>
+  <plugin id="org.apiguardian" version="1.0.0.qualifier"/>
 
   <!-- XML APIs -->
   <plugin id="org.dom4j" version="1.6.1.qualifier"/>
