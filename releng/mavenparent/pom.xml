@@ -85,8 +85,11 @@
     <buildId>${buildType}${buildTimestamp}</buildId>
     <buildLabel>${buildType}-${buildId}-${buildTimestamp}</buildLabel>
 
-    <!-- Reference repository for the report, Orbit Oxygen.0 Contribution -->
-    <referenceRepoBuild>R20170516192513</referenceRepoBuild>
+    <!-- Reference repository for the report, Orbit Photon M2 Contribution -->
+    <referenceRepoBuild>S20170912163609</referenceRepoBuild>
+
+    <!-- Reference repository for the old-style Orbit R-build from CVS -->
+    <orbitOldRBuild>R20170816192254</orbitOldRBuild>
 
   </properties>
 
@@ -132,7 +135,7 @@
     <repository>
       <id>eclipse-orbit-old</id>
       <layout>p2</layout>
-      <url>http://download.eclipse.org/tools/orbit/downloads/drops/R20170303204511/repository/</url>
+      <url>http://download.eclipse.org/tools/orbit/downloads/drops/${orbitOldRBuild}/repository/</url>
     </repository>
     <!-- some bundles might depend on base platform content -->
     <repository>
