@@ -466,6 +466,7 @@
             <Bundle-Name>${recipe.Bundle-Name}</Bundle-Name>
             <Bundle-Vendor>${recipe.Bundle-Vendor}</Bundle-Vendor>
             <Bundle-Description>${recipe.Bundle-Description}</Bundle-Description>
+            <Automatic-Module-Name>${project.artifactId}</Automatic-Module-Name>
             <_removeheaders>${recipe.removeheaders},${recipe.removeadditionalheaders}</_removeheaders>
             <_include>-${recipe.bndfile}</_include>
           </bndInstructions>
