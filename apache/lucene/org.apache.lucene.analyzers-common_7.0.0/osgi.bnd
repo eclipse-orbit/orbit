@@ -10,6 +10,10 @@ Export-Package: \
  *.impl.*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
+# Depend on lucene-core via Require-Bundle due to uses constraint issue
+Require-Bundle: \
+ org.apache.lucene.core;bundle-version="${lucene-core-version}"
+
 Import-Package: \
- org.apache.lucene.*;version="${range;[===,=+);${package-version}}", \
+ !org.apache.lucene*, \
  *;resolution:=optional

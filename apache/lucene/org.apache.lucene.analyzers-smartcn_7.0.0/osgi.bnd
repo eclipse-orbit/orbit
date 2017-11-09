@@ -9,6 +9,11 @@ Export-Package: \
  *.impl.*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
-Import-Package: \
- org.apache.lucene.*;version="${range;[===,=+);${package-version}}", \
- *;resolution:=optional
+Import-Package: !*
+
+# lucene-analyzers-smartcn depends on a package that is split into
+# lucene-analyzers-common and lucene-core. It also depends on both bundles.
+# We need Require-Bundle as Import-Package will be confused about namespace
+Require-Bundle: \
+ org.apache.lucene.core;bundle-version="${lucene-core-version}", \
+ org.apache.lucene.analyzers-common;bundle-version="${lucene-analyzers-common-version}"
