@@ -2,6 +2,8 @@ package-version=${version;===;${Bundle-Version}}
 lucene-core-version=${version;===;7.0.0}
 
 Export-Package: \
+ org.apache.lucene.analysis;version="${package-version}";common=split;mandatory:=common, \
+ org.apache.lucene.analysis.standard;version="${package-version}";common=split;mandatory:=common, \
  !about.html,!about_files, \
  *.internal.*;x-internal:=true;version="${package-version}", \
  *.implementation.*;x-internal:=true;version="${package-version}", \
