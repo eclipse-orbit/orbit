@@ -1,0 +1,33 @@
+package-version=${version;===;${Bundle-Version}}
+batik-awt-util-version=${version;===;1.9.1}
+batik-css-version=${version;===;1.9.1}
+batik-dom-version=${version;===;1.9.1}
+batik-parser-version=${version;===;1.9.1}
+batik-util-version=${version;===;1.9.1}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.apache.batik.css.engine;version="${batik-css-version}", \
+ org.apache.batik.dom.events;version="${batik-dom-version}", \
+ org.apache.batik.dom.util;version="${batik-dom-version}", \
+ org.apache.batik.dom.xbl;version="${batik-dom-version}", \
+ org.apache.batik.dom;version="${batik-dom-version}", \
+ org.apache.batik.ext.awt.geom;version="${batik-awt-util-version}", \
+ org.apache.batik.parser;version="${batik-parser-version}", \
+ org.w3c.dom.smil, \
+ org.w3c.dom.svg;version="1.1", \
+ org.w3c.dom, \
+ org.w3c.dom.events, \
+ org.w3c.dom.views, \
+  *;resolution:=optional
+
+Require-Bundle: \
+ org.apache.batik.util;bundle-version="${batik-util-version}"
+
+-nouses: true

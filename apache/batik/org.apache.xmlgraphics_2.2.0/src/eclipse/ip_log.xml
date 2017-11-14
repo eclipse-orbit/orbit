@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.xmlgraphics" version="2.2.0" status="done">
+    <info>
+      <name>Apache XML Graphics Commons</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/batik/org.apache.xmlgraphics</location>
+    </info>
+    <contact>
+      <name>Pierre-Charles David</name>
+      <email>pierre-charles.david@obeo.fr</email>
+      <company>Obeo</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="15510"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>xmlgraphics-commons-2.2.jar</package>
+    </legal>
+  </project>
+</ip_log>

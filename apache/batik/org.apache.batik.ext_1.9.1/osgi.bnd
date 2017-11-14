@@ -1,0 +1,15 @@
+package-version=${version;===;${Bundle-Version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ org.w3c.dom;ext=split;mandatory:=ext;version="${package-version}", \
+ org.w3c.dom.events;ext=split;mandatory:=ext;version="${package-version}", \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional
+
+-nouses: true

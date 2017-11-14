@@ -1,0 +1,44 @@
+package-version=${version;===;${Bundle-Version}}
+batik-anim-version=${version;===;1.9.1}
+batik-awt-util-version=${version;===;1.9.1}
+batik-bridge-version=${version;===;1.9.1}
+batik-constants-version=${version;===;1.9.1}
+batik-css-version=${version;===;1.9.1}
+batik-dom-version=${version;===;1.9.1}
+batik-gvt-version=${version;===;1.9.1}
+batik-parser-version=${version;===;1.9.1}
+batik-svg-dom-version=${version;===;1.9.1}
+batik-util-version=${version;===;1.9.1}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.apache.batik.anim.dom;version="${batik-anim-version}", \
+ org.apache.batik.bridge;version="${batik-bridge-version}", \
+ org.apache.batik.css.engine;version="${batik-css-version}", \
+ org.apache.batik.dom.events;version="${batik-dom-version}", \
+ org.apache.batik.dom.svg;version="${batik-svg-dom-version}", \
+ org.apache.batik.dom.util;version="${batik-dom-version}", \
+ org.apache.batik.dom;version="${batik-dom-version}", \
+ org.apache.batik.ext.awt.image.renderable;version="${batik-awt-util-version}", \
+ org.apache.batik.ext.awt.image.rendered;version="${batik-awt-util-version}", \
+ org.apache.batik.ext.awt.image;version="${batik-awt-util-version}", \
+ org.apache.batik.gvt.font;version="${batik-gvt-version}", \
+ org.apache.batik.gvt.text;version="${batik-gvt-version}", \
+ org.apache.batik.gvt;version="${batik-gvt-version}", \
+ org.apache.batik.parser;version="${batik-parser-version}", \
+ org.w3c.dom.svg;version="1.1", \
+ org.w3c.dom, \
+ org.w3c.dom.css, \
+ *;resolution:=optional
+
+Require-Bundle: \
+ org.apache.batik.util;bundle-version="${batik-util-version}", \
+ org.apache.batik.constants;bundle-version="${batik-constants-version}"
+
+-nouses: true

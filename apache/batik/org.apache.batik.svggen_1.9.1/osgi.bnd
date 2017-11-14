@@ -1,0 +1,25 @@
+package-version=${version;===;${Bundle-Version}}
+batik-awt-util-version=${version;===;1.9.1}
+batik-constants-version=${version;===;1.9.1}
+batik-i18n-version=${version;===;1.9.1}
+batik-util-version=${version;===;1.9.1}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.apache.batik.ext.awt.g2d;version="${batik-awt-util-version}", \
+ org.apache.batik.ext.awt.image.spi;version="${batik-awt-util-version}", \
+ org.apache.batik.i18n;version="${batik-i18n-version}", \
+ org.w3c.dom, \
+ *;resolution:=optional
+
+Require-Bundle: \
+ org.apache.batik.util;bundle-version="${batik-util-version}", \
+ org.apache.batik.constants;bundle-version="${batik-constants-version}"
+
+-nouses: true

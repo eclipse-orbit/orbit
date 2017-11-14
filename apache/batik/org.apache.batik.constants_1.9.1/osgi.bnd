@@ -1,0 +1,8 @@
+package-version=${version;===;${Bundle-Version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ org.apache.batik.util;constants=split;mandatory:=constants;version="${package-version}", \
+ *;version="${package-version}"
+
+-nouses: true

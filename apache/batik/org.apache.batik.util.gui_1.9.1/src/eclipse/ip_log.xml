@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.batik.util.gui" version="1.9.1" status="done">
+    <info>
+      <name>Batik GUI utilities</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/batik/org.apache.batik.util.gui</location>
+    </info>
+    <contact>
+      <name>Pierre-Charles David</name>
+      <email>pierre-charles.david@obeo.fr</email>
+      <company>Obeo</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="15500"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>batik-gui-util-1.9.1.jar</package>
+    </legal>
+  </project>
+</ip_log>
