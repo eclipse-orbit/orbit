@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.lucene.analyzers-common" version="7.0.0" status="done">
+  <project id="org.apache.lucene.analyzers-common" version="7.1.0" status="done">
     <info>
       <name>Lucene Common Analyzers</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
@@ -12,12 +12,12 @@
       <company>Red Hat Inc.</company>
     </contact>
     <legal>
-      <ipzilla bug_id="14392"/>
+      <ipzilla bug_id="15192"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>lucene-analyzers-common-7.0.0.jar</package>
+      <package>lucene-analyzers-common-7.1.0.jar</package>
     </legal>
   </project>
 </ip_log>

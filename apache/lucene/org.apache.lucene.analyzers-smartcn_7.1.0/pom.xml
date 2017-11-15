@@ -8,14 +8,14 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>org.apache.lucene.analyzers-smartcn</artifactId>
-  <version>7.0.0-SNAPSHOT</version>
+  <version>7.1.0-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>Lucene Smart Chinese Analyzer</name>
   <dependencies>
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-analyzers-smartcn</artifactId>
-      <version>7.0.0</version>
+      <version>7.1.0</version>
     </dependency>
   </dependencies>
 

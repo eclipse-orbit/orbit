@@ -26,9 +26,9 @@
     <module>org.apache.lucene.core_6.1.0</module>
     <module>org.apache.lucene.misc_6.1.0</module>
     <module>org.apache.lucene.queryparser_6.1.0</module>
-    <module>org.apache.lucene.core_7.0.0</module>
-    <module>org.apache.lucene.analyzers-common_7.0.0</module>
-    <module>org.apache.lucene.analyzers-smartcn_7.0.0</module>
+    <module>org.apache.lucene.core_7.1.0</module>
+    <module>org.apache.lucene.analyzers-common_7.1.0</module>
+    <module>org.apache.lucene.analyzers-smartcn_7.1.0</module>
   </modules>
 
 </project>

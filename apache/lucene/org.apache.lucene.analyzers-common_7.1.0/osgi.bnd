@@ -1,5 +1,5 @@
 package-version=${version;===;${Bundle-Version}}
-lucene-core-version=${version;===;7.0.0}
+lucene-core-version=${version;===;7.1.0}
 
 Export-Package: \
  org.apache.lucene.analysis;version="${package-version}";common=split;mandatory:=common, \
