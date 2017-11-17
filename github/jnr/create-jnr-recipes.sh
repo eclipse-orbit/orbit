@@ -7,14 +7,14 @@ function ebr () {
 # Edit these as needed
 GID='com.github.jnr'
 VERSIONS=(
-0.9.1
-0.12
-2.0.9
-3.0.29
-0.12
+0.9.8
+0.16
+2.1.4
+3.0.35
+0.18
 1.0.2
-1.2.11
-1.2.11
+1.2.15
+1.2.15
 )
 ARTIDS=(
 jnr-constants
