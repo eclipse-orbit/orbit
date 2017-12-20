@@ -1,1 +1,15 @@
 -include: ~../ch.qos.logback.core_1.1.2/osgi.bnd
+
+logback-imports= \
+ javax.ws.*;version="[2.0,3)";resolution:=optional, \
+ javax.servlet.*;version="[2.6,4)";resolution:=optional, \
+ javax.inject.*;version="[1.0,2)";resolution:=optional, \
+ javax.annotation.*;version="[1.2,2)";resolution:=optional, \
+ ch.qos.logback.*;version="${range;[===,=+);${package-version}}", \
+ ch.qos.logback.core.rolling;version="${range;[===,=+);${package-version}}", \
+ ch.qos.logback.core.rolling.helper;version="${range;[===,=+);${package-version}}", \
+ ch.qos.logback.core.read;version="${range;[===,=+);${package-version}}", \
+ org.slf4j.spi.*;version="${range;[===,=+);${slf4j-version}}", \
+ org.slf4j.*;version="${range;[==,+);${slf4j-version}}", \
+ *;resolution:=optional
+
