@@ -13,9 +13,9 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
- org.apache.lucene.*;version="${range;[===,=+);${package-version}}", \
+ !org.apache.lucene*, \
  *;resolution:=optional
 
 # lucene-misc depends on lucene-core but they are also split packages
 # We need Require-Bundle as Import-Package will be confused about namespace
-Require-Bundle: org.apache.lucene.core;bundle-version="6.1.0"
+Require-Bundle: org.apache.lucene.core;bundle-version="${range;[===,=+);${lucene-core-version}}"
