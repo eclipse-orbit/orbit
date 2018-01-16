@@ -137,7 +137,7 @@
     <!-- some bundles might depend on base platform content -->
     <repository>
       <id>eclipse-platform</id>
-      <url>http://download.eclipse.org/eclipse/updates/4.7milestones</url>
+      <url>http://download.eclipse.org/eclipse/updates/4.7</url>
       <layout>p2</layout>
     </repository>
   </repositories>
@@ -264,11 +264,11 @@
       </build>
     </profile>
     <!--
-      Bug 513496 : We use the 4.7milestones repository to resolve bundles
+      Bug 513496 : We use the 4.7 updates repository to resolve bundles
       that have dependencies on content in the platform itself.
       (eg. org.apache.felix.scr requires org.eclipse.osgi)
 
-      Unfortunately 4.7milestones can include the same bundles that we
+      Unfortunately 4.7 updates can include the same bundles that we
       generate (eg. org.apache.commons.fileupload) and when this happens Tycho
       attempts to download packed versions (.pack.gz) of these for resolution
       even when unpacked versions already exist in the local repository. This
