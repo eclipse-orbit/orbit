@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.tukaani.xz" version="1.8.0" status="done">
+    <info>
+      <name>XZ for Java</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>tukaani-parent/org.tukaani.xz</location>
+    </info>
+    <contact>
+      <name>Roland Grunberg</name>
+      <email>rgrunber@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="15538"/>
+      <license>
+        <name>Public Domain</name>
+        <reference>https://creativecommons.org/publicdomain/zero/1.0/</reference>
+      </license>
+      <package>xz-1.8.jar</package>
+    </legal>
+  </project>
+</ip_log>
