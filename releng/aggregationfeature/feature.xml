@@ -41,6 +41,7 @@
   <plugin id="org.apache.felix.scr"  version="2.0.8.qualifier"/>
   <plugin id="org.apache.felix.scr"  version="2.0.10.qualifier"/>
   <plugin id="org.apache.felix.scr"  version="2.0.12.qualifier"/>
+  <plugin id="org.apache.felix.scr"  version="2.0.14.qualifier"/>
 
   <plugin id="com.cronutils"  version="5.0.5.qualifier"/>
 

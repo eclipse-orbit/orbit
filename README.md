@@ -75,7 +75,7 @@ This ensure that proper Orbit defaults are used when creating recipes (for examp
 
 ### 2. Create the recipe
 
-The preferred method for creating recipies is by consuming a Maven artifact. The EBR Maven plug-in can be used to
+The preferred method for creating recipes is by consuming a Maven artifact. The EBR Maven plug-in can be used to
 create a recipe including required Eclipse IP information based on data available in Maven artifact poms.
 
     # create the recipe for a specific Maven artifact
