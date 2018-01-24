@@ -12,7 +12,7 @@ Export-Package: \
 
 # Depend on lucene-core via Require-Bundle due to uses constraint issue
 Require-Bundle: \
- org.apache.lucene.core;bundle-version="${lucene-core-version}"
+ org.apache.lucene.core;bundle-version="${range;[===,=+);${lucene-core-version}}"
 
 Import-Package: \
  !org.apache.lucene*, \
