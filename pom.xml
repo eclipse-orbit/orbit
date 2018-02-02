@@ -30,6 +30,7 @@
     <module>assertj</module>
     <module>apache</module>
     <module>bouncycastle</module>
+    <module>bytebuddy</module>
     <module>drmaa</module>
     <module>freemarker</module>
     <module>github</module>
@@ -43,6 +44,8 @@
     <module>jna</module>
     <module>junit</module>
     <module>logging</module>
+    <module>mockito</module>
+    <module>objenesis</module>
     <module>tukaani</module>
     <module>uom</module>
     <module>xml</module>
