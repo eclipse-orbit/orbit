@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.hamcrest.core" version="1.3.0" status="done">
+    <info>
+      <name>Hamcrest Core</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>hamcrest/org.hamcrest.core</location>
+    </info>
+    <contact>
+      <name>Noopur Gupta</name>
+      <email>noopur_gupta@in.ibm.com</email>
+      <company>IBM</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="7067"/>
+      <license>
+        <name>New BSD license</name>
+        <reference>http://opensource.org/licenses/BSD-3-Clause</reference>
+      </license>
+      <package>hamcrest-core-1.3.jar</package>
+    </legal>
+  </project>
+</ip_log>
