@@ -65,6 +65,7 @@
   <plugin id="org.apache.lucene.core"              version="7.1.0.qualifier"/>
   <plugin id="org.apache.lucene.analyzers-common"  version="7.1.0.qualifier"/>
   <plugin id="org.apache.lucene.analyzers-smartcn" version="7.1.0.qualifier"/>
+  <plugin id="org.apache.lucene.misc"              version="7.1.0.qualifier"/>
 
   <plugin id="org.slf4j.api"            version="1.7.10.qualifier"/>
   <plugin id="org.slf4j.ext"            version="1.7.10.qualifier"/>
