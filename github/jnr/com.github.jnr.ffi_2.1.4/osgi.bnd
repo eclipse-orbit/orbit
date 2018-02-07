@@ -9,8 +9,8 @@ jnr-x86asm-version=${version;===;1.0.2}
 
 Export-Package: \
  !about.html,!about_files, \
- *.internal*;x-internal:=true;version="${package-version}", \
- *.impl*;x-internal:=true;version="${package-version}", \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
 Import-Package: \

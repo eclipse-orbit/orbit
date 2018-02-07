@@ -5,8 +5,8 @@ guava-version=${version;===;18.0}
 
 Export-Package: \
  !about.html,!about_files, \
- *.internal*;x-internal:=true;version="${package-version}", \
- *.impl*;x-internal:=true;version="${package-version}", \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
 Import-Package: \
