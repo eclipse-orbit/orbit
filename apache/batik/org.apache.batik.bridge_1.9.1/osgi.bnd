@@ -69,6 +69,8 @@ Import-Package: \
  org.w3c.dom.css, \
  *;resolution:=optional
  
-Require-Bundle: org.apache.batik.constants;bundle-version="${batik-constants-version}"
+Require-Bundle: \
+ org.apache.batik.util;bundle-version="${batik-util-version}", \
+ org.apache.batik.constants;bundle-version="${batik-constants-version}"
 
 -nouses: true

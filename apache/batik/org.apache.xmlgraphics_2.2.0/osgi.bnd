@@ -14,3 +14,5 @@ Import-Package: \
  org.apache.commons.io.output;version="${commons-io-version}", \
  org.apache.commons.logging;version="${commons-logging-version}", \
  *;resolution:=optional
+
+-nouses: true

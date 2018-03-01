@@ -18,7 +18,6 @@ Import-Package: \
  org.mozilla.javascript;resolution:=optional;version="${rhino-version}", \
  org.python.core;resolution:=optional;version="${jython-version}", \
  org.python.util;resolution:=optional;version="${jython-version}", \
- org.w3c.dom, \
  *;resolution:=optional
 
 Require-Bundle: \

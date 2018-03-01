@@ -15,7 +15,6 @@ Import-Package: \
  org.apache.batik.ext.awt.geom;version="${batik-awt-util-version}", \
  org.apache.batik.i18n;version="${batik-i18n-version}", \
  org.apache.batik.xml;version="${batik-xml-version}", \
- org.w3c.dom, \
  *;resolution:=optional
 
 Require-Bundle: org.apache.batik.util;bundle-version="${batik-util-version}"

@@ -33,7 +33,6 @@ Import-Package: \
  org.apache.batik.gvt;version="${batik-gvt-version}", \
  org.apache.batik.parser;version="${batik-parser-version}", \
  org.w3c.dom.svg;version="1.1", \
- org.w3c.dom, \
  org.w3c.dom.css, \
  *;resolution:=optional
 

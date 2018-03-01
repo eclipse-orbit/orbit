@@ -15,7 +15,6 @@ Import-Package: \
  org.apache.batik.ext.awt.g2d;version="${batik-awt-util-version}", \
  org.apache.batik.ext.awt.image.spi;version="${batik-awt-util-version}", \
  org.apache.batik.i18n;version="${batik-i18n-version}", \
- org.w3c.dom, \
  *;resolution:=optional
 
 Require-Bundle: \

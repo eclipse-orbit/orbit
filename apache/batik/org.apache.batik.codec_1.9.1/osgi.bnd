@@ -25,7 +25,6 @@ Import-Package: \
  org.apache.batik.i18n;version="${batik-i18n-version}", \
  org.apache.batik.transcoder.image;version="${batik-transcoder-version}", \
  org.apache.batik.transcoder;version="${batik-transcoder-version}", \
- org.w3c.dom, \
  *;resolution:=optional
 
 Require-Bundle: \
