@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.junit.jupiter.migrationsupport" version="5.1.0" status="done">
+    <info>
+      <name>org.junit.jupiter:junit-jupiter-migrationsupport</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>junit-parent/junit5.1/org.junit.jupiter.migrationsupport</location>
+    </info>
+    <contact>
+      <name>Noopur Gupta</name>
+      <email>noopur_gupta@in.ibm.com</email>
+      <company>IBM</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="15516"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
+      </license>
+      <package>junit-jupiter-migrationsupport-5.1.0.jar</package>
+    </legal>
+  </project>
+</ip_log>

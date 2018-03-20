@@ -207,17 +207,17 @@
   <plugin id="org.apache.maven.resolver.transport.http" version="1.0.3.qualifier"/>
   <plugin id="org.apache.maven.resolver.util" version="1.0.3.qualifier"/>
 
-  <!-- JUnit 5 -->
-  <plugin id="org.junit.jupiter.api" version="5.0.0.qualifier"/>
-  <plugin id="org.junit.jupiter.engine" version="5.0.0.qualifier"/>
-  <plugin id="org.junit.jupiter.migrationsupport" version="5.0.0.qualifier"/>
-  <plugin id="org.junit.jupiter.params" version="5.0.0.qualifier"/>
-  <plugin id="org.junit.platform.commons" version="1.0.0.qualifier"/>
-  <plugin id="org.junit.platform.engine" version="1.0.0.qualifier"/>
-  <plugin id="org.junit.platform.launcher" version="1.0.0.qualifier"/>
-  <plugin id="org.junit.platform.runner" version="1.0.0.qualifier"/>
-  <plugin id="org.junit.platform.suite.api" version="1.0.0.qualifier"/>
-  <plugin id="org.junit.vintage.engine" version="4.12.0.qualifier"/>
+  <!-- JUnit 5.1 -->
+  <plugin id="org.junit.jupiter.api" version="5.1.0.qualifier"/>
+  <plugin id="org.junit.jupiter.engine" version="5.1.0.qualifier"/>
+  <plugin id="org.junit.jupiter.migrationsupport" version="5.1.0.qualifier"/>
+  <plugin id="org.junit.jupiter.params" version="5.1.0.qualifier"/>
+  <plugin id="org.junit.platform.commons" version="1.1.0.qualifier"/>
+  <plugin id="org.junit.platform.engine" version="1.1.0.qualifier"/>
+  <plugin id="org.junit.platform.launcher" version="1.1.0.qualifier"/>
+  <plugin id="org.junit.platform.runner" version="1.1.0.qualifier"/>
+  <plugin id="org.junit.platform.suite.api" version="1.1.0.qualifier"/>
+  <plugin id="org.junit.vintage.engine" version="5.1.0.qualifier"/>
   <plugin id="org.opentest4j" version="1.0.0.qualifier"/>
   <plugin id="org.apiguardian" version="1.0.0.qualifier"/>
 
