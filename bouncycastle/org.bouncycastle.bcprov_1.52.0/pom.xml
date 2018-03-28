@@ -21,6 +21,13 @@
         org/bouncycastle/crypto/engines/IDEAEngine*,
         org/bouncycastle/jcajce/provider/symmetric/IDEA*,
         org/bouncycastle/crypto/modes/OCBBlockCipher*
+        <!-- exclude tests -->
+        org/bouncycastle/asn1/test/*
+        org/bouncycastle/crypto/test/*
+        org/bouncycastle/util/test/*
+        org/bouncycastle/pqc/math/ntru/util/test/*
+        org/bouncycastle/pqc/math/ntru/euclid/test/*
+        org/bouncycastle/pqc/math/ntru/polynomial/test/*
     </recipe.excludes>
   </properties>
 
