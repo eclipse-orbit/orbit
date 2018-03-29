@@ -26,6 +26,10 @@
     <module>org.jacoco.agent_0.7.9</module>
     <module>org.jacoco.core_0.7.9</module>
     <module>org.jacoco.report_0.7.9</module>
+
+    <module>org.jacoco.agent_0.8.1</module>
+    <module>org.jacoco.core_0.8.1</module>
+    <module>org.jacoco.report_0.8.1</module>
   </modules>
 
 </project>
