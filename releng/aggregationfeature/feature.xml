@@ -163,6 +163,10 @@
   <plugin id="org.jacoco.core" version="0.7.9.qualifier"/>
   <plugin id="org.jacoco.report" version="0.7.9.qualifier"/>
 
+  <plugin id="org.jacoco.agent" version="0.8.1.qualifier"/>
+  <plugin id="org.jacoco.core" version="0.8.1.qualifier"/>
+  <plugin id="org.jacoco.report" version="0.8.1.qualifier"/>
+
   <plugin id="org.jcodings" version="1.0.18.qualifier"/>
   <plugin id="org.joni" version="2.1.11.qualifier"/>
 
