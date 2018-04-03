@@ -18,5 +18,7 @@
   <modules>
     <module>com.sun.jna_4.1.0</module>
     <module>com.sun.jna.platform_4.1.0</module>
+    <module>com.sun.jna_4.5.1</module>
+    <module>com.sun.jna.platform_4.5.1</module>
   </modules>
 </project>

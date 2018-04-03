@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.sun.jna" version="4.5.1" status="done">
+    <info>
+      <name>Java Native Access</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>jna/com.sun.jna_4.5.1</location>
+    </info>
+    <contact>
+      <name>Carsten Reckord</name>
+      <email>reckord@yatta.de</email>
+      <company>Yatta Solutions GmbH</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="15797"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <license>
+        <name>LGPL, version 2.1</name>
+        <reference>https://www.gnu.org/licenses/lgpl-2.1.html</reference>
+      </license>
+      <package>jna-4.5.1.jar</package>
+    </legal>
+  </project>
+</ip_log>

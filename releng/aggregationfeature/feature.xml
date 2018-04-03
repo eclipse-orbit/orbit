@@ -200,6 +200,8 @@
   <!-- JNA -->
   <plugin id="com.sun.jna" version="4.1.0.qualifier"/>
   <plugin id="com.sun.jna.platform" version="4.1.0.qualifier"/>
+  <plugin id="com.sun.jna" version="4.5.1.qualifier"/>
+  <plugin id="com.sun.jna.platform" version="4.5.1.qualifier"/>
 
   <!-- Maven Resolver (ex-Eclipse Aether) -->
   <plugin id="org.apache.maven.resolver.api" version="1.0.3.qualifier"/>
