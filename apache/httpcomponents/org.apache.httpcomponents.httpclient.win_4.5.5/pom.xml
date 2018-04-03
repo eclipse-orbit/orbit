@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.eclipse.orbit.bundles</groupId>
+    <artifactId>httpcomponents</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>org.apache.httpcomponents.httpclient.win</artifactId>
+  <version>4.5.5-SNAPSHOT</version>
+  <packaging>eclipse-bundle-recipe</packaging>
+  <name>Apache HttpClient Windows features</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient-win</artifactId>
+      <version>4.5.5</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>target-platform-configuration</artifactId>
+        <configuration>
+          <environments>
+            <environment>
+              <os>*</os>
+              <ws>*</ws>
+              <arch>*</arch>
+            </environment>
+            <environment>
+              <!-- This is needed to make the build work properly with 
+                   our (osgi.os=win32) platform filter -->
+              <os>win32</os>
+              <ws>*</ws>
+              <arch>*</arch>
+            </environment>
+          </environments>
+          <includePackedArtifacts>true</includePackedArtifacts>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

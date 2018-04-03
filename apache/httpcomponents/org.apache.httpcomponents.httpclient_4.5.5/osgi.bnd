@@ -1,0 +1,17 @@
+package-version=${version;===;${Bundle-Version}}
+httpcore-version=${version;===;4.4.9}
+commons-logging-version=${version;===;1.2}
+commons-codec-version=${version;===;1.10}
+
+Export-Package: \
+ !about.html,!about_files, \
+ !mozilla, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ ${exports};version="${range;[==,+);${package-version}}", \
+ org.apache.http.*;version="${range;[===,=+);${httpcore-version}}", \
+ org.apache.commons.codec.*;version="${commons-codec-version}", \
+ org.apache.commons.logging*;version="${commons-logging-version}", \
+ *;resolution:=optional

@@ -7,9 +7,9 @@ function ebr () {
 # Edit these as needed
 GID='org.apache.httpcomponents'
 VERSIONS=(
-4.4.4
-4.5.2
-4.5.2
+4.4.9
+4.5.5
+4.5.5
 )
 ARTIDS=(
 httpcore
