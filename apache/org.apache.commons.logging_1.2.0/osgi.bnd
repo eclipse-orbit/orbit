@@ -1,0 +1,9 @@
+package-version=${version;===;${Bundle-Version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional
