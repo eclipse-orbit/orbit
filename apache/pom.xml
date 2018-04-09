@@ -17,6 +17,7 @@
 
   <modules>
     <module>org.apache.commons.codec_1.9.0</module>
+    <module>org.apache.commons.codec_1.10.0</module>
     <module>org.apache.commons.compress_1.15.0</module>
     <module>org.apache.commons.fileupload_1.3.2</module>
     <module>org.apache.commons.math3_3.5.0</module>

@@ -7,7 +7,7 @@ function ebr () {
 # Edit these as needed
 GID='commons-codec'
 VERSIONS=(
-1.9
+1.10
 )
 ARTIDS=(
 commons-codec
