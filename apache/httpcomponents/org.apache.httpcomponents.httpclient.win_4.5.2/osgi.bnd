@@ -5,6 +5,10 @@ commons-logging-version=${version;===;1.1.1}
 commons-codec-version=${version;===;1.6}
 jna-version=${version;===;4.1.0}
 
+httpclient-version-range=${range;[===,==+);${httpclient-version}}
+httpcore-version-range=${range;[===,==+);${httpcore-version}}
+commons-logging-version-range=${range;[===,=+);${commons-logging-version}}
+
 Eclipse-PlatformFilter: (osgi.os=win32)
 
 Export-Package: \
@@ -14,18 +18,18 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
- org.apache.http.auth*;version="${httpclient-version}", \
- org.apache.http.client*;version="${httpclient-version}", \
- org.apache.http.conn*;version="${httpclient-version}", \
- org.apache.http.cookie*;version="${httpclient-version}", \
- org.apache.http.entity*;version="${httpclient-version}", \
- org.apache.http.impl.auth*;version="${httpclient-version}", \
- org.apache.http.impl.client*;version="${httpclient-version}", \
- org.apache.http.impl.conn*;version="${httpclient-version}", \
- org.apache.http.impl.cookie*;version="${httpclient-version}", \
- org.apache.http.impl.execchain*;version="${httpclient-version}", \
- org.apache.http.*;version="${httpcore-version}", \
- org.apache.commons.codec.*;version="${commons-codec-version}", \
- org.apache.commons.logging*;version="${commons-logging-version}", \
+ org.apache.http.auth*;version="${httpclient-version-range}", \
+ org.apache.http.client*;version="${httpclient-version-range}", \
+ org.apache.http.conn*;version="${httpclient-version-range}", \
+ org.apache.http.cookie*;version="${httpclient-version-range}", \
+ org.apache.http.entity*;version="${httpclient-version-range}", \
+ org.apache.http.impl.auth*;version="${httpclient-version-range}", \
+ org.apache.http.impl.client*;version="${httpclient-version-range}", \
+ org.apache.http.impl.conn*;version="${httpclient-version-range}", \
+ org.apache.http.impl.cookie*;version="${httpclient-version-range}", \
+ org.apache.http.impl.execchain*;version="${httpclient-version-range}", \
+ org.apache.http.*;version="${httpcore-version-range}", \
+ org.apache.commons.codec.*;version="[${commons-codec-version},1.10)", \
+ org.apache.commons.logging*;version="${commons-logging-version-range}", \
  com.sun.jna.*;version="${jna-version}", \
  *;resolution:=optional
