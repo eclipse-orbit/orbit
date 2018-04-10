@@ -6,7 +6,6 @@ commons-codec-version=${version;===;1.6}
 jna-version=${version;===;4.1.0}
 
 httpclient-version-range=${range;[===,==+);${httpclient-version}}
-httpcore-version-range=${range;[===,==+);${httpcore-version}}
 commons-logging-version-range=${range;[===,=+);${commons-logging-version}}
 
 Eclipse-PlatformFilter: (osgi.os=win32)
@@ -28,7 +27,7 @@ Import-Package: \
  org.apache.http.impl.conn*;version="${httpclient-version-range}", \
  org.apache.http.impl.cookie*;version="${httpclient-version-range}", \
  org.apache.http.impl.execchain*;version="${httpclient-version-range}", \
- org.apache.http.*;version="${httpcore-version-range}", \
+ org.apache.http.*;version="[${httpcore-version},4.4.9)", \
  org.apache.commons.codec.*;version="[${commons-codec-version},1.10)", \
  org.apache.commons.logging*;version="${commons-logging-version-range}", \
  com.sun.jna.*;version="${jna-version}", \
