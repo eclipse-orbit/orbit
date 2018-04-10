@@ -90,7 +90,7 @@
     <referenceRepoBuild>S20180302171354</referenceRepoBuild>
 
     <!-- Reference repository for the old-style Orbit R-build from CVS -->
-    <orbitOldRBuild>R20170816192254</orbitOldRBuild>
+    <orbitOldRBuild>R20180301202446</orbitOldRBuild>
 
   </properties>
 
