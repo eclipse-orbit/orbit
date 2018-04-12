@@ -43,6 +43,7 @@
   <plugin id="org.apache.batik.gvt" version="1.9.1.qualifier"/>
   <plugin id="org.apache.batik.i18n" version="1.9.1.qualifier"/>
   <plugin id="org.apache.batik.parser" version="1.9.1.qualifier"/>
+  <plugin id="org.apache.batik.pdf" version="1.9.1.qualifier"/>
   <plugin id="org.apache.batik.script" version="1.9.1.qualifier"/>
   <plugin id="org.apache.batik.svggen" version="1.9.1.qualifier"/>
   <plugin id="org.apache.batik.swing" version="1.9.1.qualifier"/>

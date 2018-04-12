@@ -526,6 +526,7 @@
             <excludes>
               <plugin id="com.sun.grid.drmaa" />
               <plugin id="org.ggf.drmaa" />
+              <plugin id="org.apache.batik.pdf" />
             </excludes>
           </configuration>
         </plugin>

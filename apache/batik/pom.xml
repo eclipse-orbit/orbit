@@ -29,6 +29,7 @@
     <module>org.apache.batik.gvt_1.9.1</module>
     <module>org.apache.batik.i18n_1.9.1</module>
     <module>org.apache.batik.parser_1.9.1</module>
+    <module>org.apache.batik.pdf_1.9.1</module>
     <module>org.apache.batik.script_1.9.1</module>
     <module>org.apache.batik.svggen_1.9.1</module>
     <module>org.apache.batik.swing_1.9.1</module>
