@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.objectweb.asm.analysis" version="6.1.1" status="done">
+    <info>
+      <name>ASM Analysis</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>asm/org.objectweb.asm.analysis</location>
+    </info>
+    <contact>
+      <name>Evgeny Mandrikov</name>
+      <email>mandrikov@gmail.com</email>
+      <company>SonarSource</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="16104"/>
+      <license>
+        <name>New BSD license</name>
+        <reference>http://opensource.org/licenses/BSD-3-Clause</reference>
+      </license>
+      <package>asm-analysis-6.1.1.jar</package>
+    </legal>
+  </project>
+</ip_log>

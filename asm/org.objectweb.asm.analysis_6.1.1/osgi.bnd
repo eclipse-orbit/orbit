@@ -7,5 +7,4 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
- org.objectweb.asm.*;version="${range;[==,=+);${package-version}}",\
- *;resolution:=optional
+ org.objectweb.asm.*;version="${package-version}"
