@@ -30,7 +30,8 @@
     <module>assertj</module>
     <module>apache</module>
     <module>bouncycastle</module>
-    <module>bytebuddy</module>
+	<module>bytebuddy</module>
+	<module>cup</module>
     <module>drmaa</module>
     <module>freemarker</module>
     <module>github</module>

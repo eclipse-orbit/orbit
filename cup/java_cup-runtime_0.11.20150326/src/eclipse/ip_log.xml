@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="java_cup-runtime" version="0.11.20150326" status="done">
+    <info>
+      <name>Java CUP Runtime</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>cup/java_cup-runtime_0.11.20150326</location>
+    </info>
+    <contact>
+      <name>Dawid Pakula</name>
+      <email>zulus@w3des.net</email>
+      <company>w3des.net</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="15919"/>
+      <license>
+        <name>Java Cup License (MIT Style)</name>
+        <reference>http://www2.cs.tum.edu/projects/cup/licence.php</reference>
+      </license>
+      <package>java-cup-runtime-0.11.20150326.jar</package>
+    </legal>
+  </project>
+</ip_log>

@@ -1,0 +1,12 @@
+package-version=${version;===;${Bundle-Version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *;version="${package-version}"
+
+Import-Package: \
+ java_cup.runtime;version="${range;[===,==+);${package-version}}", \
+ !java_cup*, \
+ *;resolution:=optional
+
+-removeheaders: Class-Path

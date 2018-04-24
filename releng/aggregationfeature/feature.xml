@@ -257,4 +257,8 @@
   <plugin id="net.bytebuddy.byte-buddy" version="1.7.9.qualifier"/>  
   <plugin id="net.bytebuddy.byte-buddy-agent" version="1.7.9.qualifier"/>  
   <plugin id="org.objenesis" version="2.6.0.qualifier"/>  
+
+  <!-- java_cup-->
+  <plugin id="java_cup-runtime" version="0.11.20150326.qualifier" />
+  <plugin id="java_cup" version="0.11.20150326.qualifier" />
 </feature>
