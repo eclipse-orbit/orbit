@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.mockito.mockito-core" version="2.13.0" status="done">
+  <project id="org.mockito" version="2.13.0" status="done">
     <info>
       <name>mockito-core</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>

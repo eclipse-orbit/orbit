@@ -10,7 +10,7 @@ Export-Package: \
  *.impl.*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
-Bundle-Version: 2.13.0
+Bundle-SymbolicName: org.mockito
 
 Import-Package: \
  net.bytebuddy;version="${range;[===,+);${byte-buddy-version}}", \
