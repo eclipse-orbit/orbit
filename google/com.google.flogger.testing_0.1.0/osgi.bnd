@@ -1,0 +1,16 @@
+package-version=${version;===;${Bundle-Version}}
+flogger-version=${range;[===,+);0.1}
+jsr305-version=${range;[===,+);3.0.1}
+guava-version=${range;[===,+);24.0-jre}
+truth-version=${range;[===,+);0.39}
+junit-version=${range;[===,+);4.11}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional

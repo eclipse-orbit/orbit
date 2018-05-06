@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.google.flogger.systembackend" version="0.1.0" status="done">
+    <info>
+      <name>Flogger System Backend</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>google/com.google.flogger.systembackend</location>
+    </info>
+    <contact>
+      <name>Matthias Sohn</name>
+      <email>matthias.sohn@sap.com</email>
+      <company>SAP SE</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="16248"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>flogger-system-backend-0.1.jar</package>
+    </legal>
+  </project>
+</ip_log>

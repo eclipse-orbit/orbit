@@ -21,6 +21,9 @@
     <module>com.google.guava_21.0.0</module>
     <module>com.google.gson_2.7.0</module>
     <module>com.google.gson_2.8.2</module>
+    <module>com.google.flogger_0.1.0</module>
+    <module>com.google.flogger.systembackend_0.1.0</module>
+    <module>com.google.flogger.testing_0.1.0</module>
   </modules>
 
 </project>
