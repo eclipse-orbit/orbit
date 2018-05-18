@@ -1,0 +1,243 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder V6.0.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>Web Services Inspection Language for Java API - Overview</TITLE>
+<LINK rel="stylesheet" href="docs/wsil4j.css" type="text/css">
+</HEAD>
+
+<BODY alink="#0000ff" bgcolor="#ffffff" leftmargin="2" topmargin="2" marginwidth="2" marginheight="2">
+
+<H1><A name="UDDI4J Overview">WSIL4J: <BR>
+Web Services Inspection Language for Java API</A></H1>
+<P>The Web Services Inspection Language (WS-Inspection) provides a distributed
+Web service discovery method, by specifying how to inspect a web site for
+available Web services. The WS-Inspection specification defines the locations
+on a Web site where you could look for Web service descriptions.</P>
+
+<H2>WSIL4J Structure</H2>
+<P>WSIL4J is a Java class library that provides an API that is can be used
+to locate and process WS-Inspection documents. This class library can be
+used to read and parse a WS-Inspection document, as well as generate a
+new WS-Inspection document. The primary class for interacting with a WS-Inspection
+document is <B>org.apache.wsil.WSILDocument</B>. The <B>org.apache.wsil.client.WSILProxy</B> class is used for accessing specific service descriptions within a WS-Inspection
+document. For example, you can use this class to access service descriptions
+by service name. A <B>WSILException</B> is thrown when errors occur. This class will contain an exception message,
+and may also contain a reference to an exception that caused the error.
+
+<H3>Prerequisites</H3>
+<UL>
+  <LI>JDK version 1.3 or later.
+  <LI>JAXP compliant XML parser, such as <A href="http://xml.apache.org/xerces2-j/index.html">Apache Xerces</A>.
+  <LI>WSDL for Java API (WSDL4J), which is available from the <A href="http://www-124.ibm.com/developerworks/projects/wsdl4j/">IBM developerWorks site</A>.
+  <LI>UDDI for Java API (UDDI4J), which is available at <A href="http://www.uddi4j.org">www.uddi4j.org</A>.
+  <UL>
+    <LI>Also need the support for a UDDI4J SOAP transport, such as <A href="http://xml.apache.org/axis">Apache Axis</A>.
+  </UL>
+  <LI>Ant is required to build WSIL4J. Ant is available at the <A href="http://jakarta.apache.org/ant">Apache ANT website</A>.
+</UL>
+<H3><A name="config">Configuration</A></H3>
+<P>WSIL4J uses a set of system parameters to configure certain functions.
+The wsil.properties file is located in the org.apache.wsil.util package.</P>
+<DIV align="left">
+<BLOCKQUOTE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TH bgcolor="#cccccc">Property name</TH>
+      <TH bgcolor="#cccccc">Values</TH>
+      <TH bgcolor="#cccccc">Description</TH>
+    </TR>
+    <TR>
+      <TD>wsil.transport.class</TD>
+      <TD>org.uddi4j.transport.ApacheAxisTransport</TD>
+      <TD>The UDDI4J transport that should be used when accessing a UDDI registry.</TD>
+    </TR>
+    <TR>
+      <TD>wsil.hostname</TD>
+      <TD>localhost</TD>
+      <TD>The default hostname used when locating WS-Inspection documents.</TD>
+    </TR>
+    <TR>
+      <TD>wsil.port</TD>
+      <TD>80</TD>
+      <TD>The default port number used when locating WS-Inspection documents.</TD>
+    </TR>
+    <TR>
+      <TD>wsil.document.name</TD>
+      <TD>inspection.wsil</TD>
+      <TD>The default WS-Inspection document name.</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+</DIV>
+<H2><A name="sourcecode">Accessing Builds and Source Code</A></H2>
+<P>The source code for this package is available on the Apache web site. Individual files can be accessed using the web-based <A href="http://cvs.apache.org/viewcvs.cgi/xml-axis-wsil/" target="_blank">CVS interface</A>. The entire package can be downloaded using the following instructions.</P>
+<H3><B><FONT size=+1>Accessing the Nightly Builds</FONT></B></H3>
+<P>This package is built nightly along with Axis. The build will create two
+zip files: wsil4j-bin.zip and wsil4j-src.zip. The first file contains a
+complete build image, which includes wsil4j.jar, Javadoc, and all source
+code. The second file contains just a copy of the source code, which could
+be built using Ant. Both of these files can be accessed at the same location
+as the <A href="http://xml.apache.org/dist/axis/nightly/" target="_blank">Axis nightly builds</A>.</P>
+<H3><B><FONT size=+1>Accessing the Source Tree (AnonCVS)</FONT></B></H3>
+<P>So, you've decided that you need access to the source tree to see the latest
+and greatest code. There's two different forms of CVS access. The first
+is anonymous and anybody can use it. The second is not and you must have
+a login to the development server. If you don't know what this means, join
+the <A href="http://xml.apache.org/axis/mail.html">mailing list</A> and find out.</P>
+<P>Anyone can checkout source code from our anonymous CVS server. To do so, 
+simply use the following commands (if you are using a GUI CVS client, configure 
+it appropriatly): 
+
+<BLOCKQUOTE>
+<TABLE width="90%">
+<TBODY>
+<TR bgColor=#f2c0f6>
+<TD>
+      <PRE>cvs -d :pserver:anoncvs@cvs.apache.org:/home/cvspublic login
+password: anoncvs
+
+cvs -d :pserver:anoncvs@cvs.apache.org:/home/cvspublic checkout xml-axis-wsil</PRE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BLOCKQUOTE>
+<H3><B><FONT size=+1>Full Remote CVS Access</FONT></B> </H3>
+<P>If you are a <I>Committer</I> and have a login on the 
+Apache development server, this section is for you. If you are not a Committer, 
+but you want to submit patches or even request commit privelages, please see the 
+<A href="http://jakarta.apache.org/site/guidelines.html" target="newone">Jakarta 
+GuideLines </A>page (we follow the same rules) for more information. 
+</P>
+<P>To have full access to the CVS server, you need to follow the links depending 
+on the operating system you are using: 
+
+<UL>
+<LI><A href="http://jakarta.apache.org/site/cvsonunix.html" target="new">Unix</A> 
+<LI><A href="http://jakarta.apache.org/site/cvsonwin32.html" target="new">Windows</A> </LI>
+</UL>
+<H2>Building WSIL4J</H2>
+<UL>
+  <LI>Obtain ANT and the JDK as listed in the prerequisites.
+  <LI>Set required environment variables, including,
+  JAVA_HOME, ANT_HOME.
+  <LI>From the root directory of WSIL4J (where build.xml is located), run
+  <pre>ant -Dwsil4j.build.classpath=&lt;classpath&gt; &lt;target&gt;</pre>
+  where &lt;classpath&gt; contains the location of the JAR files for the
+  XML parser, WSDL4J and UDDI4J<BR>
+  <BR>
+  and, where &lt;target&gt; is one of the following:
+  <UL>
+    <LI>compile: Compiles the API
+    <LI>samples: Compiles the samples
+    <LI>javadocs: Builds the javadoc
+    <LI>srcdist: Creates the source distribution
+    zip file.
+    <LI>dist: Creates the binary distribution zip
+    file.
+    <LI>clean: Removes built files.
+    <LI>all: Cleans, creates source and binary distribution
+    zip files.
+  </UL>
+</UL>
+<H2>Using WSIL4J</H2>
+<P>To run a program referencing WSIL4J,</P>
+<UL>
+  <LI>Include wsil4j.jar, wsdl4j.jar, and uddi4j.jar in the classpath.
+  <LI>Include the jar file(s) for the JAXP compliant XML parser in the classpath.
+</UL>
+<H3>Samples</H3>
+<P>There are two sample applications that use WSIL4J. Both of these samples
+are located in the samples directory. This directory also contains a sample
+WS-Inspection document.
+<UL>
+  <LI><B>WSInspectionExample.java<BR>
+  </B>This sample shows how to use some of the basic WSIL4J functions. This includes
+  how to read a WS-Inspection document and how to access the WSDL service
+  descriptions contained in this document.<BR>
+  <BR>
+  After building the WSDL4J package, you can run this sample from the samples
+  directory by using this command syntax:<BR>
+  <BR>
+  <CODE>java -cp .;../lib/wsil4j.jar;&lt;parser.jar&gt;;&lt;wsdl4j.jar&gt; WSInspectionExample
+  &lt;documentURL&gt;</CODE><BR>
+  <BR>
+  where, <BR>
+  <CODE>&lt;parser.jar&gt;</CODE> is the location of the XML parser JAR files<BR>
+  <CODE>&lt;wsdl4j.jar&gt;</CODE> is the location of the WSDL4J JAR file<BR>
+  <CODE>&lt;documentURL&gt;</CODE> is the location of the WS-Inspection document<BR>
+  <BR>
+  As an example, you can execute the following command from the samples directory:
+  <CODE><BR>
+  <BR>
+  java -cp &lt;classpath&gt; WSInspectionExample file:///&lt;wsil4j_path&gt;/wsil4j/samples/inspection.wsil
+  StockQuoteService<BR>
+  </CODE><B><BR>
+  </B>NOTE: This sample does not use an UDDI functions, so the UDDI4J JAR file
+  is not required.<B><BR>
+  <BR>
+  </B>
+  <LI><B>WSInspectionProxyExample.java</B><BR>
+  This sample program shows how to use the proxy interface. This interface
+  provides a set of functions that will read a WS-Inspection document and
+  locate specific information within the document. For example, you could
+  use the proxy interface to locate just the service descriptions with a
+  specific name.<BR>
+  <BR>
+  You can run this sample using the following command format:<BR>
+  <BR>
+  <CODE>java -cp .;../lib/wsil4j.jar;&lt;parser.jar&gt;;&lt;wsdl4j.jar&gt;;&lt;uddi4j.jar&gt;;&lt;uddi4j-transport.jar&gt;
+  WSInspectionProxyExample &lt;documentURL&gt; &lt;serviceName&gt;</CODE><BR>
+  <BR>
+  where, <BR>
+  <CODE>&lt;parser.jar&gt;</CODE> is the location of the XML parser JAR file(s)<BR>
+  <CODE>&lt;wsdl4j.jar&gt;</CODE> is the location of the WSDL4J JAR file<BR>
+  <CODE>&lt;uddi4j.jar&gt;</CODE> is the location of the UDDI4J JAR file<BR>
+  <CODE>&lt;uddi4j-transport.jar&gt;</CODE> is the location of the UDDI4J SOAP transport JAR file(s)<BR>
+  <CODE>&lt;documentURL&gt;</CODE> is the location of the WS-Inspection document<BR>
+  <CODE>&lt;serviceName&gt;</CODE> is the service name to search the document for<BR>
+  <BR>
+  As an example, you can execute the following command from the samples directory:
+  <CODE><BR>
+  <BR>
+  java -cp &lt;classpath&gt; WSInspectionProxyExample file:///&lt;wsil4j_path&gt;/wsil4j/samples/inspection.wsil StockQuoteService</CODE>
+</UL>
+<H2>Work To Be Done</H2>
+<P>The current WSIL4J implementation contains most of the basic support for
+the Web Services Inspection Language. Here is a list of future enhancements
+and usages for this package:</P>
+<UL>
+  <LI>Change the name of this package (from WSIL4J).<BR>
+  <BR>
+  <LI>Add support for obtaining the WS-Inspection document references from an
+  META tags in an HTML document.<BR>
+  <BR>
+  <LI>Enhance the relative URL support. Currently, the <B>WSILDocument </B>class contains a <B><I>resolveURL</I></B> method that can be used to resolve a relative URL into a complete URL.
+  The relative URL is resolved using the URL that was used to read the WS-Inspection
+  document.<BR>
+  <BR>
+  <LI>Add support for detecting recursive references to WS-Inspection documents
+  when processing &lt;link&gt; elements.<BR>
+  <BR>
+  <LI>Provide support for both UDDI V1 and UDDI V2 references in the same WS-Inspection
+  document. Right now, this support is limited to the version supported by
+  the version of UDDI4J that is being used.<BR>
+  <BR>
+  <LI>Add a WS-Inspection interface to Apache Axis. This interface would return
+  a WS-Inspection document that contains the list of deployed services .
+</UL>
+<H2>Reference</H2>
+<UL>
+  <LI><A href="docs/wsinspection.html">Web Services Inspection Language Specification</A>
+  <LI><A href="docs/WSInspectionOverview.htm">WS-Inspection Overview</A>
+  <LI><A href="docs/apiDocs/index.html">Javadoc for the WSIL4J API classes</A><BR>
+  [<B>Note:</B> This link will work only after this package has been built.]
+</UL>
+<HR WIDTH="100%">
+</BODY></HTML>

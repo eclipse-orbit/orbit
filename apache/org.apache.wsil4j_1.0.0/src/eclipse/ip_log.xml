@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.wsil4j" version="1.0.0" status="done">
+    <info>
+      <name>Web Services Inspection Language for Java</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/org.apache.wsil4j</location>
+    </info>
+    <contact>
+      <name>Mat Booth</name>
+      <email>mat.booth@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <!-- ATO CQ 2092 references CQ 330 which approved wsil4j for webtools.webservices -->
+      <ipzilla bug_id="2092"/>
+      <license>
+        <name>Apache Software License 1.1</name>
+	<reference>http://www.apache.org/licenses/LICENSE-1.1.txt</reference>
+      </license>
+      <package>wsil4j-1.0.0.jar</package>
+    </legal>
+  </project>
+</ip_log>

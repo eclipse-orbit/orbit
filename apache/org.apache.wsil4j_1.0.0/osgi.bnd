@@ -1,0 +1,17 @@
+# This is doing several things:
+#  - Use require-bundle instead of import-package to maintain maximum compatibility with the historic wsil4j bundle
+#  - Remove bundle localization header (EBR adds its own translations in the default place)
+#  - Remove broken/incorrect source references header
+#  - Avoid adding include resource and private package headers (the historic wsil4j bundle did not include these)
+#  - Export all packages (including *impl* ones) for maximum compatibility with the historic wsil4j bundle
+#
+Require-Bundle=org.uddi4j;bundle-version="[2.0.4,3.0.0)",\
+               org.apache.axis;bundle-version="[1.3.0,2.0.0)",\
+               javax.wsdl;bundle-version="[1.4.0,1.7.0)"
+Import-Package=!*
+-removeheaders=Bundle-Localization,\
+               Eclipse-SourceReferences,\
+               Include-Resource,\
+               Private-Package
+-exportcontents=!about_files,org.apache.wsil.util;uses:="javax.wsdl.xml,javax.wsdl.factory,javax.wsdl",*
+-nouses=true
