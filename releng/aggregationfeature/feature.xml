@@ -242,6 +242,7 @@
 
   <!-- Hamcrest -->
   <plugin id="org.hamcrest.core" version="1.3.0.qualifier"/>
+  <plugin id="org.hamcrest.library" version="1.3.0.qualifier"/>
 
   <!-- XML APIs -->
   <plugin id="org.dom4j" version="1.6.1.qualifier"/>
