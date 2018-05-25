@@ -24,7 +24,6 @@
     <module>org.apache.batik.dom.svg_1.9.1</module>
     <module>org.apache.batik.dom_1.9.1</module>
     <module>org.apache.batik.ext.awt_1.9.1</module>
-    <module>org.apache.batik.ext_1.9.1</module>
     <module>org.apache.batik.extension_1.9.1</module>
     <module>org.apache.batik.gvt_1.9.1</module>
     <module>org.apache.batik.i18n_1.9.1</module>

@@ -27,7 +27,6 @@ batik-gvt
 batik-bridge
 batik-constants
 batik-script
-batik-ext
 xmlgraphics-commons
 )
 BSNS=(
@@ -50,7 +49,6 @@ org.apache.batik.gvt
 org.apache.batik.bridge
 org.apache.batik.constants
 org.apache.batik.script
-org.apache.batik.ext
 org.apache.xmlgraphics
 )
 

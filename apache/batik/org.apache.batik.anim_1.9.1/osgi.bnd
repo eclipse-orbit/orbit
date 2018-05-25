@@ -3,7 +3,6 @@ batik-awt-util-version=${version;===;1.9.1}
 batik-constants-version=${version;===;1.9.1}
 batik-css-version=${version;===;1.9.1}
 batik-dom-version=${version;===;1.9.1}
-batik-ext-version=${version;===;1.9.1}
 batik-i18n-version=${version;===;1.9.1}
 batik-parser-version=${version;===;1.9.1}
 batik-svg-dom-version=${version;===;1.9.1}
@@ -32,6 +31,7 @@ Import-Package: \
  org.apache.batik.i18n;version="${batik-i18n-version}", \
  org.apache.batik.parser;version="${batik-parser-version}", \
  org.w3c.css.sac;version="${xml-apis-ext-version}", \
+ org.w3c.dom.events;version="3.0.0", \
  org.w3c.dom.svg;version="1.1", \
  org.w3c.dom, \
  org.w3c.dom.css, \
@@ -41,7 +41,6 @@ Import-Package: \
  org.xml.sax
 
 Require-Bundle: org.apache.batik.util;bundle-version="${batik-util-version}", \
- org.apache.batik.constants;bundle-version="${batik-constants-version}", \
- org.apache.batik.ext;bundle-version="${batik-ext-version}"
+ org.apache.batik.constants;bundle-version="${batik-constants-version}"
 
 -nouses: true

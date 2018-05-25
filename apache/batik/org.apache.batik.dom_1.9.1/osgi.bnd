@@ -2,7 +2,6 @@ package-version=${version;===;${Bundle-Version}}
 batik-constants-version=${version;===;1.9.1}
 batik-css-version=${version;===;1.9.1}
 batik-dom-version=${version;===;1.9.1}
-batik-ext-version=${version;===;1.9.1}
 batik-i18n-version=${version;===;1.9.1}
 batik-util-version=${version;===;1.9.1}
 batik-xml-version=${version;===;1.9.1}
