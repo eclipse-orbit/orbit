@@ -16,26 +16,10 @@
   <name>Eclipse Orbit :: Batik Recipes</name>
 
   <modules>
-    <module>org.apache.batik.anim_1.9.1</module>
-    <module>org.apache.batik.bridge_1.9.1</module>
-    <module>org.apache.batik.codec_1.9.1</module>
     <module>org.apache.batik.constants_1.9.1</module>
     <module>org.apache.batik.css_1.9.1</module>
-    <module>org.apache.batik.dom.svg_1.9.1</module>
-    <module>org.apache.batik.dom_1.9.1</module>
-    <module>org.apache.batik.ext.awt_1.9.1</module>
-    <module>org.apache.batik.extension_1.9.1</module>
-    <module>org.apache.batik.gvt_1.9.1</module>
     <module>org.apache.batik.i18n_1.9.1</module>
-    <module>org.apache.batik.parser_1.9.1</module>
-    <module>org.apache.batik.pdf_1.9.1</module>
-    <module>org.apache.batik.script_1.9.1</module>
-    <module>org.apache.batik.svggen_1.9.1</module>
-    <module>org.apache.batik.swing_1.9.1</module>
-    <module>org.apache.batik.transcoder_1.9.1</module>
-    <module>org.apache.batik.util.gui_1.9.1</module>
     <module>org.apache.batik.util_1.9.1</module>
-    <module>org.apache.batik.xml_1.9.1</module>
     <module>org.apache.xmlgraphics_2.2.0</module>
   </modules>
 
