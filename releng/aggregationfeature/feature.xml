@@ -29,6 +29,7 @@
 
   <plugin id="com.ibm.icu" version="58.2.0.qualifier"/>
   <plugin id="com.ibm.icu.base" version="58.2.0.qualifier"/>
+  <plugin id="com.ibm.icu" version="62.1.0.qualifier"/>
 
   <plugin id="com.jcraft.jsch" version="0.1.54.qualifier"/>
 

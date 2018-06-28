@@ -18,6 +18,7 @@
   <modules>
     <module>com.ibm.icu_58.2.0</module>
     <module>com.ibm.icu.base_58.2.0</module>
+    <module>com.ibm.icu_62.1.0</module>
   </modules>
 
 </project>
