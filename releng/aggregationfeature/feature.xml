@@ -33,7 +33,7 @@
 
   <plugin id="com.jcraft.jsch" version="0.1.54.qualifier"/>
 
-  <plugin id="org.apache.ant" version="1.10.3.qualifier"/>
+  <plugin id="org.apache.ant" version="1.10.5.qualifier"/>
 
   <plugin id="org.apache.batik.constants" version="1.9.1.qualifier"/>
   <plugin id="org.apache.batik.css" version="1.9.1.qualifier"/>
