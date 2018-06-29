@@ -1,6 +1,6 @@
 package-version=${version;===;${Bundle-Version}}
-batik-constants-version-range=${range;[===,==+);${package-version}}
-batik-i18n-version-range=${range;[===,==+);${package-version}}
+batik-constants-version=${version;===;1.10}
+batik-i18n-version=${version;===;1.10}
 
 Export-Package: \
  !about.html,!about_files, \
@@ -13,11 +13,10 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
- org.apache.batik.i18n;version="${batik-i18n-version-range}", \
- org.apache.batik*;resolution:=optional;version="${batik-i18n-version-range}", \
+ org.apache.batik.i18n;version="${batik-i18n-version}", \
  *;resolution:=optional
 
 Require-Bundle: \
- org.apache.batik.constants;bundle-version="${batik-constants-version-range}"
+ org.apache.batik.constants;bundle-version="${batik-constants-version}"
 
 -nouses: true
