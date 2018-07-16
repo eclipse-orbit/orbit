@@ -34,7 +34,6 @@ Import-Package: \
  org.apache.xpath.objects;version="${xalan-version}", \
  org.w3c.css.sac*;version="${xml-apis-ext-version}", \
  org.w3c.dom.css, \
- org.w3c.dom.events, \
  org.w3c.dom.smil, \
  org.w3c.dom.stylesheets, \
  org.w3c.dom.traversal, \

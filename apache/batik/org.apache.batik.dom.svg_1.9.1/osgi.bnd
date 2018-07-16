@@ -22,7 +22,6 @@ Import-Package: \
  org.apache.batik.parser;version="${batik-parser-version}", \
  org.w3c.dom.smil, \
  org.w3c.dom.svg;version="1.1", \
- org.w3c.dom.events, \
  org.w3c.dom.views, \
   *;resolution:=optional
 
