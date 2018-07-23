@@ -58,8 +58,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- versions used for plug-ins below -->
-    <tycho-version>0.26.0</tycho-version>
-    <tycho-extras-version>0.26.0</tycho-extras-version>
+    <tycho-version>1.2.0</tycho-version>
+    <tycho-extras-version>1.2.0</tycho-extras-version>
     <maven-resources-version>2.7</maven-resources-version>
     <maven-dependency-version>2.10</maven-dependency-version>
 
@@ -86,8 +86,8 @@
     <buildLabel>${buildType}-${buildId}-${buildTimestamp}</buildLabel>
 
     <!-- Reference repository for the report, and for content baseline
-         Orbit Photon Contribution -->
-    <referenceRepoBuild>R20180606145124</referenceRepoBuild>
+         Orbit 2018-09 M1 Contribution -->
+    <referenceRepoBuild>S20180710163057</referenceRepoBuild>
 
     <!-- Reference repository for the old-style Orbit R-build from CVS -->
     <orbitOldRBuild>R20180525155205</orbitOldRBuild>
