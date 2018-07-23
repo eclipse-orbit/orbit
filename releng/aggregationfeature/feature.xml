@@ -191,7 +191,7 @@
   <plugin id="com.fasterxml.jackson.core.jackson-core" version="2.9.2.qualifier"/>
   <plugin id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider" version="2.9.2.qualifier"/>
 
-  <plugin id="com.spotify.docker.client" version="8.9.2.qualifier"/>
+  <plugin id="com.spotify.docker.client" version="8.11.7.qualifier"/>
 
   <!-- JaCoCo -->
   <plugin id="org.jacoco.agent" version="0.8.1.qualifier"/>

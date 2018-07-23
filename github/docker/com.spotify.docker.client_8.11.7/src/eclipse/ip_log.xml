@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="com.spotify.docker.client" version="8.9.2" status="done">
+  <project id="com.spotify.docker.client" version="8.11.7" status="done">
     <info>
       <name>docker-client</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
@@ -12,12 +12,12 @@
       <company>Red Hat</company>
     </contact>
     <legal>
-      <ipzilla bug_id="15475"/>
+      <ipzilla bug_id="17046"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>docker-client-8.9.2.jar</package>
+      <package>docker-client-8.11.7.jar</package>
     </legal>
   </project>
 </ip_log>

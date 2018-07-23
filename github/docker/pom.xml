@@ -16,7 +16,7 @@
   <name>Eclipse Orbit :: Docker Recipes</name>
 
   <modules>
-    <module>com.spotify.docker.client_8.9.2</module>
+    <module>com.spotify.docker.client_8.11.7</module>
   </modules>
 
 </project>
