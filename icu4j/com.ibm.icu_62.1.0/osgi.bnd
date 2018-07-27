@@ -9,3 +9,5 @@ Export-Package: \
 # Emit no Import-Package statement
 Import-Package: !*
 
+Bundle-ActivationPolicy: lazy
+
