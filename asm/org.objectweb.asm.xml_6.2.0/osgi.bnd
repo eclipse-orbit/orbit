@@ -9,3 +9,5 @@ Export-Package: \
 Import-Package: \
  org.objectweb.asm.*;version="${package-version}",\
  *;resolution:=optional
+
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
