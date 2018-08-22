@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.felix.scr" version="2.0.12" status="done">
+  <project id="org.apache.felix.scr" version="2.0.14" status="done">
     <info>
       <name>Apache Felix SCR</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
