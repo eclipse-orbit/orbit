@@ -16,13 +16,6 @@
   <name>Eclipse Orbit :: ASM Recipes</name>
 
   <modules>
-    <module>org.objectweb.asm_6.0.0</module>
-    <module>org.objectweb.asm.analysis_6.0.0</module>
-    <module>org.objectweb.asm.commons_6.0.0</module>
-    <module>org.objectweb.asm.tree_6.0.0</module>
-    <module>org.objectweb.asm.util_6.0.0</module>
-    <module>org.objectweb.asm.xml_6.0.0</module>
-
     <module>org.objectweb.asm_6.2.1</module>
     <module>org.objectweb.asm.analysis_6.2.1</module>
     <module>org.objectweb.asm.commons_6.2.1</module>
