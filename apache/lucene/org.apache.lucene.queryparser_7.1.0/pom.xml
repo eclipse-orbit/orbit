@@ -18,5 +18,11 @@
       <version>7.1.0</version>
     </dependency>
   </dependencies>
+
+  <properties>
+    <!-- Permit the use of Require-Bundle (in osgi.bnd file) -->
+    <recipe.removeadditionalheaders></recipe.removeadditionalheaders>
+  </properties>
+
 </project>
 
