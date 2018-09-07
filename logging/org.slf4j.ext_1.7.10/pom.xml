@@ -38,4 +38,9 @@
     </plugins>
   </build>
 
+  <properties>
+    <!-- Permit the use of Require-Bundle (in osgi.bnd file) -->
+    <recipe.removeadditionalheaders></recipe.removeadditionalheaders>
+  </properties>
+
 </project>

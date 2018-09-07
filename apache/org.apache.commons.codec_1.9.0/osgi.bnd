@@ -7,5 +7,6 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
+ org.apache.commons.codec*;version="${range;[===,=+);${package-version}}";resolution:=optional, \
  *;resolution:=optional
 
