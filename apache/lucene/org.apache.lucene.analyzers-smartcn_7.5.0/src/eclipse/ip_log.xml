@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.lucene.analyzers-smartcn" version="7.5.0" status="done">
+    <info>
+      <name>Lucene Smart Chinese Analyzer</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/lucene/org.apache.lucene.analyzers-smartcn</location>
+    </info>
+    <contact>
+      <name>Mat Booth</name>
+      <email>mat.booth@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="17762"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>lucene-analyzers-smartcn-7.5.0.jar</package>
+    </legal>
+  </project>
+</ip_log>

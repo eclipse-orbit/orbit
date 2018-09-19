@@ -1,0 +1,27 @@
+package-version=${version;===;${Bundle-Version}}
+lucene-core-version-range=${range;[===,=+);7.5.0}
+lucene-core-version=${version;===;7.5.0}
+lucene-queries-version-range=${range;[===,=+);7.5.0}
+lucene-queries-version=${version;===;7.5.0}
+lucene-sandbox-version-range=${range;[===,=+);7.5.0}
+lucene-sandbox-version=${version;===;7.5.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+# For now, use hard requirement on lucene-core to resolve some packages that
+# happen to be split to ensure OSGi wires the correct dependency:
+Require-Bundle: \
+ org.apache.lucene.core;bundle-version="${lucene-core-version-range}", \
+ org.apache.lucene.queries;bundle-version="${lucene-core-version-range}";resolution:=optional, \
+ org.apache.lucene.sandbox;bundle-version="${lucene-core-version-range}";resolution:=optional
+
+# The lucene imports are covered by the Require-Bundle
+Import-Package: \
+ !org.apache.lucene*, \
+ !org.tartarus*, \
+ *;resolution:=optional

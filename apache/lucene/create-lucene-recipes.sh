@@ -6,16 +6,20 @@ function ebr () {
 
 # Edit these as needed
 GID='org.apache.lucene'
-VERSION='7.0.0'
+VERSION='7.5.0'
 ARTIDS=(
 lucene-analyzers-common
 lucene-analyzers-smartcn
 lucene-core
+lucene-misc
+lucene-queryparser
 )
 BSNS=(
 org.apache.lucene.analyzers-common
 org.apache.lucene.analyzers-smartcn
 org.apache.lucene.core
+org.apache.lucene.misc
+org.apache.lucene.queryparser
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do
