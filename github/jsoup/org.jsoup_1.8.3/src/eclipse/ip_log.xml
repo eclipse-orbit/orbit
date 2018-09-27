@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.jsoup" version="1.8.3" status="done">
+    <info>
+      <name>jsoup</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>github-parent/jsoup-parent/org.jsoup</location>
+    </info>
+    <contact>
+      <name>David Green</name>
+      <email>david.green@tasktop.com</email>
+      <company>Tasktop Technologies Inc.</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="17850"/>
+      <license>
+        <name>MIT license</name>
+        <reference>http://opensource.org/licenses/MIT</reference>
+      </license>
+      <package>jsoup-1.8.3.jar</package>
+    </legal>
+  </project>
+</ip_log>

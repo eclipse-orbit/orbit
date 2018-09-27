@@ -44,7 +44,7 @@
   <plugin id="org.apache.batik.i18n" version="1.10.0.qualifier"/>
   <plugin id="org.apache.batik.util" version="1.10.0.qualifier"/>
   <plugin id="org.apache.xmlgraphics" version="2.2.0.qualifier"/>
-  
+
   <plugin id="org.apache.commons.compress" version="1.15.0.qualifier"/>
 
   <plugin id="org.apache.felix.gogo.command"  version="1.0.2.qualifier"/>
@@ -206,6 +206,9 @@
   <plugin id="com.sun.jna" version="4.5.1.qualifier"/>
   <plugin id="com.sun.jna.platform" version="4.5.1.qualifier"/>
 
+  <!-- JSoup -->
+  <plugin id="org.jsoup" version="1.8.3.qualifier"/>
+
   <!-- Maven Resolver (ex-Eclipse Aether) -->
   <plugin id="org.apache.maven.resolver.api" version="1.0.3.qualifier"/>
   <plugin id="org.apache.maven.resolver.connector.basic" version="1.0.3.qualifier"/>
@@ -245,9 +248,9 @@
 
   <!-- Mockito -->
   <plugin id="org.mockito" version="2.13.0.qualifier"/>
-  <plugin id="net.bytebuddy.byte-buddy" version="1.7.9.qualifier"/>  
-  <plugin id="net.bytebuddy.byte-buddy-agent" version="1.7.9.qualifier"/>  
-  <plugin id="org.objenesis" version="2.6.0.qualifier"/>  
+  <plugin id="net.bytebuddy.byte-buddy" version="1.7.9.qualifier"/>
+  <plugin id="net.bytebuddy.byte-buddy-agent" version="1.7.9.qualifier"/>
+  <plugin id="org.objenesis" version="2.6.0.qualifier"/>
 
   <!-- java_cup-->
   <plugin id="java_cup-runtime" version="0.11.20150326.qualifier" />
