@@ -141,7 +141,7 @@
     <!-- some bundles might depend on base platform content -->
     <repository>
       <id>eclipse-platform</id>
-      <url>http://download.eclipse.org/eclipse/updates/4.9milestones</url>
+      <url>http://download.eclipse.org/eclipse/updates/4.9</url>
       <layout>p2</layout>
     </repository>
   </repositories>
