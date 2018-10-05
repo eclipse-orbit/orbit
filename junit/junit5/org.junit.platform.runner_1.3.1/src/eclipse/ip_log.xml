@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apiguardian" version="1.0.0" status="done">
+  <project id="org.junit.platform.runner" version="1.3.1" status="done">
     <info>
-      <name>org.apiguardian:apiguardian-api</name>
+      <name>JUnit Platform Runner</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>junit-parent/junit5/org.apiguardian</location>
+      <location>junit-parent/junit5.3.1/org.junit.platform.runner</location>
     </info>
     <contact>
       <name>Noopur Gupta</name>
@@ -14,10 +14,10 @@
     <legal>
       <ipzilla bug_id="17492"/>
       <license>
-        <name>Apache License, 2.0</name>
-        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
       </license>
-      <package>apiguardian-api-1.0.0.jar</package>
+      <package>junit-platform-runner-1.3.1.jar</package>
     </legal>
   </project>
 </ip_log>
