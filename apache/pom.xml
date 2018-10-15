@@ -24,6 +24,7 @@
     <module>org.apache.commons.math3_3.5.0</module>
     <module>org.apache.onami.configuration_6.3.0</module>
     <module>org.apache.sshd.core_2.0.0</module>
+    <module>org.apache.sshd.sftp_2.0.0</module>
     <module>org.apache.ws.commons.util_1.0.2</module>
     <module>org.apache.wsil4j_1.0.0</module>
     <module>ant</module>
