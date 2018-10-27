@@ -101,7 +101,10 @@
   <plugin id="org.apache.lucene.misc"              version="7.5.0.qualifier"/>
   <plugin id="org.apache.lucene.queryparser"       version="7.5.0.qualifier"/>
 
+  <!-- Mina sshd -->
   <plugin id="net.i2p.crypto.eddsa" version="0.3.0.qualifier"/>
+  <plugin id="org.apache.sshd.core" version="2.0.0.qualifier"/>
+  <plugin id="org.apache.sshd.sftp" version="2.0.0.qualifier"/>
 
   <plugin id="org.slf4j.api"            version="1.7.10.qualifier"/>
   <plugin id="org.slf4j.ext"            version="1.7.10.qualifier"/>
