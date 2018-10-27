@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="net.i2p.crypto.eddsa" version="0.3.0" status="done">
+    <info>
+      <name>EdDSA-Java</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>github-parent/eddsa/net.i2p.crypto.eddsa</location>
+    </info>
+    <contact>
+      <name>Matthias Sohn</name>
+      <email>matthias.sohn@sap.com</email>
+      <company>SAP SE</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="17940"/>
+      <license>
+        <name>Public Domain</name>
+        <reference>https://creativecommons.org/publicdomain/zero/1.0/</reference>
+      </license>
+      <package>eddsa-0.3.0.jar</package>
+    </legal>
+  </project>
+</ip_log>
