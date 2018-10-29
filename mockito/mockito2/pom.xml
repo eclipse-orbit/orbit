@@ -11,5 +11,6 @@
   <name>Eclipse Orbit :: Mockito 2 Recipes</name>
   <modules>
     <module>org.mockito_2.13.0</module>
+    <module>org.mockito_2.23.0</module>
   </modules>
 </project>

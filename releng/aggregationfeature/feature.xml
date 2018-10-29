@@ -275,8 +275,11 @@
 
   <!-- Mockito -->
   <plugin id="org.mockito" version="2.13.0.qualifier"/>
+  <plugin id="org.mockito" version="2.23.0.qualifier"/>
   <plugin id="net.bytebuddy.byte-buddy" version="1.7.9.qualifier"/>
   <plugin id="net.bytebuddy.byte-buddy-agent" version="1.7.9.qualifier"/>
+  <plugin id="net.bytebuddy.byte-buddy" version="1.9.0.qualifier"/>
+  <plugin id="net.bytebuddy.byte-buddy-agent" version="1.9.0.qualifier"/>
   <plugin id="org.objenesis" version="2.6.0.qualifier"/>
 
   <!-- java_cup-->
