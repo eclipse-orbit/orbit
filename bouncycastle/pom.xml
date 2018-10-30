@@ -31,6 +31,9 @@
     <module>org.bouncycastle.bcpg_1.59.0</module>
     <module>org.bouncycastle.bcpkix_1.59.0</module>
     <module>org.bouncycastle.bcprov_1.59.0</module>
+    <module>org.bouncycastle.bcpg_1.60.0</module>
+    <module>org.bouncycastle.bcpkix_1.60.0</module>
+    <module>org.bouncycastle.bcprov_1.60.0</module>
   </modules>
 
 </project>
