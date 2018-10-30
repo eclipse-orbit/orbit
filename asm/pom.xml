@@ -22,6 +22,12 @@
     <module>org.objectweb.asm.tree_6.2.1</module>
     <module>org.objectweb.asm.util_6.2.1</module>
     <module>org.objectweb.asm.xml_6.2.1</module>
+
+    <module>org.objectweb.asm_7.0.0</module>
+    <module>org.objectweb.asm.analysis_7.0.0</module>
+    <module>org.objectweb.asm.commons_7.0.0</module>
+    <module>org.objectweb.asm.tree_7.0.0</module>
+    <module>org.objectweb.asm.util_7.0.0</module>
   </modules>
 
 </project>

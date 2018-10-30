@@ -7,6 +7,6 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
- org.objectweb.asm.*;version="${package-version}"
+ org.objectweb.asm.*;version="${range;[===,=+);${package-version}}"
 
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
