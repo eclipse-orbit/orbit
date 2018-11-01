@@ -16,3 +16,5 @@ Import-Package: \
  org.apache.sshd.*;version="${sshd-core-version-range}",\
  org.slf4j;version="${slf4j-api-version-range}",\
  *;resolution:=optional
+
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.8))"
