@@ -15,9 +15,9 @@ Export-Package: \
 Import-Package: \
  !org.apache.sshd,!org.apache.sshd.*,\
  javax.*,\
- net.i2p.*;version="${eddsa-version-range}";resolution=optional, \
- org.apache.tomcat.*;version="${tomcat-apr-version-range}";resolution=optional, \
- org.bouncycastle.*;version="${bcpg-jdk15on-version-range}";resolution=optional, \
+ net.i2p.*;version="${eddsa-version-range}";resolution:=optional, \
+ org.apache.tomcat.*;version="${tomcat-apr-version-range}";resolution:=optional, \
+ org.bouncycastle.*;version="${bcpg-jdk15on-version-range}";resolution:=optional, \
  org.ietf.jgss,\
  org.slf4j.*;version="${slf4j-api-version-range}", \
  *;resolution:=optional
