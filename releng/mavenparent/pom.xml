@@ -1,5 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+>
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.eclipse.orbit.bundles</groupId>
@@ -48,10 +51,12 @@
     <!-- set to false if you want to have dependencies embedded as full jars inside the bundle -->
     <recipe.unpackdependencies>true</recipe.unpackdependencies>
 
-    <!-- when recipe.unpackdependencies is set to false, this one can be set to true to force removal of the version string from dependency jar names -->
+    <!-- when recipe.unpackdependencies is set to false, this one can be set to true to force removal of the version string
+      from dependency jar names -->
     <recipe.stripversion>false</recipe.stripversion>
 
-    <!-- when recipe.unpackdependencies is set to false, this one can be set to true to disable inclusion of '.' folder into the Bundle-ClassPath header -->
+    <!-- when recipe.unpackdependencies is set to false, this one can be set to true to disable inclusion of '.' folder into
+      the Bundle-ClassPath header -->
     <recipe.excludedotfolder>false</recipe.excludedotfolder>
 
     <!-- project defaults -->
@@ -85,8 +90,7 @@
     <buildId>${buildType}${buildTimestamp}</buildId>
     <buildLabel>${buildType}-${buildId}-${buildTimestamp}</buildLabel>
 
-    <!-- Reference repository for the report, and for content baseline
-         Orbit 2018-12 Contribution -->
+    <!-- Reference repository for the report, and for content baseline Orbit 2018-12 Contribution -->
     <referenceRepoBuild>R20181128170323</referenceRepoBuild>
 
     <!-- Reference repository for the old-style Orbit R-build from CVS -->
@@ -97,32 +101,32 @@
   <pluginRepositories>
     <!-- configure the EBR plug-in repo -->
     <pluginRepository>
-        <id>ebr-releases</id>
-        <url>https://repo.eclipse.org/content/repositories/ebr-releases/</url>
-        <snapshots>
-            <enabled>false</enabled>
-        </snapshots>
+      <id>ebr-releases</id>
+      <url>https://repo.eclipse.org/content/repositories/ebr-releases/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
     </pluginRepository>
     <pluginRepository>
-        <id>ebr-snapshots</id>
-        <url>https://repo.eclipse.org/content/repositories/ebr-snapshots/</url>
-        <releases>
-            <enabled>false</enabled>
-        </releases>
+      <id>ebr-snapshots</id>
+      <url>https://repo.eclipse.org/content/repositories/ebr-snapshots/</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
     </pluginRepository>
     <pluginRepository>
-        <id>cbi-releases</id>
-        <url>https://repo.eclipse.org/content/repositories/cbi-releases/</url>
-        <snapshots>
-            <enabled>false</enabled>
-        </snapshots>
+      <id>cbi-releases</id>
+      <url>https://repo.eclipse.org/content/repositories/cbi-releases/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
     </pluginRepository>
     <pluginRepository>
-        <id>cbi-snapshots</id>
-        <url>https://repo.eclipse.org/content/repositories/cbi-snapshots/</url>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
+      <id>cbi-snapshots</id>
+      <url>https://repo.eclipse.org/content/repositories/cbi-snapshots/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
     </pluginRepository>
   </pluginRepositories>
 
@@ -151,7 +155,7 @@
       <!-- define a profile for generating/updating the Eclipse ip_log.xml -->
       <id>iplog</id>
       <activation>
-        <!-- activate the profile by default, can be disabled using '-P-iplog' mvn command line argument-->
+        <!-- activate the profile by default, can be disabled using '-P-iplog' mvn command line argument -->
         <property>
           <name>!skipIpLog</name>
           <value>!true</value>
@@ -173,6 +177,8 @@
               </executions>
               <configuration>
                 <force>${forceIpFilesUpdate}</force>
+                <includes>${recipe.includes}</includes>
+                <excludes>${recipe.excludes}</excludes>
               </configuration>
             </plugin>
           </plugins>
@@ -211,7 +217,7 @@
             <groupId>org.eclipse.cbi.maven.plugins</groupId>
             <artifactId>eclipse-jarsigner-plugin</artifactId>
             <configuration>
-                <resigningStrategy>OVERWRITE</resigningStrategy>
+              <resigningStrategy>OVERWRITE</resigningStrategy>
             </configuration>
             <executions>
               <execution>
@@ -266,21 +272,12 @@
         </plugins>
       </build>
     </profile>
-    <!--
-      Bug 513496 : We use the 4.8milestones repository to resolve bundles
-      that have dependencies on content in the platform itself.
-      (eg. org.apache.felix.scr requires org.eclipse.osgi)
-
-      Unfortunately 4.8milestones can include the same bundles that we
-      generate (eg. org.apache.commons.fileupload) and when this happens Tycho
-      attempts to download packed versions (.pack.gz) of these for resolution
-      even when unpacked versions already exist in the local repository. This
-      causes information to be lost (overwritten) and a failure to locate the
-      corresponding source bundles.
-
-      The workaround is to ensure we generate packed artifacts as part of the
-      build at all times (signing not required).
-    -->
+    <!-- Bug 513496 : We use the 4.8milestones repository to resolve bundles that have dependencies on content in the platform
+      itself. (eg. org.apache.felix.scr requires org.eclipse.osgi) Unfortunately 4.8milestones can include the same bundles that
+      we generate (eg. org.apache.commons.fileupload) and when this happens Tycho attempts to download packed versions (.pack.gz)
+      of these for resolution even when unpacked versions already exist in the local repository. This causes information to be
+      lost (overwritten) and a failure to locate the corresponding source bundles. The workaround is to ensure we generate packed
+      artifacts as part of the build at all times (signing not required). -->
     <profile>
       <id>do-not-eclipse-sign</id>
       <activation>
@@ -359,21 +356,21 @@
           <name>artifact-comparator</name>
         </property>
       </activation>
-        <build>
-          <plugins>
-            <plugin>
-              <groupId>org.eclipse.tycho</groupId>
-              <artifactId>tycho-p2-plugin</artifactId>
-              <version>${tycho-version}</version>
-              <executions>
-                <execution>
-                  <id>p2-metadata</id>
-                  <goals>
-                    <goal>p2-metadata</goal>
-                  </goals>
-                  <phase>package</phase>
-                </execution>
-              </executions>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.eclipse.tycho</groupId>
+            <artifactId>tycho-p2-plugin</artifactId>
+            <version>${tycho-version}</version>
+            <executions>
+              <execution>
+                <id>p2-metadata</id>
+                <goals>
+                  <goal>p2-metadata</goal>
+                </goals>
+                <phase>package</phase>
+              </execution>
+            </executions>
             <configuration>
               <baselineRepositories>
                 <repository>
