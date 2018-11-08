@@ -295,4 +295,5 @@
 
   <!-- GraphQL -->
   <plugin id="com.graphql.java.dataloader" version="2.1.1.qualifier" />
+  <plugin id="com.graphql.java" version="11.0.0.qualifier" />
 </feature>

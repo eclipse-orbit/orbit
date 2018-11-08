@@ -1,0 +1,19 @@
+package-version=${version;===;${Bundle-Version}}
+antlr4-runtime-version-range=${range;[===,+);4.7.1}
+slf4j-api-version-range=${range;[===,+);1.7.10}
+java-dataloader-version-range=${range;[===,+);2.1.1}
+reactive-streams-version-range=${range;[===,+);1.0.2}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.antlr.v4.runtime.*;version="${antlr4-runtime-version-range}", \
+ org.slf4j;version="${slf4j-api-version-range}", \
+ org.reactivestreams;version="${reactive-streams-version-range}", \
+ org.dataloader;version="${java-dataloader-version-range}", \
+ *;resolution:=optional

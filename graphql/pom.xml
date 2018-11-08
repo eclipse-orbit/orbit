@@ -15,5 +15,6 @@
   <name>Eclipse Orbit :: GraphQL Recipes</name>
   <modules>
     <module>com.graphql.java.dataloader_2.1.1</module>
+    <module>com.graphql.java_11.0.0</module>
   </modules>
 </project>

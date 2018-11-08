@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.graphql.java" version="11.0.0" status="done">
+    <info>
+      <name>graphql-java</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>graphql-parent/com.graphql.java</location>
+    </info>
+    <contact>
+      <name>Stéphane Bégaudeau</name>
+      <email>stephane.begaudeau@obeo.fr</email>
+      <company>Obeo</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="18103"/>
+      <license>
+        <name>MIT License</name>
+        <reference>https://opensource.org/licenses/MIT</reference>
+      </license>
+      <package>graphql-java-11.0.jar</package>
+    </legal>
+  </project>
+</ip_log>
