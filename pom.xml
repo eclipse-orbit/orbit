@@ -47,6 +47,7 @@
     <module>logging</module>
     <module>mockito</module>
     <module>objenesis</module>
+    <module>reactivestreams</module>
     <module>tukaani</module>
     <module>uom</module>
     <module>xml</module>

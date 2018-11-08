@@ -289,4 +289,7 @@
   <!-- java_cup-->
   <plugin id="java_cup-runtime" version="0.11.20150326.qualifier" />
   <plugin id="java_cup" version="0.11.20150326.qualifier" />
+
+  <!-- Reactive Streams -->
+  <plugin id="org.reactivestreams" version="1.0.2.qualifier" />
 </feature>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.reactivestreams" version="1.0.2" status="done">
+    <info>
+      <name>reactive-streams</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>reactivestreams-parent/org.reactivestreams</location>
+    </info>
+    <contact>
+      <name>Stéphane Bégaudeau</name>
+      <email>stephane.begaudeau@obeo.fr</email>
+      <company>Obeo</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="18105"/>
+      <license>
+        <name>Public Domain (CC0)</name>
+        <reference>http://creativecommons.org/publicdomain/zero/1.0</reference>
+      </license>
+      <package>reactive-streams-1.0.2.jar</package>
+    </legal>
+  </project>
+</ip_log>
