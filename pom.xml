@@ -37,6 +37,7 @@
     <module>github</module>
     <module>glassfish</module>
     <module>google</module>
+    <module>graphql</module>
     <module>hamcrest</module>
     <module>icu4j</module>
     <module>jackson</module>

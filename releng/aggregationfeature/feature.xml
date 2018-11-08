@@ -292,4 +292,7 @@
 
   <!-- Reactive Streams -->
   <plugin id="org.reactivestreams" version="1.0.2.qualifier" />
+
+  <!-- GraphQL -->
+  <plugin id="com.graphql.java.dataloader" version="2.1.1.qualifier" />
 </feature>

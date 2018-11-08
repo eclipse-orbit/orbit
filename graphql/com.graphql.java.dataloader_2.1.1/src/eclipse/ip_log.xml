@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.graphql.java.dataloader" version="2.1.1" status="done">
+    <info>
+      <name>java-dataloader</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>graphql-parent/com.graphql.java.dataloader</location>
+    </info>
+    <contact>
+      <name>Stéphane Bégaudeau</name>
+      <email>stephane.begaudeau@obeo.fr</email>
+      <company>Obeo</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="18104"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>java-dataloader-2.1.1.jar</package>
+    </legal>
+  </project>
+</ip_log>
