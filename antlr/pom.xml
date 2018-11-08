@@ -17,6 +17,7 @@
 
   <modules>
     <module>org.antlr.runtime_4.5.1</module>
+    <module>org.antlr.runtime_4.7.1</module>
   </modules>
 
 </project>
