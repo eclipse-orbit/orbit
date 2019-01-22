@@ -21,6 +21,7 @@
     <module>org.apache.commons.compress_1.15.0</module>
     <module>org.apache.commons.compress_1.18.0</module>
     <module>org.apache.commons.fileupload_1.3.2</module>
+    <module>org.apache.commons.io_2.6.0</module>
     <module>org.apache.commons.logging_1.2.0</module>
     <module>org.apache.commons.math3_3.5.0</module>
     <module>org.apache.onami.configuration_6.3.0</module>
