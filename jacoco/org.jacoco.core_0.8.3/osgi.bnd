@@ -1,5 +1,5 @@
 package-version=${version;===;${Bundle-Version}}
-asm-version=6.2.1
+asm-version=7.0.0
 
 Export-Package: \
  !about.html,!about_files, \
@@ -7,5 +7,4 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
- org.jacoco.*;version="${package-version}", \
  org.objectweb.asm.*;version="${range;[===,=+);${asm-version}}"

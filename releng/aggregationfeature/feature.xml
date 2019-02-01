@@ -222,9 +222,9 @@
   <plugin id="com.spotify.docker.client" version="8.11.7.qualifier"/>
 
   <!-- JaCoCo -->
-  <plugin id="org.jacoco.agent" version="0.8.2.qualifier"/>
-  <plugin id="org.jacoco.core" version="0.8.2.qualifier"/>
-  <plugin id="org.jacoco.report" version="0.8.2.qualifier"/>
+  <plugin id="org.jacoco.agent" version="0.8.3.qualifier"/>
+  <plugin id="org.jacoco.core" version="0.8.3.qualifier"/>
+  <plugin id="org.jacoco.report" version="0.8.3.qualifier"/>
 
   <plugin id="org.jcodings" version="1.0.18.qualifier"/>
   <plugin id="org.joni" version="2.1.11.qualifier"/>

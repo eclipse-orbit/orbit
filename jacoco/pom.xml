@@ -23,9 +23,9 @@
   </properties>
 
   <modules>
-    <module>org.jacoco.agent_0.8.2</module>
-    <module>org.jacoco.core_0.8.2</module>
-    <module>org.jacoco.report_0.8.2</module>
+    <module>org.jacoco.agent_0.8.3</module>
+    <module>org.jacoco.core_0.8.3</module>
+    <module>org.jacoco.report_0.8.3</module>
   </modules>
 
 </project>
