@@ -131,12 +131,6 @@
   <plugin id="org.freemarker" version="2.3.22.qualifier"/>
 
   <!-- ASM -->
-  <plugin id="org.objectweb.asm" version="6.2.1.qualifier"/>
-  <plugin id="org.objectweb.asm.analysis" version="6.2.1.qualifier"/>
-  <plugin id="org.objectweb.asm.commons" version="6.2.1.qualifier"/>
-  <plugin id="org.objectweb.asm.tree" version="6.2.1.qualifier"/>
-  <plugin id="org.objectweb.asm.util" version="6.2.1.qualifier"/>
-  <plugin id="org.objectweb.asm.xml" version="6.2.1.qualifier"/>
   <plugin id="org.objectweb.asm" version="7.0.0.qualifier"/>
   <plugin id="org.objectweb.asm.analysis" version="7.0.0.qualifier"/>
   <plugin id="org.objectweb.asm.commons" version="7.0.0.qualifier"/>
