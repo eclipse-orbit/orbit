@@ -19,5 +19,29 @@
       </license>
       <package>httpclient-4.5.6.jar</package>
     </legal>
+    <legal>
+      <ipzilla bug_id="18921"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>fluent-hc-4.5.6.jar</package>
+    </legal>
+    <legal>
+      <ipzilla bug_id="18922"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>httpclient-cache-4.5.6.jar</package>
+    </legal>
+    <legal>
+      <ipzilla bug_id="18993"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>httpmime-4.5.6.jar</package>
+    </legal>
   </project>
 </ip_log>

@@ -11,11 +11,29 @@
   <version>4.5.6-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>Apache HttpClient</name>
+  <properties>
+     <httpclient.version>4.5.6</httpclient.version>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
-      <version>4.5.6</version>
+      <version>${httpclient.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient-cache</artifactId>
+      <version>${httpclient.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpmime</artifactId>
+      <version>${httpclient.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>fluent-hc</artifactId>
+      <version>${httpclient.version}</version>
     </dependency>
   </dependencies>
 </project>

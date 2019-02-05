@@ -2,10 +2,14 @@ package-version=${version;===;${Bundle-Version}}
 httpcore-version=${version;===;4.4.10}
 commons-logging-version=${version;===;1.2}
 commons-codec-version=${version;===;1.10}
+ehcache-version=${version;==;2.6.11}
+memcached-version=${version;==;2.12.3}
 
 httpcore-version-range=${range;[===,=+);${httpcore-version}}
 commons-logging-version-range=${range;[===,=+);${commons-logging-version}}
 commons-codec-version-range=${range;[===,=+);${commons-codec-version}}
+ehcache-version-range=${range;[==,+);${ehcache-version}}
+memcached-version-range=${range;[==,+);${memcached-version}}
 
 Export-Package: \
  !about.html,!about_files, \
@@ -18,4 +22,6 @@ Import-Package: \
  org.apache.http.*;version="${httpcore-version-range}", \
  org.apache.commons.codec.*;version="${commons-codec-version-range}", \
  org.apache.commons.logging*;version="${commons-logging-version-range}", \
+ net.sf.ehcache;resolution:=optional;version="${ehcache-version-range}", \
+ net.spy.memcached;resolution:=optional;version="${memcached-version-range}", \
  *;resolution:=optional
