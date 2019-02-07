@@ -3,6 +3,7 @@ httpcore-version=${version;===;4.4.6}
 commons-logging-version=${version;===;1.1.1}
 commons-codec-version=${version;===;1.9}
 
+httpcore-version-range=${range;[===,==+);${httpcore-version}}
 commons-logging-version-range=${range;[===,=+);${commons-logging-version}}
 commons-codec-version-range=${range;[===,=+);${commons-codec-version}}
 
@@ -13,8 +14,8 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
- ${exports};version="${range;[==,+);${package-version}}", \
- org.apache.http.*;version="${range;[===,=+);${httpcore-version}}", \
+ ${exports};version="${range;[===,==+);${package-version}}", \
+ org.apache.http.*;version="${httpcore-version-range}", \
  org.apache.commons.codec.*;version="${commons-codec-version-range}", \
  org.apache.commons.logging*;version="${commons-logging-version-range}", \
  *;resolution:=optional
