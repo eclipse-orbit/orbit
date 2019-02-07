@@ -45,6 +45,8 @@ This is not difficult at all. Just change into the directory of the recipe to bu
 1. `cd recipes/\<path/to/recipe\>`
 2. `mvn clean package`
 
+(To preview local changes, add -DdirtyWorkingTree=warning to ignore uncommitted Git changes - see "How to add recipes" for more details)
+
 The resulting bundle will be available in the recipes `target` folder.
 
 
