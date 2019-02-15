@@ -34,6 +34,7 @@
     <module>org.apache.sshd.osgi_2.2.0</module>
     <module>org.apache.sshd.sftp_2.0.0</module>
     <module>org.apache.sshd.sftp_2.2.0</module>
+    <module>org.apache.sshd.putty_2.2.0</module>
     <module>org.apache.ws.commons.util_1.0.2</module>
     <module>org.apache.wsil4j_1.0.0</module>
     <module>ant</module>

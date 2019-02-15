@@ -1,0 +1,22 @@
+package-version=${version;===;${Bundle-Version}}
+
+bcpg-jdk15on-version-range=${range;[===,+);1.60}
+eddsa-version-range=${range;[===,+);0.3}
+sshd-core-version-range=${range;[===,=+);${Bundle-Version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *.putty;version="${package-version}"
+
+Import-Package: \
+ !*.putty, \
+ javax.*, \
+ net.i2p.*;version="${eddsa-version-range}";resolution:=optional, \
+ org.bouncycastle.*;version="${bcpg-jdk15on-version-range}";resolution:=optional, \
+ org.apache.sshd.*;version="${sshd-core-version-range}",\
+ *;resolution:=optional
+
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.8))"
