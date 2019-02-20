@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.github.oshi.oshi-core" version="3.8.0" status="done">
+    <info>
+      <name>oshi-core</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>github/oshi/com.github.oshi.oshi-core_3.8.0</location>
+    </info>
+    <contact>
+      <name>Alexander Fedorov</name>
+      <email>alexander.fedorov@arsysop.ru</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="19031"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
+      </license>
+      <package>oshi-core-3.8.0.jar</package>
+    </legal>
+  </project>
+</ip_log>

@@ -1,0 +1,21 @@
+package-version=${version;===;${Bundle-Version}}
+
+slf4j-api-version=${version;===;1.7.10}
+jna-version=${version;===;4.5.1}
+jna-platform-version=${version;===;4.5.1}
+
+slf4j-api-version-range=${range;[===,+);${slf4j-api-version}}
+jna-version-range=${range;[===,+);${jna-version}}
+jna-platform-version-range=${range;[===,+);${jna-platform-version}}
+ 
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.slf4j*;version="${slf4j-api-version-range}", \
+ com.sun.jna*;version="${jna-version-range}", \
+ *;resolution:=optional

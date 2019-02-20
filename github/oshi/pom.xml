@@ -5,26 +5,18 @@
 
   <parent>
     <groupId>org.eclipse.orbit.bundles</groupId>
-    <artifactId>orbit-recipes</artifactId>
+    <artifactId>github-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>github-parent</artifactId>
+  <artifactId>oshi-parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Eclipse Orbit :: Github Recipes</name>
+  <name>Eclipse Orbit :: OSHI Recipes</name>
 
   <modules>
-    <module>cronutils</module>
-    <module>docker</module>
-    <module>eddsa</module>
-    <module>javaewah</module>
-    <module>jnr</module>
-    <module>jruby</module>
-    <module>jsoup</module>
-    <module>mongodb</module>
-    <module>oshi</module>
+	<module>com.github.oshi.oshi-core_3.8.0</module>
   </modules>
 
 </project>
