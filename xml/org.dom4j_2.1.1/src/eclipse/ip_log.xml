@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.dom4j" version="1.6.1" status="done">
+  <project id="org.dom4j" version="2.1.1" status="done">
     <info>
       <name>DOM4J</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
       <location>xml/org.dom4j</location>
     </info>
     <contact>
-      <name>Andreas Sewe</name>
-      <email>andreas.sewe@codetrails.com</email>
-      <company>Codetrails GmbH</company>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
     </contact>
     <legal>
-      <ipzilla bug_id="7762"/>
+      <ipzilla bug_id="19394"/>
       <license>
         <name>Custom license based on Apache Software License 1.1</name>
         <reference>(see about_files)</reference>
