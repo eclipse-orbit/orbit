@@ -16,7 +16,7 @@
   <name>Eclipse Orbit :: JCraft Recipes</name>
 
   <modules>
-    <module>com.jcraft.jsch_0.1.54</module>
+    <module>com.jcraft.jsch_0.1.55</module>
   </modules>
 
 </project>

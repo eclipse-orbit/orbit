@@ -32,7 +32,7 @@
   <plugin id="com.ibm.icu" version="62.1.0.qualifier"/>
   <plugin id="com.ibm.icu" version="63.1.0.qualifier"/>
 
-  <plugin id="com.jcraft.jsch" version="0.1.54.qualifier"/>
+  <plugin id="com.jcraft.jsch" version="0.1.55.qualifier"/>
 
   <plugin id="org.apache.ant" version="1.10.5.qualifier"/>
 

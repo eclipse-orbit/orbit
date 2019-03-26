@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="com.jcraft.jsch" version="0.1.54" status="done">
+  <project id="com.jcraft.jsch" version="0.1.55" status="done">
     <info>
       <name>JSch</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
@@ -12,12 +12,12 @@
       <company>Red Hat</company>
     </contact>
     <legal>
-      <ipzilla bug_id="12524"/>
+      <ipzilla bug_id="19508"/>
       <license>
         <name>New BSD License</name>
         <reference>http://opensource.org/licenses/BSD-3-Clause</reference>
       </license>
-      <package>jsch-0.1.54.jar</package>
+      <package>jsch-0.1.55.jar</package>
     </legal>
   </project>
 </ip_log>
