@@ -1,0 +1,23 @@
+package-version=${version;===;${Bundle-Version}}
+lucene-core-version-range=${range;[===,=+);8.0.0}
+lucene-core-version=${version;===;8.0.0}
+
+Export-Package: \
+ org.apache.lucene.analysis;version="${package-version}";common=split;mandatory:=common, \
+ org.apache.lucene.analysis.standard;version="${package-version}";common=split;mandatory:=common, \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+# For now, use hard requirement on lucene-core to resolve some packages that
+# happen to be split to ensure OSGi wires the correct dependency:
+Require-Bundle: \
+ org.apache.lucene.core;bundle-version="${lucene-core-version-range}"
+
+# The lucene imports are covered by the Require-Bundle
+Import-Package: \
+ !org.apache.lucene*, \
+ !org.tartarus*, \
+ *;resolution:=optional

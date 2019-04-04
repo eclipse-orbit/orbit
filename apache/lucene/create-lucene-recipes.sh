@@ -6,7 +6,7 @@ function ebr () {
 
 # Edit these as needed
 GID='org.apache.lucene'
-VERSION='7.5.0'
+VERSION='8.0.0'
 ARTIDS=(
 lucene-analyzers-common
 lucene-analyzers-smartcn
