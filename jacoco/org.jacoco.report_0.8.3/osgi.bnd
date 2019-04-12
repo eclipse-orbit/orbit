@@ -1,5 +1,5 @@
 package-version=${version;===;${Bundle-Version}}
-asm-version=7.0.0
+asm-version=7.1.0
 
 Export-Package: \
  !about.html,!about_files, \
