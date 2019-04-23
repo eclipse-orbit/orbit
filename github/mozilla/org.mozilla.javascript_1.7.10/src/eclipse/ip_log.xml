@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.mozilla.javascript" version="1.7.10" status="done">
+    <info>
+      <name>org.mozilla.javascript</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>github-parent/mozilla-parent/rhino</location>
+    </info>
+    <contact>
+      <name>Christian Pontesegger</name>
+      <email>christian.pontesegger@web.de</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="19626"/>
+      <license>
+        <name>Mozilla Public License 2.0 (MPL)</name>
+        <reference>https://www.mozilla.org/MPL/2.0/</reference>
+      </license>
+      <package>org.mozilla.javascript-1.7.10.jar</package>
+    </legal>
+  </project>
+</ip_log>
