@@ -19,7 +19,6 @@
 	<module>org.apache.felix.gogo.command_1.0.2</module>
 	<module>org.apache.felix.gogo.runtime_1.1.0</module>
 	<module>org.apache.felix.gogo.shell_1.1.0</module>
-	<module>org.apache.felix.scr_2.0.14</module>
 	<module>org.apache.felix.scr_2.1.14</module>
   </modules>
 
