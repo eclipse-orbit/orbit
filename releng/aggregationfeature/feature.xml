@@ -56,11 +56,11 @@
   <plugin id="org.apache.batik.util" version="1.9.1.qualifier"/>
   <plugin id="org.apache.batik.util.gui" version="1.9.1.qualifier"/>
   <plugin id="org.apache.batik.xml" version="1.9.1.qualifier"/>
-  <plugin id="org.apache.batik.constants" version="1.10.0.qualifier"/>
-  <plugin id="org.apache.batik.css" version="1.10.0.qualifier"/>
-  <plugin id="org.apache.batik.i18n" version="1.10.0.qualifier"/>
-  <plugin id="org.apache.batik.util" version="1.10.0.qualifier"/>
-  <plugin id="org.apache.xmlgraphics" version="2.2.0.qualifier"/>
+  <plugin id="org.apache.batik.constants" version="1.11.0.qualifier"/>
+  <plugin id="org.apache.batik.css" version="1.11.0.qualifier"/>
+  <plugin id="org.apache.batik.i18n" version="1.11.0.qualifier"/>
+  <plugin id="org.apache.batik.util" version="1.11.0.qualifier"/>
+  <plugin id="org.apache.xmlgraphics" version="2.3.0.qualifier"/>
 
   <plugin id="org.apache.commons.compress" version="1.15.0.qualifier"/>
   <plugin id="org.apache.commons.compress" version="1.18.0.qualifier"/>

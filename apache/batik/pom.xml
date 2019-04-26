@@ -36,11 +36,11 @@
     <module>org.apache.batik.util.gui_1.9.1</module>
     <module>org.apache.batik.util_1.9.1</module>
     <module>org.apache.batik.xml_1.9.1</module>
-    <module>org.apache.batik.constants_1.10.0</module>
-    <module>org.apache.batik.css_1.10.0</module>
-    <module>org.apache.batik.i18n_1.10.0</module>
-    <module>org.apache.batik.util_1.10.0</module>
-    <module>org.apache.xmlgraphics_2.2.0</module>
+    <module>org.apache.batik.constants_1.11.0</module>
+    <module>org.apache.batik.css_1.11.0</module>
+    <module>org.apache.batik.i18n_1.11.0</module>
+    <module>org.apache.batik.util_1.11.0</module>
+    <module>org.apache.xmlgraphics_2.3.0</module>
   </modules>
 
 </project>
