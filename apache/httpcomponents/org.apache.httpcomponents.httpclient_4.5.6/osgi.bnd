@@ -14,7 +14,6 @@ memcached-version-range=${range;[==,+);${memcached-version}}
 Export-Package: \
  !about.html,!about_files, \
  !mozilla, \
- *.impl*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
 Import-Package: \
