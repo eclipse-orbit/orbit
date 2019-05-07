@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="com.ibm.icu" version="62.1.0" status="done">
+  <project id="com.ibm.icu" version="63.1.0" status="done">
     <info>
-      <name>ICU4J 62.1</name>
+      <name>ICU4J 64.2</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
       <location>icu4j-parent/com.ibm.icu</location>
     </info>
@@ -12,14 +12,14 @@
       <company>Red Hat</company>
     </contact>
     <legal>
-      <ipzilla bug_id="16956"/>
+      <ipzilla bug_id="19650"/>
       <license>
         <!-- Note that both the old ICU License and the new Unicode License are both
              flavours of MIT License -->
         <name>MIT License</name>
         <reference>http://opensource.org/licenses/MIT</reference>
       </license>
-      <package>icu4j-62.1.jar</package>
+      <package>icu4j-64.2.jar</package>
     </legal>
   </project>
 </ip_log>
