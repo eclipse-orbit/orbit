@@ -5,28 +5,18 @@
 
   <parent>
     <groupId>org.eclipse.orbit.bundles</groupId>
-    <artifactId>orbit-recipes</artifactId>
+    <artifactId>github-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>github-parent</artifactId>
+  <artifactId>classgraph-parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Eclipse Orbit :: Github Recipes</name>
+  <name>Eclipse Orbit :: Classgraph Recipes</name>
 
   <modules>
-    <module>classgraph</module>
-    <module>cronutils</module>
-    <module>docker</module>
-    <module>eddsa</module>
-    <module>javaewah</module>
-    <module>jnr</module>
-    <module>jruby</module>
-    <module>jsoup</module>
-    <module>mongodb</module>
-    <module>mozilla</module>
-    <module>oshi</module>
+    <module>io.github.classgraph_4.8.35</module>
   </modules>
 
 </project>

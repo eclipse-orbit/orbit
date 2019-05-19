@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="io.github.classgraph" version="4.8.35" status="done">
+    <info>
+      <name>ClassGraph</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git/github-parent/classgraph-parent/io.git</repository>
+      <location>hub.classgraph</location>
+    </info>
+    <contact>
+      <name>Sebastian Zarnekow</name>
+      <email>Sebastian.Zarnekow@gmail.com</email>
+      <company></company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="19923"/>
+      <license>
+        <name>MIT license</name>
+        <reference>http://opensource.org/licenses/MIT</reference>
+      </license>
+      <package>classgraph-4.8.35.jar</package>
+    </legal>
+  </project>
+</ip_log>
