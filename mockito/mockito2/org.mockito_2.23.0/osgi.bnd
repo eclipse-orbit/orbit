@@ -27,4 +27,5 @@ Import-Package: \
  net.bytebuddy.pool;version="${byte-buddy-version-range}", \
  net.bytebuddy.utility;version="${byte-buddy-version-range}", \
  org.objenesis;version="${objenesis-version-range}", \
+ org.hamcrest;core=split;resolution:=optional, \
  *;resolution:=optional
