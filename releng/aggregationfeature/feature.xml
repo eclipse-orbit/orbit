@@ -35,7 +35,7 @@
 
   <plugin id="com.jcraft.jsch" version="0.1.55.qualifier"/>
 
-  <plugin id="org.apache.ant" version="1.10.6.qualifier"/>
+  <plugin id="org.apache.ant" version="1.10.5.qualifier"/>
 
   <plugin id="org.apache.batik.anim" version="1.9.1.qualifier"/>
   <plugin id="org.apache.batik.bridge" version="1.9.1.qualifier"/>
