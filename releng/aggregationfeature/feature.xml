@@ -183,6 +183,9 @@
   <plugin id="org.bouncycastle.bcpg" version="1.60.0.qualifier"/>
   <plugin id="org.bouncycastle.bcpkix" version="1.60.0.qualifier"/>
   <plugin id="org.bouncycastle.bcprov" version="1.60.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcpg" version="1.61.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcpkix" version="1.61.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcprov" version="1.61.0.qualifier"/>
 
   <plugin id="org.eclipse.orbit.mongodb" version="3.2.2.qualifier"/>
 
