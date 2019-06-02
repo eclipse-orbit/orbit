@@ -15,3 +15,5 @@ Export-Package: \
 
 Import-Package: \
  *;resolution:=optional
+
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.5))"
