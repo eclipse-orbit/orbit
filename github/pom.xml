@@ -20,6 +20,7 @@
     <module>cronutils</module>
     <module>docker</module>
     <module>eddsa</module>
+    <module>ejml</module>
     <module>javaewah</module>
     <module>jnr</module>
     <module>jruby</module>
