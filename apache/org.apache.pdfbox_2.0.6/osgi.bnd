@@ -1,0 +1,15 @@
+package-version=${version;===;${Bundle-Version}}
+fontbox-version-range=${range;[===,+);2.0.6}fontbox-version=${version;===;2.0.6}
+commons-logging-version-range=${range;[===,+);1.2}commons-logging-version=${version;===;1.2}
+bcmail-jdk15on-version-range=${range;[===,+);1.54}bcmail-jdk15on-version=${version;===;1.54}
+bcprov-jdk15on-version-range=${range;[===,+);1.54}bcprov-jdk15on-version=${version;===;1.54}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *

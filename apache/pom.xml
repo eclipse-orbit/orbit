@@ -25,6 +25,10 @@
     <module>org.apache.commons.logging_1.2.0</module>
     <module>org.apache.commons.math3_3.5.0</module>
     <module>org.apache.onami.configuration_6.3.0</module>
+    <module>org.apache.pdfbox.fontbox_2.0.6</module>
+    <module>org.apache.pdfbox.preflight_2.0.6</module>
+    <module>org.apache.pdfbox.xmpbox_2.0.6</module>
+    <module>org.apache.pdfbox_2.0.6</module>
     <module>org.apache.sshd.core_2.0.0</module>
     <module>org.apache.sshd.osgi_2.2.0</module>
     <module>org.apache.sshd.sftp_2.0.0</module>

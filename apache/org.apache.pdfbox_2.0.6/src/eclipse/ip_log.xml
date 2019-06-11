@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.commons.math3" version="3.5.0" status="done">
+  <project id="org.apache.pdfbox" version="2.0.6" status="done">
     <info>
-      <name>Apache Commons Math</name>
+      <name>Apache PDFBox</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>apache/org.apache.commons.math3</location>
+      <location>apache-parent/org.apache.pdfbox</location>
     </info>
     <contact>
       <name>Philip Wenig</name>
@@ -12,12 +12,12 @@
       <company>Lablicate GmbH</company>
     </contact>
     <legal>
-      <ipzilla bug_id="10384"/>
+      <ipzilla bug_id="13673"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>commons-math3-3.5.jar</package>
+      <package>pdfbox-2.0.6.jar</package>
     </legal>
   </project>
 </ip_log>
