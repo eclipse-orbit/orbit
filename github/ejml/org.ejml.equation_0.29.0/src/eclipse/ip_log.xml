@@ -12,7 +12,7 @@
       <company>Lablicate GmbH</company>
     </contact>
     <legal>
-      <ipzilla bug_id="12229"/>
+      <ipzilla bug_id="20166"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
