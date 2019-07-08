@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.httpcomponents.httpmime" version="4.5.7" status="done">
+    <info>
+      <name>Apache HttpClient Mime</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/httpcomponents/org.apache.httpcomponents.httpmime</location>
+    </info>
+    <contact>
+      <name>Philip Wenig</name>
+      <email>philip.wenig@openchrom.net</email>
+      <company>Lablicate GmbH</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="20226"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>httpmime-4.5.7.jar</package>
+    </legal>
+  </project>
+</ip_log>
