@@ -16,8 +16,6 @@
   <name>Eclipse Orbit :: Tukaani Recipes</name>
 
   <modules>
-    <module>org.tukaani.xz_1.5.0</module>
-    <module>org.tukaani.xz_1.6.0</module>
     <module>org.tukaani.xz_1.8.0</module>
   </modules>
 
