@@ -17,8 +17,6 @@
 
   <modules>
     <module>com.google.javascript_0.0.20160315</module>
-    <module>com.google.guava_18.0.0</module>
-    <module>com.google.guava_21.0.0</module>
     <module>com.google.guava_27.1.0</module>
     <module>com.google.gson_2.7.0</module>
     <module>com.google.gson_2.8.2</module>
