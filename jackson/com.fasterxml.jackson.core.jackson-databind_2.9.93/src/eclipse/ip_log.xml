@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.fasterxml.jackson.core.jackson-databind" version="2.9.93" status="done">
+    <info>
+      <name>jackson-databind</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>jackson/com.fasterxml.jackson.core.jackson-databind</location>
+    </info>
+    <contact>
+      <name>Anjali Gola</name>
+      <email>anjali.gola@gmail.com</email>
+      <company>Intel Corporation</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="20753"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>jackson-databind-2.9.93.jar</package>
+    </legal>
+  </project>
+</ip_log>
