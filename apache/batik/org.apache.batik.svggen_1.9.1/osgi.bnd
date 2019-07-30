@@ -1,8 +1,12 @@
 package-version=${version;===;${Bundle-Version}}
 batik-awt-util-version=${version;===;1.9.1}
+batik-awt-util-version-range=${range;[===,==+);${package-version}}
 batik-constants-version=${version;===;1.9.1}
+batik-constants-version-range=${range;[===,==+);${package-version}}
 batik-i18n-version=${version;===;1.9.1}
+batik-i18n-version-range=${range;[===,==+);${package-version}}
 batik-util-version=${version;===;1.9.1}
+batik-util-version-range=${range;[===,==+);${package-version}}
 
 Export-Package: \
  !about.html,!about_files, \
@@ -12,13 +16,13 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
- org.apache.batik.ext.awt.g2d;version="${batik-awt-util-version}", \
- org.apache.batik.ext.awt.image.spi;version="${batik-awt-util-version}", \
- org.apache.batik.i18n;version="${batik-i18n-version}", \
+ org.apache.batik.ext.awt.g2d;version="${batik-awt-util-version-range}", \
+ org.apache.batik.ext.awt.image.spi;version="${batik-awt-util-version-range}", \
+ org.apache.batik.i18n;version="${batik-i18n-version-range}", \
  *;resolution:=optional
 
 Require-Bundle: \
- org.apache.batik.util;bundle-version="${batik-util-version}", \
- org.apache.batik.constants;bundle-version="${batik-constants-version}"
+ org.apache.batik.util;bundle-version="${batik-util-version-range}", \
+ org.apache.batik.constants;bundle-version="${batik-constants-version-range}"
 
 -nouses: true

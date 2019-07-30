@@ -1,9 +1,14 @@
 package-version=${version;===;${Bundle-Version}}
 batik-awt-util-version=${version;===;1.9.1}
+batik-awt-util-version-range=${range;[===,==+);${package-version}}
 batik-css-version=${version;===;1.9.1}
+batik-css-version-range=${range;[===,==+);${package-version}}
 batik-dom-version=${version;===;1.9.1}
+batik-dom-version-range=${range;[===,==+);${package-version}}
 batik-parser-version=${version;===;1.9.1}
+batik-parser-version-range=${range;[===,==+);${package-version}}
 batik-util-version=${version;===;1.9.1}
+batik-util-version-range=${range;[===,==+);${package-version}}
 
 Export-Package: \
  !about.html,!about_files, \
@@ -13,19 +18,19 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
- org.apache.batik.css.engine;version="${batik-css-version}", \
- org.apache.batik.dom.events;version="${batik-dom-version}", \
- org.apache.batik.dom.util;version="${batik-dom-version}", \
- org.apache.batik.dom.xbl;version="${batik-dom-version}", \
- org.apache.batik.dom;version="${batik-dom-version}", \
- org.apache.batik.ext.awt.geom;version="${batik-awt-util-version}", \
- org.apache.batik.parser;version="${batik-parser-version}", \
+ org.apache.batik.css.engine;version="${batik-css-version-range}", \
+ org.apache.batik.dom.events;version="${batik-dom-version-range}", \
+ org.apache.batik.dom.util;version="${batik-dom-version-range}", \
+ org.apache.batik.dom.xbl;version="${batik-dom-version-range}", \
+ org.apache.batik.dom;version="${batik-dom-version-range}", \
+ org.apache.batik.ext.awt.geom;version="${batik-awt-util-version-range}", \
+ org.apache.batik.parser;version="${batik-parser-version-range}", \
  org.w3c.dom.smil, \
  org.w3c.dom.svg;version="1.1", \
  org.w3c.dom.views, \
   *;resolution:=optional
 
 Require-Bundle: \
- org.apache.batik.util;bundle-version="${batik-util-version}"
+ org.apache.batik.util;bundle-version="${batik-util-version-range}"
 
 -nouses: true
