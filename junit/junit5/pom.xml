@@ -6,22 +6,22 @@
     <artifactId>junit-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>junit5.4.0</artifactId>
+  <artifactId>junit5</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Eclipse Orbit :: JUnit 5.4.0 Recipes</name>
+  <name>Eclipse Orbit :: JUnit 5.5.1 Recipes</name>
   <modules>
-    <module>org.junit.jupiter.api_5.4.0</module>
-    <module>org.junit.jupiter.engine_5.4.0</module>
-    <module>org.junit.jupiter.migrationsupport_5.4.0</module>
-    <module>org.junit.jupiter.params_5.4.0</module>
-    <module>org.junit.platform.commons_1.4.0</module>
-    <module>org.junit.platform.engine_1.4.0</module>
-    <module>org.junit.platform.launcher_1.4.0</module>
-    <module>org.junit.platform.runner_1.4.0</module>
-    <module>org.junit.platform.suite.api_1.4.0</module>
-    <module>org.junit.vintage.engine_5.4.0</module>
-    <module>org.opentest4j_1.1.1</module>
-    <module>org.apiguardian_1.0.0</module>
+    <module>org.junit.jupiter.api_5.5.1</module>
+    <module>org.junit.jupiter.engine_5.5.1</module>
+    <module>org.junit.jupiter.migrationsupport_5.5.1</module>
+    <module>org.junit.jupiter.params_5.5.1</module>
+    <module>org.junit.platform.commons_1.5.1</module>
+    <module>org.junit.platform.engine_1.5.1</module>
+    <module>org.junit.platform.launcher_1.5.1</module>
+    <module>org.junit.platform.runner_1.5.1</module>
+    <module>org.junit.platform.suite.api_1.5.1</module>
+    <module>org.junit.vintage.engine_5.5.1</module>
+    <module>org.opentest4j_1.2.0</module>
+    <module>org.apiguardian_1.1.0</module>
   </modules>
 </project>
