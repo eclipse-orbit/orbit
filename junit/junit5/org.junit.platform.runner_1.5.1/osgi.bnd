@@ -7,7 +7,7 @@ junit-platform-commons-version-range=${range;[===,+);1.5.1}
 junit-platform-engine-version-range=${range;[===,+);1.5.1}
 
 Export-Package: \
- !about.html,!about_files, \
+ !about.html,!about-files, \
  *.internal.*;x-internal:=true;version="${package-version}", \
  *.implementation.*;x-internal:=true;version="${package-version}", \
  *.impl.*;x-internal:=true;version="${package-version}", \
