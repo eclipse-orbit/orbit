@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="ca.odell.glazedlists" version="1.11.0" status="done">
+    <info>
+      <name>GlazedLists</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>glazedlists-parent/ca.odell.glazedlists</location>
+    </info>
+    <contact>
+      <name>Dirk Fauth</name>
+      <email>dirk.fauth@googlemail.com</email>
+      <company></company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="20816"/>
+      <license>
+        <name>Mozilla Public License 2.0 (MPL)</name>
+        <reference>https://www.mozilla.org/MPL/2.0/</reference>
+      </license>
+      <package>glazedlists-1.11.0.jar</package>
+    </legal>
+  </project>
+</ip_log>

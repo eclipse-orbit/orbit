@@ -36,6 +36,7 @@
     <module>freemarker</module>
     <module>github</module>
     <module>glassfish</module>
+    <module>glazedlists</module>
     <module>google</module>
     <module>graphql</module>
     <module>hamcrest</module>
