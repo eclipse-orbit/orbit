@@ -16,11 +16,11 @@
   <name>Eclipse Orbit :: ASM Recipes</name>
 
   <modules>
-    <module>org.objectweb.asm_7.1.0</module>
-    <module>org.objectweb.asm.analysis_7.1.0</module>
-    <module>org.objectweb.asm.commons_7.1.0</module>
-    <module>org.objectweb.asm.tree_7.1.0</module>
-    <module>org.objectweb.asm.util_7.1.0</module>
+    <module>org.objectweb.asm_7.2.0</module>
+    <module>org.objectweb.asm.analysis_7.2.0</module>
+    <module>org.objectweb.asm.commons_7.2.0</module>
+    <module>org.objectweb.asm.tree_7.2.0</module>
+    <module>org.objectweb.asm.util_7.2.0</module>
   </modules>
 
 </project>
