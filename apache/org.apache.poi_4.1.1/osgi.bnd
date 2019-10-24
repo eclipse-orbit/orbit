@@ -1,0 +1,19 @@
+package-version=${version;===;${Bundle-Version}}
+codec-version=${version;===;1.10.0}
+codec-version-range=${range;[===,+);${codec-version}}
+collections4-version=${version;===;4.4.0}
+collections4-version-range=${range;[===,+);${collections4-version}}
+math3-version=${version;===;3.5.0}
+math3-version-range=${range;[===,+);${math3-version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="", \
+ *.impl*;x-internal:=true;version="", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.apache.commons.codec*;version="${codec-version-range}", \
+ org.apache.commons.collections4*;version="${collections4-version-range}", \
+ org.apache.commons.math3*;version="${math3-version-range}", \
+ *;resolution:=optional

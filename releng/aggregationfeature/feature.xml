@@ -172,6 +172,8 @@
   <plugin id="org.apache.pdfbox.xmpbox" version="2.0.6.qualifier"/>
   <plugin id="org.apache.pdfbox" version="2.0.6.qualifier"/>
 
+  <plugin id="org.apache.poi" version="4.1.1.qualifier"/>
+
   <plugin id="org.apache.xmlrpc.client" version="3.1.3.qualifier"/>
   <plugin id="org.apache.xmlrpc.common" version="3.1.3.qualifier"/>
   <plugin id="org.apache.xmlrpc.server" version="3.1.3.qualifier"/>
