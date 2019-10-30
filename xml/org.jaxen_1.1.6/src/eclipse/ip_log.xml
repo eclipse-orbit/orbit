@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.jaxen" version="1.1.6" status="done">
+    <info>
+      <name>jaxen</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>xml/org.jaxen</location>
+    </info>
+    <contact>
+      <name>Dirk Fauth</name>
+      <email>dirk.fauth@googlemail.com</email>
+      <company></company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21046"/>
+      <license>
+        <name>New BSD license</name>
+        <reference>https://github.com/jaxen-xpath/jaxen/blob/master/LICENSE.txt</reference>
+      </license>
+      <package>jaxen-1.1.6.jar</package>
+    </legal>
+  </project>
+</ip_log>

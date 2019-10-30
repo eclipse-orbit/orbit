@@ -279,6 +279,7 @@
   <!-- XML APIs -->
   <plugin id="org.dom4j" version="1.6.1.qualifier"/>
   <plugin id="org.dom4j" version="2.1.1.qualifier"/>
+  <plugin id="org.jaxen" version="1.1.6.qualifier"/>
 
   <!-- Unit API 1.0 -->
   <plugin id="javax.measure.unit-api" version="1.0.0.qualifier"/>
