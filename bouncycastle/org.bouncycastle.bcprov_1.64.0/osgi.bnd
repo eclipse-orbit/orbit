@@ -1,0 +1,19 @@
+package-version=${version;===;${Bundle-Version}}
+
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: \
+ !about.html,!about_files, \
+ !org/bouncycastle/asn1/test, \
+ !org/bouncycastle/crypto/test, \
+ !org/bouncycastle/pqc/math/ntru/euclid/test, \
+ !org/bouncycastle/pqc/math/ntru/polynomial/test, \
+ !org/bouncycastle/pqc/math/ntru/util/test, \
+ !org/bouncycastle/util/test, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional
+
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.5))"
