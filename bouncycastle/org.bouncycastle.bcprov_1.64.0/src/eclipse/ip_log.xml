@@ -11,7 +11,7 @@
       <email>matthias.sohn@sap.com</email>
     </contact>
     <legal>
-      <ipzilla bug_id="21033"/>
+      <ipzilla bug_id="21061"/>
       <license>
         <name>MIT License</name>
         <reference>http://www.bouncycastle.org/licence.html</reference>
