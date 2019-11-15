@@ -1,0 +1,17 @@
+package-version=${version;===;${Bundle-Version}}
+
+jaxen-version-range=${range;[===,+);1.1.6}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+package-version-range=${range;[===,=+);${package-version}}
+
+Import-Package: \
+ javax.xml.*;resolution:=optional, \
+ org.xml.sax*;resolution:=optional, \
+ org.w3c.dom;resolution:=optional, \
+ org.jdom2*;version="${package-version-range}";resolution:=optional, \
+ org.jaxen*;version="${jaxen-version-range}"

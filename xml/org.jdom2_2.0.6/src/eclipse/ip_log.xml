@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.jdom2" version="2.0.6" status="done">
+    <info>
+      <name>JDOM</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>xml/org.jdom2</location>
+    </info>
+    <contact>
+      <name>Dirk Fauth</name>
+      <email>dirk.fauth@googlemail.com</email>
+      <company></company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21172"/>
+      <license>
+        <name>Apache Software License 1.1</name>
+        <reference>https://raw.githubusercontent.com/hunterhacker/jdom/master/LICENSE.txt</reference>
+      </license>
+      <package>jdom2-2.0.6.jar</package>
+    </legal>
+  </project>
+</ip_log>
