@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="com.ibm.icu" version="63.1.0" status="done">
+  <project id="com.ibm.icu" version="64.2.0" status="done">
     <info>
       <name>ICU4J 64.2</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
