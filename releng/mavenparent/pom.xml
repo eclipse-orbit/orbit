@@ -433,6 +433,10 @@
           <format>${recipe.qualifier.format}</format>
           <!-- generate bundle .qualifier from Git tags/commits -->
           <timestampProvider>jgit</timestampProvider>
+          <!-- ignore files that will not affect bundle metadata -->
+          <jgit.ignore>
+          ip_log.xml
+          </jgit.ignore>
           <!-- allow to ignore dirty working trees -->
           <jgit.dirtyWorkingTree>${dirtyWorkingTree}</jgit.dirtyWorkingTree>
           <!-- generate source references -->
