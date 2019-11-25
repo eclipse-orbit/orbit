@@ -22,4 +22,8 @@
     <module>com.ibm.icu_64.2.0</module>
   </modules>
 
+  <properties>
+    <jgit.ignore>ip_log.xml</jgit.ignore>
+  </properties>
+
 </project>

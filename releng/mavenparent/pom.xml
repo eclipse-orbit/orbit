@@ -76,6 +76,9 @@
     <!-- by default complain if working tree is dirty (error|warning|ignore) -->
     <dirtyWorkingTree>error</dirtyWorkingTree>
 
+    <!-- ignore files that will not affect bundle metadata -->
+    <jgit.ignore></jgit.ignore>
+
     <!-- set default vendor -->
     <bundleVendor>Eclipse Orbit</bundleVendor>
 
@@ -433,9 +436,8 @@
           <format>${recipe.qualifier.format}</format>
           <!-- generate bundle .qualifier from Git tags/commits -->
           <timestampProvider>jgit</timestampProvider>
-          <!-- ignore files that will not affect bundle metadata -->
           <jgit.ignore>
-          ip_log.xml
+          ${jgit.ignore}
           </jgit.ignore>
           <!-- allow to ignore dirty working trees -->
           <jgit.dirtyWorkingTree>${dirtyWorkingTree}</jgit.dirtyWorkingTree>
