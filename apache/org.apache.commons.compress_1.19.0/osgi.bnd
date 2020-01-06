@@ -1,0 +1,15 @@
+package-version=${version;===;${Bundle-Version}}
+zstd-jni-version-range=${range;[===,+);1.4.0-1}zstd-jni-version=${version;===;1.4.0-1}
+dec-version-range=${range;[===,+);0.1.2}dec-version=${version;===;0.1.2}
+xz-version-range=${range;[===,+);1.8}xz-version=${version;===;1.8}
+org.osgi.core-version-range=${range;[===,+);6.0.0}org.osgi.core-version=${version;===;6.0.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional
