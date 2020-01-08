@@ -75,15 +75,19 @@
   <plugin id="org.apache.httpcomponents.httpcore" version="4.4.6.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpclient" version="4.5.2.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpclient.win" os="win32" version="4.5.2.qualifier"/>
+
   <plugin id="org.apache.httpcomponents.httpcore" version="4.4.9.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpclient" version="4.5.5.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpclient.win" os="win32" version="4.5.5.qualifier"/>
+
   <plugin id="org.apache.httpcomponents.httpcore" version="4.4.10.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpclient" version="4.5.6.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpclient.win" os="win32" version="4.5.6.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpmime" version="4.5.7.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpcore-nio" version="4.4.5.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpasyncclient" version="4.1.3.qualifier"/>
+
+  <plugin id="org.apache.httpcomponents.httpcore" version="4.4.12.qualifier"/>
 
   <plugin id="org.apache.lucene.core"              version="7.5.0.qualifier"/>
   <plugin id="org.apache.lucene.analyzers-common"  version="7.5.0.qualifier"/>
