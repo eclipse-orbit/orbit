@@ -73,7 +73,6 @@
 
   <!-- HTTPComponents -->
   <plugin id="org.apache.httpcomponents.httpcore" version="4.4.6.qualifier"/>
-  <plugin id="org.apache.httpcomponents.httpclient" version="4.5.2.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpclient.win" os="win32" version="4.5.2.qualifier"/>
 
   <plugin id="org.apache.httpcomponents.httpcore" version="4.4.9.qualifier"/>

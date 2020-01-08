@@ -17,7 +17,7 @@
 
   <modules>
     <module>org.apache.httpcomponents.httpcore_4.4.6</module>
-    <module>org.apache.httpcomponents.httpclient_4.5.2</module>
+
     <module>org.apache.httpcomponents.httpclient.win_4.5.2</module>
 
     <module>org.apache.httpcomponents.httpcore_4.4.9</module>
