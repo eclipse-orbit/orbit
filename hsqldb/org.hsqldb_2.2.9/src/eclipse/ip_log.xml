@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.hsqldb" version="2.2.9" status="done">
+    <info>
+      <name>HyperSQL Database</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>org.hsqldb</location>
+    </info>
+    <contact>
+      <name>Baily Roberts</name>
+      <email>Baily.Roberts@boeing.com</email>
+      <company>Boeing</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21436"/>
+       <license>
+        <name>New BSD license</name>
+        <reference>https://opensource.org/licenses/BSD-3-Clause</reference>
+      </license>
+      <package>hsqldb-2.2.9.jar</package>
+    </legal>
+  </project>
+</ip_log>
