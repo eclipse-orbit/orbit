@@ -27,6 +27,7 @@
 
     <module>org.apache.httpcomponents.httpcore_4.4.12</module>
     <module>org.apache.httpcomponents.httpclient_4.5.10</module>
+    <module>org.apache.httpcomponents.httpclient.win_4.5.10</module>
   </modules>
 
 </project>

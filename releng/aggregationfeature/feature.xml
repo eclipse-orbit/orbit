@@ -78,6 +78,7 @@
 
   <plugin id="org.apache.httpcomponents.httpcore" version="4.4.12.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpclient" version="4.5.10.qualifier"/>
+  <plugin id="org.apache.httpcomponents.httpclient.win" os="win32" version="4.5.10.qualifier"/>
 
   <plugin id="org.apache.lucene.core"              version="7.5.0.qualifier"/>
   <plugin id="org.apache.lucene.analyzers-common"  version="7.5.0.qualifier"/>
