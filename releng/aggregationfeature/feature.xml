@@ -71,7 +71,6 @@
   <plugin id="net.jini"  version="2.1.0.qualifier"/>
 
   <!-- HTTPComponents -->
-  <plugin id="org.apache.httpcomponents.httpmime" version="4.5.7.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpcore-nio" version="4.4.5.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpasyncclient" version="4.1.3.qualifier"/>
 
