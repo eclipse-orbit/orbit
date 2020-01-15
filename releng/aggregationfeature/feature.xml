@@ -68,6 +68,7 @@
 
   <plugin id="com.cronutils"  version="5.0.5.qualifier"/>
   <plugin id="org.hsqldb"  version="2.2.9.qualifier"/>
+  <plugin id="net.jini"  version="2.1.0.qualifier"/>
 
   <!-- HTTPComponents -->
   <plugin id="org.apache.httpcomponents.httpmime" version="4.5.7.qualifier"/>
