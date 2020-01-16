@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.junit" version="4.13.0" status="done">
+    <info>
+      <name>JUnit</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>junit-parent/junit4/org.junit</location>
+    </info>
+    <contact>
+      <name>Matthias Sohn</name>
+      <email>matthias.sohn@sap.com</email>
+      <company>SAP SE</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21440"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
+      </license>
+      <package>junit-4.13.jar</package>
+    </legal>
+  </project>
+</ip_log>

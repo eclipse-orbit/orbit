@@ -249,6 +249,8 @@
   <plugin id="org.apache.maven.resolver.transport.http" version="1.0.3.qualifier"/>
   <plugin id="org.apache.maven.resolver.util" version="1.0.3.qualifier"/>
 
+  <plugin id="org.junit" version="4.13.0.qualifier"/>
+
   <!-- JUnit 5.4.0 -->
   <plugin id="org.junit.jupiter.api" version="5.5.1.qualifier"/>
   <plugin id="org.junit.jupiter.engine" version="5.5.1.qualifier"/>
