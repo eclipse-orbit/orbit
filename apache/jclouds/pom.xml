@@ -10,7 +10,6 @@
   </parent>
 
   <artifactId>jclouds</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Eclipse Orbit :: JClouds Recipes</name>

@@ -9,7 +9,6 @@
   </parent>
 
   <artifactId>reactivestreams-parent</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Eclipse Orbit :: Reactive Streams Recipes</name>
