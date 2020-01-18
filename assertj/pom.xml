@@ -16,6 +16,7 @@
 
   <modules>
     <module>assertj-core_1.7.1</module>
+    <module>org.assertj_3.14.0</module>
   </modules>
 
 </project>
