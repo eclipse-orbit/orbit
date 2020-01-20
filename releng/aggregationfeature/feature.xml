@@ -133,7 +133,6 @@
   <plugin id="org.objectweb.asm.tree" version="7.2.0.qualifier"/>
   <plugin id="org.objectweb.asm.util" version="7.2.0.qualifier"/>
 
-  <plugin id="org.assertj" version="1.7.1.qualifier"/>
   <plugin id="org.assertj" version="3.14.0.qualifier"/>
 
   <plugin id="org.apache.commons.codec" version="1.13.0.qualifier"/>
