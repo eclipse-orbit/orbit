@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.lucene.analyzers-smartcn" version="8.0.0" status="done">
+  <project id="org.apache.lucene.analyzers-common" version="8.4.1" status="done">
     <info>
-      <name>Lucene Smart Chinese Analyzer</name>
+      <name>Lucene Common Analyzers</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>apache-parent/lucene/org.apache.lucene.analyzers-smartcn</location>
+      <location>apache-parent/lucene/org.apache.lucene.analyzers-common</location>
     </info>
     <contact>
       <name>Mat Booth</name>
@@ -12,12 +12,12 @@
       <company>Red Hat</company>
     </contact>
     <legal>
-      <ipzilla bug_id="19507"/>
+      <ipzilla bug_id="21519"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>lucene-analyzers-smartcn-8.0.0.jar</package>
+      <package>lucene-analyzers-common-8.4.1.jar</package>
     </legal>
   </project>
 </ip_log>

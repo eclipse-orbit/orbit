@@ -1,6 +1,6 @@
 package-version=${version;===;${Bundle-Version}}
-lucene-core-version-range=${range;[===,=+);8.0.0}
-lucene-core-version=${version;===;8.0.0}
+lucene-core-version-range=${range;[===,=+);8.4.1}
+lucene-core-version=${version;===;8.4.1}
 
 Export-Package: \
  org.apache.lucene.analysis;version="${package-version}";common=split;mandatory:=common, \

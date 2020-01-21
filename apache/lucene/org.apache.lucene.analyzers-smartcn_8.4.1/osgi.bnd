@@ -1,8 +1,8 @@
 package-version=${version;===;${Bundle-Version}}
-lucene-analyzers-common-version-range=${range;[===,=+);8.0.0}
-lucene-analyzers-common-version=${version;===;8.0.0}
-lucene-core-version-range=${range;[===,=+);8.0.0}
-lucene-core-version=${version;===;8.0.0}
+lucene-analyzers-common-version-range=${range;[===,=+);8.4.1}
+lucene-analyzers-common-version=${version;===;8.4.1}
+lucene-core-version-range=${range;[===,=+);8.4.1}
+lucene-core-version=${version;===;8.4.1}
 
 Export-Package: \
  !about.html,!about_files, \

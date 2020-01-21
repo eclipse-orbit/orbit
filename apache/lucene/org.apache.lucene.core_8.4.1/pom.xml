@@ -7,19 +7,15 @@
     <artifactId>lucene</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>org.apache.lucene.analyzers-common</artifactId>
-  <version>8.0.0-SNAPSHOT</version>
+  <artifactId>org.apache.lucene.core</artifactId>
+  <version>8.4.1-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
-  <name>Lucene Common Analyzers 8.0.0</name>
+  <name>Lucene Core 8.4.1</name>
   <dependencies>
     <dependency>
       <groupId>org.apache.lucene</groupId>
-      <artifactId>lucene-analyzers-common</artifactId>
-      <version>8.0.0</version>
+      <artifactId>lucene-core</artifactId>
+      <version>8.4.1</version>
     </dependency>
   </dependencies>
-  <properties>
-    <!-- Permit the use of Require-Bundle in osgi.bnd file -->
-    <recipe.removeadditionalheaders></recipe.removeadditionalheaders>
-  </properties>
 </project>

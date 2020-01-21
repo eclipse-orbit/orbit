@@ -83,11 +83,11 @@
   <plugin id="org.apache.lucene.analyzers-smartcn" version="7.5.0.qualifier"/>
   <plugin id="org.apache.lucene.misc"              version="7.5.0.qualifier"/>
   <plugin id="org.apache.lucene.queryparser"       version="7.5.0.qualifier"/>
-  <plugin id="org.apache.lucene.core"              version="8.0.0.qualifier"/>
-  <plugin id="org.apache.lucene.analyzers-common"  version="8.0.0.qualifier"/>
-  <plugin id="org.apache.lucene.analyzers-smartcn" version="8.0.0.qualifier"/>
-  <plugin id="org.apache.lucene.queryparser"       version="8.0.0.qualifier"/>
-  <plugin id="org.apache.lucene.misc"              version="8.0.0.qualifier"/>
+  <plugin id="org.apache.lucene.core"              version="8.4.1.qualifier"/>
+  <plugin id="org.apache.lucene.analyzers-common"  version="8.4.1.qualifier"/>
+  <plugin id="org.apache.lucene.analyzers-smartcn" version="8.4.1.qualifier"/>
+  <!--<plugin id="org.apache.lucene.queryparser"       version="8.0.0.qualifier"/>-->
+  <!--<plugin id="org.apache.lucene.misc"              version="8.0.0.qualifier"/>-->
 
 
   <!-- Mina sshd -->
