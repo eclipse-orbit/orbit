@@ -98,13 +98,13 @@
   <plugin id="org.apache.sshd.sftp" version="2.2.0.qualifier"/>
   <plugin id="org.apache.sshd.putty" version="2.2.0.qualifier"/>
 
-  <plugin id="org.slf4j.api"            version="1.7.10.qualifier"/>
-  <plugin id="org.slf4j.ext"            version="1.7.10.qualifier"/>
-  <plugin id="org.slf4j.apis.jcl"       version="1.7.10.qualifier"/>
-  <plugin id="org.slf4j.apis.log4j"     version="1.7.10.qualifier"/>
-  <plugin id="org.slf4j.bridge.jul"     version="1.7.10.qualifier"/>
-  <plugin id="org.slf4j.binding.nop"    version="1.7.10.qualifier"/>
-  <plugin id="org.slf4j.binding.simple" version="1.7.10.qualifier"/>
+  <plugin id="org.slf4j.api"            version="1.7.30.qualifier"/>
+  <plugin id="org.slf4j.ext"            version="1.7.30.qualifier"/>
+  <plugin id="org.slf4j.apis.jcl"       version="1.7.30.qualifier"/>
+  <plugin id="org.slf4j.apis.log4j"     version="1.7.30.qualifier"/>
+  <plugin id="org.slf4j.bridge.jul"     version="1.7.30.qualifier"/>
+  <plugin id="org.slf4j.binding.nop"    version="1.7.30.qualifier"/>
+  <plugin id="org.slf4j.binding.simple" version="1.7.30.qualifier"/>
 
   <plugin id="ch.qos.logback.core"    version="1.1.2.qualifier"/>
   <plugin id="ch.qos.logback.classic" version="1.1.2.qualifier"/>

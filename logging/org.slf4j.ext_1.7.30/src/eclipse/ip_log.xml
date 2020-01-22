@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.slf4j.ext" version="1.7.30" status="done">
+    <info>
+      <name>SLF4J Extensions Module</name>
+      <origin>SLF4J.org</origin>
+      <reference>http://www.slf4j.org/</reference>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>logging/org.slf4j.ext</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21580"/>
+      <license>
+        <name>MIT license</name>
+        <reference>http://opensource.org/licenses/MIT</reference>
+      </license>
+      <package>slf4j-ext-1.7.30.jar</package>
+    </legal>
+  </project>
+</ip_log>

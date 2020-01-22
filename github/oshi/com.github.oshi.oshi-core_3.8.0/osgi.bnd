@@ -1,6 +1,6 @@
 package-version=${version;===;${Bundle-Version}}
 
-slf4j-api-version=${version;===;1.7.10}
+slf4j-api-version=${version;===;1.7.30}
 jna-version=${version;===;4.5.1}
 jna-platform-version=${version;===;4.5.1}
 

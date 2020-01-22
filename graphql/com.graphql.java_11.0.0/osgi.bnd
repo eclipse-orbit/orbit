@@ -1,6 +1,6 @@
 package-version=${version;===;${Bundle-Version}}
 antlr4-runtime-version-range=${range;[===,+);4.7.1}
-slf4j-api-version-range=${range;[===,+);1.7.10}
+slf4j-api-version-range=${range;[===,+);1.7.30}
 java-dataloader-version-range=${range;[===,+);2.1.1}
 reactive-streams-version-range=${range;[===,+);1.0.2}
 
