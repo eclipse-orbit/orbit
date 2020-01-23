@@ -30,8 +30,8 @@
     <module>assertj</module>
     <module>apache</module>
     <module>bouncycastle</module>
-	<module>bytebuddy</module>
-	<module>cup</module>
+    <module>bytebuddy</module>
+    <module>cup</module>
     <module>drmaa</module>
     <module>freemarker</module>
     <module>github</module>
@@ -44,6 +44,7 @@
     <module>icu4j</module>
     <module>jackson</module>
     <module>jacoco</module>
+    <module>javax</module>
     <module>jcraft</module>
     <module>jna</module>
     <module>junit</module>
