@@ -1,0 +1,34 @@
+package-version=${version;===;${Bundle-Version}}
+mail-version-range=${range;[===,+);1.4}
+mail-version=${version;===;1.4}
+janino-version-range=${range;[===,+);3.0.6}
+janino-version=${version;===;3.0.6}
+groovy-all-version-range=${range;[===,+);2.4.0}
+groovy-all-version=${version;===;2.4.0}
+javax.servlet-api-version-range=${range;[===,+);3.1.0}
+javax.servlet-api-version=${version;===;3.1.0}
+logback-core-version-range=${range;[===,+);1.2.3}
+logback-core-version=${version;===;1.2.3}
+slf4j-api-version-range=${range;[===,+);1.7.25}
+slf4j-api-version=${version;===;1.7.25}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ javax.mail.*;version="${mail-version-range}";resolution:=optional, \
+ org.codehaus.janino.*;version="${janino-version-range}";resolution:=optional, \
+ org.codehaus.groovy.*;version="${groovy-all-version-range}";resolution:=optional, \
+ javax.servlet.*;version="${javax.servlet-api-version-range}";resolution:=optional, \
+ ch.qos.logback.*;version="${range;[===,=+);${package-version}}", \
+ ch.qos.logback.core.rolling;version="${range;[===,=+);${logback-core-version}}", \
+ ch.qos.logback.core.rolling.helper;version="${range;[===,=+);${logback-core-version}}", \
+ ch.qos.logback.core.read;version="${range;[===,=+);${logback-core-version}}", \
+ org.slf4j.spi.*;version="${slf4j-api-version-range}", \
+ org.slf4j.*;version="${slf4j-api-version-range}", \
+ *;resolution:=optional
+

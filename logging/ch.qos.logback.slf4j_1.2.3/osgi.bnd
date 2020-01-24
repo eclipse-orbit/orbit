@@ -1,0 +1,15 @@
+-include: ~../ch.qos.logback.core_1.2.3/osgi.bnd
+
+slf4j-exports= \
+ org.slf4j.impl*;x-internal:=true;version="${slf4j-version}", \
+ org.slf4j.*;version="${slf4j-version}"
+
+Export-Package: \
+ ${slf4j-exports}, \
+ ${logback-exports}
+
+###############
+# SLF4J Binding
+#
+Provide-Capability: org.slf4j.impl; org.slf4j.impl="logback"; version:Version="${slf4j-version}"
+Fragment-Host: org.slf4j.api;bundle-version="${range;[===,=+);${slf4j-version}}"

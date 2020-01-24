@@ -22,9 +22,9 @@
     <module>org.slf4j.binding.simple_1.7.30</module>
     <module>org.slf4j.bridge.jul_1.7.30</module>
     <module>org.slf4j.ext_1.7.30</module>
-    <module>ch.qos.logback.core_1.1.2</module>
-    <module>ch.qos.logback.classic_1.1.2</module>
-    <module>ch.qos.logback.slf4j_1.1.2</module>
+    <module>ch.qos.logback.core_1.2.3</module>
+    <module>ch.qos.logback.classic_1.2.3</module>
+    <module>ch.qos.logback.slf4j_1.2.3</module>
   </modules>
 
 </project>

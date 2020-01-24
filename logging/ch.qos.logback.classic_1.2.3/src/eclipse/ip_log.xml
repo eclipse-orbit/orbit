@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="ch.qos.logback.classic" version="1.2.3" status="done">
+    <info>
+      <name>Logback Classic Module</name>
+      <origin>QOS.ch</origin>
+      <reference>http://logback.qos.ch/</reference>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>logging/ch.qos.logback.classic</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21640"/>
+      <license>
+        <name>Eclipse Public License v2.0</name>
+        <reference>http://www.eclipse.org/legal/epl-v20.html</reference>
+      </license>
+      <package>logback-classic-1.2.3.jar</package>
+    </legal>
+  </project>
+</ip_log>

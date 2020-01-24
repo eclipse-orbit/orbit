@@ -1,0 +1,30 @@
+package-version=${version;===;${Bundle-Version}}
+janino-version-range=${range;[===,+);3.0.6}
+janino-version=${version;===;3.0.6}
+jansi-version-range=${range;[===,+);1.9}
+jansi-version=${version;===;1.9}
+mail-version-range=${range;[===,+);1.4}
+mail-version=${version;===;1.4}
+javax.servlet-api-version-range=${range;[===,+);3.1.0}
+javax.servlet-api-version=${version;===;3.1.0}
+slf4j-version=1.7.30
+
+logback-exports= \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Export-Package: ${logback-exports}
+
+logback-imports= \
+ org.codehaus.janino.*;version="${janino-version-range}";resolution:=optional, \
+ org.fusesource.jansi.*;version="${jansi-version-range}";resolution:=optional, \
+ javax.mail.*;version="${mail-version-range}";resolution:=optional, \
+ javax.servlet.*;version="${javax.servlet-api-version-range}";resolution:=optional, \
+ ch.qos.logback.*;version="${range;[===,=+);${package-version}}", \
+ org.slf4j.spi.*;version="${range;[===,=+);${slf4j-version}}", \
+ org.slf4j.*;version="${range;[==,+);${slf4j-version}}", \
+ *;resolution:=optional
+
+Import-Package: ${logback-imports}
