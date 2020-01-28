@@ -11,5 +11,6 @@ Import-Package: \
  junit.*;version="${junit-version-range}", \
  org.junit.*;version="${junit-version-range}"
 
+Automatic-Module-Name: junit
 Require-Bundle: \
  org.hamcrest.core;bundle-version="${hamcrest-version-range}";visibility:=reexport
