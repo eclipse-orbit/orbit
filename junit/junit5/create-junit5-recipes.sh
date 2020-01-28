@@ -6,7 +6,7 @@ function ebr () {
 
 # Edit these as needed for 'org.junit.platform'
 GID_PLATFORM='org.junit.platform'
-VERSION_PLATFORM='1.5.1'
+VERSION_PLATFORM='1.6.0'
 ARTIDS_PLATFORM=(
 junit-platform-commons
 junit-platform-engine
@@ -28,7 +28,7 @@ done
 
 # Edit these as needed for 'org.junit.jupiter'
 GID_JUPITER='org.junit.jupiter'
-VERSION_JUPITER='5.5.1'
+VERSION_JUPITER='5.6.0'
 ARTIDS_JUPITER=(
 junit-jupiter-api
 junit-jupiter-engine
@@ -48,7 +48,7 @@ done
 
 # Edit these as needed for 'org.junit.vintage'
 GID_VINTAGE='org.junit.vintage'
-VERSION_VINTAGE='5.5.1'
+VERSION_VINTAGE='5.6.0'
 ARTIDS_VINTAGE=(
 junit-vintage-engine
 )

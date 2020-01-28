@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.junit.platform.engine" version="1.6.0" status="done">
+    <info>
+      <name>JUnit Platform Engine API</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>junit-parent/junit5/org.junit.platform.engine</location>
+    </info>
+    <contact>
+      <name>Noopur Gupta</name>
+      <email>noopur_gupta@in.ibm.com</email>
+      <company>IBM</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21546"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
+      </license>
+      <package>junit-platform-engine-1.6.0.jar</package>
+    </legal>
+  </project>
+</ip_log>
