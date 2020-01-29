@@ -7,14 +7,14 @@ function ebr () {
 # Edit these as needed
 GID='com.github.jnr'
 VERSIONS=(
-0.9.8
-0.16
-2.1.4
-3.0.35
-0.18
+0.9.15
+0.25
+2.1.12
+3.0.54
+0.28
 1.0.2
-1.2.15
-1.2.15
+1.2.23
+1.2.23
 )
 ARTIDS=(
 jnr-constants
@@ -24,7 +24,7 @@ jnr-posix
 jnr-unixsocket
 jnr-x86asm
 jffi
-jffi
+jffi-native
 )
 BSNS=(
 com.github.jnr.constants

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.github.jnr.x86asm" version="1.0.2" status="done">
+    <info>
+      <name>jnr-x86asm</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git/jnr/com.git</repository>
+      <location>hub.jnr.x86asm</location>
+    </info>
+    <contact>
+      <name>Roland Grunberg</name>
+      <email>rgrunber@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="9630"/>
+      <license>
+        <name>MIT License</name>
+        <reference>https://github.com/jnr/jnr-x86asm/blob/master/LICENSE</reference>
+      </license>
+      <package>jnr-x86asm-1.0.2.jar</package>
+    </legal>
+  </project>
+</ip_log>

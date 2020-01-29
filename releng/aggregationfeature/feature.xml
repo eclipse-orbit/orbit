@@ -212,13 +212,14 @@
   <plugin id="org.glassfish.jersey.containers.servlet.core" version="2.22.1.qualifier"/>
 
   <!-- JNR -->
-  <plugin id="com.github.jnr.constants" version="0.9.8.qualifier"/>
-  <plugin id="com.github.jnr.ffi" version="2.1.4.qualifier"/>
-  <plugin id="com.github.jnr.jffi" version="1.2.15.qualifier"/>
-  <plugin id="com.github.jnr.posix" version="3.0.35.qualifier"/>
-  <plugin id="com.github.jnr.enxio" version="0.16.0.qualifier"/>
-  <plugin id="com.github.jnr.jffi.native" version="1.2.15.qualifier"/>
-  <plugin id="com.github.jnr.unixsocket" version="0.18.0.qualifier"/>
+  <plugin id="com.github.jnr.constants" version="0.9.15.qualifier"/>
+  <plugin id="com.github.jnr.enxio" version="0.25.0.qualifier"/>
+  <plugin id="com.github.jnr.ffi" version="2.1.12.qualifier"/>
+  <plugin id="com.github.jnr.jffi" version="1.2.23.qualifier"/>
+  <plugin id="com.github.jnr.jffi.native" version="1.2.23.qualifier"/>
+  <plugin id="com.github.jnr.posix" version="3.0.54.qualifier"/>
+  <plugin id="com.github.jnr.unixsocket" version="0.28.0.qualifier"/>
+  <plugin id="com.github.jnr.x86asm" version="1.0.2.qualifier"/>
 
   <!-- Jackson -->
   <plugin id="com.fasterxml.jackson.core.jackson-databind" version="2.9.93.qualifier"/>

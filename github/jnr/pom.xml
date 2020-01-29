@@ -15,13 +15,14 @@
   <name>Eclipse Orbit :: JNR Recipes</name>
 
   <modules>
-   <module>com.github.jnr.constants_0.9.8</module>
-   <module>com.github.jnr.ffi_2.1.4</module>
-   <module>com.github.jnr.jffi_1.2.15</module>
-   <module>com.github.jnr.posix_3.0.35</module>
-   <module>com.github.jnr.enxio_0.16.0</module>
-   <module>com.github.jnr.jffi.native_1.2.15</module>
-   <module>com.github.jnr.unixsocket_0.18.0</module>
+   <module>com.github.jnr.constants_0.9.15</module>
+   <module>com.github.jnr.enxio_0.25.0</module>
+   <module>com.github.jnr.ffi_2.1.12</module>
+   <module>com.github.jnr.jffi_1.2.23</module>
+   <module>com.github.jnr.jffi.native_1.2.23</module>
+   <module>com.github.jnr.posix_3.0.54</module>
+   <module>com.github.jnr.unixsocket_0.28.0</module>
+   <module>com.github.jnr.x86asm_1.0.2</module>
   </modules>
 
 </project>
