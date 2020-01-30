@@ -15,6 +15,7 @@
   <name>Eclipse Orbit :: javax Recipes</name>
 
   <modules>
+    <module>javax.activation_1.1.1</module>
     <module>javax.validation_1.1.0</module>
     <module>javax.ws.rs_2.1.1</module>
   </modules>

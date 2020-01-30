@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="javax.activation" version="1.1.1" status="done">
+    <info>
+      <name>JavaBeans(TM) Activation Framework</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>javax-parent/javax.activation</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21617"/>
+      <license>
+        <name>Common Development and Distribution License 1.0</name>
+        <reference>https://spdx.org/licenses/CDDL-1.0.html</reference>
+      </license>
+      <package>activation-1.1.1.jar</package>
+    </legal>
+  </project>
+</ip_log>
