@@ -1,0 +1,19 @@
+package-version=${version;===;${Bundle-Version}}
+jsr305-version-range=${range;[===,+);3.0.2}jsr305-version=${version;===;3.0.2}
+ejml-core-version-range=${range;[===,+);0.38}ejml-core-version=${version;===;0.38}
+ejml-fdense-version-range=${range;[===,+);0.38}ejml-fdense-version=${version;===;0.38}
+ejml-ddense-version-range=${range;[===,+);0.38}ejml-ddense-version=${version;===;0.38}
+ejml-cdense-version-range=${range;[===,+);0.38}ejml-cdense-version=${version;===;0.38}
+ejml-zdense-version-range=${range;[===,+);0.38}ejml-zdense-version=${version;===;0.38}
+ejml-dsparse-version-range=${range;[===,+);0.38}ejml-dsparse-version=${version;===;0.38}
+ejml-simple-version-range=${range;[===,+);0.38}ejml-simple-version=${version;===;0.38}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *
