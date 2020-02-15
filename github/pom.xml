@@ -27,6 +27,7 @@
     <module>mongodb</module>
     <module>mozilla</module>
     <module>oshi</module>
+    <module>unirest</module>
   </modules>
 
 </project>
