@@ -27,7 +27,6 @@
     <module>org.apache.pdfbox.preflight_2.0.6</module>
     <module>org.apache.pdfbox.xmpbox_2.0.6</module>
     <module>org.apache.pdfbox_2.0.6</module>
-    <module>org.apache.sshd.core_2.0.0</module>
     <module>org.apache.sshd.osgi_2.4.0</module>
     <module>org.apache.sshd.sftp_2.4.0</module>
     <module>org.apache.sshd.putty_2.2.0</module>
