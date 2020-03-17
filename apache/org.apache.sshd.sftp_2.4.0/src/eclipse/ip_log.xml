@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.sshd.sftp" version="2.0.0" status="done">
+  <project id="org.apache.sshd.sftp" version="2.4.0" status="done">
     <info>
       <name>Apache Mina SSHD :: SFTP</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>apache-parent/org.apache.sshd.sftp</location>
+      <location>apache/org.apache.sshd.sftp_2.4.0</location>
     </info>
     <contact>
       <name>Matthias Sohn</name>
@@ -12,12 +12,12 @@
       <company>SAP SE</company>
     </contact>
     <legal>
-      <ipzilla bug_id="17852"/>
+      <ipzilla bug_id="21798"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>sshd-sftp-2.0.0.jar</package>
+      <package>sshd-sftp-2.4.0.jar</package>
     </legal>
   </project>
 </ip_log>
