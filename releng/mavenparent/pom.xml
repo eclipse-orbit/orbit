@@ -144,7 +144,7 @@
     <!-- some bundles might depend on base platform content -->
     <repository>
       <id>eclipse-platform</id>
-      <url>https://download.eclipse.org/eclipse/updates/4.15milestones/</url>
+      <url>https://download.eclipse.org/eclipse/updates/4.15/</url>
       <layout>p2</layout>
     </repository>
   </repositories>
