@@ -133,13 +133,13 @@
     <!-- Artifacts approved for Orbit that can't be taken from Maven Central -->
     <repository>
       <id>orbit-approved-artifacts</id>
-      <url>http://repo.eclipse.org/content/repositories/orbit-approved-artifacts</url>
+      <url>https://repo.eclipse.org/content/repositories/orbit-approved-artifacts</url>
     </repository>
     <!-- target platform should reference old-style repository content -->
     <repository>
       <id>eclipse-orbit-old</id>
       <layout>p2</layout>
-      <url>http://download.eclipse.org/tools/orbit/downloads/drops/${orbitOldRBuild}/repository/</url>
+      <url>https://download.eclipse.org/tools/orbit/downloads/drops/${orbitOldRBuild}/repository/</url>
     </repository>
     <!-- some bundles might depend on base platform content -->
     <repository>
@@ -373,7 +373,7 @@
             <configuration>
               <baselineRepositories>
                 <repository>
-                  <url>http://download.eclipse.org/tools/orbit/downloads/drops/${referenceRepoBuild}/repository</url>
+                  <url>https://download.eclipse.org/tools/orbit/downloads/drops/${referenceRepoBuild}/repository</url>
                 </repository>
               </baselineRepositories>
               <supportedProjectTypes>

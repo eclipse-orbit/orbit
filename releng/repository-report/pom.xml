@@ -55,12 +55,12 @@
               <repositories>
                 <repository>
                   <id>cbi-reports</id>
-                  <url>http://download.eclipse.org/cbi/updates/analyzers/4.6/I20161201-1633</url>
+                  <url>https://download.eclipse.org/cbi/updates/analyzers/4.6/I20161201-1633</url>
                   <layout>p2</layout>
                 </repository>
                 <repository>
                   <id>eclipse-4.6.1</id>
-                  <url>http://download.eclipse.org/eclipse/updates/4.6/R-4.6.1-201609071200/</url>
+                  <url>https://download.eclipse.org/eclipse/updates/4.6/R-4.6.1-201609071200/</url>
                   <layout>p2</layout>
                 </repository>
               </repositories>
