@@ -1,0 +1,12 @@
+package-version=${version;===;${Bundle-Version}}
+stringtemplate-version-range=${range;[===,+);3.2.1}stringtemplate-version=${version;===;3.2.1}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional

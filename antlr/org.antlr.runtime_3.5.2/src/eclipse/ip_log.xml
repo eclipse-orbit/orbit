@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.antlr.runtime" version="3.5.2" status="done">
+    <info>
+      <name>ANTLR 3 Runtime</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>antlr/org.antlr.runtime</location>
+    </info>
+    <contact>
+      <name>Sina Madani</name>
+      <email>sinadoom@googlemail.com</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="14556"/>
+      <license>
+        <name>New BSD license</name>
+        <reference>http://opensource.org/licenses/BSD-3-Clause</reference>
+      </license>
+      <package>antlr-runtime-3.5.2.jar</package>
+    </legal>
+  </project>
+</ip_log>
