@@ -11,7 +11,7 @@ Prerequisites
 This project uses Maven for assembling of OSGi bundles based on artifacts in Maven Central or
 any other accessible Maven repository.
 
-1. Install Java (at least Java 7, Java 8 preferred) and Maven
+1. Install Java (JDK 8 preferred) and Maven
 2. Clone this repository and go into the repository root folder.
 
 
@@ -57,10 +57,11 @@ How to add recipes
 Adding recipes to this repository is part of the general process for adding bundles to Orbit. Please read the
 following additional information first before you proceed.
 
-* [Adding Bundles to Orbit](https://wiki.eclipse.org/Orbit/Adding_Bundles_to_Orbit), especially section "Project Approvals and the CQ Process"
+* [Adding Bundles to Orbit](https://wiki.eclipse.org/Orbit/Adding_Bundles_to_Orbit)
 * [Bundle Checklist](https://wiki.eclipse.org/Orbit_Bundle_Checklist)
 * [Additional articles](https://wiki.eclipse.org/Category:Orbit)
 
+It's important to ensure that the bundle you're adding has been approved for use in at least one other Eclipse project on [IPZilla](https://dev.eclipse.org/ipzilla/query.cgi).
 
 ### 1. Pick a Category
 
@@ -84,7 +85,7 @@ create a recipe including required Eclipse IP information based on data availabl
     # the recipe will be created in a folder named "<symbolicname-of-the-orbit-bundle>_<version>"
     mvn ebr:create-recipe -DgroupId=<maven-source-groupId> -DartifactId=<maven-source-artifactId> -Dversion=<maven-source-version> -DbundleSymbolicName=<symbolicname-of-the-orbit-bundle>
 
-    # modify recipe pom and osgi.bnd to suite the needs of the bundle
+    # modify recipe pom and osgi.bnd to suit the needs of the bundle
     cd <new-recipe-folder>
     $EDITOR pom.xml
     $EDITOR osgi.bnd
@@ -95,13 +96,11 @@ create a recipe including required Eclipse IP information based on data availabl
 
     # hidden gem: automatically create a CQ for an Eclipse project
     # (use carefully, creates the CQ if noone is referenced in the ip_log.xml file)
-    #mvn -V clean package -DsubmitCqsToProject=<Eclipse.project.id> -DcqCryptography=<Yes|No|Unknown|Explanation> -DdirtyWorkingTree=warning
+    # mvn -V clean package -DsubmitCqsToProject=<Eclipse.project.id> -DcqCryptography=<Yes|No|Unknown|Explanation> -DdirtyWorkingTree=warning
     # (once the CQ is created, source to upload can be found in 'target/sources-for-eclipse-ipzilla')
     # (after uploading the source, wait for approval)
-    # (after approval, login to the project portal and create the ATO CQ for Orbit and update the CQ number in ip_log.xml as explained below)
 
-    # enter the CQ number into the IP log and add any missing information
-    # (note, this must be the Add-to-Orbit "ATO" CQ filed against the Orbit project)
+    # enter any non-PB CQ number into the IP log and add any missing information (your name, e-mail etc.)
     $EDITOR src/eclipse/ip_log.xml
 
     # review the generated about files
@@ -110,6 +109,9 @@ create a recipe including required Eclipse IP information based on data availabl
 
     # add new recipe to category pom
     $EDITOR ../pom.xml
+
+    # update the build feature with your bundle
+    $EDITOR ../../releng/aggregationfeature/feature.xml
 
     # add, commit the recipe to Git and push it up for review
 
