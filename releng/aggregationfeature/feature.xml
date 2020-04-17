@@ -58,6 +58,8 @@
   <plugin id="org.apache.batik.util" version="1.11.0.qualifier"/>
   <plugin id="org.apache.xmlgraphics" version="2.3.0.qualifier"/>
 
+  <plugin id="org.apache.commons.cli" version="1.4.0.qualifier"/>
+
   <plugin id="org.apache.commons.compress" version="1.19.0.qualifier"/>
 
   <plugin id="org.apache.felix.gogo.command"  version="1.0.2.qualifier"/>
@@ -65,6 +67,8 @@
   <plugin id="org.apache.felix.gogo.shell"  version="1.1.0.qualifier"/>
 
   <plugin id="org.apache.felix.scr"  version="2.1.16.qualifier"/>
+
+  <plugin id="org.apache.xmlbeans" version="2.6.0.qualifier"/>
 
   <plugin id="com.cronutils"  version="5.0.5.qualifier"/>
   <plugin id="org.hsqldb"  version="2.2.9.qualifier"/>
@@ -117,6 +121,7 @@
 
   <plugin id="javaewah" version="1.1.7.qualifier"/>
 
+  <plugin id="org.antlr.runtime"   version="3.5.2.qualifier"/>
   <plugin id="org.antlr.runtime"   version="4.5.1.qualifier"/>
   <plugin id="org.antlr.runtime"   version="4.7.1.qualifier"/>
   <plugin id="org.antlr.runtime"   version="4.7.2.qualifier"/>
