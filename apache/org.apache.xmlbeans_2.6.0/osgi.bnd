@@ -9,4 +9,4 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
- *
+ *;resolution:=optional

@@ -524,10 +524,11 @@
             <!-- Some CQs might be binary distribution only -->
             <excludes>
               <plugin id="com.sun.grid.drmaa" />
-	      <plugin id="net.jini" />
+              <plugin id="net.jini" />
               <plugin id="org.ggf.drmaa" />
               <plugin id="org.apache.batik.pdf" />
               <plugin id="org.apache.wsil4j" />
+              <plugin id="org.apache.xmlbeans" />
             </excludes>
           </configuration>
         </plugin>
