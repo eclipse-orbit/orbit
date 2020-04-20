@@ -11,8 +11,9 @@ Prerequisites
 This project uses Maven for assembling of OSGi bundles based on artifacts in Maven Central or
 any other accessible Maven repository.
 
-1. Install Java (JDK 8 preferred) and Maven
+1. Install Java (JDK 8 preferred) and Maven.
 2. Clone this repository and go into the repository root folder.
+Please ensure you cloned using the [Gerrit URL](https://wiki.eclipse.org/Gerrit#Gerrit_push_URL).
 
 
 
@@ -113,6 +114,9 @@ create a recipe including required Eclipse IP information based on data availabl
     # update the build feature with your bundle
     $EDITOR ../../releng/aggregationfeature/feature.xml
 
-    # add, commit the recipe to Git and push it up for review
+    # add, commit the recipe to Git and push to Gerrit for review
+    git add .; git commit -m "Added org.example.foo 1.2.3"
+    # NOTE: Please ensure you push using the following command so that you don't bypass the code review:
+    git push origin HEAD:refs/for/master
 
 
