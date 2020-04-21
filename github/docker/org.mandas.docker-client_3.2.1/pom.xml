@@ -7,15 +7,15 @@
     <artifactId>docker</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>com.spotify.docker.client</artifactId>
-  <version>8.11.7-SNAPSHOT</version>
+  <artifactId>org.mandas.docker-client</artifactId>
+  <version>3.2.1-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>docker-client</name>
   <dependencies>
     <dependency>
-      <groupId>com.spotify</groupId>
+      <groupId>org.mandas</groupId>
       <artifactId>docker-client</artifactId>
-      <version>8.11.7</version>
+      <version>3.2.1</version>
     </dependency>
   </dependencies>
 </project>

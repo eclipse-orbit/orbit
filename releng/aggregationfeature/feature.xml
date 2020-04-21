@@ -241,7 +241,8 @@
   <plugin id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider" version="2.10.3.qualifier"/>
   <plugin id="com.fasterxml.jackson.module.jackson-module-jaxb-annotations" version="2.10.3.qualifier"/>
 
-  <plugin id="com.spotify.docker.client" version="8.11.7.qualifier"/>
+  <!-- Docker client -->
+  <plugin id="org.mandas.docker-client" version="3.2.1.qualifier"/>
 
   <!-- JaCoCo -->
   <plugin id="org.jacoco.agent" version="0.8.5.qualifier"/>

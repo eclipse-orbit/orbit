@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="com.spotify.docker.client" version="8.11.7" status="done">
+  <project id="org.mandas.docker-client" version="3.2.1" status="done">
     <info>
       <name>docker-client</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>docker/com.spotify.docker.client</location>
+      <location>github-parent/docker/org.mandas.docker-client</location>
     </info>
     <contact>
-      <name>Roland Grunberg</name>
-      <email>rgrunber@redhat.com</email>
-      <company>Red Hat</company>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
     </contact>
     <legal>
-      <ipzilla bug_id="17046"/>
+      <ipzilla bug_id="21933"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>docker-client-8.11.7.jar</package>
+      <package>docker-client-3.2.1.jar</package>
     </legal>
   </project>
 </ip_log>

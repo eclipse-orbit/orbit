@@ -6,14 +6,14 @@ function ebr () {
 
 # Edit these as needed
 GIDS=(
-com.spotify
+org.mandas
 )
-VERSION='3.6.8'
+VERSION='3.2.1'
 ARTIDS=(
 docker-client
 )
 BSNS=(
-com.spotify.docker.client
+org.mandas.docker-client
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do
