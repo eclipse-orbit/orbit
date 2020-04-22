@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.bouncycastle.bcpg" version="1.65.0" status="done">
+    <info>
+      <name>Bouncy Castle OpenPGP API</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>bouncycastle/org.bouncycastle.bcpg</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21975"/>
+      <license>
+        <name>MIT License</name>
+        <reference>http://www.bouncycastle.org/licence.html</reference>
+      </license>
+      <package>bcpg-jdk15on-1.65.jar</package>
+    </legal>
+  </project>
+</ip_log>

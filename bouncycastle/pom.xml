@@ -24,12 +24,9 @@
   </properties>
 
   <modules>
-    <module>org.bouncycastle.bcpg_1.61.0</module>
-    <module>org.bouncycastle.bcpkix_1.61.0</module>
-    <module>org.bouncycastle.bcprov_1.61.0</module>
-    <module>org.bouncycastle.bcpg_1.64.0</module>
-    <module>org.bouncycastle.bcpkix_1.64.0</module>
-    <module>org.bouncycastle.bcprov_1.64.0</module>
+    <module>org.bouncycastle.bcpg_1.65.0</module>
+    <module>org.bouncycastle.bcpkix_1.65.0</module>
+    <module>org.bouncycastle.bcprov_1.65.0</module>
   </modules>
 
 </project>
