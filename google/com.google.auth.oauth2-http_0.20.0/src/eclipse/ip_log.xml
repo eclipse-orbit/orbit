@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.google.auth.oauth2-http" version="0.1.0" status="done">
+    <info>
+      <name>Google Auth Library for Java - OAuth2 HTTP</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>google/com.google.auth.oauth2-http</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21973"/>
+      <license>
+        <name>New BSD license</name>
+        <reference>https://github.com/googleapis/google-auth-library-java/blob/master/LICENSE</reference>
+      </license>
+      <package>google-auth-library-oauth2-http-0.20.0.jar</package>
+    </legal>
+  </project>
+</ip_log>

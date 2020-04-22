@@ -1,0 +1,15 @@
+package-version=${version;===;${Bundle-Version}}
+opencensus-api-version=${version;===;0.26.0}
+guava-version=${version;===;27.1.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ io.opencensus*;version="${opencensus-api-version}", \
+ com.google.common*;version="${guava-version}", \
+ *;resolution:=optional

@@ -1,0 +1,22 @@
+package-version=${version;===;${Bundle-Version}}
+auto-value-annotations-version=${version;===;1.7}
+jsr305-version=${version;===;3.0.2}
+google-auth-library-credentials-version=${version;===;0.19.0}
+google-http-client-version=${version;===;1.33.0}
+google-http-client-jackson2-version=${version;===;1.33.0}
+guava-version=${version;===;27.1.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ com.google.auth.*;version="${google-auth-library-credentials-version}", \
+ com.google.auto.value;version="${auto-value-annotations-version}", \
+ com.google.api.client.json.jackson*;version="${google-http-client-jackson2-version}", \
+ com.google.api.client*;version="${google-http-client-version}", \
+ com.google.common*;version="${guava-version}", \
+ *;resolution:=optional

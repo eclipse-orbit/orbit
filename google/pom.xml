@@ -22,6 +22,15 @@
     <module>com.google.flogger_0.1.0</module>
     <module>com.google.flogger.systembackend_0.1.0</module>
     <module>com.google.flogger.testing_0.1.0</module>
+    <module>com.google.auth.oauth2-http_0.20.0</module>
+    <module>com.google.auth.google-auth-library-credentials_0.20.0</module>
+    <module>com.google.auto.value.auto-value-annotations_1.7.0</module>
+    <module>com.google.http-client.google-http-client_1.34.2</module>
+    <module>com.google.http-client.google-http-client-jackson2_1.34.2</module>
+    <module>com.google.j2objc.j2objc-annotations_1.3.0</module>
+    <module>io.grpc.grpc-context_1.29.0</module>
+    <module>io.opencensus.opencensus-api_0.26.0</module>
+    <module>io.opencensus.opencensus-contrib-http-util_0.26.0</module>
   </modules>
 
 </project>

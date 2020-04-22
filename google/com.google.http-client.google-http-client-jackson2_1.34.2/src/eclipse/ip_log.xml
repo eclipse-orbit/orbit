@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.google.http-client.google-http-client-jackson2" version="1.34.2" status="done">
+    <info>
+      <name>Jackson 2 extensions to the Google HTTP Client Library for Java.</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>google/com.google.http-client.google-http-client-jackson2</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21993"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>google-http-client-jackson2-1.34.2.jar</package>
+    </legal>
+  </project>
+</ip_log>

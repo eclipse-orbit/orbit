@@ -1,0 +1,30 @@
+package-version=${version;===;${Bundle-Version}}
+httpclient-version=${version;===;4.5.10}
+httpcore-version=${version;===;4.4.12}
+jsr305-version=${version;===;3.0.2}
+guava-version=${version;===;27.1.0}
+j2objc-annotations-version=${version;===;1.3}
+opencensus-api-version=${version;===;0.24.0}
+opencensus-contrib-http-util-version=${version;===;0.24.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ com.google.common*;version="${guava-version}", \
+ com.google.j2objc.annotations;version="${j2objc-annotations-version}", \
+ io.opencensus.contrib*;version="${opencensus-contrib-http-util-version}", \
+ io.opencensus*;version="${opencensus-api-version}", \
+ org.apache.http;version="${httpcore-version}", \
+ org.apache.http.config*;version="${httpcore-version}", \
+ org.apache.http.protocol*;version="${httpcore-version}", \
+ org.apache.http.ssl*;version="${httpcore-version}", \
+ org.apache.http.client*;version="${httpclient-version}", \
+ org.apache.http.conn*;version="${httpclient-version}", \
+ org.apache.http.impl.client*;version="${httpclient-version}", \
+ org.apache.http.impl.conn*;version="${httpclient-version}", \
+ *;resolution:=optional

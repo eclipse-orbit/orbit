@@ -1,0 +1,13 @@
+package-version=${version;===;${Bundle-Version}}
+grpc-context-version=${version;===;1.27.2}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ io.grpc*;version="${grpc-context-version}", \
+ *;resolution:=optional

@@ -26,6 +26,17 @@
   <plugin id="com.google.flogger.systembackend" version="0.1.0.qualifier"/>
   <plugin id="com.google.flogger.testing" version="0.1.0.qualifier"/>
 
+  <plugin id="com.google.auth.oauth2-http" version="0.20.0.qualifier"/>
+
+  <plugin id="com.google.auth.google-auth-library-credentials" version="0.20.0.qualifier"/>
+  <plugin id="com.google.auto.value.auto-value-annotations" version="1.7.0.qualifier"/>
+  <plugin id="com.google.http-client.google-http-client" version="1.34.2.qualifier"/>
+  <plugin id="com.google.http-client.google-http-client-jackson2" version="1.34.2.qualifier"/>
+  <plugin id="com.google.j2objc.j2objc-annotations" version="1.3.0.qualifier"/>
+  <plugin id="io.grpc.grpc-context" version="1.29.0.qualifier"/>
+  <plugin id="io.opencensus.opencensus-api" version="0.26.0.qualifier"/>
+  <plugin id="io.opencensus.opencensus-contrib-http-util" version="0.26.0.qualifier"/>
+
   <plugin id="com.ibm.icu" version="64.2.0.qualifier"/>
 
   <plugin id="com.jcraft.jsch" version="0.1.55.qualifier"/>
