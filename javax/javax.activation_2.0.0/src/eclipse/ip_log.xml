@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="javax.activation" version="1.1.1" status="done">
+  <project id="javax.activation" version="2.0.0" status="done">
     <info>
       <name>JavaBeans(TM) Activation Framework</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
@@ -12,12 +12,12 @@
       <company>Intel Corporation</company>
     </contact>
     <legal>
-      <ipzilla bug_id="21617"/>
+      <ipzilla bug_id="22020"/>
       <license>
-        <name>Common Development and Distribution License 1.0</name>
-        <reference>https://spdx.org/licenses/CDDL-1.0.html</reference>
+        <name>New BSD license</name>
+        <reference>https://spdx.org/licenses/BSD-3-Clause</reference>
       </license>
-      <package>activation-1.1.1.jar</package>
+      <package>activation-2.0.0.jar</package>
     </legal>
   </project>
 </ip_log>

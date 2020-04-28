@@ -319,7 +319,7 @@
   <!-- GlazedLists -->
   <plugin id="ca.odell.glazedlists" version="1.11.0.qualifier" />
 
-  <plugin id="javax.activation" version="1.1.1.qualifier" />
+  <plugin id="javax.activation" version="2.0.0.qualifier" />
 
   <!-- javax.validation -->
   <plugin id="javax.validation" version="1.1.0.qualifier" />
