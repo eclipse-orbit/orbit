@@ -15,11 +15,12 @@
   <name>Eclipse Orbit :: Jackson Recipes</name>
 
   <modules>
-    <module>com.fasterxml.jackson.jaxrs.jackson-jaxrs-base_2.9.9</module>
-    <module>com.fasterxml.jackson.core.jackson-databind_2.9.93</module>
-    <module>com.fasterxml.jackson.datatype.jackson-datatype-guava_2.9.9</module>
-    <module>com.fasterxml.jackson.core.jackson-annotations_2.9.9</module>
-    <module>com.fasterxml.jackson.core.jackson-core_2.9.9</module>
-    <module>com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider_2.9.9</module>
+    <module>com.fasterxml.jackson.core.jackson-annotations_2.10.3</module>
+    <module>com.fasterxml.jackson.core.jackson-core_2.10.3</module>
+    <module>com.fasterxml.jackson.core.jackson-databind_2.10.3</module>
+    <module>com.fasterxml.jackson.datatype.jackson-datatype-guava_2.10.3</module>
+    <module>com.fasterxml.jackson.jaxrs.jackson-jaxrs-base_2.10.3</module>
+    <module>com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider_2.10.3</module>
+    <module>com.fasterxml.jackson.module.jackson-module-jaxb-annotations_2.10.3</module>
   </modules>
 </project>

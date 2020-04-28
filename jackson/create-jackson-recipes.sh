@@ -12,8 +12,9 @@ com.fasterxml.jackson.core
 com.fasterxml.jackson.jaxrs
 com.fasterxml.jackson.jaxrs
 com.fasterxml.jackson.datatype
+com.fasterxml.jackson.module
 )
-VERSION='2.9.9'
+VERSION='2.10.3'
 ARTIDS=(
 jackson-core
 jackson-annotations
@@ -21,6 +22,7 @@ jackson-databind
 jackson-jaxrs-base
 jackson-jaxrs-json-provider
 jackson-datatype-guava
+jackson-module-jaxb-annotations
 )
 BSNS=(
 com.fasterxml.jackson.core.jackson-core
@@ -29,6 +31,7 @@ com.fasterxml.jackson.core.jackson-databind
 com.fasterxml.jackson.jaxrs.jackson-jaxrs-base
 com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider
 com.fasterxml.jackson.datatype.jackson-datatype-guava
+com.fasterxml.jackson.module.jackson-module-jaxb-annotations
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do

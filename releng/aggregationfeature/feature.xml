@@ -222,12 +222,13 @@
   <plugin id="com.github.jnr.x86asm" version="1.0.2.qualifier"/>
 
   <!-- Jackson -->
-  <plugin id="com.fasterxml.jackson.core.jackson-databind" version="2.9.93.qualifier"/>
-  <plugin id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-base" version="2.9.9.qualifier"/>
-  <plugin id="com.fasterxml.jackson.datatype.jackson-datatype-guava" version="2.9.9.qualifier"/>
-  <plugin id="com.fasterxml.jackson.core.jackson-annotations" version="2.9.9.qualifier"/>
-  <plugin id="com.fasterxml.jackson.core.jackson-core" version="2.9.9.qualifier"/>
-  <plugin id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider" version="2.9.9.qualifier"/>
+  <plugin id="com.fasterxml.jackson.core.jackson-databind" version="2.10.3.qualifier"/>
+  <plugin id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-base" version="2.10.3.qualifier"/>
+  <plugin id="com.fasterxml.jackson.datatype.jackson-datatype-guava" version="2.10.3.qualifier"/>
+  <plugin id="com.fasterxml.jackson.core.jackson-annotations" version="2.10.3.qualifier"/>
+  <plugin id="com.fasterxml.jackson.core.jackson-core" version="2.10.3.qualifier"/>
+  <plugin id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider" version="2.10.3.qualifier"/>
+  <plugin id="com.fasterxml.jackson.module.jackson-module-jaxb-annotations" version="2.10.3.qualifier"/>
 
   <plugin id="com.spotify.docker.client" version="8.11.7.qualifier"/>
 
