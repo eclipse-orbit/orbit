@@ -6,18 +6,20 @@ function ebr () {
 
 # Edit these as needed
 GIDS=(
-javax.activation
+jakarta.annotation
 )
 ARTIDS=(
-activation
+jakarta.annotation-api
 )
 VERSION=(
-'1.1.1'
+'1.3.5'
 )
 BSNS=(
-javax.activation
+javax.annotation
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do
   ebr ${GIDS[${i}]} ${ARTIDS[${i}]} ${VERSION[${i}]} ${BSNS[${i}]}
 done
+
+#jakarta.annotation:jakarta.annotation-api:1.3.5
