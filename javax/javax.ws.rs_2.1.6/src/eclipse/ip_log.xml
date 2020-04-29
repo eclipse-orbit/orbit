@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="javax.ws.rs" version="2.1.1" status="done">
+  <project id="javax.ws.rs" version="2.1.6" status="done">
     <info>
-      <name>javax.ws.rs-api</name>
+      <name>jakarta.ws.rs-api</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
       <location>javax-parent/javax.ws.rs</location>
     </info>
@@ -12,12 +12,12 @@
       <company>Intel Corporation</company>
     </contact>
     <legal>
-      <ipzilla bug_id="18742"/>
+      <ipzilla bug_id="22020"/>
       <license>
         <name>Eclipse Public License</name>
-        <reference>http://www.eclipse.org/legal/epl-2.0</reference>
+        <reference>https://www.eclipse.org/legal/epl-v20.html</reference>
       </license>
-      <package>javax.ws.rs-2.1.1.jar</package>
+      <package>jakarta.ws.rs-api-2.1.6.jar</package>
     </legal>
   </project>
 </ip_log>

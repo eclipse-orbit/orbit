@@ -1,18 +1,23 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head>
+<!-- start of server/head-include-1.html -->
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rev="made" href="mailto:webmasters@gnu.org" />
 <link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
 <meta name="ICBM" content="42.355469,-71.058627" />
+<meta name="DC.title" content="gnu.org" />
 <link rel="stylesheet" type="text/css" href="/reset.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="/mini.css" media="handheld" />
 <link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+<!-- end of server/head-include-1.html -->
 
+<!-- end of server/header.html -->
 
-
-<!-- Parent-Version: 1.90 -->
+<!-- Parent-Version: 1.91 -->
    
 <title>The GNU Operating System and the Free Software Movement</title>
 
@@ -22,6 +27,8 @@
 
 <style type="text/css" media="print,screen">
 <!--
+blockquote.highlight-para { margin: 1.5em 0 0; }
+
 .first-column, .second-column {
    width: 46em; max-width: 100%;
    margin: auto;
@@ -32,7 +39,7 @@ h2 {
    margin: 1.2em 0 .9em;
 }
 h2.first {
-   margin-top: 1em;
+   margin-top: .9em;
 }
 
 #gnu-linux, .thumbs {
@@ -53,6 +60,9 @@ h2.first {
 .screenshot a, .thumbs .image td a {
    color: white;
 }
+.screenshot a[href]:hover, .thumbs .image td a[href]:hover {
+   background: #444;
+}
 .screenshot img {
    width: 100%;
 }
@@ -64,7 +74,7 @@ h2.first {
    width: 100%;
    display: block;
    overflow: auto;
-   padding-bottom: .2em;
+   padding-bottom: .8em;
 }
 .thumbs td {
    vertical-align: top;
@@ -83,26 +93,36 @@ h2.first {
    max-width: 100%;
    min-width: 8em;
 }
-p.btn-left a, p.btn-right a,
- p.btn-left a:visited, p.btn-right a:visited {
+
+.btn-left a[href], .btn-right a[href] {
+   display: inline-block;
+   text-align: center;
+   font-family: "Noto Sans Display", "Noto Sans", "Liberation Sans", sans-serif;
    font-size: 1.6em;
-   padding: .4em .6em;
+   font-weight: bold;
+   text-decoration: none;
+   padding: .4em .6em .5em;
    color: #b02500;
+   background: white;
    border: .1em solid #b02500;
-   margin: .3em 0;
+   border-radius: .3em;
 }
-p.btn-left {
+.btn-left a[href]:hover, .btn-right a[href]:hover {
+   text-decoration: none;
+   color: #a42e2b;
+   background: #f6e5e1;
+   border-color: #a42e2b;
+}
+.btn-left {
    float: left;
-   margin: .7em 0;
+   margin: 2em 0;
 }
-p.btn-right {
+.btn-right {
    float: right;
-   margin: 0 0 .3em;
+   margin: 2em 0 1.5em;
 }
-p.button a:hover {
-   color: #777;
-   border-color: #777;
-}
+.btn-right a { margin-left: .7em; }
+
 .first-column p.back {
    margin-bottom: 0;
 }
@@ -125,7 +145,8 @@ h3 {
 }
 h3 img {
    height: .8em;
-   margin-left: .5em;
+   padding: .2em .5em;
+   background: white;
 }
 #blurb h4 {
    text-align: left;
@@ -181,6 +202,7 @@ h3 img {
    }
 }
 -->
+
 </style>
 <!-- start of fs-gang-definitions.html -->
 
@@ -198,6 +220,9 @@ h3 img {
    font-weight: bold;
    margin-left: .5em;
    color: white; text-decoration: none;
+}
+#fs-gang .img-container a:hover {
+   background: none;
 }
 #fs-gang .img-container img {
    width: 100%;
@@ -235,7 +260,7 @@ h3 img {
 <link rel="alternate" type="text/html" lang="it" hreflang="it" href="/home.it.html" title="italiano" />
 <link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/home.ja.html" title="日本語" />
 <link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/home.nl.html" title="Nederlands" />
-<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/home.pt-br.html" title="português do Brasil" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/home.pt-br.html" title="português" />
 <link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/home.ru.html" title="русский" />
 <link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/home.sq.html" title="Shqip" />
 <link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/home.tr.html" title="Türkçe" />
@@ -247,97 +272,81 @@ h3 img {
 <!-- start of server/banner.html -->
 <!-- start of head-include-2.html -->
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<style type="text/css" media="screen">
+@media (min-width: 0) {
+   a#more-links:after { content: "More\00A0\002B9F"; }
+   a#less-links:after { content: "\002B9D"; }
+}
+</style>
 <!-- end of head-include-2.html -->
 
 </head>
 <body>
 <div class="inner">
 <!-- start of server/body-include-1.html -->
-
-
-
-
-
-<div id="toplinks">
- <a href="#content">Skip to main text</a>
- <span class="gnun-split"></span>
- <a href="/server/select-language.html?callback=/" rel="nofollow">
- Set language
- <span class="gnun-split"></span>
- </a>
-</div> <!-- /toplinks -->
-
-<div id="searcher">
- <form method="get" action="//www.gnu.org/cgi-bin/estseek.cgi" class="header">
-  <div>
-  <input name="phrase" id="phrase" type="text" size="18" accesskey="s"
-         value="Why GNU/Linux?" onfocus="this.value=''" />
-  <input type="submit" value="Search" />
-  </div>
- </form>
-</div><!-- /searcher -->
-
-<div id="translations">
-<p>
-<span dir="ltr" class="original"><a lang="en" hreflang="en" href="/home.en.html">English</a>&nbsp;[en]</span> &nbsp;
-<span dir="ltr"><a lang="de" hreflang="de" href="/home.de.html">Deutsch</a>&nbsp;[de]</span> &nbsp;
-<span dir="ltr"><a lang="es" hreflang="es" href="/home.es.html">español</a>&nbsp;[es]</span> &nbsp;
-<span dir="ltr"><a lang="fa" hreflang="fa" href="/home.fa.html">فارسی</a>&nbsp;[fa]</span> &nbsp;
-<span dir="ltr"><a lang="fr" hreflang="fr" href="/home.fr.html">français</a>&nbsp;[fr]</span> &nbsp;
-<span dir="ltr"><a lang="it" hreflang="it" href="/home.it.html">italiano</a>&nbsp;[it]</span> &nbsp;
-<span dir="ltr"><a lang="ja" hreflang="ja" href="/home.ja.html">日本語</a>&nbsp;[ja]</span> &nbsp;
-<span dir="ltr"><a lang="nl" hreflang="nl" href="/home.nl.html">Nederlands</a>&nbsp;[nl]</span> &nbsp;
-<span dir="ltr"><a lang="pt-br" hreflang="pt-br" href="/home.pt-br.html">português&nbsp;do&nbsp;Brasil</a>&nbsp;[pt-br]</span> &nbsp;
-<span dir="ltr"><a lang="ru" hreflang="ru" href="/home.ru.html">русский</a>&nbsp;[ru]</span> &nbsp;
-<span dir="ltr"><a lang="sq" hreflang="sq" href="/home.sq.html">Shqip</a>&nbsp;[sq]</span> &nbsp;
-<span dir="ltr"><a lang="tr" hreflang="tr" href="/home.tr.html">Türkçe</a>&nbsp;[tr]</span> &nbsp;
-<span dir="ltr"><a lang="uk" hreflang="uk" href="/home.uk.html">українська</a>&nbsp;[uk]</span> &nbsp;
-<span dir="ltr"><a lang="zh-cn" hreflang="zh-cn" href="/home.zh-cn.html">简体中文</a>&nbsp;[zh-cn]</span> &nbsp;
-<span dir="ltr"><a lang="zh-tw" hreflang="zh-tw" href="/home.zh-tw.html">繁體中文</a>&nbsp;[zh-tw]</span> &nbsp;
-</p>
+<div>
+<a class="skip" href="#content"><b>Skip to main text</b></a>
 </div>
 
-<!-- end of server/body-include-1.html -->
-
-<!-- start of server/body-include-2 -->
-<div style="clear: both"></div>
-
-<div id="header">
 <div id="fsf-frame">
-<p id="join-fsf"><a href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a></p>
-<div id="fssbox">
-<p><a href="//www.fsf.org/fss">Free Software Supporter</a></p>
-<form action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
- method="post" class="header">
- <div>
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post" class="header">
+ <fieldset>
   <input name="postURL" type="hidden" value="" />
   <input type="hidden" name="group[25]" value="1" />
   <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
   <input name="_qf_default" type="hidden" value="Edit:cancel" />
- </div>
- <p>
-  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
-         value="email address" onfocus="this.value=''"/>
-  <input type="submit" name="_qf_Edit_next" value="Sign up" />
- </p>
+  <label for="frmEmail"><span class="gnun-split"></span>
+  <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  <span class="gnun-split"></span></label>
+  <div>
+   <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+          value="email address" onfocus="this.value=''"/>
+   <input type="submit" name="_qf_Edit_next" value="Sign up" />
+  </div>
+ </fieldset>
 </form>
-</div><!-- /fssbox -->
-</div><!-- /fsf-frame -->
+<div style="clear: both"></div>
+</div>
 
-<div id="gnu-banner">
+<div id="header">
+<p id="gnu-banner">
  <a href="/">
- <img src="/graphics/heckert_gnu.transp.small.png"
-      alt=" [A GNU head] " /><strong>GNU</strong> Operating System</a>
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
 
-<p id="fsf-support">Sponsored by the <a href="#mission-statement">Free Software Foundation</a></p>
-</div><!-- /gnu-banner -->
-<div style="clear:both"></div>
-</div><!-- /header -->
+<div id="switches">
+ <a id="search-button" class="switch" href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="32"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
 
+ <a id="language-button" class="switch" href="#language-container">
+  <img id="language-icon" height="32"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Languages]&nbsp;" />
+ </a>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
 <div id="navigation">
+ <a id="more-links" href="#navigation"></a>
+ <a id="less-links" href="#tabAboutGNU"></a>
  <ul>
-
-
 
    <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
 
@@ -357,14 +366,24 @@ h3 img {
   <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
 
 
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
   <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
 
-  <li id="more-links"><a href="#fsf-links">More &#9660;</a></li>
- </ul>
- <div style="clear:both"></div>
-</div><!--  /navigation -->
-<!-- end of server/body-include-2 -->
 
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
 
 <div id="content">
 <!-- end of server/banner.html -->
@@ -375,45 +394,6 @@ is at stake?</p>
 
 <div id="home">
 <div class="first-column">
-
-<div style="max-width: 40em; margin: 2.3em auto 0">
-<video width="100%" controls="controls" crossorigin="anonymous"
-poster="https://static.fsf.org/nosvn/videos/fsf-shoetool/thumbnails/ShoeTool-Cover-1.jpg">
-
-<source
-src="https://static.fsf.org/nosvn/videos/fsf-shoetool/fsf-shoetool-720p.webm"
-type="video/webm" />
-<source
-src="https://static.fsf.org/nosvn/videos/fsf-shoetool/fsf-shoetool-720p.ogv"
-type="video/ogg" />
-<source
-src="https://static.fsf.org/nosvn/videos/fsf-shoetool/fsf-shoetool-720p.mp4"
-type="video/mp4" />
-
-<!-- GNUN: localize URL /server/banners/shoetoolfsf.vtt -->
-<track kind="subtitles" label="default" default="default"
-src="/server/banners/shoetoolfsf.vtt" />
-<track kind="subtitles" label="English" srclang="en"
-src="/server/banners/shoetoolfsf.en.vtt" />
-<track kind="subtitles" label="español" srclang="es"
-src="/server/banners/shoetoolfsf.es.vtt" />
-<track kind="subtitles" label="euskara" srclang="eu"
-src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions/shoetoolfsf_eu.vtt" />
-<track kind="subtitles" label="français" srclang="fr"
-src="/server/banners/shoetoolfsf.fr.vtt" />
-<track kind="subtitles" label="Nederlands" srclang="nl"
-src="/server/banners/shoetoolfsf.nl.vtt" />
-<track kind="subtitles" label="română" srclang="ro"
-src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions/shoetoolfsf_ro.vtt" />
-<track kind="subtitles" label="தமிழ்" srclang="ta"
-src="https://static.fsf.org/nosvn/videos/fsf-shoetool/captions/shoetoolfsf_ta.vtt" />
-<track kind="subtitles" label="українська" srclang="uk"
-src="/server/banners/shoetoolfsf.uk.vtt" />
-</video>
-</div>
-<p class="c">
-<a href="https://www.fsf.org/blogs/community/presenting-shoetool-happy-holidays-from-the-fsf">
-ShoeTool &mdash; HAPPY HOLIDAYS FROM THE FSF!</a></p>
 
 <h2 class="first">What is GNU?</h2>
 
@@ -430,9 +410,9 @@ versions of GNU</a> (more precisely, GNU/Linux distributions) which
 are entirely free software.  <a href="#More-GNU">More about GNU
 below</a>.</p>
 
-<p class="button btn-left">
-  <a href="/distros/free-distros.html">Try GNU/Linux</a></p>
-<div style="clear: left"></div>
+<div class="btn-left">
+  <a href="/distros/free-distros.html">Try GNU/Linux</a></div>
+<div style="clear:both"></div>
 
 <div id="gnu-linux">
 <div class="screenshot">
@@ -477,11 +457,10 @@ browser)</small></p>
  </tr>
 </table>
 
-<p class="button btn-right">
-  ... or <a
+<div class="btn-right">... or <a
 href="https://directory.fsf.org/wiki/Free_Software_Directory:Free_software_replacements">
-Try parts of GNU</a></p>
-<div style="clear: right"></div>
+Try parts of GNU</a></div>
+<div style="clear:both"></div>
 
 <h2>What is the Free Software Movement?</h2>
 
@@ -574,21 +553,25 @@ GNU Kind Communications Guidelines</a></strong>.</p>
 alt="RSS Feed" /></a></h3>
 <div class="ltr">
 <!-- Autogenerated by planetrss.pl 1.19 -->
-<p><a href='https://parabolagnulinux.org/news/from-arch-rsync-compatibility/'>
-<span class="gnun-split"></span>[From Arch] rsync compatibility<span class="gnun-split"></span></a><span class="gnun-split"></span><!-- TRANSLATORS: 
-https://parabolagnulinux.org/news/from-arch-rsync-compatibility/ -->:
- Our rsync package was shipped with bundled zlib to provide compatibility with the old-style --compress option up to version 3.1.0. Version 3.1.1 was released...
+<p><a href='http://www.fsf.org/blogs/community/how-to-livestream-a-conference-in-just-under-a-week'>
+<span class="gnun-split"></span>How to livestream a conference in just under a week<span class="gnun-split"></span></a><span class="gnun-split"></span><!-- TRANSLATORS: 
+http://www.fsf.org/blogs/community/how-to-livestream-a-conference-in-just-under-a-week -->:
+ For the first time ever, LibrePlanet 2020 was a fully
+virtual conference due to ongoing issues caused by the
+coronavirus pandemic. In our...
 </p>
-<p><a href='https://parabolagnulinux.org/news/from-arch-now-using-zstandard-instead-of-xz-for-package-compression/'>
-<span class="gnun-split"></span>[From Arch] Now using Zstandard instead of xz for package compression<span class="gnun-split"></span></a><span class="gnun-split"></span><!-- TRANSLATORS: 
-https://parabolagnulinux.org/news/from-arch-now-using-zstandard-instead-of-xz-for-package-compression/ -->:
- As announced on the Arch-dev mailing list, on Friday, Dec 27 2019, the package compression scheme has changed from xz (...
+<p><a href='http://www.fsf.org/blogs/community/better-than-zoom-try-these-free-software-tools-for-staying-in-touch'>
+<span class="gnun-split"></span>Better than Zoom: Try these free software tools for staying in touch<span class="gnun-split"></span></a><span class="gnun-split"></span><!-- TRANSLATORS: 
+http://www.fsf.org/blogs/community/better-than-zoom-try-these-free-software-tools-for-staying-in-touch -->:
+ In times like these it becomes all the more important to
+remember that tools like Zoom, Slack, and Facebook Messenger are...
 </p>
-<p><a href='http://www.fsf.org/news/first-libreplanet-2020-keynote-announcement-internet-archive-founder-brewster-kahle'>
-<span class="gnun-split"></span>First LibrePlanet 2020 keynote announcement: Internet Archive   founder Brewster Kahle<span class="gnun-split"></span></a><span class="gnun-split"></span><!-- TRANSLATORS: 
-http://www.fsf.org/news/first-libreplanet-2020-keynote-announcement-internet-archive-founder-brewster-kahle -->:
- BOSTON, Massachusetts, USA -- Wednesday, January 15, 2020 -- The Free
-Software Foundation (FSF) today a...
+<p><a href='http://www.fsf.org/blogs/community/summer-internships-at-the-fsf-apply-by-may-10'>
+<span class="gnun-split"></span>Summer internships at the FSF! Apply by May 10<span class="gnun-split"></span></a><span class="gnun-split"></span><!-- TRANSLATORS: 
+http://www.fsf.org/blogs/community/summer-internships-at-the-fsf-apply-by-may-10 -->:
+ Do you believe that free software is crucial to a free society? Do you
+want to help people learn why free software matters, and how to use
+it?..
 </p>
 
 </div>
@@ -638,6 +621,7 @@ href="/server/takeaction.html#unmaint">maintain a GNU package</a>?</strong></p>
 <ul>
 <li><span class="gnun-split"></span>
   <a href="/software/cfengine/">cfengine</a>,
+  <a href="/software/freedink/">freedink</a>,
   <a href="/software/freetalk/">freetalk</a>,
   <a href="/software/halifax/">halifax</a>,
   <a href="/software/mcron/">mcron</a>,
@@ -667,16 +651,16 @@ packages</a></strong></p>
 
 <p style="margin-top: 2em">Today's random package&hellip;</p>
 <!-- home-pkgselect.html begins -->
-<!-- Manually selected on 2019-12-27 to fix validation issues in home.html -->
+<!-- Automatically generated by select-blurbs.awk on Wed Apr 29 11:29:26 EDT 2020 -->
 <!-- Next selections are going to be:
- guile-gnome jtw leg userv gxmessage fisicalab gleem guile-cv
- complexity gnulib motti termcap gzip shmm gslip texmacs foliot
+ pspp gretl autogen gnucomm poke gnunet guile-sdl mpc sather unifont
+ gnats automake easejs health global java-getopt gsrc
 -->
 
 <!-- home-pkgselect.html ends -->
 
 <div class="ltr">
-<!-- File generated by www/prep/gnumaint/gm Mon Jan 13 17:41:36 CET 2020 -->
+<!-- File generated by www/prep/gnumaint/gm Thu Apr 23 03:08:54 UTC 2020 -->
 
 
 
@@ -1029,11 +1013,6 @@ packages</a></strong></p>
 
 
 
-<h4 id="guile-gnome">
-  <a href="/software/guile-gnome/">Guile-gnome</a></h4><p>
-Includes guile-clutter, guile-gnome-gstreamer, guile-gnome-platform
-(GNOME developer libraries), and guile-gtksourceview.
-<small>(<a href="/manual/manual.html#guile-gnome">doc</a>)</small></p>
 
 
 
@@ -1174,6 +1153,14 @@ Includes guile-clutter, guile-gnome-gstreamer, guile-gnome-platform
 
 
 
+<h4 id="mediagoblin">
+  <img src="/graphics/pkg-logos-250x100/mediagoblin.250x100.png" style="height:1.3em"
+       alt="logo for mediagoblin" />
+  <a href="/software/mediagoblin/">Mediagoblin</a></h4><p>
+GNU MediaGoblin is a free media publishing platform.  It runs in a
+federalized manner, freeing the user from centralized web services. It
+supports pictures, videos and audio.
+<small>(<a href="/manual/manual.html#mediagoblin">doc</a>)</small></p>
 
 
 
@@ -1394,7 +1381,7 @@ Includes guile-clutter, guile-gnome-gstreamer, guile-gnome-platform
 
 
 
-<!-- End file generated by www/prep/gnumaint/gm Mon Jan 13 17:41:36 CET 2020 -->
+<!-- End file generated by www/prep/gnumaint/gm Thu Apr 23 03:08:54 UTC 2020 -->
 
 </div>
 </div>
@@ -1406,38 +1393,72 @@ Includes guile-clutter, guile-gnome-gstreamer, guile-gnome-platform
 </div><!-- for id="content", starts in the include above -->
 
               <!-- begin server/footer-text.html -->
-<div style="clear:both"></div>
-<div id="back-to-top"><a href="#navigation"><span>TOP</span> &#9650;</a></div>
 
-<hr class="no-display" />
-<div id="fsf-links">
- <ul>
-  <li class="gnu"><a href="/proprietary/proprietary.html">MALWARE</a></li>
-  <li class="gnu"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
-  <li class="gnu"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
-  <li class="gnu"><a href="/server/sitemap.html">SITEMAP</a></li>
-  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
-  <li><a href="https://h-node.org/">HARDWARE</a></li>
- </ul>
-</div><!-- /fsf-links -->
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <a href="#" class="close"></a>
+ <div id="languages" class="rounded-corners">
+  <div class="backtotop">
+   <hr class="no-display" />
+   <a href="#header"><span>BACK TO TOP </span>&#11165;</a>
+  </div>
+  <a href="#" class="close"></a>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/home.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/home.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/home.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fa]&nbsp;<a lang="fa" hreflang="fa" href="/home.fa.html">فارسی</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/home.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/home.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/home.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/home.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/home.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/home.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[sq]&nbsp;<a lang="sq" hreflang="sq" href="/home.sq.html">Shqip</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/home.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[uk]&nbsp;<a lang="uk" hreflang="uk" href="/home.uk.html">українська</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/home.zh-cn.html">简体中文</a> &nbsp;</span>
+<span dir="ltr">[zh-tw]&nbsp;<a lang="zh-tw" hreflang="zh-tw" href="/home.zh-tw.html">繁體中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
 
 <div id="mission-statement">
-
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#11165;</a>
+ </div>
+<div style="clear: both"></div>
 <blockquote>
 <p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
-src="/graphics/fsf-logo-notext-small.png" alt=" [FSF logo] "/></a><strong>
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"/></a><strong>
 &ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
 mission to promote computer user freedom. We defend the rights of all
 software users.&rdquo;</strong></p>
 </blockquote>
 
-<p id="support-the-fsf" class="button">
-  <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
-  <a class="donate" href="//donate.fsf.org/">DONATE</a>
-  <a class="shop" href="//shop.fsf.org/">SHOP</a>
-</p>
-
-</div><!-- /mission-statement -->
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
 <!-- end server/footer-text.html -->
 
 
@@ -1522,7 +1543,7 @@ Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
 
 <p class="unprintable">Updated:
 <!-- timestamp start -->
-$Date: 2020/01/06 15:26:57 $
+$Date: 2020/04/26 06:02:36 $
 <!-- timestamp end -->
 </p>
 </div>

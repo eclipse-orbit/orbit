@@ -19,8 +19,8 @@
     <module>jakarta.activation_2.0.0</module>
     <module>javax.annotation_1.3.5</module>
     <module>javax.validation_1.1.0</module>
-    <module>javax.ws.rs_2.1.1</module>
     <module>jakarta.xml.bind_2.3.3</module>
+    <module>javax.ws.rs_2.1.6</module>
   </modules>
 
 </project>
