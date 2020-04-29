@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="jakarta.xml.bind" version="2.3.3" status="done">
+    <info>
+      <name>jakarta.xml.bind</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>javax-parent/jakarta.xml.bind</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="22020"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-2.0</reference>
+      </license>
+      <package>jakarta.xml.bind-2.3.3.jar</package>
+    </legal>
+  </project>
+</ip_log>

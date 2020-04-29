@@ -6,16 +6,16 @@ function ebr () {
 
 # Edit these as needed
 GIDS=(
-com.sun.activation
-)
-ARTIDS=(
 jakarta.activation
 )
+ARTIDS=(
+jakarta.activation-api
+)
 VERSION=(
-'2.0.0'
+'2.0.0-RC3'
 )
 BSNS=(
-javax.activation
+jakarta.activation
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do

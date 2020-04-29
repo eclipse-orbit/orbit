@@ -319,12 +319,13 @@
   <!-- GlazedLists -->
   <plugin id="ca.odell.glazedlists" version="1.11.0.qualifier" />
 
+  <!-- javax -->
+  <plugin id="jakarta.activation" version="2.0.0.qualifier" />
+  <plugin id="jakarta.xml.bind" version="2.3.3.qualifier" />
   <plugin id="javax.activation" version="2.0.0.qualifier" />
-
-  <!-- javax.validation -->
+  <plugin id="javax.annotation" version="1.3.5.qualifier" />
   <plugin id="javax.validation" version="1.1.0.qualifier" />
   <plugin id="javax.ws.rs" version="2.1.1.qualifier" />
-  <plugin id="javax.annotation" version="1.3.5.qualifier" />
 
   <!-- immutables -->
   <plugin id="org.immutables.value" version="2.8.3.qualifier" />
