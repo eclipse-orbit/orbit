@@ -20,6 +20,10 @@
 		<module>org.glassfish.hk2.locator_2.5.0</module>
 		<module>org.glassfish.hk2.osgi-resource-locator_2.5.0</module>
 		<module>org.glassfish.hk2.utils_2.5.0</module>
+    <module>org.glassfish.hk2.api_2.6.1</module>
+    <module>org.glassfish.hk2.locator_2.6.1</module>
+    <module>org.glassfish.hk2.utils_2.6.1</module>
+    <module>org.glassfish.hk2.osgi-resource-locator_1.0.3</module>
   </modules>
 
 </project>

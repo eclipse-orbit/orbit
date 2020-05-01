@@ -1,11 +1,23 @@
-#!/bin/sh
-set -euv
+#! /bin/bash
 
-mvn -U -e -V ebr:create-recipe -DgroupId=org.glassfish.hk2 -DartifactId=hk2-api -DbundleSymbolicName=org.glassfish.hk2.api "$@"
-mvn -U -e -V ebr:create-recipe -DgroupId=org.glassfish.hk2 -DartifactId=hk2-locator -DbundleSymbolicName=org.glassfish.hk2.locator "$@"
-mvn -U -e -V ebr:create-recipe -DgroupId=org.glassfish.hk2 -DartifactId=hk2-utils -DbundleSymbolicName=org.glassfish.hk2.utils "$@"
+function ebr () {
+  mvn ebr:create-recipe -DgroupId=$1 -DartifactId=$2 -Dversion=$3 -DbundleSymbolicName=$4
+}
 
-mvn -U -e -V ebr:create-recipe -DgroupId=org.glassfish.hk2 -DartifactId=osgi-resource-locator -DbundleSymbolicName=org.glassfish.hk2.osgi-resource-locator "$@"
+# Edit these as needed
+GIDS=(
+org.glassfish.hk2.external
+)
+ARTIDS=(
+aopalliance-repackaged
+)
+VERSION=(
+'2.6.1'
+)
+BSNS=(
+org.glassfish.hk2.external.aopalliance-repackaged
+)
 
-mvn -U -e -V ebr:create-recipe -DgroupId=org.glassfish.hk2.external -DartifactId=asm-all-repackaged -DbundleSymbolicName=org.glassfish.hk2.external.asm "$@"
-
+for (( i=0; i< ${#ARTIDS[@]}; i++ )); do
+  ebr ${GIDS[${i}]} ${ARTIDS[${i}]} ${VERSION[${i}]} ${BSNS[${i}]}
+done

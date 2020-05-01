@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.glassfish.hk2.api" version="2.6.1" status="done">
+    <info>
+      <name>HK2 API module</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>glassfish-parent/hk2-parent/org.glassfish.hk2.api</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="22020"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
+      </license>
+      <package>hk2-api-2.6.1.jar</package>
+    </legal>
+  </project>
+</ip_log>
