@@ -1,0 +1,23 @@
+package-version=${version;===;${Bundle-Version}}
+jakarta.ws.rs-api-version=${version;===;2.1.6}
+jakarta.annotation-api-version=${version;===;1.2.0}
+org.osgi.core-version=${version;===;6.0.0}
+hk2-version=${version;===;2.6.1}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ javax.annotation.*;version="${jakarta.annotation-api-version}", \
+ javax.inject.*;version="${range;[===,=+);1}", \
+ javax.ws.rs.*;version="[2.0,3)", \
+ org.glassfish.jersey*internal*;version="${range;[===,=+);${package-version}}", \
+ org.glassfish.hk2.api.*;version="${range;[===,=+);${hk2-version}}", \
+ org.glassfish.hk2.utilities.*;version="${range;[===,=+);${hk2-version}}", \
+ org.glassfish.jersey.*;version="${range;[==,+);${package-version}}", \
+ org.jvnet.hk2.external.runtime;resolution:=optional
+ *;resolution:=optional

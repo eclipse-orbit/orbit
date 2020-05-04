@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.glassfish.jersey.media.jersey-media-json-jackson" version="2.30.1" status="done">
+    <info>
+      <name>jersey-media-json-jackson</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>glassfish-parent/jersey-parent/org.glassfish.jersey.media.json.jackson</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21663"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v20.html</reference>
+      </license>
+      <package>jersey-media-json-jackson-2.30.1.jar</package>
+    </legal>
+  </project>
+</ip_log>

@@ -1,0 +1,29 @@
+package-version=${version;===;${Bundle-Version}}
+jakarta.ws.rs-api-version-range=${range;[===,+);2.1.6}
+jakarta.ws.rs-api-version=${version;===;2.1.6}
+jakarta.annotation-api-version-range=${range;[===,+);1.2.0}
+jakarta.annotation-api-version=${version;===;1.2.0}
+org.osgi.core-version-range=${range;[===,+);6.0.0}
+org.osgi.core-version=${version;===;6.0.0}
+jaxb-version=${version;===;2.3.1}
+osgi-resource-locator-version-range=${range;[===,+);1.0.3}
+osgi-resource-locator-version=${version;===;1.0.3}
+
+jersey-common-exports= \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Export-Package: ${jersey-common-exports}
+
+jersey-common-imports= \
+ javax.annotation.*;version="${jakarta.annotation-api-version-range}", \
+ javax.inject.*;version="${range;[===,=+);1}", \
+ javax.ws.rs.*;version="[2.0,3)", \
+ org.glassfish.jersey*internal*;version="${range;[===,=+);${package-version}}", \
+ org.glassfish.jersey.spi.*;version="${range;[===,=+);${package-version}}", \
+ org.glassfish.jersey.*;version="${range;[==,+);${package-version}}", \
+ org.glassfish.hk2.osgiresourcelocator.*;version="[2.5,3)", \
+ *;resolution:=optional
+Import-Package: ${jersey-common-imports}
