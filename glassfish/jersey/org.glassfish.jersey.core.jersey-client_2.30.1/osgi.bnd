@@ -1,2 +1,5 @@
+Bundle-ActivationPolicy: lazy
+
 -include: ~../org.glassfish.jersey.core.jersey-common_2.30.1/osgi.bnd
 
+Require-Bundle: org.glassfish.hk2.locator

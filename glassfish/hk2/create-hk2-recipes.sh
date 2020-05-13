@@ -6,16 +6,16 @@ function ebr () {
 
 # Edit these as needed
 GIDS=(
-org.glassfish.hk2.external
+org.glassfish.hk2
 )
 ARTIDS=(
-aopalliance-repackaged
+hk2-locator
 )
 VERSION=(
 '2.6.1'
 )
 BSNS=(
-org.glassfish.hk2.external.aopalliance-repackaged
+org.glassfish.hk2.hk2-locator
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do

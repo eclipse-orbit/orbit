@@ -1,10 +1,6 @@
 package-version=${version;===;${Bundle-Version}}
 jffi-version=${version;===;1.2.23}
-asm-version=${version;===;7.1}
-asm-commons-version=${version;===;7.1}
-asm-analysis-version=${version;===;7.1}
-asm-tree-version=${version;===;7.1}
-asm-util-version=${version;===;7.1}
+asm-version=${version;===;8.0.1}
 jnr-a64asm-version=${version;===;1.0.0}
 jnr-x86asm-version=${version;===;1.0.2}
 
@@ -18,6 +14,6 @@ Import-Package: \
  com.kenai.jffi;version="${jffi-version}", \
  jnr.x86asm;version="${jnr-x86asm-version}", \
  org.objectweb.asm;version="${asm-version}", \
- org.objectweb.asm.util;version="${asm-util-version}", \
+ org.objectweb.asm.util;version="${asm-version}", \
  *;resolution:=optional
 

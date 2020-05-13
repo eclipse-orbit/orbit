@@ -1,3 +1,5 @@
+Bundle-ActivationPolicy: lazy
+
 package-version=${version;===;${Bundle-Version}}
 osgi-resource-locator-version=${version;===;1.0.3}
 jakarta.inject-version=${version;===;2.6.1}
