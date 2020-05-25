@@ -14,3 +14,5 @@ Import-Package: \
  javax.xml.stream;resolution:=optional, \
  javax.xml*;version="${javax.xml-version}", \
  *;resolution:=optional
+
+-nouses: true
