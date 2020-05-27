@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.bouncycastle.bcprov" version="1.65.0" status="done">
+  <project id="org.bouncycastle.bcprov" version="1.65.01" status="done">
     <info>
       <name>Bouncy Castle Provider</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
       <location>bouncycastle/org.bouncycastle.bcprov</location>
     </info>
     <contact>
-      <name>Tony Homer</name>
-      <email>tony.homer@intel.com</email>
-      <company>Intel Corporation</company>
+      <name>Matthias Sohn</name>
+      <email>matthias.sohn@sap.com</email>
+      <company>SAP SE</company>
     </contact>
     <legal>
       <ipzilla bug_id="21977"/>
@@ -17,7 +17,7 @@
         <name>MIT License</name>
         <reference>http://www.bouncycastle.org/licence.html</reference>
       </license>
-      <package>bcprov-jdk15on-1.65.jar</package>
+      <package>bcprov-jdk15on-1.65.01.jar</package>
     </legal>
   </project>
 </ip_log>

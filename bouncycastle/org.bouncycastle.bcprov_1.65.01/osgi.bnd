@@ -14,6 +14,7 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
+ org.bouncycastle.*;version="${range;[==,=+);${package-version}}", \
  *;resolution:=optional
 
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.5))"
