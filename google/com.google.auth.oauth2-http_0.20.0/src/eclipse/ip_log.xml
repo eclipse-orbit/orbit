@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="com.google.auth.oauth2-http" version="0.1.0" status="done">
+  <project id="com.google.auth.oauth2-http" version="0.20.0" status="done">
     <info>
       <name>Google Auth Library for Java - OAuth2 HTTP</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>

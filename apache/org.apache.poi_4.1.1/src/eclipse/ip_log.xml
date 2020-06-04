@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.ant" version="1.10.7" status="done">
+  <project id="org.apache.poi" version="4.1.1" status="done">
     <info>
       <name>Apache POI (all-in-one)</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
