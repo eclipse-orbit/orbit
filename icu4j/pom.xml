@@ -15,11 +15,7 @@
   <name>Eclipse Orbit :: ICU4J Recipes</name>
 
   <modules>
-    <module>com.ibm.icu_64.2.0</module>
+    <module>com.ibm.icu_67.1.0</module>
   </modules>
-
-  <properties>
-    <jgit.ignore>ip_log.xml</jgit.ignore>
-  </properties>
 
 </project>

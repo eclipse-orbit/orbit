@@ -37,7 +37,7 @@
   <plugin id="io.opencensus.opencensus-api" version="0.26.0.qualifier"/>
   <plugin id="io.opencensus.opencensus-contrib-http-util" version="0.26.0.qualifier"/>
 
-  <plugin id="com.ibm.icu" version="64.2.0.qualifier"/>
+  <plugin id="com.ibm.icu" version="67.1.0.qualifier"/>
 
   <plugin id="com.jcraft.jsch" version="0.1.55.qualifier"/>
 
