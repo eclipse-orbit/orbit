@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.jboss.logging" version="3.3.2" status="done">
+    <info>
+      <name>JBoss Logging</name>
+      <origin>JBoss.org</origin>
+      <reference>https://github.com/jboss-logging</reference>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>logging/org.jboss.logging_3.3.2</location>
+    </info>
+    <contact>
+      <name>Carsten Reckord</name>
+      <email>reckord@yatta.de</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21279"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>jboss-logging-3.3.2.Final.jar</package>
+    </legal>
+  </project>
+</ip_log>

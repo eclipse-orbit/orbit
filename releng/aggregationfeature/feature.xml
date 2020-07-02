@@ -111,6 +111,7 @@
   <plugin id="org.apache.sshd.osgi" version="2.4.0.qualifier"/>
   <plugin id="org.apache.sshd.sftp" version="2.4.0.qualifier"/>
 
+  <!-- Logging -->
   <plugin id="org.slf4j.api"            version="1.7.30.qualifier"/>
   <plugin id="org.slf4j.ext"            version="1.7.30.qualifier"/>
   <plugin id="org.slf4j.apis.jcl"       version="1.7.30.qualifier"/>
@@ -123,6 +124,8 @@
   <plugin id="ch.qos.logback.classic" version="1.2.3.qualifier"/>
   <plugin id="ch.qos.logback.slf4j"   version="1.2.3.qualifier"/>
 
+  <plugin id="org.jboss.logging" version="3.3.2.qualifier"/>
+  
   <plugin id="org.ejml.core" version="0.29.0.qualifier"/>
   <plugin id="org.ejml.dense64" version="0.29.0.qualifier"/>
   <plugin id="org.ejml.denseC64" version="0.29.0.qualifier"/>

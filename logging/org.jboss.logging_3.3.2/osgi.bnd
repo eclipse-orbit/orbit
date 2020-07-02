@@ -1,0 +1,22 @@
+package-version=${version;===;${Bundle-Version}}
+
+log4j-version=${version;===;1.2.16}
+log4j2-version=${version;==;2.0}
+jboss-logmanager-version=${version;===;1.5.2}
+slf4j-version=${version;===;1.7.2}
+
+log4j-range=${range;[===,+);${log4j-version}}
+log4j2-range=${range;[==,+);${log4j2-version}}
+jboss-logmanager-range=${range;[===,+);${jboss-logmanager-version}}
+slf4j-range=${range;[===,+);${slf4j-version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.apache.log4j.*;resolution:=optional;version="${log4j-range}", \
+ org.apache.logging.log4j.*;resolution:=optional;version="${log4j2-range}", \
+ org.slf4j.*;resolution:=optional;version="${slf4j-range}", \
+ org.jboss.logmanager;resolution:=optional;version="${jboss-logmanager-range}", \
+ *;resolution:=optional

@@ -60,6 +60,10 @@
       <category name="logging"/>
       <query><expression type="match">id ~= /org.apache.commons.log*/ &amp;&amp; properties.exists(p | p.key == 'maven-artifactId')</expression></query>
    </iu>
+   <iu>
+      <category name="logging"/>
+      <query><expression type="match">id ~= /org.jboss.log*/ &amp;&amp; properties.exists(p | p.key == 'maven-artifactId')</expression></query>
+   </iu>
 
    <category-def name="json" label="Orbit Bundles By Scope: NoSQL"/>
    <iu>

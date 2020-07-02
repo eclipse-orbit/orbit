@@ -25,6 +25,7 @@
     <module>ch.qos.logback.core_1.2.3</module>
     <module>ch.qos.logback.classic_1.2.3</module>
     <module>ch.qos.logback.slf4j_1.2.3</module>
+    <module>org.jboss.logging_3.3.2</module>
   </modules>
 
 </project>
