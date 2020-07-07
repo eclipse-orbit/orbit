@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="commonmark-yaml" version="0.15.1" status="done">
+    <info>
+      <name>commonmark-java extension for YAML front matter</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>commonmark/commonmark-yaml</location>
+    </info>
+    <contact>
+      <name>Sina Madani</name>
+      <email>sinadoom@googlemail.com</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="14556"/>
+      <license>
+        <name>New BSD license</name>
+        <reference>http://opensource.org/licenses/BSD-3-Clause</reference>
+      </license>
+      <package>commonmark-ext-yaml-front-matter-0.15.1.jar</package>
+    </legal>
+  </project>
+</ip_log>
