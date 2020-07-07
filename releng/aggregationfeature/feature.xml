@@ -18,14 +18,14 @@
   </license>
 
   <!-- CommonMark -->
-  <plugin id="commonmark-core" version="0.15.1.qualifier"/>
-  <plugin id="commonmark-gfm-strikethrough" version="0.15.1.qualifier"/>
-  <plugin id="commonmark-gfm-tables" version="0.15.1.qualifier"/>
-  <plugin id="commonmark-heading-anchor" version="0.15.1.qualifier"/>
-  <plugin id="commonmark-image-attributes" version="0.15.1.qualifier"/>
-  <plugin id="commonmark-ins" version="0.15.1.qualifier"/>
-  <plugin id="commonmark-task-list-items" version="0.15.1.qualifier"/>
-  <plugin id="commonmark-yaml" version="0.15.1.qualifier"/>
+  <plugin id="com.atlassian.commonmark" version="0.15.1.qualifier"/>
+  <plugin id="com.atlassian.commonmark-gfm-strikethrough" version="0.15.1.qualifier"/>
+  <plugin id="com.atlassian.commonmark-gfm-tables" version="0.15.1.qualifier"/>
+  <plugin id="com.atlassian.commonmark-heading-anchor" version="0.15.1.qualifier"/>
+  <plugin id="com.atlassian.commonmark-image-attributes" version="0.15.1.qualifier"/>
+  <plugin id="com.atlassian.commonmark-ins" version="0.15.1.qualifier"/>
+  <plugin id="com.atlassian.commonmark-task-list-items" version="0.15.1.qualifier"/>
+  <plugin id="com.atlassian.commonmark-yaml" version="0.15.1.qualifier"/>
 
   <plugin id="com.google.guava" version="27.1.0.qualifier"/>
   <plugin id="com.google.gson" version="2.7.0.qualifier"/>

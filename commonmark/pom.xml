@@ -15,14 +15,14 @@
   <name>Eclipse Orbit :: CommonMark Recipes</name>
 
   <modules>
-    <module>commonmark-core_0.15.1</module>
-    <module>commonmark-yaml_0.15.1</module>
-    <module>commonmark-gfm-tables_0.15.1</module>
-    <module>commonmark-gfm-strikethrough_0.15.1</module>
-    <module>commonmark-image-attributes_0.15.1</module>
-    <module>commonmark-ins_0.15.1</module>
-    <module>commonmark-task-list-items_0.15.1</module>
-    <module>commonmark-heading-anchor_0.15.1</module>
+    <module>com.atlassian.commonmark_0.15.1</module>
+    <module>com.atlassian.commonmark-yaml_0.15.1</module>
+    <module>com.atlassian.commonmark-gfm-tables_0.15.1</module>
+    <module>com.atlassian.commonmark-gfm-strikethrough_0.15.1</module>
+    <module>com.atlassian.commonmark-image-attributes_0.15.1</module>
+    <module>com.atlassian.commonmark-ins_0.15.1</module>
+    <module>com.atlassian.commonmark-task-list-items_0.15.1</module>
+    <module>com.atlassian.commonmark-heading-anchor_0.15.1</module>
   </modules>
 
 </project>
