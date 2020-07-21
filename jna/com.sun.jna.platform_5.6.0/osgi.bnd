@@ -6,5 +6,8 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
+ com.sun.jna;version="${range;[===,=+);${jna-version}}", \
+ com.sun.jna.ptr;version="${range;[===,=+);${jna-version}}", \
+ com.sun.jna.win32;version="${range;[===,=+);${jna-version}}", \
  com.sun.jna*;version="${range;[===,=+);${jna-version}}", \
  *;resolution:=optional
