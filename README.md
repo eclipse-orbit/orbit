@@ -68,7 +68,7 @@ following additional information first before you proceed.
 * [Bundle Checklist](https://wiki.eclipse.org/Orbit_Bundle_Checklist)
 * [Additional articles](https://wiki.eclipse.org/Category:Orbit)
 
-It's important to ensure that the bundle you're adding has been approved for use in at least one other Eclipse project on [IPZilla](https://dev.eclipse.org/ipzilla/query.cgi).
+It's important to ensure that the bundle you're adding has been approved for use in at least one other Eclipse project on [IPZilla](https://dev.eclipse.org/ipzilla/query.cgi) or [ClearlyDefined](https://clearlydefined.io/). In the latter case, please ensure the license is compatible.
 
 ### 1. Pick a Category
 
@@ -108,6 +108,8 @@ create a recipe including required Eclipse IP information based on data availabl
     # (after uploading the source, wait for approval)
 
     # enter any non-PB CQ number into the IP log and add any missing information (your name, e-mail etc.)
+    # You may also specify a ClearlyDefined URL (if present) by replacing the <ipzilla bug_id=""/> with <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/com.example.group/artifact/x.y.z" (of course replacing the URL with the appropriate one for the bundle you're adding)
+
     $EDITOR src/eclipse/ip_log.xml
 
     # review the generated about files
@@ -124,5 +126,4 @@ create a recipe including required Eclipse IP information based on data availabl
     git add .; git commit -m "Added org.example.foo 1.2.3"
     # NOTE: Please ensure you push using the following command so that you don't bypass the code review:
     git push origin HEAD:refs/for/master
-
 
