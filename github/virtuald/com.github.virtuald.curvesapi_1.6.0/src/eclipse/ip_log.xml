@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.github.virtuald.curvesapi" version="1.6.0" status="done">
+    <info>
+      <name>curvesapi</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git/github-parent/virtuald-parent/com.git</repository>
+      <location>hub.virtuald.curvesapi</location>
+    </info>
+    <contact>
+      <name>Sina Madani</name>
+      <email>sinadoom@googlemail.com</email>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/com.github.virtuald/curvesapi/1.06"/>
+      <license>
+        <name>New BSD license</name>
+        <reference>http://opensource.org/licenses/BSD-3-Clause</reference>
+      </license>
+      <package>curvesapi-1.06.jar</package>
+    </legal>
+  </project>
+</ip_log>

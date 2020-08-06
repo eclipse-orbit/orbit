@@ -281,6 +281,9 @@
   <!-- Unirest Java -->
   <plugin id="com.konghq.unirest-java" version="3.4.2.qualifier"/>
 
+    <!-- virtuald -->
+    <plugin id="com.github.virtuald.curvesapi" version="1.6.0.qualifier"/>
+
   <!-- JSoup -->
   <plugin id="org.jsoup" version="1.8.3.qualifier"/>
 
