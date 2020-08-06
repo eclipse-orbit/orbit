@@ -90,7 +90,7 @@
 
   <plugin id="org.apache.felix.scr"  version="2.1.16.qualifier"/>
 
-  <plugin id="org.apache.xmlbeans" version="2.6.0.qualifier"/>
+  <plugin id="org.apache.xmlbeans" version="3.1.0.qualifier"/>
 
   <plugin id="com.cronutils"  version="5.0.5.qualifier"/>
   <plugin id="org.hsqldb"  version="2.2.9.qualifier"/>

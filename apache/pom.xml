@@ -34,7 +34,7 @@
     <module>org.apache.sshd.sftp_2.4.0</module>
     <module>org.apache.ws.commons.util_1.0.2</module>
     <module>org.apache.wsil4j_1.0.0</module>
-    <module>org.apache.xmlbeans_2.6.0</module>
+    <module>org.apache.xmlbeans_3.1.0</module>
     <module>ant</module>
     <module>batik</module>
     <module>felix</module>
