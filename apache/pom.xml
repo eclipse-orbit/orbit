@@ -30,6 +30,7 @@
     <module>org.apache.pdfbox.xmpbox_2.0.6</module>
     <module>org.apache.pdfbox_2.0.6</module>
     <module>org.apache.poi_4.1.1</module>
+    <module>org.apache.poi.ooxml.schemas_4.1.1</module>
     <module>org.apache.sshd.osgi_2.4.0</module>
     <module>org.apache.sshd.sftp_2.4.0</module>
     <module>org.apache.ws.commons.util_1.0.2</module>
