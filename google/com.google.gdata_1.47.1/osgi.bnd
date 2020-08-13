@@ -1,0 +1,15 @@
+package-version=${version;===;${Bundle-Version}}
+guava-version-range=${range;[===,+);13.0.1}guava-version=${version;===;13.0.1}
+google-oauth-client-jetty-version-range=${range;[===,+);1.11.0-beta}google-oauth-client-jetty-version=${version;===;1.11.0-beta}
+jsr305-version-range=${range;[===,+);1.3.7}jsr305-version=${version;===;1.3.7}
+mail-version-range=${range;[===,+);1.4}mail-version=${version;===;1.4}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional

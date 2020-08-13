@@ -1,0 +1,14 @@
+package-version=${version;===;${Bundle-Version}}
+google-http-client-version-range=${range;[===,+);1.34.2}google-http-client-version=${version;===;1.34.2}
+jsr305-version-range=${range;[===,+);3.0.2}jsr305-version=${version;===;3.0.2}
+guava-version-range=${range;[===,+);28.2-android}guava-version=${version;===;28.2-android}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional

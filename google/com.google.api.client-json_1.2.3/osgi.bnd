@@ -1,0 +1,14 @@
+package-version=${version;===;${Bundle-Version}}
+google-api-client-http-version-range=${range;[===,+);1.2.3-alpha}google-api-client-http-version=${version;===;1.2.3-alpha}
+google-api-client-util-version-range=${range;[===,+);1.2.3-alpha}google-api-client-util-version=${version;===;1.2.3-alpha}
+jackson-core-asl-version-range=${range;[===,+);1.5.7}jackson-core-asl-version=${version;===;1.5.7}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional

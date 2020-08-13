@@ -1,0 +1,12 @@
+package-version=${version;===;${Bundle-Version}}
+google-oauth-client-java6-version-range=${range;[===,+);1.30.6}google-oauth-client-java6-version=${version;===;1.30.6}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional

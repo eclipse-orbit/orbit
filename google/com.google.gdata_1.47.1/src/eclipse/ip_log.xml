@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.google.gdata" version="1.47.1" status="done">
+    <info>
+      <name>Google Data Java Client Library</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>google/com.google.gdata</location>
+    </info>
+    <contact>
+      <name>Sina Madani</name>
+      <email>sinadoom@googlemail.com</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="8740"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>core-1.47.1.jar</package>
+    </legal>
+  </project>
+</ip_log>
