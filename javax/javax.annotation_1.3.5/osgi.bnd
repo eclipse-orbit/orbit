@@ -1,5 +1,9 @@
 package-version=${version;===;${Bundle-Version}}
 
+# Use JRE-provided packages if they exist: classes from the required
+# bundles always take precedence over local classes.
+Require-Bundle: system.bundle
+
 Export-Package: \
  !about.html,!about_files, \
  *.internal.*;x-internal:=true;version="${package-version}", \
@@ -8,4 +12,7 @@ Export-Package: \
  *;version="${package-version}"
 
 Import-Package: \
+ javax.annotation;version="${package-version}", \
+ javax.annotation.security;version="${package-version}", \
+ javax.annotation.sql;version="${package-version}", \
  *;resolution:=optional
