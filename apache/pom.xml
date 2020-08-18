@@ -16,7 +16,7 @@
 
   <modules>
     <module>org.apache.commons.cli_1.4.0</module>
-    <module>org.apache.commons.codec_1.13.0</module>
+    <module>org.apache.commons.codec_1.14.0</module>
     <module>org.apache.commons.collections4_4.4.0</module>
     <module>org.apache.commons.compress_1.19.0</module>
     <module>org.apache.commons.csv_1.8.0</module>
@@ -30,7 +30,9 @@
     <module>org.apache.pdfbox.xmpbox_2.0.6</module>
     <module>org.apache.pdfbox_2.0.6</module>
     <module>org.apache.poi_4.1.1</module>
+    <module>org.apache.poi.ooxml_4.1.1</module>
     <module>org.apache.poi.ooxml.schemas_4.1.1</module>
+    <module>org.apache.santuario.xmlsec_2.2.0</module>
     <module>org.apache.sshd.osgi_2.4.0</module>
     <module>org.apache.sshd.sftp_2.4.0</module>
     <module>org.apache.ws.commons.util_1.0.2</module>

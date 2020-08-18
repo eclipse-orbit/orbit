@@ -7,15 +7,15 @@
     <artifactId>apache-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>org.apache.commons.codec</artifactId>
-  <version>1.13.0-SNAPSHOT</version>
+  <artifactId>org.apache.poi.ooxml</artifactId>
+  <version>4.1.1-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
-  <name>Apache Commons Codec</name>
+  <name>Apache POI</name>
   <dependencies>
     <dependency>
-      <groupId>commons-codec</groupId>
-      <artifactId>commons-codec</artifactId>
-      <version>1.13</version>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>4.1.1</version>
     </dependency>
   </dependencies>
 </project>

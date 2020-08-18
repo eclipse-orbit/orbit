@@ -1,0 +1,14 @@
+package-version=${version;===;${Bundle-Version}}
+poi-version-range=${range;[===,+);4.1.1}poi-version=${version;===;4.1.1}
+poi-ooxml-schemas-version-range=${range;[===,+);4.1.1}poi-ooxml-schemas-version=${version;===;4.1.1}
+commons-compress-version-range=${range;[===,+);1.19}commons-compress-version=${version;===;1.19}
+curvesapi-version-range=${range;[===,+);1.06}curvesapi-version=${version;===;1.06}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional

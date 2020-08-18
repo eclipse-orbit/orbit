@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.poi.ooxml" version="4.1.1" status="done">
+    <info>
+      <name>Apache POI</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/org.apache.poi.ooxml</location>
+    </info>
+    <contact>
+      <name>Sina Madani</name>
+      <email>sinadoom@googlemail.com</email>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.apache.poi/poi-ooxml/4.1.1"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>poi-ooxml-4.1.1.jar</package>
+    </legal>
+  </project>
+</ip_log>
