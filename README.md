@@ -68,7 +68,7 @@ following additional information first before you proceed.
 * [Bundle Checklist](https://wiki.eclipse.org/Orbit_Bundle_Checklist)
 * [Additional articles](https://wiki.eclipse.org/Category:Orbit)
 
-It's important to ensure that the bundle you're adding has been approved for use in at least one other Eclipse project on [IPZilla](https://dev.eclipse.org/ipzilla/query.cgi) or [ClearlyDefined](https://clearlydefined.io/). In the latter case, please ensure the license is compatible.
+It's important to ensure that the bundle you're adding has been approved for use in at least one other Eclipse project on [IPZilla](https://dev.eclipse.org/ipzilla/query.cgi) or [ClearlyDefined](https://clearlydefined.io/). In the latter case, please ensure the license is compatible and that the license score is at least 60.
 
 ### 1. Pick a Category
 
@@ -102,7 +102,7 @@ create a recipe including required Eclipse IP information based on data availabl
     mvn -U clean package -DdirtyWorkingTree=warning
 
     # hidden gem: automatically create a CQ for an Eclipse project
-    # (use carefully, creates the CQ if noone is referenced in the ip_log.xml file)
+    # (use carefully, creates the CQ if none is referenced in the ip_log.xml file)
     # mvn -V clean package -DsubmitCqsToProject=<Eclipse.project.id> -DcqCryptography=<Yes|No|Unknown|Explanation> -DdirtyWorkingTree=warning
     # (once the CQ is created, source to upload can be found in 'target/sources-for-eclipse-ipzilla')
     # (after uploading the source, wait for approval)
@@ -127,3 +127,7 @@ create a recipe including required Eclipse IP information based on data availabl
     # NOTE: Please ensure you push using the following command so that you don't bypass the code review:
     git push origin HEAD:refs/for/master
 
+
+### 3. Troubleshooting
+
+If you are having trouble with the build after submitting your change, this is typically because there is a missing dependency. You will need to manually ensure that all transitive dependencies of th elibrary you're adding are available as OSGi bundles in Orbit. You can discover the dependencies using `mvn dependency:tree` in the project folder of the library you're adding. If you have tried this and are still encountering issues, try editing the `osgi.bnd` file. Simply add `;resolution:=optional` to the end of `Import-Package: *` line. 
