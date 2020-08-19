@@ -68,7 +68,7 @@ following additional information first before you proceed.
 * [Bundle Checklist](https://wiki.eclipse.org/Orbit_Bundle_Checklist)
 * [Additional articles](https://wiki.eclipse.org/Category:Orbit)
 
-It's important to ensure that the bundle you're adding has been approved for use in at least one other Eclipse project on [IPZilla](https://dev.eclipse.org/ipzilla/query.cgi) or [ClearlyDefined](https://clearlydefined.io/). In the latter case, please ensure the license is compatible and that the license score is at least 60.
+It's important to ensure that the bundle you're adding has been approved for use in at least one other Eclipse project on [IPZilla](https://dev.eclipse.org/ipzilla/query.cgi) or [ClearlyDefined](https://clearlydefined.io/). In the latter case, please ensure the license is compatible and that the license score is at least 75. See [IP Prereq Diligence](https://www.eclipse.org/projects/handbook/#ip-prereq-diligence) for further details.
 
 ### 1. Pick a Category
 
@@ -130,4 +130,4 @@ create a recipe including required Eclipse IP information based on data availabl
 
 ### 3. Troubleshooting
 
-If you are having trouble with the build after submitting your change, this is typically because there is a missing dependency. You will need to manually ensure that all transitive dependencies of th elibrary you're adding are available as OSGi bundles in Orbit. You can discover the dependencies using `mvn dependency:tree` in the project folder of the library you're adding. If you have tried this and are still encountering issues, try editing the `osgi.bnd` file. Simply add `;resolution:=optional` to the end of `Import-Package: *` line. 
+If you are having trouble with the build after submitting your change, this is typically because there is a missing dependency. It is ideal to have all transitive dependencies of the library you're adding available as OSGi bundles in Orbit, though there may be exceptions to this. The dependency metadata can all be customized using the osgi.bnd file. You can discover the dependencies using `mvn dependency:tree` under the project folder of the library you're adding.
