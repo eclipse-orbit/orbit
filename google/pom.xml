@@ -19,9 +19,20 @@
     <module>com.google.guava_27.1.0</module>
     <module>com.google.gson_2.7.0</module>
     <module>com.google.gson_2.8.2</module>
+    <module>com.google.gdata_1.47.1</module>
     <module>com.google.flogger_0.1.0</module>
     <module>com.google.flogger.systembackend_0.1.0</module>
     <module>com.google.flogger.testing_0.1.0</module>
+    <module>com.google.oauth-client_1.30.6</module>
+    <module>com.google.oauth-client-java6_1.30.6</module>
+    <module>com.google.oauth-client-jetty_1.30.6</module>
+    <module>com.google.api.client-auth_1.2.3</module>
+    <module>com.google.api.client-auth-oauth2_1.2.3</module>
+    <module>com.google.api.client-util_1.2.3</module>
+    <module>com.google.api.client-escape_1.2.3</module>
+    <module>com.google.api.client-repackaged-com-google-common-base_1.2.3</module>
+    <module>com.google.api.client-json_1.2.3</module>
+    <module>com.google.api.client-http_1.2.3</module>
     <module>com.google.auth.oauth2-http_0.20.0</module>
     <module>com.google.auth.google-auth-library-credentials_0.20.0</module>
     <module>com.google.auto.value.auto-value-annotations_1.7.0</module>

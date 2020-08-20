@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.google.api.client-json" version="1.2.3" status="done">
+    <info>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>google/com.google.api.client-json</location>
+    </info>
+    <contact>
+      <name>Sina Madani</name>
+      <email>sinadoom@googlemail.com</email>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/com.google.api.client/google-api-client-json/1.2.3-alpha"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>google-api-client-json-1.2.3-alpha.jar</package>
+    </legal>
+  </project>
+</ip_log>

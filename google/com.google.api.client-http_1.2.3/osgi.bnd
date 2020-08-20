@@ -1,0 +1,14 @@
+package-version=${version;===;${Bundle-Version}}
+google-api-client-escape-version-range=${range;[===,+);1.2.3-alpha}google-api-client-escape-version=${version;===;1.2.3-alpha}
+google-api-client-repackaged-com-google-common-base-version-range=${range;[===,+);1.2.3-alpha}google-api-client-repackaged-com-google-common-base-version=${version;===;1.2.3-alpha}
+google-api-client-util-version-range=${range;[===,+);1.2.3-alpha}google-api-client-util-version=${version;===;1.2.3-alpha}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional
