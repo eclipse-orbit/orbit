@@ -55,6 +55,7 @@
     <module>mockito</module>
     <module>objenesis</module>
     <module>reactivestreams</module>
+    <module>sourceforge</module>
     <module>tukaani</module>
     <module>uom</module>
     <module>xml</module>

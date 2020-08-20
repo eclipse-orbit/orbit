@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="net.sourceforge.plantuml" version="1.2019.0" status="done">
+    <info>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>sourceforge-parent/net.sourceforge.plantuml</location>
+    </info>
+    <contact>
+      <name>Sina Madani</name>
+      <email>sinadoom@googlemail.com</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="19860"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <license>
+      	<name>MIT license</name>
+      	<reference>http://opensource.org/licenses/MIT</reference>
+      </license>
+      <license>
+      	<name>Eclipse Public License 1.0</name>
+      	<reference>http://opensource.org/licenses/EPL-1.0</reference>
+      </license>
+      <package>plantuml-1.2019.0.jar</package>
+    </legal>
+  </project>
+</ip_log>
