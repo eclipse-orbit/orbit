@@ -10,7 +10,7 @@
   <artifactId>org.apache.poi.ooxml.schemas</artifactId>
   <version>4.1.1-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
-  <name>Apache POI</name>
+  <name>Apache POI OOXML Schemas</name>
   <dependencies>
     <dependency>
       <groupId>org.apache.poi</groupId>

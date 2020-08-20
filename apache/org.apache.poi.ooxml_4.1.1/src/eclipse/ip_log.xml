@@ -2,7 +2,7 @@
 <ip_log version="1.0">
   <project id="org.apache.poi.ooxml" version="4.1.1" status="done">
     <info>
-      <name>Apache POI</name>
+      <name>Apache POI OOXML</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
       <location>apache-parent/org.apache.poi.ooxml</location>
     </info>
