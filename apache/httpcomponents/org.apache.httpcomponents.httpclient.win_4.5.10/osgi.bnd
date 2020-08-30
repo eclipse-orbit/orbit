@@ -2,7 +2,7 @@ package-version=${version;===;${Bundle-Version}}
 httpclient-version=${version;===;4.5.10}
 httpcore-version=${version;===;4.4.12}
 commons-logging-version=${version;===;1.2}
-commons-codec-version=${version;===;1.13}
+commons-codec-version=${version;=+;1.13}
 jna-version=${version;===;4.4.0}
 
 httpclient-version-range=${range;[===,=+);${httpclient-version}}

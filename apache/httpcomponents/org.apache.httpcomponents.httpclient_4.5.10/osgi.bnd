@@ -1,7 +1,7 @@
 package-version=${version;===;${Bundle-Version}}
 httpcore-version=${version;===;4.4.12}
 commons-logging-version=${version;===;1.2}
-commons-codec-version=${version;===;1.13}
+commons-codec-version=${version;=+;1.13}
 ehcache-version=${version;==;2.6.11}
 memcached-version=${version;==;2.12.3}
 
