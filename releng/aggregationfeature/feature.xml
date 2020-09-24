@@ -99,7 +99,7 @@
   <plugin id="org.apache.felix.gogo.runtime"  version="1.1.0.qualifier"/>
   <plugin id="org.apache.felix.gogo.shell"  version="1.1.0.qualifier"/>
 
-  <plugin id="org.apache.felix.scr"  version="2.1.16.qualifier"/>
+  <plugin id="org.apache.felix.scr"  version="2.1.24.qualifier"/>
 
   <plugin id="org.apache.xmlbeans" version="3.1.0.qualifier"/>
   <plugin id="org.apache.santuario.xmlsec" version="2.2.0.qualifier"/>
