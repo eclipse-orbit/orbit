@@ -1,0 +1,21 @@
+package-version=${version;===;${Bundle-Version}}
+apiguardian-api-version-range=${range;[===,+);1.1.0}
+junit-platform-engine-version-range=${range;[===,+);1.7.0}
+junit-jupiter-api-version-range=${range;[===,+);5.7.0}
+junit-platform-commons-version-range=${range;[===,+);1.7.0}
+opentest4j-version-range=${range;[===,+);1.2.0}
+
+Export-Package: \
+ !about.html,!about-files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.junit.platform.engine.*;version="${junit-platform-engine-version-range}", \
+ org.junit.jupiter.api.*;version="${junit-jupiter-api-version-range}", \
+ org.opentest4j;version="${opentest4j-version-range}", \
+ org.junit.platform.commons.*;version="${junit-platform-commons-version-range}", \
+ org.apiguardian.api;version="${apiguardian-api-version-range}", \
+ *;resolution:=optional
