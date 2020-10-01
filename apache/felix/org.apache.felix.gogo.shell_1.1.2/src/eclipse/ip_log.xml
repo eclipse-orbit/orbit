@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.felix.gogo.runtime" version="1.1.0" status="done">
+  <project id="org.apache.felix.gogo.shell" version="1.1.2" status="done">
     <info>
-      <name>Apache Felix Gogo Runtime</name>
+      <name>Apache Felix Gogo Shell</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>apache/felix/org.apache.felix.gogo.runtime_1.1.0</location>
+      <location>apache/felix/org.apache.felix.gogo.shell_1.1.2</location>
     </info>
     <contact>
-      <name>Mat Booth</name>
-      <email>mat.booth@redhat.com</email>
+      <name>Alexander Kurtakov</name>
+      <email>akurtako@redhat.com</email>
       <company>Red Hat</company>
     </contact>
     <legal>
-      <ipzilla bug_id="16932"/>
+      <ipzilla bug_id="22660"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>org.apache.felix.gogo.runtime-1.1.0.jar</package>
+      <package>org.apache.felix.gogo.shell-1.1.2.jar</package>
     </legal>
   </project>
 </ip_log>
