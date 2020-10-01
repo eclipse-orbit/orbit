@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.jacoco.report" version="0.8.5" status="done">
+  <project id="org.jacoco.core" version="0.8.6" status="done">
     <info>
-      <name>JaCoCo Report</name>
+      <name>JaCoCo Core</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>jacoco/org.jacoco.report</location>
+      <location>jacoco/org.jacoco.core</location>
     </info>
     <contact>
       <name>Evgeny Mandrikov</name>
@@ -12,12 +12,12 @@
       <company>SonarSource</company>
     </contact>
     <legal>
-      <ipzilla bug_id="21013"/>
+      <ipzilla bug_id="22591"/>
       <license>
         <name>Eclipse Public License</name>
         <reference>https://www.eclipse.org/legal/epl-2.0/</reference>
       </license>
-      <package>org.jacoco.report-0.8.5.jar</package>
+      <package>org.jacoco.core-0.8.6.jar</package>
     </legal>
   </project>
 </ip_log>

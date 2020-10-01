@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>org.jacoco.core</artifactId>
-  <version>0.8.5-SNAPSHOT</version>
+  <version>0.8.6-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
 
   <name>JaCoCo Core</name>
@@ -19,7 +19,7 @@
     <dependency>
       <groupId>org.jacoco</groupId>
       <artifactId>org.jacoco.core</artifactId>
-      <version>0.8.5</version>
+      <version>0.8.6</version>
     </dependency>
   </dependencies>
 </project>
