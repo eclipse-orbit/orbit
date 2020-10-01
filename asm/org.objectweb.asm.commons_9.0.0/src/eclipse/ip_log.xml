@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.objectweb.asm.commons" version="8.0.1" status="done">
+  <project id="org.objectweb.asm.commons" version="9.0.0" status="done">
     <info>
       <name>ASM Commons</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
