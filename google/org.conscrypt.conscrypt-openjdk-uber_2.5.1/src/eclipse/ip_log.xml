@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.conscrypt.conscrypt-openjdk-uber" version="2.5.1" status="done">
+    <info>
+      <name>org.conscrypt:conscrypt-openjdk-uber</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>google/org.conscrypt.conscrypt-openjdk-uber</location>
+    </info>
+    <contact>
+      <name>Matthias Sohn</name>
+      <email>matthias.sohn@sap.com</email>
+      <company>SAP SE</company>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.conscrypt/conscrypt-openjdk-uber/2.5.1"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>conscrypt-openjdk-uber-2.5.1.jar</package>
+    </legal>
+  </project>
+</ip_log>

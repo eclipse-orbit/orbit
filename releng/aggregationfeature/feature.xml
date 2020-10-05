@@ -116,6 +116,11 @@
   <plugin id="org.apache.httpcomponents.httpclient" version="4.5.10.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpclient.win" os="win32" version="4.5.10.qualifier"/>
 
+  <plugin id="org.apache.httpcomponents.core5.httpcore5" version="5.0.2.qualifier"/>
+  <plugin id="org.conscrypt.conscrypt-openjdk-uber" version="2.5.1.qualifier"/>"
+  <plugin id="org.apache.httpcomponents.core5.httpcore5-h2" version="5.0.2.qualifier"/>
+  <plugin id="org.apache.httpcomponents.client5.httpclient5" version="5.0.2.qualifier"/>
+
   <plugin id="org.apache.lucene.core"              version="7.5.0.qualifier"/>
   <plugin id="org.apache.lucene.analyzers-common"  version="7.5.0.qualifier"/>
   <plugin id="org.apache.lucene.analyzers-smartcn" version="7.5.0.qualifier"/>

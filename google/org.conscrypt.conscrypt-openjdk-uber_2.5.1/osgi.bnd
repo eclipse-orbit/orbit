@@ -1,0 +1,14 @@
+package-version=${version;===;${Bundle-Version}}
+
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ !sun.security.x509, \
+ org.conscrypt.*;version="${range;[==,=+);${package-version}}", \
+ *;resolution=optional

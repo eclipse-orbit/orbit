@@ -14,6 +14,7 @@ com.google.j2objc
 io.opencensus
 io.opencensus
 io.grpc
+org.conscrypt
 )
 VERSION=(
 0.20.0
@@ -24,6 +25,7 @@ VERSION=(
 0.26.0
 0.26.0
 1.29.0
+2.5.1
 )
 ARTIDS=(
 google-auth-library-credentials
@@ -34,6 +36,7 @@ j2objc-annotations
 opencensus-contrib-http-util
 opencensus-api
 grpc-context
+conscrypt-openjdk-uber
 )
 BSNS=(
 com.google.auth.google-auth-library-credentials
@@ -44,6 +47,7 @@ com.google.j2objc.j2objc-annotations
 io.opencensus.opencensus-contrib-http-util
 io.opencensus.opencensus-api
 io.grpc.grpc-context
+org.conscrypt.conscrypt-openjdk-uber
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do

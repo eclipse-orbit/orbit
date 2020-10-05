@@ -42,6 +42,7 @@
     <module>io.grpc.grpc-context_1.29.0</module>
     <module>io.opencensus.opencensus-api_0.26.0</module>
     <module>io.opencensus.opencensus-contrib-http-util_0.26.0</module>
+    <module>org.conscrypt.conscrypt-openjdk-uber_2.5.1</module>
   </modules>
 
 </project>

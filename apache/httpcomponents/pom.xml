@@ -21,6 +21,10 @@
     <module>org.apache.httpcomponents.httpcore_4.4.12</module>
     <module>org.apache.httpcomponents.httpclient_4.5.10</module>
     <module>org.apache.httpcomponents.httpclient.win_4.5.10</module>
+
+    <module>org.apache.httpcomponents.core5.httpcore5_5.0.2</module>
+    <module>org.apache.httpcomponents.core5.httpcore5-h2_5.0.2</module>
+    <module>org.apache.httpcomponents.client5.httpclient5_5.0.2</module>
   </modules>
 
 </project>
