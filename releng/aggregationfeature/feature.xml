@@ -92,6 +92,7 @@
   <plugin id="org.apache.batik.ext" version="1.13.0.qualifier"/>
   <plugin id="org.apache.batik.awt.util" version="1.13.0.qualifier"/>
   <plugin id="org.apache.batik.parser" version="1.13.0.qualifier"/>
+  <plugin id="org.apache.batik.gvt" version="1.13.0.qualifier"/>
   <plugin id="org.apache.batik.shared.resources" version="1.13.0.qualifier"/>
   <plugin id="org.apache.xmlgraphics" version="2.4.0.qualifier"/>
 
