@@ -10,7 +10,7 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.slf4j.binding.slf4j-log4j12</artifactId>
+  <artifactId>org.slf4j.binding.log4j12</artifactId>
   <version>1.7.30-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
 

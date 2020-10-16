@@ -140,13 +140,13 @@
 
   <!-- Logging -->
   <plugin id="org.slf4j.api"            version="1.7.30.qualifier"/>
-  <plugin id="org.slf4j.ext"            version="1.7.30.qualifier"/>
   <plugin id="org.slf4j.apis.jcl"       version="1.7.30.qualifier"/>
   <plugin id="org.slf4j.apis.log4j"     version="1.7.30.qualifier"/>
-  <plugin id="org.slf4j.bridge.jul"     version="1.7.30.qualifier"/>
+  <plugin id="org.slf4j.binding.log4j12" version="1.7.30.qualifier"/>
   <plugin id="org.slf4j.binding.nop"    version="1.7.30.qualifier"/>
   <plugin id="org.slf4j.binding.simple" version="1.7.30.qualifier"/>
-  <plugin id="org.slf4j.binding.slf4j-log4j12" version="1.7.30.qualifier"/>
+  <plugin id="org.slf4j.bridge.jul"     version="1.7.30.qualifier"/>
+  <plugin id="org.slf4j.ext"            version="1.7.30.qualifier"/>
 
   <plugin id="ch.qos.logback.core"    version="1.2.3.qualifier"/>
   <plugin id="ch.qos.logback.classic" version="1.2.3.qualifier"/>
