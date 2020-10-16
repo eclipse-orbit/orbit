@@ -53,6 +53,7 @@
     <module>junit</module>
     <module>logging</module>
     <module>mockito</module>
+    <module>netty</module>
     <module>objenesis</module>
     <module>reactivestreams</module>
     <module>sourceforge</module>

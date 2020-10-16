@@ -390,4 +390,7 @@
 
   <plugin id="net.sourceforge.plantuml" version="1.2019.0.qualifier" />
 
+  <!-- Netty -->
+  <plugin id="io.netty.common" version="4.1.53.qualifier" />>
+  <plugin id="io.netty.buffer" version="4.1.53.qualifier" />>
 </feature>

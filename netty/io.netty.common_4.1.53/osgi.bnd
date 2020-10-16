@@ -1,0 +1,25 @@
+package-version=${version;===;${Bundle-Version}}
+
+commons-logging-version=${version;===;1.2}
+log4j-api-version=${version;===;2.6}
+log4j-version=${version;===;1.2}
+slf4j-api-version=${version;===;1.7}
+
+commons-logging-version-range=${range;[===,+);${commons-logging-version}}
+log4j-api-version-range=${range;[===,+);${log4j-api-version}}
+log4j-version-range=${range;[===,+);${log4j-version}}
+slf4j-api-version-range=${range;[===,+);${slf4j-api-version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.apache.commons.logging;version="${commons-logging-version-range}";resolution:=optional, \
+ org.apache.log4j;version="${log4j-version-range}";resolution:=optional, \
+ org.apache.logging.log4j.*;version="${log4j-api-version-range}";resolution:=optional, \
+ org.slf4j.*;version="${slf4j-api-version-range}";resolution:=optional, \
+ *;resolution:=optional

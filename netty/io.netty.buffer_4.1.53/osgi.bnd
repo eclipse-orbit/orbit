@@ -1,0 +1,15 @@
+package-version=${version;===;${Bundle-Version}}
+
+netty-common-version=${version;===;${package-version}}
+netty-common-version-range=${range;[===,+);${package-version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ io.netty.util.*;version="${netty-common-version-range}",
+ *;resolution:=optional
