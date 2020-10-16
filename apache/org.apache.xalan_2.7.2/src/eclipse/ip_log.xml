@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.xalan" version="2.7.2" status="done">
+    <info>
+      <name>Xalan Java</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/org.apache.xalan</location>
+    </info>
+    <contact>
+      <name>ShiHeng Guan</name>
+      <email>guans@opentext.com</email>
+      <company>OpenText</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="9587"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>xalan-2.7.2.jar</package>
+    </legal>
+  </project>
+</ip_log>

@@ -107,7 +107,9 @@
   <plugin id="org.apache.felix.gogo.shell"  version="1.1.2.qualifier"/>
 
   <plugin id="org.apache.felix.scr"  version="2.1.24.qualifier"/>
-
+  
+  <plugin id="org.apache.xalan" version="2.7.2.qualifier"/>
+  
   <plugin id="org.apache.xmlbeans" version="3.1.0.qualifier"/>
   <plugin id="org.apache.santuario.xmlsec" version="2.2.0.qualifier"/>
 
