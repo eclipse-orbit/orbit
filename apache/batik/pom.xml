@@ -43,6 +43,7 @@
     <module>org.apache.batik.dom_1.13.0</module>
     <module>org.apache.batik.gvt_1.13.0</module>
     <module>org.apache.batik.svggen_1.13.0</module>
+    <module>org.apache.batik.dom.svg_1.13.0</module>
     <module>org.apache.batik.constants_1.13.0</module>
     <module>org.apache.batik.css_1.13.0</module>
     <module>org.apache.batik.i18n_1.13.0</module>
