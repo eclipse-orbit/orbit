@@ -47,6 +47,7 @@
     <module>org.apache.batik.anim_1.13.0</module>
     <module>org.apache.batik.script_1.13.0</module>
     <module>org.apache.batik.bridge_1.13.0</module>
+    <module>org.apache.batik.transcoder_1.13.0</module>
     <module>org.apache.batik.constants_1.13.0</module>
     <module>org.apache.batik.css_1.13.0</module>
     <module>org.apache.batik.i18n_1.13.0</module>

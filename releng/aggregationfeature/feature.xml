@@ -99,6 +99,7 @@
   <plugin id="org.apache.batik.anim" version="1.13.0.qualifier"/>
   <plugin id="org.apache.batik.script" version="1.13.0.qualifier"/>
   <plugin id="org.apache.batik.bridge" version="1.13.0.qualifier"/>
+  <plugin id="org.apache.batik.transcoder" version="1.13.0.qualifier"/>
   <plugin id="org.apache.batik.shared.resources" version="1.13.0.qualifier"/>
   <plugin id="org.apache.xmlgraphics" version="2.4.0.qualifier"/>
 
