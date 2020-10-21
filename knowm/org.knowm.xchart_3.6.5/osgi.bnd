@@ -1,0 +1,23 @@
+package-version=${version;===;${Bundle-Version}}
+VectorGraphics2D-version-range=${range;[===,+);0.13}
+VectorGraphics2D-version=${version;===;0.13}
+graphics2d-version-range=${range;[===,+);0.27}
+graphics2d-version=${version;===;0.27}
+animated-gif-lib-version-range=${range;[===,+);1.4}
+animated-gif-lib-version=${version;===;1.4}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ com.madgag.gif.fmsware*;resolution:=optional, \
+ de.erichseifert.vectorgraphics2d*;resolution:=optional, \
+ de.rototor.pdfbox.graphics2d*;resolution:=optional, \
+ javax.imageio*, \
+ javax.swing*, \
+ org.apache.pdfbox.pdmodel*;resolution:=optional, \
+ org.knowm.xchart*;version="${package-version}", \
+ org.w3c.dom, \
+ *;resolution:=optional
