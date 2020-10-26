@@ -397,4 +397,7 @@
   <!-- Knowm -->
   <plugin id="org.knowm.xchart" version="3.6.5.qualifier" />
 
+  <!-- java-diff-utils -->
+  <plugin id="io.github.java-diff-utils" version="4.8.0.qualifier" />
+
 </feature>

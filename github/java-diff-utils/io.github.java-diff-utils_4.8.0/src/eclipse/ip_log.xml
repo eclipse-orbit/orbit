@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="io.github.java-diff-utils" version="4.8.0" status="done">
+    <info>
+      <name>Java Diff Utils</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>github-parent/java-diff-utils-parent/io.github.java-diff-utils</location>
+    </info>
+    <contact>
+      <name>Dennis Hendriks</name>
+      <email>dh_tue@hotmail.com</email>
+      <company>ESI (TNO)</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="22697"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>java-diff-utils-4.8.jar</package>
+    </legal>
+  </project>
+</ip_log>

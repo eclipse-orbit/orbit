@@ -20,6 +20,7 @@
     <module>docker</module>
     <module>eddsa</module>
     <module>ejml</module>
+    <module>java-diff-utils</module>
     <module>javaewah</module>
     <module>jnr</module>
     <module>jruby</module>
