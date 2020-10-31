@@ -1,5 +1,5 @@
 package-version=${version;===;${Bundle-Version}}
-ant-launcher-version=${version;===;1.10.8}
+ant-launcher-version=${version;===;1.10.9}
 
 Export-Package: \
  !about.html,!about_files.*,!bin.*,!etc.*,!images.*,!lib.*, \

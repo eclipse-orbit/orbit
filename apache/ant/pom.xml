@@ -15,7 +15,7 @@
   <name>Eclipse Orbit :: Ant Recipes</name>
 
    <modules>
-    <module>org.apache.ant_1.10.8</module>
+    <module>org.apache.ant_1.10.9</module>
   </modules>
 
 </project>
