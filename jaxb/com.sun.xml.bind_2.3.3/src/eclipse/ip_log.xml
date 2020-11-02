@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.sun.xml.bind" version="2.3.3" status="done">
+    <info>
+      <name>Old JAXB Runtime</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>javax-parent/com.sun.xml.bind</location>
+    </info>
+    <contact>
+      <name>Jonah Graham</name>
+      <email>jonah@kichwacoders.com</email>
+      <company>Kichwa Coders Canada Inc.</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="22020"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-2.0</reference>
+      </license>
+      <package>jaxb-impl-2.3.3.jar</package>
+    </legal>
+  </project>
+</ip_log>

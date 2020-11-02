@@ -47,6 +47,7 @@
     <module>jackson</module>
     <module>jacoco</module>
     <module>javax</module>
+    <module>jaxb</module>
     <module>jcraft</module>
     <module>jini</module>
     <module>jna</module>
