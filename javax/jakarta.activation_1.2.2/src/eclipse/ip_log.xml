@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="jakarta.activation" version="1.2.2" status="done">
+    <info>
+      <name>Jakarta Activation API jar</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>javax-parent/jakarta.activation</location>
+    </info>
+    <contact>
+      <name>Jonah Graham</name>
+      <email>jonah@kichwacoders.com</email>
+      <company>Kichwa Coders Canada Inc.</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="22020"/>
+      <license>
+        <name>New BSD license</name>
+        <reference>http://opensource.org/licenses/BSD-3-Clause</reference>
+      </license>
+      <package>jakarta.activation-api-1.2.2.jar</package>
+    </legal>
+  </project>
+</ip_log>
