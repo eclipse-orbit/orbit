@@ -1,13 +1,17 @@
 package-version=${version;===;${Bundle-Version}}
+log4j-version=${version;===;1.2}
+log4j-version-range=${range;[==,+);${log4j-version}}
 
 Export-Package: \
  !about.html,!about_files, \
+ !org.apache.log4j, \
  *.internal*;x-internal:=true;version="${package-version}", \
  *.impl*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
 Import-Package: \
  org.slf4j.*;version="${range;[===,=+);${package-version}}", \
+ org.apache.log4j;version="${log4j-version-range}", \
  *;resolution:=optional
 ###############
 # SLF4J Binding
