@@ -12,7 +12,7 @@
       <company>Eclipse CDT</company>
     </contact>
     <legal>
-      <clearlydefined url="https://clearlydefined.io/definitions/sourcearchive/mavencentral/org.yaml/snakeyaml/1.27"/>
+      <ipzilla bug_id="22776"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
