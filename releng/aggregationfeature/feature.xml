@@ -387,6 +387,7 @@
   <plugin id="javax.ws.rs" version="2.1.6.qualifier" />
 
   <!-- jaxb -->
+  <plugin id="com.sun.xml.bind" version="2.2.0.qualifier" />
   <plugin id="com.sun.xml.bind" version="2.3.3.qualifier" />
 
   <!-- immutables -->

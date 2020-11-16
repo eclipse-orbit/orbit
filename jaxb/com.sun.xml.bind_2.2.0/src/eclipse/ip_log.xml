@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.sun.xml.bind" version="2.2.0" status="done">
+    <info>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>jaxb-parent/com.sun.xml.bind</location>
+    </info>
+    <contact>
+      <name>Jonah Graham</name>
+      <email>jonah@kichwacoders.com</email>
+      <company>Kichwa Coders Canada Inc.</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="3843"/>
+      <license>
+        <name>Common Development and Distribution License</name>
+        <reference>https://glassfish.java.net/public/CDDLv1.0.html</reference>
+      </license>
+      <package>jaxb-impl-2.2.jar</package>
+    </legal>
+  </project>
+</ip_log>
