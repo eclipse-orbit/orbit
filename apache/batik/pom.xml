@@ -18,6 +18,7 @@
     <module>org.apache.batik.anim_1.9.1</module>
     <module>org.apache.batik.bridge_1.9.1</module>
     <module>org.apache.batik.codec_1.9.1</module>
+    <module>org.apache.batik.codec_1.13.0</module>
     <module>org.apache.batik.constants_1.9.1</module>
     <module>org.apache.batik.css_1.9.1</module>
     <module>org.apache.batik.dom.svg_1.9.1</module>
