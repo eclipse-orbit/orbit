@@ -7,6 +7,7 @@ batik-dom-version-range=${range;[===,+);1.13}
 batik-dom-version=${version;===;1.13}
 batik-ext-version-range=${range;[===,+);1.13}
 batik-ext-version=${version;===;1.13}
+batik-i18n-version-range=${range;[===,+);1.13}
 batik-parser-version-range=${range;[===,+);1.13}
 batik-parser-version=${version;===;1.13}
 batik-shared-resources-version-range=${range;[===,+);1.13}
@@ -36,6 +37,7 @@ Import-Package: \
  org.apache.batik.dom.util;version="${batik-dom-version-range}", \
  org.apache.batik.dom.xbl;version="${batik-dom-version-range}", \
  org.apache.batik.ext.awt.geom;version="${batik-awt-util-version-range}", \
+ org.apache.batik.i18n;version="${batik-i18n-version-range}", \
  org.apache.batik.parser;version="${batik-parser-version-range}", \
  org.w3c.css.sac;version="${xml-apis-ext-version}", \
  org.w3c.dom.svg;version="1.1", \
