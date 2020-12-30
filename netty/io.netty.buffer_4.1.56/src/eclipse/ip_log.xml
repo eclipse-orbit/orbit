@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="io.netty.common" version="4.1.53" status="done">
+  <project id="io.netty.buffer" version="4.1.56" status="done">
     <info>
-      <name>Netty/Common</name>
+      <name>Netty/Buffer</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>netty/io.netty.common</location>
+      <location>netty/io.netty.buffer</location>
     </info>
     <contact>
       <name>Matthias Sohn</name>
@@ -12,12 +12,12 @@
       <company>SAP SE</company>
     </contact>
     <legal>
-      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/io.netty/netty-common/4.1.53.Final"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/io.netty/netty-buffer/4.1.56.Final"/>
       <license>
         <name>Apache License, 2.0</name>
-        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+        <reference>https://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>netty-common-4.1.53.Final.jar</package>
+      <package>netty-buffer-4.1.56.Final.jar</package>
     </legal>
   </project>
 </ip_log>

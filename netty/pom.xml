@@ -15,8 +15,8 @@
   <name>Eclipse Orbit :: Netty Recipes</name>
 
   <modules>
-    <module>io.netty.common_4.1.53</module>
-    <module>io.netty.buffer_4.1.53</module>
+    <module>io.netty.common_4.1.56</module>
+    <module>io.netty.buffer_4.1.56</module>
   </modules>
 
 </project>
