@@ -1,0 +1,12 @@
+package-version=${version;===;${Bundle-Version}}
+jakarta.websocket-client-api-version-range=${range;[===,+);2.0.0}jakarta.websocket-client-api-version=${version;===;2.0.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *

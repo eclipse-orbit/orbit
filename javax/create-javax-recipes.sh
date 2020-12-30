@@ -6,16 +6,16 @@ function ebr () {
 
 # Edit these as needed
 GIDS=(
-jakarta.activation
+jakarta.websocket
 )
 ARTIDS=(
-jakarta.activation-api
+jakarta.websocket-api
 )
 VERSION=(
-'2.0.0-RC3'
+'2.0.0'
 )
 BSNS=(
-jakarta.activation
+jakarta.websocket
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="jakarta.websocket" version="2.0.0" status="done">
+    <info>
+      <name>Jakarta WebSocket - Server API</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>javax-parent/jakarta.websocket</location>
+    </info>
+    <contact>
+      <name>Aurélien Pupier</name>
+      <email>apupier@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="22020"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
+      </license>
+      <package>jakarta.websocket-api-2.0.0.jar</package>
+    </legal>
+  </project>
+</ip_log>
