@@ -1,0 +1,14 @@
+package-version=${version;===;${Bundle-Version}}
+xml-apis-version-range=${range;[===,+);1.4.01}xml-apis-version=${version;===;1.4.01}
+xml-resolver-version-range=${range;[===,+);1.2}xml-resolver-version=${version;===;1.2}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ sun.io;resolution:=optional, \
+ *

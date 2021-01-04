@@ -5,15 +5,15 @@ function ebr () {
 }
 
 # Edit these as needed
-GID='commons-codec'
+GID='xerces'
 VERSIONS=(
-1.10
+2.12.1
 )
 ARTIDS=(
-commons-codec
+xercesImpl
 )
 BSNS=(
-commons-codec
+xercesImpl
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do

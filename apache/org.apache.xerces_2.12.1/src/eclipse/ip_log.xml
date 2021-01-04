@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.xerces" version="2.12.1" status="done">
+    <info>
+      <name>Xerces2-j</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/org.apache.xerces</location>
+    </info>
+    <contact>
+      <name>Aurélien Pupier</name>
+      <email>apupier@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="16951"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>org.apache.xerces-2.12.1.jar</package>
+    </legal>
+  </project>
+</ip_log>
