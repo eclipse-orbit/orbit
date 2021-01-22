@@ -12,7 +12,7 @@
    <category-def name="all" label="All Bundles"/>
    <iu>
       <category name="all"/>
-      <query><expression type="match">providedCapabilities.exists(p | p.namespace == 'osgi.bundle') &amp;&amp; properties.exists(p | p.key == 'maven-artifactId')</expression></query>
+      <query><expression type="match">providedCapabilities.exists(p | p.namespace == 'osgi.bundle') &amp;&amp; properties.exists(p | p.key == 'maven-groupId' &amp;&amp; p.value != 'org.eclipse.osgi')</expression></query>
    </iu>
 
    <category-def name="apache" label="Orbit Bundles By Name: org.apache.*"/>
