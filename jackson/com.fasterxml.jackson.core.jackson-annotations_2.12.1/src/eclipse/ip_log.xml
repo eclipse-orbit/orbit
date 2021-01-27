@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.fasterxml.jackson.core.jackson-annotations" version="2.12.1" status="done">
+    <info>
+      <name>Jackson-annotations</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>jackson/com.fasterxml.jackson.core.jackson-annotations</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="22965"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>jackson-annotations-2.12.1.jar</package>
+    </legal>
+  </project>
+</ip_log>

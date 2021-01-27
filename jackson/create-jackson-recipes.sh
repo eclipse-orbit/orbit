@@ -14,7 +14,7 @@ com.fasterxml.jackson.jaxrs
 com.fasterxml.jackson.datatype
 com.fasterxml.jackson.module
 )
-VERSION='2.10.3'
+VERSION='2.12.1'
 ARTIDS=(
 jackson-core
 jackson-annotations

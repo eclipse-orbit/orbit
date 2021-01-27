@@ -1,0 +1,21 @@
+package-version=${version;===;${Bundle-Version}}
+jackson-annotations-version=${version;===;2.12.1}
+jackson-core-version=${version;===;2.12.1}
+jackson-databind-version=${version;===;2.12.1}
+jakarta.xml.bind-api-version=${version;===;2.3.2}
+jakarta.activation-api-version=${version;===;1.2.1}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ com.fasterxml.jackson.annotation.*;version="${jackson-annotations-version}", \
+ com.fasterxml.jackson.core.*;version="${jackson-core-version}", \
+ com.fasterxml.jackson.databind.*;version="${jackson-databind-version}", \
+ javax.xml.bind.*;version="${jakarta.xml.bind-api-version}", \
+ javax.activation.*;resolution:=optional \
+ *;resolution:=optional
