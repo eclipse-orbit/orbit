@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.google.guava" version="30.1.0" status="done">
+    <info>
+      <name>Guava: Google Core Libraries for Java</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>google/com.google.guava</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corp.</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="23002"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>guava-30.1-jre.jar</package>
+    </legal>
+  </project>
+</ip_log>

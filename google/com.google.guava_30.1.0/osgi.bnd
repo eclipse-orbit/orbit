@@ -1,0 +1,21 @@
+package-version=${version;===;${Bundle-Version}}
+javax-annotation-version=${version;===;3.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal*;x-internal:=true;version="${package-version}", \
+ *.impl*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ com.google.common.*;version="${range;[==,+);${package-version}}", \
+ com.google.common.util.concurrent.internal.*;version="${range;[==,+);${package-version}}", \
+ com.google.errorprone.annotations.*;resolution:=optional \
+ com.google.errorprone.annotations.concurrent.*;resolution:=optional \
+ com.google.j2objc.annotations.*;resolution:=optional \
+ javax.annotation.*;version="${range;[==,+);${javax-annotation-version}}";resolution:=optional; \
+ javax.crypto.*;resolution:=optional, \
+ javax.crypto.spec.*;resolution:=optional, \
+ org.checkerframework.checker.nullness.qual.*;resolution:=optional \
+ sun.misc.*;resolution:=optional \
+ *;resolution:=optional
