@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.httpcomponents.httpcore" version="4.4.12" status="done">
+  <project id="org.apache.httpcomponents.httpcore" version="4.4.14" status="done">
     <info>
       <name>Apache HttpCore</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
       <location>apache-parent/httpcomponents/org.apache.httpcomponents.httpcore</location>
     </info>
     <contact>
-      <name>Matthias Sohn</name>
-      <email>matthias.sohn@sap.com</email>
-      <company>SAP SE</company>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
     </contact>
     <legal>
       <ipzilla bug_id="21197"/>
@@ -17,7 +17,7 @@
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>httpcore-4.4.12.jar</package>
+      <package>httpcore-4.4.14.jar</package>
     </legal>
   </project>
 </ip_log>

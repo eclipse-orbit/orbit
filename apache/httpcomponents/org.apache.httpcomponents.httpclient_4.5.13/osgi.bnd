@@ -1,5 +1,5 @@
 package-version=${version;===;${Bundle-Version}}
-httpcore-version=${version;===;4.4.12}
+httpcore-version=${version;===;4.4.14}
 commons-logging-version=${version;===;1.2}
 commons-codec-version=${version;=+;1.13}
 ehcache-version=${version;==;2.6.11}

@@ -8,11 +8,11 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>org.apache.httpcomponents.httpclient</artifactId>
-  <version>4.5.10-SNAPSHOT</version>
+  <version>4.5.13-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>Apache HttpClient</name>
   <properties>
-     <httpclient.version>4.5.10</httpclient.version>
+     <httpclient.version>4.5.13</httpclient.version>
   </properties>
   <dependencies>
     <dependency>

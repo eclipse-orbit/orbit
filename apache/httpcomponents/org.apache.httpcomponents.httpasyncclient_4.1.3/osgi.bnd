@@ -1,8 +1,4 @@
 package-version=${version;===;${Bundle-Version}}
-httpcore-version-range=${range;[===,+);4.4.6}httpcore-version=${version;===;4.4.6}
-httpcore-nio-version-range=${range;[===,+);4.4.6}httpcore-nio-version=${version;===;4.4.6}
-httpclient-version-range=${range;[===,+);4.5.3}httpclient-version=${version;===;4.5.3}
-commons-logging-version-range=${range;[===,+);1.2}commons-logging-version=${version;===;1.2}
 
 Export-Package: \
  !about.html,!about_files, \

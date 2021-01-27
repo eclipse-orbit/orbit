@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.httpcomponents.httpclient" version="4.5.10" status="done">
+  <project id="org.apache.httpcomponents.httpclient" version="4.5.13" status="done">
     <info>
       <name>Apache HttpClient</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
       <location>apache-parent/httpcomponents/org.apache.httpcomponents.httpclient</location>
     </info>
     <contact>
-      <name>Matthias Sohn</name>
-      <email>matthias.sohn@sap.com</email>
-      <company>SAP SE</company>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
     </contact>
     <legal>
-      <ipzilla bug_id="21196"/>
+      <ipzilla bug_id="22918"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>httpclient-4.5.10.jar</package>
+      <package>httpclient-4.5.13.jar</package>
     </legal>
   </project>
 </ip_log>

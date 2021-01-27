@@ -1,5 +1,4 @@
 package-version=${version;===;${Bundle-Version}}
-httpcore-version-range=${range;[===,+);4.4.5}httpcore-version=${version;===;4.4.5}
 
 Export-Package: \
  !about.html,!about_files, \
