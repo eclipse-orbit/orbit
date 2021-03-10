@@ -18,7 +18,7 @@
     <module>org.apache.batik.anim_1.9.1</module>
     <module>org.apache.batik.bridge_1.9.1</module>
     <module>org.apache.batik.codec_1.9.1</module>
-    <module>org.apache.batik.codec_1.13.0</module>
+    <module>org.apache.batik.codec_1.14.0</module>
     <module>org.apache.batik.constants_1.9.1</module>
     <module>org.apache.batik.css_1.9.1</module>
     <module>org.apache.batik.dom.svg_1.9.1</module>
@@ -36,23 +36,23 @@
     <module>org.apache.batik.util.gui_1.9.1</module>
     <module>org.apache.batik.util_1.9.1</module>
     <module>org.apache.batik.xml_1.9.1</module>
-    <module>org.apache.batik.shared.resources_1.13.0</module>
-    <module>org.apache.batik.xml_1.13.0</module>
-    <module>org.apache.batik.ext_1.13.0</module>
-    <module>org.apache.batik.awt.util_1.13.0</module>
-    <module>org.apache.batik.parser_1.13.0</module>
-    <module>org.apache.batik.dom_1.13.0</module>
-    <module>org.apache.batik.gvt_1.13.0</module>
-    <module>org.apache.batik.svggen_1.13.0</module>
-    <module>org.apache.batik.dom.svg_1.13.0</module>
-    <module>org.apache.batik.anim_1.13.0</module>
-    <module>org.apache.batik.script_1.13.0</module>
-    <module>org.apache.batik.bridge_1.13.0</module>
-    <module>org.apache.batik.transcoder_1.13.0</module>
-    <module>org.apache.batik.constants_1.13.0</module>
-    <module>org.apache.batik.css_1.13.0</module>
-    <module>org.apache.batik.i18n_1.13.0</module>
-    <module>org.apache.batik.util_1.13.0</module>
+    <module>org.apache.batik.shared.resources_1.14.0</module>
+    <module>org.apache.batik.xml_1.14.0</module>
+    <module>org.apache.batik.ext_1.14.0</module>
+    <module>org.apache.batik.awt.util_1.14.0</module>
+    <module>org.apache.batik.parser_1.14.0</module>
+    <module>org.apache.batik.dom_1.14.0</module>
+    <module>org.apache.batik.gvt_1.14.0</module>
+    <module>org.apache.batik.svggen_1.14.0</module>
+    <module>org.apache.batik.dom.svg_1.14.0</module>
+    <module>org.apache.batik.anim_1.14.0</module>
+    <module>org.apache.batik.script_1.14.0</module>
+    <module>org.apache.batik.bridge_1.14.0</module>
+    <module>org.apache.batik.transcoder_1.14.0</module>
+    <module>org.apache.batik.constants_1.14.0</module>
+    <module>org.apache.batik.css_1.14.0</module>
+    <module>org.apache.batik.i18n_1.14.0</module>
+    <module>org.apache.batik.util_1.14.0</module>
     <module>org.apache.xmlgraphics_2.4.0</module>
   </modules>
 

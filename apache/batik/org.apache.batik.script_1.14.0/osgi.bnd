@@ -1,0 +1,28 @@
+package-version=${version;===;${Bundle-Version}}
+batik-anim-version-range=${range;[===,+);1.14}
+batik-anim-version=${version;===;1.14}
+batik-shared-resources-version-range=${range;[===,+);1.14}
+batik-shared-resources-version=${version;===;1.14}
+batik-util-version-range=${range;[===,+);1.14}
+batik-util-version=${version;===;1.14}
+rhino-version-range=${range;[===,+);1.7.7}
+rhino-version=${version;===;1.7.7}
+jython-version-range=${range;[===,+);2.7.0}
+jython-version=${version;===;2.7.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.apache.batik.anim.dom;version="${batik-anim-version-range}", \
+ org.mozilla.javascript;resolution:=optional;version="${rhino-version}", \
+ org.python.core;resolution:=optional;version="${jython-version}", \
+ org.python.util;resolution:=optional;version="${jython-version}", \
+ *;resolution:=optional
+
+Require-Bundle: \
+ org.apache.batik.util;bundle-version="${batik-util-version-range}"

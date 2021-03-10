@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.batik.parser" version="1.14.0" status="done">
+    <info>
+      <name>org.apache.xmlgraphics:batik-parser</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/batik/org.apache.batik.parser</location>
+    </info>
+    <contact>
+      <name>ShiHeng Guan</name>
+      <email>guans@opentext.com</email>
+      <company>OpenText</company>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.apache.xmlgraphics/batik-parser/1.14" />
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>batik-parser-1.14.jar</package>
+    </legal>
+  </project>
+</ip_log>
