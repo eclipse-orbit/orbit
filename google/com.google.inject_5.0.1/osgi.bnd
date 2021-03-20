@@ -1,0 +1,20 @@
+package-version=${version;===;${Bundle-Version}}
+javax.inject-version-range=${range;[===,+);1}javax.inject-version=${version;===;1}
+aopalliance-version-range=${range;[===,+);1.0}aopalliance-version=${version;===;1.0}
+guava-version-range=${range;[===,+);30.1-jre}guava-version=${version;===;30.1-jre}
+asm-version-range=${range;[===,+);9.1}asm-version=${version;===;9.1}
+
+Eclipse-ExtensibleAPI: true
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ !com.google.inject.*, \
+ !javax.annotation, \
+ !sun.misc, \
+ *

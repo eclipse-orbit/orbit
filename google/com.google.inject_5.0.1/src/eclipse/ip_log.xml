@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.google.inject" version="5.0.1" status="done">
+    <info>
+      <name>Google Guice - Core Library</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>google/com.google.inject</location>
+    </info>
+    <contact>
+      <name>Frank Benoit</name>
+      <email>frank.rene.benoit@gmail.com</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="23134"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>guice-5.0.1.jar</package>
+    </legal>
+  </project>
+</ip_log>
