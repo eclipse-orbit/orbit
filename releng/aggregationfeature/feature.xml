@@ -105,7 +105,7 @@
   <plugin id="org.apache.batik.transcoder" version="1.14.0.qualifier"/>
   <plugin id="org.apache.batik.codec" version="1.14.0.qualifier"/>
   <plugin id="org.apache.batik.shared.resources" version="1.14.0.qualifier"/>
-  <plugin id="org.apache.xmlgraphics" version="2.4.0.qualifier"/>
+  <plugin id="org.apache.xmlgraphics" version="2.6.0.qualifier"/>
 
   <plugin id="org.apache.commons.cli" version="1.4.0.qualifier"/>
 

@@ -12,12 +12,12 @@
       <company>Obeo</company>
     </contact>
     <legal>
-      <ipzilla bug_id="22305"/>
+      <ipzilla bug_id="23228" />
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>xmlgraphics-commons-2.4.jar</package>
+      <package>xmlgraphics-commons-2.6.jar</package>
     </legal>
   </project>
 </ip_log>
