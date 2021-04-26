@@ -6,7 +6,7 @@ function ebr () {
 
 # Edit these as needed
 GID='org.apache.ant'
-VERSION='1.10.9'
+VERSION='1.10.10'
 ARTIDS=(
 ant
 )
