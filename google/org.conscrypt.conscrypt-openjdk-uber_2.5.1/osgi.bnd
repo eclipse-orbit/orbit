@@ -11,4 +11,4 @@ Export-Package: \
 Import-Package: \
  !sun.security.x509, \
  org.conscrypt.*;version="${range;[==,=+);${package-version}}", \
- *;resolution=optional
+ *;resolution:=optional

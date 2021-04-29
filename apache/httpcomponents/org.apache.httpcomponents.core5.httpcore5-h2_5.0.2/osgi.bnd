@@ -15,4 +15,4 @@ Export-Package: \
 Import-Package: \
  org.apache.hc.core5.*;version="${httpcore5-version-range}", \
  java.org.conscrypt.*;version="${conscrypt-openjdk-uber-version-range}";resolution:=optional, \
- *;resolution=optional
+ *;resolution:=optional
