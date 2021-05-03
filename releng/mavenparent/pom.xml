@@ -184,6 +184,54 @@
       </build>
     </profile>
     <profile>
+      <id>eclipse-sign-jnilibs</id>
+      <!-- See releng/scripts/sign-jnilibs.sh for documentation -->
+      <activation>
+        <property>
+          <name>eclipse-sign</name>
+        </property>
+        <file>
+          <exists>eclipse-sign-jnilibs.properties</exists>
+        </file>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.eclipse.ebr</groupId>
+            <artifactId>ebr-maven-plugin</artifactId>
+          </plugin>
+          <plugin>
+            <artifactId>maven-antrun-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>sign-jnilibs</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+                <configuration>
+                  <target>
+                    <exec executable="${project.basedir}/../../releng/scripts/sign-jnilibs.sh" newenvironment="false" failOnError="true" dir="${project.build.directory}">
+                        <arg value="${project.build.directory}/${project.artifactId}-${project.version}.jar" />
+                    </exec>
+                  </target>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <!-- The pack200 plugins are explicitly listed to ensure that they run after the sign-jnilibs runs-->
+          <plugin>
+            <groupId>org.eclipse.tycho.extras</groupId>
+            <artifactId>tycho-pack200a-plugin</artifactId>
+          </plugin>
+          <plugin>
+            <groupId>org.eclipse.tycho.extras</groupId>
+            <artifactId>tycho-pack200b-plugin</artifactId>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
       <id>eclipse-sign</id>
       <activation>
         <property>
@@ -479,6 +527,16 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-antrun-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>3.3.0</version>
         </plugin>
         <plugin>
           <groupId>org.eclipse.tycho</groupId>
