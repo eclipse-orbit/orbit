@@ -302,9 +302,9 @@
   <plugin id="org.mandas.docker-client" version="3.2.1.qualifier"/>
 
   <!-- JaCoCo -->
-  <plugin id="org.jacoco.agent" version="0.8.6.qualifier"/>
-  <plugin id="org.jacoco.core" version="0.8.6.qualifier"/>
-  <plugin id="org.jacoco.report" version="0.8.6.qualifier"/>
+  <plugin id="org.jacoco.agent" version="0.8.7.qualifier"/>
+  <plugin id="org.jacoco.core" version="0.8.7.qualifier"/>
+  <plugin id="org.jacoco.report" version="0.8.7.qualifier"/>
 
   <plugin id="org.jcodings" version="1.0.18.qualifier"/>
   <plugin id="org.joni" version="2.1.11.qualifier"/>
