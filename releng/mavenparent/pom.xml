@@ -88,8 +88,8 @@
     <buildId>${buildType}${buildTimestamp}</buildId>
     <buildLabel>${buildType}-${buildId}-${buildTimestamp}</buildLabel>
 
-    <!-- Reference repository for the report, and for content baseline Orbit 2021-06 M2 Contribution -->
-    <referenceRepoBuild>S20210427185022</referenceRepoBuild>
+    <!-- Reference repository for the report, and for content baseline Orbit 2021-06 M3 Contribution -->
+    <referenceRepoBuild>S20210518003616</referenceRepoBuild>
 
     <!-- Reference repository for the old-style Orbit R-build from CVS -->
     <orbitOldRBuild>R20201118194144</orbitOldRBuild>
