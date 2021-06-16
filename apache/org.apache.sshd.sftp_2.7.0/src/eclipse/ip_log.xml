@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.sshd.osgi" version="2.6.0" status="done">
+  <project id="org.apache.sshd.sftp" version="2.7.0" status="done">
     <info>
-      <name>Apache Mina SSHD :: Core</name>
+      <name>Apache Mina SSHD :: SFTP</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>apache/org.apache.sshd.osgi_2.6.0</location>
+      <location>apache/org.apache.sshd.sftp_2.7.0</location>
     </info>
     <contact>
       <name>Matthias Sohn</name>
-      <email>matthias.sohn@</email>
+      <email>matthias.sohn@sap.com</email>
       <company>SAP SE</company>
     </contact>
     <legal>
-      <ipzilla bug_id="22992"/>
+      <ipzilla bug_id="23470"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <license>
-        <name>ISC</name>
-        <reference>https://opensource.org/licenses/ISC</reference>
-      </license>
-      <package>sshd-osgi-2.6.0.jar</package>
+      <package>sshd-sftp-2.7.0.jar</package>
     </legal>
   </project>
 </ip_log>

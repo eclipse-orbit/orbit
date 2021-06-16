@@ -5,11 +5,11 @@ sshd-core-version-range=${range;[===,=+);${package-version}}
 
 Export-Package: \
  !about.html,!about_files, \
- *.internal.*;x-internal:=true;version="${package-version}", \
- *.implementation.*;x-internal:=true;version="${package-version}", \
- *.impl.*;x-internal:=true;version="${package-version}", \
- *.sftp;version="${package-version}",\
- *.sftp.*;version="${package-version}"
+ *.internal.*;x-internal:=true;version="${package-version}";-noimport:=true, \
+ *.implementation.*;x-internal:=true;version="${package-version}";-noimport:=true, \
+ *.impl.*;x-internal:=true;version="${package-version}";-noimport:=true, \
+ *.sftp;version="${package-version}";-noimport:=true,\
+ *.sftp.*;version="${package-version}";-noimport:=true
 
 Import-Package: \
  !*.sftp,!*.sftp.*, \

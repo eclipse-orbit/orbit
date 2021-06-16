@@ -2,15 +2,15 @@ package-version=${version;===;${Bundle-Version}}
 
 slf4j-api-version-range=${range;[===,+);1.7}
 tomcat-apr-version-range=5.5
-bcpg-jdk15on-version-range=${range;[===,+);1.65}
+bcpg-jdk15on-version-range=${range;[===,+);1.68}
 eddsa-version-range=${range;[===,+);0.3}
 
 Export-Package: \
  !about.html,!about_files, \
- *.internal.*;x-internal:=true;version="${package-version}", \
- *.implementation.*;x-internal:=true;version="${package-version}", \
- *.impl.*;x-internal:=true;version="${package-version}", \
- *;version="${package-version}"
+ *.internal.*;x-internal:=true;version="${package-version}";-noimport:=true, \
+ *.implementation.*;x-internal:=true;version="${package-version}";-noimport:=true, \
+ *.impl.*;x-internal:=true;version="${package-version}";-noimport:=true, \
+ *;version="${package-version}";-noimport:=true
 
 Import-Package: \
  !org.apache.sshd,!org.apache.sshd.*,\
