@@ -9,9 +9,9 @@ Export-Package: \
  !org/bouncycastle/pqc/math/ntru/polynomial/test, \
  !org/bouncycastle/pqc/math/ntru/util/test, \
  !org/bouncycastle/util/test, \
- *.internal*;x-internal:=true;version="${package-version}", \
- *.impl*;x-internal:=true;version="${package-version}", \
- *;version="${package-version}"
+ *.internal*;x-internal:=true;version="${package-version}";-noimport:=true, \
+ *.impl*;x-internal:=true;version="${package-version}";-noimport:=true, \
+ *;version="${package-version}";-noimport:=true
 
 Import-Package: \
  org.bouncycastle.*;version="${range;[==,=+);${package-version}}", \

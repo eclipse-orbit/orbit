@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.bouncycastle.bcprov" version="1.65.1" status="done">
+  <project id="org.bouncycastle.bcutil" version="1.69.0" status="done">
     <info>
-      <name>Bouncy Castle Provider</name>
+      <name>Bouncy Castle ASN.1 Extension and Utility APIs</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>bouncycastle/org.bouncycastle.bcprov</location>
+      <location>bouncycastle/org.bouncycastle.bcutil</location>
     </info>
     <contact>
       <name>Matthias Sohn</name>
@@ -12,12 +12,12 @@
       <company>SAP SE</company>
     </contact>
     <legal>
-      <ipzilla bug_id="21977"/>
+      <ipzilla bug_id="23474"/>
       <license>
         <name>MIT License</name>
         <reference>http://www.bouncycastle.org/licence.html</reference>
       </license>
-      <package>bcprov-jdk15on-1.65.01.jar</package>
+      <package>bcutil-jdk15on-1.69.jar</package>
     </legal>
   </project>
 </ip_log>

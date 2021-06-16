@@ -8,7 +8,7 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>org.bouncycastle.bcprov</artifactId>
-  <version>1.65.01-SNAPSHOT</version>
+  <version>1.69.0-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>Bouncy Castle Provider</name>
 
@@ -62,7 +62,7 @@
     <dependency>
       <groupId>org.bouncycastle</groupId>
       <artifactId>bcprov-jdk15on</artifactId>
-      <version>1.65.01</version>
+      <version>1.69</version>
     </dependency>
   </dependencies>
 </project>

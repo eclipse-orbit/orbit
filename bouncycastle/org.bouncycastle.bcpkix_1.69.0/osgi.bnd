@@ -1,12 +1,12 @@
 package-version=${version;===;${Bundle-Version}}
-bcprov-jdk15on-version-range=${range;[===,=+);1.65}
+bcprov-jdk15on-version-range=${range;[===,=+);1.69}
 
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Export-Package: \
  !about.html,!about_files, \
- *.internal*;x-internal:=true;version="${package-version}", \
- *.impl*;x-internal:=true;version="${package-version}", \
- *;version="${package-version}"
+ *.internal*;x-internal:=true;version="${package-version}";-noimport:=true, \
+ *.impl*;x-internal:=true;version="${package-version}";-noimport:=true, \
+ *;version="${package-version}";-noimport:=true
 
 Import-Package: \
  org.bouncycastle*;version="${bcprov-jdk15on-version-range}", \
