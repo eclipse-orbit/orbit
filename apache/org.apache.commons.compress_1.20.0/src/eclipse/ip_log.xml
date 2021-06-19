@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.commons.compress" version="1.19.0" status="done">
+  <project id="org.apache.commons.compress" version="1.20.0" status="done">
     <info>
       <name>Apache Commons Compress</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
@@ -12,12 +12,13 @@
       <company>SAP SE</company>
     </contact>
     <legal>
-      <ipzilla bug_id="21349"/>
+      <ipzilla bug_id="21771"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.apache.commons/commons-compress/1.20"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>commons-compress-1.19.jar</package>
+      <package>commons-compress-1.20.jar</package>
     </legal>
   </project>
 </ip_log>
