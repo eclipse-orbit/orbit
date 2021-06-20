@@ -15,7 +15,7 @@
   <name>Eclipse Orbit :: AssertJ Recipes</name>
 
   <modules>
-    <module>org.assertj_3.14.0</module>
+    <module>org.assertj_3.20.2</module>
   </modules>
 
 </project>
