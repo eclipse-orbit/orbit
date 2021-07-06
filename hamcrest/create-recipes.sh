@@ -8,12 +8,12 @@ function ebr () {
 GIDS=(
 org.hamcrest
 )
-VERSION='1.3'
+VERSION='2.2'
 ARTIDS=(
-hamcrest-library
+hamcrest
 )
 BSNS=(
-org.hamcrest.library
+org.hamcrest
 )
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do

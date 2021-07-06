@@ -12,5 +12,6 @@
   <modules>
     <module>org.hamcrest.core_1.3.0</module>
     <module>org.hamcrest.library_1.3.0</module>
+    <module>org.hamcrest_2.2.0</module>
   </modules>
 </project>

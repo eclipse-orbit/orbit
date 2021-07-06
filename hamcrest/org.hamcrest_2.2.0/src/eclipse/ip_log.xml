@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.hamcrest" version="2.2.0" status="done">
+    <info>
+      <name>Hamcrest</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>hamcrest/org.hamcrest</location>
+    </info>
+    <contact>
+      <name>Matthias Sohn</name>
+      <email>matthias.sohn@sap.com</email>
+      <company>SAP SE</company>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.hamcrest/hamcrest/2.2"/>
+      <license>
+        <name>New BSD license</name>
+        <reference>http://opensource.org/licenses/BSD-3-Clause</reference>
+      </license>
+      <package>hamcrest-2.2.jar</package>
+    </legal>
+  </project>
+</ip_log>
