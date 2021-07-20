@@ -1,0 +1,14 @@
+package-version=${version;===;${Bundle-Version}}
+ant-launcher-version=${version;===;1.10.11}
+
+Export-Package: \
+ !about.html,!about_files.*,!bin.*,!etc.*,!images.*,!lib.*, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *;resolution:=optional
+
+# this bundle needs to be unzipped (https://bugs.eclipse.org/550793)
+Eclipse-BundleShape: dir
