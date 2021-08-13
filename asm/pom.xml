@@ -20,6 +20,12 @@
     <module>org.objectweb.asm.commons_9.1.0</module>
     <module>org.objectweb.asm.tree_9.1.0</module>
     <module>org.objectweb.asm.util_9.1.0</module>
+
+    <module>org.objectweb.asm_9.2.0</module>
+    <module>org.objectweb.asm.analysis_9.2.0</module>
+    <module>org.objectweb.asm.commons_9.2.0</module>
+    <module>org.objectweb.asm.tree_9.2.0</module>
+    <module>org.objectweb.asm.util_9.2.0</module>
   </modules>
 
 </project>
