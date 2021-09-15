@@ -8,14 +8,14 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>io.github.classgraph</artifactId>
-  <version>4.8.35-SNAPSHOT</version>
+  <version>4.8.117-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>ClassGraph</name>
   <dependencies>
     <dependency>
       <groupId>io.github.classgraph</groupId>
       <artifactId>classgraph</artifactId>
-      <version>4.8.35</version>
+      <version>4.8.117</version>
     </dependency>
   </dependencies>
 </project>
