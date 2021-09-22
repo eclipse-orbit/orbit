@@ -42,7 +42,7 @@
                   <goal>sign</goal>
                 </goals>
                 <configuration>
-                  <signerUrl>http://build.eclipse.org:31338/api/sign/jce</signerUrl>
+                  <signerUrl>https://cbi.eclipse.org/api/sign/jce</signerUrl>
                   <resigningStrategy>RESIGN</resigningStrategy>
                 </configuration>
               </execution>
