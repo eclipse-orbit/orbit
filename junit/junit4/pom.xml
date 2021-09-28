@@ -10,6 +10,6 @@
   <packaging>pom</packaging>
   <name>Eclipse Orbit :: JUnit 4 Recipes</name>
   <modules>
-    <module>org.junit_4.13.0</module>
+    <module>org.junit_4.13.2</module>
   </modules>
 </project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.junit.vintage.engine" version="5.8.1" status="done">
+    <info>
+      <name>JUnit Vintage Engine</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>junit-parent/junit5/org.junit.vintage.engine</location>
+    </info>
+    <contact>
+      <name>Noopur Gupta</name>
+      <email>noopur_gupta@in.ibm.com</email>
+      <company>IBM</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="22640"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
+      </license>
+      <package>junit-vintage-engine-5.8.1.jar</package>
+    </legal>
+  </project>
+</ip_log>
