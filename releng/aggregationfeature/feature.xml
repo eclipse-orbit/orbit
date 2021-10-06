@@ -355,6 +355,7 @@
   <plugin id="org.junit.platform.launcher" version="1.8.1.qualifier"/>
   <plugin id="org.junit.platform.runner" version="1.8.1.qualifier"/>
   <plugin id="org.junit.platform.suite.api" version="1.8.1.qualifier"/>
+  <plugin id="org.junit.platform.suite.commons" version="1.8.1.qualifier"/>
   <plugin id="org.junit.vintage.engine" version="5.8.1.qualifier"/>
   <plugin id="org.opentest4j" version="1.2.0.qualifier"/>
   <plugin id="org.apiguardian" version="1.1.2.qualifier"/>

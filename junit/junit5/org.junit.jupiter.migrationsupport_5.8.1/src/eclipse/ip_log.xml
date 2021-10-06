@@ -7,15 +7,15 @@
       <location>junit-parent/junit5/org.junit.jupiter.migrationsupport</location>
     </info>
     <contact>
-      <name>Noopur Gupta</name>
-      <email>noopur_gupta@in.ibm.com</email>
-      <company>IBM</company>
+      <name>Jeff Johnston</name>
+      <email>jjohnstn@redhat.com</email>
+      <company>Red Hat Inc.</company>
     </contact>
     <legal>
-      <ipzilla bug_id="22640"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.junit.jupiter/junit-jupiter-migrationsupport/5.8.1"/>
       <license>
         <name>Eclipse Public License</name>
-        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
+        <reference>http://www.eclipse.org/legal/epl-v20.html</reference>
       </license>
       <package>junit-jupiter-migrationsupport-5.8.1.jar</package>
     </legal>

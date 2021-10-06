@@ -7,12 +7,12 @@
       <location>junit-parent/junit5/org.apiguardian</location>
     </info>
     <contact>
-      <name>Noopur Gupta</name>
-      <email>noopur_gupta@in.ibm.com</email>
-      <company>IBM</company>
+      <name>Jeff Johnston</name>
+      <email>jjohnstn@redhat.com</email>
+      <company>Red Hat Inc.</company>
     </contact>
     <legal>
-      <ipzilla bug_id="20557"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.apiguardian/apiguardian-api/1.1.2"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
