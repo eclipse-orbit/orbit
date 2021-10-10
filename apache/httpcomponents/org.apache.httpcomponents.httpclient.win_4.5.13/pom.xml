@@ -39,7 +39,6 @@
               <arch>*</arch>
             </environment>
           </environments>
-          <includePackedArtifacts>true</includePackedArtifacts>
         </configuration>
       </plugin>
     </plugins>

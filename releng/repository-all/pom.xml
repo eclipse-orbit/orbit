@@ -28,7 +28,6 @@
           <includeNonGreedy>true</includeNonGreedy>
           <compress>true</compress>
           <append>true</append>
-          <includePacked>true</includePacked>
         </configuration>
         <executions>
           <execution>
