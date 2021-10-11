@@ -48,6 +48,7 @@
                   <id>org.eclipse.orbit.category.all</id>
                 </iu>
               </ius>
+              <includePacked>false</includePacked>
             </configuration>
           </execution>
           <execution>
@@ -77,6 +78,7 @@
                   </query>
                 </iu>
               </ius>
+              <includePacked>false</includePacked>
             </configuration>
           </execution>
         </executions>
