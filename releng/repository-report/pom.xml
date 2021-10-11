@@ -37,7 +37,7 @@
                 <arg>-DreportOutputDir=${project.build.directory}</arg>
                 <arg>-DreferenceRepo=/home/data/httpd/download.eclipse.org/tools/orbit/downloads/drops/${referenceRepoBuild}/repository</arg>
               </jvmArgs>
-              <executionEnvironment>JavaSE-1.8</executionEnvironment>
+              <executionEnvironment>JavaSE-11</executionEnvironment>
               <dependencies>
               <dependency>
                 <artifactId>org.eclipse.cbi.p2repo.analyzers</artifactId>
@@ -55,12 +55,12 @@
               <repositories>
                 <repository>
                   <id>cbi-reports</id>
-                  <url>https://download.eclipse.org/cbi/updates/analyzers/4.6/I20161201-1633</url>
+                  <url>https://download.eclipse.org/cbi/updates/analyzers/4.7/I20191111-1833/</url>
                   <layout>p2</layout>
                 </repository>
                 <repository>
-                  <id>eclipse-4.6.1</id>
-                  <url>https://download.eclipse.org/eclipse/updates/4.6/R-4.6.1-201609071200/</url>
+                  <id>eclipse-4.21</id>
+                  <url>https://download.eclipse.org/eclipse/updates/4.21/</url>
                   <layout>p2</layout>
                 </repository>
               </repositories>
