@@ -15,7 +15,7 @@
   <name>Eclipse Orbit :: JSoup Recipes</name>
 
   <modules>
-    <module>org.jsoup_1.8.3</module>
+    <module>org.jsoup_1.14.3</module>
   </modules>
 
 </project>

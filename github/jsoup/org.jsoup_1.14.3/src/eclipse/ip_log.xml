@@ -7,17 +7,17 @@
       <location>github-parent/jsoup-parent/org.jsoup</location>
     </info>
     <contact>
-      <name>David Green</name>
-      <email>david.green@tasktop.com</email>
-      <company>Tasktop Technologies Inc.</company>
+      <name>Aleksandar Kurtakov</name>
+      <email>akurtako@redhat.com</email>
+      <company>Red Hat Inc.</company>
     </contact>
     <legal>
-      <ipzilla bug_id="17850"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.jsoup/jsoup/1.14.3"/>
       <license>
         <name>MIT license</name>
         <reference>http://opensource.org/licenses/MIT</reference>
       </license>
-      <package>jsoup-1.8.3.jar</package>
+      <package>jsoup-1.14.3.jar</package>
     </legal>
   </project>
 </ip_log>
