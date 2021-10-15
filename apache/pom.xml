@@ -47,6 +47,7 @@
     <module>jclouds</module>
     <module>lucene</module>
     <module>maven</module>
+    <module>tika</module>
     <module>xmlrpc</module>
   </modules>
 

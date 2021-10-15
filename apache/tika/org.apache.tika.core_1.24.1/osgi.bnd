@@ -1,0 +1,16 @@
+package-version=${version;===;${Bundle-Version}}
+org.osgi.core-version-range=${range;[===,+);6.0.0}org.osgi.core-version=${version;===;6.0.0}
+org.osgi.compendium-version-range=${range;[===,+);4.0.0}org.osgi.compendium-version=${version;===;4.0.0}
+bndlib-version-range=${range;[===,+);1.50.0}bndlib-version=${version;===;1.50.0}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+	org.apache.xerces.util;resolution:=optional,\
+	sun.misc;resolution:=optional,\
+	*
