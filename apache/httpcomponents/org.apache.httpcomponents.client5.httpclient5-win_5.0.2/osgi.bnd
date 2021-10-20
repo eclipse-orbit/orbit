@@ -1,0 +1,28 @@
+package-version=${version;===;${Bundle-Version}}
+httpcore5-version=${version;===;${Bundle-Version}}
+httpcore5-h2-version=${version;===;${Bundle-Version}}
+slf4j-api-version=${version;===;1.7.25}
+conscrypt-openjdk-uber-version=${version;===;2.2.1}
+commons-codec-version=${version;===;1.13}
+
+httpcore5-version-range=${range;[===,+);${httpcore5-version}}
+httpcore5-h2-version-range=${range;[===,+);${httpcore5-h2-version}}
+slf4j-api-version-range=${range;[===,+);${slf4j-api-version}}
+conscrypt-openjdk-uber-version-range=${range;[===,+);${conscrypt-openjdk-uber-version}}
+commons-codec-version-range=${range;[===,+);${commons-codec-version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ ${exports};version="${range;[===,==+);${package-version}}", \
+ org.apache.commons.codec.*;version="${commons-codec-version-range}", \
+ org.apache.hc.core5.*;version="${httpcore5-version-range}", \
+ org.apache.hc.core5.http2.*;version="${httpcore5-h2-version-range}", \
+ org.slf4j.*;version="${slf4j-api-version-range}", \
+ java.org.conscrypt.*;version="${conscrypt-openjdk-uber-version-range}";resolution:=optional, \
+ *;resolution:=optional
