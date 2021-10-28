@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.httpcomponents.client5.httpclient5" version="5.0.2" status="done">
+  <project id="org.apache.httpcomponents.client5.httpclient5-win" version="5.0.2" status="done">
     <info>
       <name>Apache HttpClient</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
