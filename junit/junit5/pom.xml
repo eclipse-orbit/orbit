@@ -20,6 +20,7 @@
     <module>org.junit.platform.runner_1.8.1</module>
     <module>org.junit.platform.suite.api_1.8.1</module>
     <module>org.junit.platform.suite.commons_1.8.1</module>
+    <module>org.junit.platform.suite.engine_1.8.1</module>
     <module>org.junit.vintage.engine_5.8.1</module>
     <module>org.opentest4j_1.2.0</module>
     <module>org.apiguardian_1.1.2</module>

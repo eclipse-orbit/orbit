@@ -14,6 +14,7 @@ junit-platform-launcher
 junit-platform-runner
 junit-platform-suite-api
 junit-platform-suite-commons
+junit-platform-suite-engine
 )
 BSNS_PLATFORM=(
 org.junit.platform.commons
@@ -22,6 +23,7 @@ org.junit.platform.launcher
 org.junit.platform.runner
 org.junit.platform.suite.api
 org.junit.platform.suite.commons
+org.junit.platform.suite.engine
 )
 
 for (( i=0; i< ${#ARTIDS_PLATFORM[@]}; i++ )); do
