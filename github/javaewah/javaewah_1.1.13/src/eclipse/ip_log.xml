@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="javaewah" version="1.1.12" status="done">
+  <project id="javaewah" version="1.1.13" status="done">
     <info>
       <name>JavaEWAH</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
@@ -13,12 +13,12 @@
     </contact>
     <legal>
       <ipzilla bug_id="23497"/>
-      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/com.googlecode.javaewah/JavaEWAH/1.1.12"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/com.googlecode.javaewah/JavaEWAH/1.1.13"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>javaewah-1.1.12.jar</package>
+      <package>javaewah-1.1.13.jar</package>
     </legal>
   </project>
 </ip_log>

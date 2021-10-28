@@ -184,7 +184,7 @@
   <plugin id="org.ejml.simple" version="0.29.0.qualifier"/>
   <plugin id="org.ejml.ejml-all" version="0.38.0.qualifier"/>
 
-  <plugin id="javaewah" version="1.1.12.qualifier"/>
+  <plugin id="javaewah" version="1.1.13.qualifier"/>
 
   <plugin id="org.antlr.runtime"   version="3.5.2.qualifier"/>
   <plugin id="org.antlr.runtime"   version="4.5.1.qualifier"/>

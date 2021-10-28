@@ -15,7 +15,7 @@
   <name>Eclipse Orbit :: JavaEWAH Recipes</name>
 
   <modules>
-	<module>javaewah_1.1.12</module>
+	<module>javaewah_1.1.13</module>
   </modules>
 
 </project>
