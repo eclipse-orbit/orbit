@@ -10,7 +10,7 @@
   <artifactId>com.github.jnr.jffi.native</artifactId>
   <version>1.2.23-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
-  <name>jffi</name>
+  <name>jffi native</name>
   <dependencies>
     <dependency>
       <groupId>com.github.jnr</groupId>
