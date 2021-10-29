@@ -94,6 +94,11 @@
     <!-- Reference repository for the old-style Orbit R-build from CVS -->
     <orbitOldRBuild>R20201118194144</orbitOldRBuild>
 
+    <!-- Root directory of releng or other directories can be referenced,
+         overridden in projects at a different depth from the root. Default
+         is 2 up because a plurality of recipes are 2. -->
+    <orbit.releng>${project.basedir}/../../releng</orbit.releng>
+
   </properties>
 
   <pluginRepositories>
@@ -211,7 +216,7 @@
                 </goals>
                 <configuration>
                   <target>
-                    <exec executable="${project.basedir}/../../releng/scripts/sign-jnilibs.sh" newenvironment="false" failOnError="true" dir="${project.build.directory}">
+                    <exec executable="${orbit.releng}/scripts/sign-jnilibs.sh" newenvironment="false" failOnError="true" dir="${project.build.directory}">
                         <arg value="${project.build.directory}/${project.artifactId}-${project.version}.jar" />
                     </exec>
                   </target>
