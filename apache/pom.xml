@@ -18,7 +18,7 @@
     <module>org.apache.commons.cli_1.4.0</module>
     <module>org.apache.commons.codec_1.14.0</module>
     <module>org.apache.commons.collections4_4.4.0</module>
-    <module>org.apache.commons.compress_1.20.0</module>
+    <module>org.apache.commons.compress_1.21.0</module>
     <module>org.apache.commons.csv_1.8.0</module>
     <module>org.apache.commons.fileupload_1.3.2</module>
     <module>org.apache.commons.io_2.8.0</module>
