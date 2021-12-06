@@ -259,7 +259,7 @@
 
   <plugin id="org.eclipse.orbit.mongodb" version="3.2.2.qualifier"/>
 
-  <plugin id="io.github.classgraph" version="4.8.117.qualifier"/>
+  <plugin id="io.github.classgraph" version="4.8.138.qualifier"/>
 
   <plugin id="org.kohsuke.args4j" version="2.33.0.qualifier"/>
 
