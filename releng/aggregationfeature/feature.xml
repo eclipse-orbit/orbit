@@ -196,7 +196,7 @@
 
   <plugin id="org.freemarker" version="2.3.22.qualifier"/>
   
-  <plugin id="org.apache.logging.log4j" version="2.15.0.qualifier"/>
+  <plugin id="org.apache.logging.log4j" version="2.16.0.qualifier"/>
 
   <!-- ASM -->
   <plugin id="org.objectweb.asm" version="9.1.0.qualifier"/>
