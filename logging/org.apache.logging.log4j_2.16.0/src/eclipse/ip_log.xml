@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.logging.log4j" version="2.15.0" status="done">
+  <project id="org.apache.logging.log4j" version="2.16.0" status="done">
     <info>
       <name>Apache Log4j 2</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
