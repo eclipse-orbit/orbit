@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.apache.httpcomponents.core5.httpcore5-h2" version="5.0.2" status="done">
+  <project id="org.apache.httpcomponents.core5.httpcore5" version="5.1.2" status="done">
     <info>
-      <name>Apache HttpComponents Core HTTP/2</name>
+      <name>Apache HttpComponents Core HTTP/1.1</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>apache-parent/httpcomponents/org.apache.httpcomponents.core5.httpcore5-h2</location>
+      <location>apache-parent/httpcomponents/org.apache.httpcomponents.core5.httpcore5</location>
     </info>
     <contact>
       <name>Matthias Sohn</name>
@@ -12,12 +12,12 @@
       <company>SAP SE</company>
     </contact>
     <legal>
-      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.apache.httpcomponents.core5/httpcore5-h2/5.0.2"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.apache.httpcomponents.core5/httpcore5/5.1.2"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
       </license>
-      <package>httpcore5-h2-5.0.2.jar</package>
+      <package>httpcore5-5.1.2.jar</package>
     </legal>
   </project>
 </ip_log>

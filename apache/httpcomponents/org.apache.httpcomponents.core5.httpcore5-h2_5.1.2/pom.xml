@@ -8,14 +8,14 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>org.apache.httpcomponents.core5.httpcore5-h2</artifactId>
-  <version>5.0.2-SNAPSHOT</version>
+  <version>5.1.2-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>Apache HttpComponents Core HTTP/2</name>
   <dependencies>
     <dependency>
       <groupId>org.apache.httpcomponents.core5</groupId>
       <artifactId>httpcore5-h2</artifactId>
-      <version>5.0.2</version>
+      <version>5.1.2</version>
     </dependency>
   </dependencies>
 </project>
