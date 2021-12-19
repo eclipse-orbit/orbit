@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.bouncycastle.bcutil" version="1.69.0" status="done">
+  <project id="org.bouncycastle.bcpg" version="1.70.0" status="done">
     <info>
-      <name>Bouncy Castle ASN.1 Extension and Utility APIs</name>
+      <name>Bouncy Castle OpenPGP API</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>bouncycastle/org.bouncycastle.bcutil</location>
+      <location>bouncycastle/org.bouncycastle.bcpg</location>
     </info>
     <contact>
       <name>Matthias Sohn</name>
@@ -12,12 +12,13 @@
       <company>SAP SE</company>
     </contact>
     <legal>
-      <ipzilla bug_id="23474"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/sourcearchive/mavencentral/org.bouncycastle/bcpg-jdk15on/1.70"/>
+      <ipzilla bug_id="https://gitlab.eclipse.org/eclipsefdn/emo-team/iplab/-/issues/1713"/>
       <license>
         <name>MIT License</name>
         <reference>http://www.bouncycastle.org/licence.html</reference>
       </license>
-      <package>bcutil-jdk15on-1.69.jar</package>
+      <package>bcpg-jdk15on-1.70.jar</package>
     </legal>
   </project>
 </ip_log>

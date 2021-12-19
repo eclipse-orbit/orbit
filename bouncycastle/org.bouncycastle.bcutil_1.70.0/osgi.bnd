@@ -1,5 +1,5 @@
 package-version=${version;===;${Bundle-Version}}
-bcprov-jdk15on-version-range=${range;[===,=+);1.69}
+bcprov-jdk15on-version-range=${range;[===,=+);1.70}
 
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Export-Package: \

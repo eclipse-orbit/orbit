@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -7,10 +7,10 @@
     <artifactId>bouncycastle</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>org.bouncycastle.bcutil</artifactId>
-  <version>1.69.0-SNAPSHOT</version>
+  <artifactId>org.bouncycastle.bcpkix</artifactId>
+  <version>1.70.0-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
-  <name>Bouncy Castle ASN.1 Extension and Utility APIs</name>
+  <name>Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs</name>
 
   <properties>
     <recipe.excludes>
@@ -22,8 +22,8 @@
   <dependencies>
     <dependency>
       <groupId>org.bouncycastle</groupId>
-      <artifactId>bcutil-jdk15on</artifactId>
-      <version>1.69</version>
+      <artifactId>bcpkix-jdk15on</artifactId>
+      <version>1.70</version>
     </dependency>
   </dependencies>
 </project>
