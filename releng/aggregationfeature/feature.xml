@@ -195,8 +195,8 @@
   <plugin id="org.antlr.runtime"   version="4.7.2.qualifier"/>
 
   <plugin id="org.freemarker" version="2.3.22.qualifier"/>
-  
-  <plugin id="org.apache.logging.log4j" version="2.17.0.qualifier"/>
+
+  <plugin id="org.apache.logging.log4j" version="2.17.1.qualifier"/>
 
   <!-- ASM -->
   <plugin id="org.objectweb.asm" version="9.1.0.qualifier"/>
