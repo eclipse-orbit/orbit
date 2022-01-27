@@ -39,7 +39,7 @@
     <module>org.apache.wsil4j_1.0.0</module>
     <module>org.apache.xmlbeans_3.1.0</module>
     <module>org.apache.xalan_2.7.2</module>
-    <module>org.apache.xerces_2.12.1</module>
+    <module>org.apache.xerces_2.12.2</module>
     <module>ant</module>
     <module>batik</module>
     <module>felix</module>
