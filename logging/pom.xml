@@ -28,6 +28,7 @@
     <module>ch.qos.logback.slf4j_1.2.3</module>
     <module>org.jboss.logging_3.3.2</module>
     <module>org.apache.logging.log4j_2.17.1</module>
+    <module>org.apache.log4j_1.2.19</module>
   </modules>
 
 </project>

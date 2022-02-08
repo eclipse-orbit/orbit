@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.log4j" version="1.2.19" status="done">
+    <info>
+      <name>reload4j</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>logging/org.apache.log4j</location>
+    </info>
+    <contact>
+      <name>Matthias Sohn</name>
+      <email>matthias.sohn@sap.com</email>
+      <company>SAP SE</company>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/ch.qos.reload4j/reload4j/1.2.19"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>reload4j-1.2.19.jar</package>
+    </legal>
+  </project>
+</ip_log>
