@@ -1,0 +1,15 @@
+Export-Package: \
+!about.html,!about_files, \
+!org.apache.log4j.chainsaw.*,
+org.apache.log4j.*;version=${project.version};-noimport:=true
+
+Import-Package: javax.jmdns;resolution:=optional,\
+javax.jms;resolution:=optional,\
+javax.mail;version="[1.4,2)";resolution:=optional,\
+javax.mail.internet;version="[1.4,2)";resolution:=optional,\
+javax.naming,\
+!javax.swing.*,\
+javax.xml.parsers,\
+org.w3c.dom,\
+org.xml.sax,\
+org.xml.sax.helpers
