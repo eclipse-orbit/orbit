@@ -8,14 +8,14 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>org.apache.httpcomponents.httpcore-nio</artifactId>
-  <version>4.4.5-SNAPSHOT</version>
+  <version>4.4.15-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>Apache HttpCore NIO</name>
   <dependencies>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpcore-nio</artifactId>
-      <version>4.4.5</version>
+      <version>4.4.15</version>
     </dependency>
   </dependencies>
 </project>
