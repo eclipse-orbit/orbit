@@ -148,7 +148,7 @@
     <!-- some bundles might depend on base platform content -->
     <repository>
       <id>eclipse-platform</id>
-      <url>https://download.eclipse.org/eclipse/updates/4.21/</url>
+      <url>https://download.eclipse.org/eclipse/updates/4.23/</url>
       <layout>p2</layout>
     </repository>
   </repositories>
