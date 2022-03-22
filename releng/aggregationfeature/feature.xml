@@ -457,6 +457,10 @@
   <!-- java-diff-utils -->
   <plugin id="io.github.java-diff-utils" version="4.8.0.qualifier" />
 
+  <!-- JGraphT -->
+  <plugin id="org.jgrapht.jgrapht-core" version="1.4.0.qualifier" />
+  <plugin id="org.jheaps.jheaps" version="0.14.0.qualifier" />
+
   <!-- snakeyaml -->
   <plugin id="org.yaml.snakeyaml" version="1.27.0.qualifier" />
 

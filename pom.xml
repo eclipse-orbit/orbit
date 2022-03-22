@@ -50,6 +50,7 @@
     <module>javax</module>
     <module>jaxb</module>
     <module>jcraft</module>
+    <module>jgrapht</module>
     <module>jini</module>
     <module>jna</module>
     <module>junit</module>

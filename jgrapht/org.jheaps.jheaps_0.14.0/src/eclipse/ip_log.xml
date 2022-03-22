@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.jheaps.jheaps" version="0.14.0" status="done">
+    <info>
+      <name>JHeaps</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>jgrapht-parent/org.jheaps.jheaps</location>
+    </info>
+    <contact>
+      <name>Yuri Blankenstein</name>
+      <email>yuri.blankenstein@tno.nl</email>
+      <company>TNO</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="23788"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>jheaps-0.14.jar</package>
+    </legal>
+  </project>
+</ip_log>

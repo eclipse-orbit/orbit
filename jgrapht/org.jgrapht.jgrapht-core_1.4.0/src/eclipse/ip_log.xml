@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.jgrapht.jgrapht-core" version="1.4.0" status="done">
+    <info>
+      <name>JGraphT - Core</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>jgrapht-parent/org.jgrapht.jgrapht-core</location>
+    </info>
+    <contact>
+      <name>Yuri Blankenstein</name>
+      <email>yuri.blankenstein@tno.nl</email>
+      <company>TNO</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="23664"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
+      </license>
+      <package>jgrapht-core-1.4.0.jar</package>
+    </legal>
+  </project>
+</ip_log>
