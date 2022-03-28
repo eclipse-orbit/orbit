@@ -1,0 +1,99 @@
+/* This is the Jenkinsfile to build and deploy that parts of Orbit that are missing from individual project's simrel contributions */
+pipeline {
+  options {
+    timestamps()
+    disableConcurrentBuilds()
+    timeout(time: 180, unit: 'MINUTES')
+  }
+  agent {
+    kubernetes {
+      label 'orbit-simrel-pod-' + env.BUILD_NUMBER
+      defaultContainer 'jnlp'
+      yaml """
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+  - name: container
+    image: rgrunber/orbit-recipes-build@sha256:b962fe745e73c66000f958916849c76cc1739d4fbac582e9756db1b2e73440b0
+    tty: true
+    command: [ "uid_entrypoint", "cat" ]
+    resources:
+      requests:
+        memory: "2Gi"
+        cpu: "1"
+      limits:
+        memory: "2Gi"
+        cpu: "1"
+    volumeMounts:
+    - name: volume-known-hosts
+      mountPath: /home/vnc/.ssh
+    - name: jenkins-home
+      mountPath: /home/jenkins
+      readOnly: false
+  - name: jnlp
+    image: 'eclipsecbi/jenkins-jnlp-agent'
+    volumeMounts:
+    - name: volume-known-hosts
+      mountPath: /home/jenkins/.ssh
+    - name: settings-xml
+      mountPath: /home/jenkins/.m2/settings.xml
+      subPath: settings.xml
+      readOnly: true
+    - name: m2-repo
+      mountPath: /home/jenkins/.m2/repository
+  volumes:
+  - name: volume-known-hosts
+    configMap:
+      name: known-hosts
+  - name: settings-xml
+    secret:
+      secretName: m2-secret-dir
+      items:
+      - key: settings.xml
+        path: settings.xml
+  - name: m2-repo
+    emptyDir: {}
+  - name: jenkins-home
+    emptyDir: {}
+"""
+    }
+  }
+  environment {
+    MAVEN_OPTS = "-Xmx2G"
+  }
+  stages {
+    stage('Prepare') {
+      steps {
+        container('container') {
+          git branch: "${BUILD_BRANCH}", url: 'https://git.eclipse.org/r/orbit/orbit-recipes'
+        }
+      }
+    }
+    stage('Build') {
+      steps {
+          container('container') {
+            sh 'mvn -V -B -e clean verify -f releng/repository-simrel/pom.xml'
+                }
+      }
+    }
+    stage ('Deploy') {
+      steps {
+        container('container') {
+          sshagent ( ['projects-storage.eclipse.org-bot-ssh']) {
+            sh '''
+                ORBIT_DOWNLOAD_LOC=/home/data/httpd/download.eclipse.org/tools/orbit/downloads
+                scp -r releng/repository-simrel/gmf-runtime/target/repository genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops-simrel/gmf-runtime
+                scp -r releng/repository-simrel/pdt/target/repository genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops-simrel/pdt
+              '''
+          }
+        }
+      }
+      post {
+        always {
+            archiveArtifacts artifacts: 'releng/repository-simrel/**'
+        }
+      }
+    }
+  }
+}
