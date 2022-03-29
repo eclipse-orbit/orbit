@@ -66,7 +66,7 @@ spec:
     stage('Prepare') {
       steps {
         container('container') {
-          git branch: "${BUILD_BRANCH}", url: 'https://git.eclipse.org/r/orbit/orbit-recipes'
+          git branch: "master", url: 'https://git.eclipse.org/r/orbit/orbit-recipes'
         }
       }
     }
@@ -82,9 +82,15 @@ spec:
         container('container') {
           sshagent ( ['projects-storage.eclipse.org-bot-ssh']) {
             sh '''
+                SSHUSER="genie.orbit@projects-storage.eclipse.org"
+                SSH="ssh ${SSHUSER}"
+                SCP="scp"
+
                 ORBIT_DOWNLOAD_LOC=/home/data/httpd/download.eclipse.org/tools/orbit/downloads
-                scp -r releng/repository-simrel/gmf-runtime/target/repository genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops-simrel/gmf-runtime
-                scp -r releng/repository-simrel/pdt/target/repository genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops-simrel/pdt
+                ${SSH} rm -rf ${ORBIT_DOWNLOAD_LOC}/drops-simrel/
+                ${SSH} mkdir -p ${ORBIT_DOWNLOAD_LOC}/drops-simrel/
+                scp -r releng/repository-simrel/gmf-runtime/target/repository ${SSHUSER}:${ORBIT_DOWNLOAD_LOC}/drops-simrel/gmf-runtime
+                scp -r releng/repository-simrel/pdt/target/repository ${SSHUSER}:${ORBIT_DOWNLOAD_LOC}/drops-simrel/pdt
               '''
           }
         }
