@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -----------------------------------------------------------------
 # Script creating an Orbit composite p2 repository containing both the
 # old style and new style recipe-based p2 repositories
@@ -20,7 +20,7 @@ def getVariable(name):
 def makeDirs(dir):
     try:
         os.makedirs(dir)
-    except OSError, e:
+    except OSError as e:
         if e.errno != errno.EEXIST:
             raise
 
@@ -30,7 +30,6 @@ def writeFile(path, content):
     file.close()
 
 def main(argv):
-    ROOT_DIR = '/home/data/httpd/download.eclipse.org/tools/orbit/'
     ARTIFACT_TEMPLATE = """<?xml version='1.0' encoding='UTF-8'?>
 <?compositeArtifactRepository version='1.0.0'?>
 <repository name='Eclipse Orbit Composite Site {build}'
@@ -76,7 +75,7 @@ artifact.repository.factory.order = compositeArtifacts.xml,\!
 
     buildTimestamp = getVariable('BUILD_TIME')
     build = buildLabel + buildTimestamp
-    destination = ROOT_DIR + buildLabel + '-builds/'+ build + '/repository'
+    destination = buildLabel + '-builds/'+ build + '/repository'
     makeDirs(destination)
 
     writeFile(destination + '/compositeArtifacts.xml',
@@ -86,7 +85,7 @@ artifact.repository.factory.order = compositeArtifacts.xml,\!
         METADATA_TEMPLATE.format(build = build, timestamp = buildTimestamp,
             orbitOldLocation = orbitOldLocation, orbitNewLocation = orbitNewLocation))
     writeFile(destination + '/p2.index', P2_INDEX)
-    print 'Created composite p2 repository in {0}'.format(destination)
+    print('Created composite p2 repository in {0}'.format(destination))
 
 if __name__ == "__main__":
     main(sys.argv[1:])
