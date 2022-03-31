@@ -49,21 +49,12 @@ zip -j ${repoDir}/content.jar ${contentFile}
 rm ${contentFile}
 
 export BUILD_TIME=$(echo $(basename $(find releng/repository -name "orbit-*-repo.zip")) | grep -o "[0-9]*")
-OLD_BUILD_LABEL=`echo ${ORBIT_OLD_LOCATION} | rev | cut -d/ -f2 | rev`
 NEW_BUILD_LABEL=${BUILD_LABEL}${BUILD_TIME}
 
 # Promote orbit-recipes build to drops2 location
 ORBIT_DOWNLOAD_LOC=/home/data/httpd/download.eclipse.org/tools/orbit/downloads
-ssh genie.orbit@projects-storage.eclipse.org mkdir -p ${ORBIT_DOWNLOAD_LOC}/drops2/${NEW_BUILD_LABEL}
-scp -r ${repoDir} genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops2/${NEW_BUILD_LABEL}
-
-# Create the composite repository
-export ORBIT_NEW_LOCATION=../../../downloads/drops2/${NEW_BUILD_LABEL}/repository
-pushd $HOME
-${scriptDir}/create-composite.py
-scp -r ${BUILD_LABEL}-builds/${NEW_BUILD_LABEL} genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/../${BUILD_LABEL}-builds/
-ssh genie.orbit@projects-storage.eclipse.org chmod g+s ${ORBIT_DOWNLOAD_LOC}/../${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}
-popd
+ssh genie.orbit@projects-storage.eclipse.org mkdir -p ${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
+scp -r ${repoDir} genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
 
 # Copy the aggregated repository archive
 buildRepoZipPath=`find releng/repository-all/target/ -name "orbit-buildrepo-*.zip"`
@@ -76,25 +67,29 @@ pushd releng/repository-all/target/
 md5sum ${buildRepoZipName} > ../../../checksum/${buildRepoZipName}.md5
 sha1sum ${buildRepoZipName} > ../../../checksum/${buildRepoZipName}.sha1
 popd
-scp -r ${buildRepoZipPath} checksum genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/../${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/
+scp -r ${buildRepoZipPath} checksum genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
 
 # Copy Repository Report
 chmod -R g+w releng/repository-report/target/reporeports/
-scp -r releng/repository-report/target/reporeports/ genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/../${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}
+scp -r releng/repository-report/target/reporeports/ genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
 
 # Generate IPLog HTML Page
-mkdir -p bug506001/{${OLD_BUILD_LABEL},${NEW_BUILD_LABEL}}
+mkdir -p bug506001/${NEW_BUILD_LABEL}
 pushd bug506001
-curl -L -o ${OLD_BUILD_LABEL}/content.jar https://download.eclipse.org/tools/orbit/downloads/drops/${OLD_BUILD_LABEL}/repository/content.jar
 curl -L -o ${NEW_BUILD_LABEL}/content.jar https://download.eclipse.org/tools/orbit/downloads/drops2/${NEW_BUILD_LABEL}/repository/content.jar
-unzip -d ${OLD_BUILD_LABEL} ${OLD_BUILD_LABEL}/content.jar
 unzip -d ${NEW_BUILD_LABEL} ${NEW_BUILD_LABEL}/content.jar
 popd
 scp -r bug506001 genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/../bug506001
 
-curl -L -O https://download.eclipse.org/tools/orbit/${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/repository/compositeContent.xml
-cat compositeContent.xml | curl -v -o index.html -d @- "http://www.eclipse.org/orbit/scripts/iplog.php?repoPath=tools/orbit/${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/repository&buildURL=${BUILD_URL}&zipFileSize=${zipFileSize}"
-scp index.html genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/../${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/
+### This line goes to www.eclipse.org and runs a php script to generate the index file. That php script relies on stuff uploaded to the bug506001 location above
+### XXX: The iplog.php could just use repoPath instead of faking the location in like this.
+curl -v -o index.html -d @- "http://www.eclipse.org/orbit/scripts/iplog.php?repoPath=tools/orbit/${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/repository&buildURL=${BUILD_URL}&zipFileSize=${zipFileSize}" << EOF
+<?compositeArtifactRepository version='1.0.0'?>
+<repository name="fake xml file, just enough to run iplog.php">
+<child location="../../${NEW_BUILD_LABEL}/repository"/>
+</repository>
+EOF
+scp index.html genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
 
 ssh genie.orbit@projects-storage.eclipse.org rm -r ${ORBIT_DOWNLOAD_LOC}/../bug506001
 
@@ -104,7 +99,7 @@ pushd $HOME
 # Update latest-X repository with this build
 if [ "${UPDATE_LATEST_X}" = "true" ]; then
   mkdir -p ${BUILD_LABEL}-builds/${NEW_BUILD_LABEL} downloads/latest-${BUILD_LABEL}
-  scp -r genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/../${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/repository ${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}
+  scp -r genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}/repository ${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}
   cpp2c ${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/repository/ downloads/ latest-${BUILD_LABEL}
   scp -r downloads/latest-${BUILD_LABEL} genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}
 fi
@@ -132,7 +127,6 @@ if [ "${BUILD_LABEL}" = "I" ]; then
   export SRC_LOCATION=${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/
   export DST_LOCATION=downloads/drops
   ${scriptDir}/promote-to-downloads.sh
-  curl -s "${JENKINS_URL}job/promote-to-downloads/buildWithParameters?token=ef2561f5adf2c26628129367452e3583&SRC_LOCATION=${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/"
 fi
 
 set -x
