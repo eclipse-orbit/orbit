@@ -53,7 +53,7 @@ rm ${contentFile}
 export BUILD_TIME=$(echo $(basename $(find releng/repository -name "orbit-*-repo.zip")) | grep -o "[0-9]*")
 NEW_BUILD_LABEL=${BUILD_LABEL}${BUILD_TIME}
 
-# Promote orbit-recipes build to drops2 location
+# Promote orbit-recipes build to download location
 ORBIT_DOWNLOAD_LOC=/home/data/httpd/download.eclipse.org/tools/orbit/downloads
 ssh genie.orbit@projects-storage.eclipse.org mkdir -p ${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
 scp -r ${repoDir} genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
@@ -78,14 +78,14 @@ scp -r releng/repository-report/target/reporeports/ genie.orbit@projects-storage
 # Generate IPLog HTML Page
 mkdir -p bug506001/${NEW_BUILD_LABEL}
 pushd bug506001
-curl -L -o ${NEW_BUILD_LABEL}/content.jar https://download.eclipse.org/tools/orbit/downloads/drops2/${NEW_BUILD_LABEL}/repository/content.jar
+curl -L -o ${NEW_BUILD_LABEL}/content.jar https://download.eclipse.org/tools/orbit/downloads/drops/${NEW_BUILD_LABEL}/repository/content.jar
 unzip -d ${NEW_BUILD_LABEL} ${NEW_BUILD_LABEL}/content.jar
 popd
 scp -r bug506001 genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/../bug506001
 
 ### This line goes to www.eclipse.org and runs a php script to generate the index file. That php script relies on stuff uploaded to the bug506001 location above
 ### XXX: The iplog.php could just use repoPath instead of faking the location in like this.
-curl -v -o index.html -d @- "http://www.eclipse.org/orbit/scripts/iplog.php?repoPath=tools/orbit/${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/repository&buildURL=${BUILD_URL}&zipFileSize=${zipFileSize}" << EOF
+curl -v -o index.html -d @- "http://www.eclipse.org/orbit/scripts/iplog.php?repoPath=tools/orbit/downloads/drops/${NEW_BUILD_LABEL}/repository&buildURL=${BUILD_URL}&zipFileSize=${zipFileSize}" << EOF
 <?compositeArtifactRepository version='1.0.0'?>
 <repository name="fake xml file, just enough to run iplog.php">
 <child location="../../${NEW_BUILD_LABEL}/repository"/>
