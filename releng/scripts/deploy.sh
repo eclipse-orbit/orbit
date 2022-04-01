@@ -55,6 +55,7 @@ NEW_BUILD_LABEL=${BUILD_LABEL}${BUILD_TIME}
 
 # Promote orbit-recipes build to download location
 ORBIT_DOWNLOAD_LOC=/home/data/httpd/download.eclipse.org/tools/orbit/downloads
+echo "1" > ${repoDir}/files.count
 ssh genie.orbit@projects-storage.eclipse.org mkdir -p ${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
 scp -r ${repoDir} genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
 
@@ -99,12 +100,12 @@ ssh genie.orbit@projects-storage.eclipse.org rm -r ${ORBIT_DOWNLOAD_LOC}/../bug5
 
 # Update latest-X repository with this build
 if [ "${UPDATE_LATEST_X}" = "true" ]; then
-  upload_composite_repo_files ${NEW_BUILD_LABEL} ../drops/${NEW_BUILD_LABEL} latest-${BUILD_LABEL}
+  upload_composite_repo_files ${NEW_BUILD_LABEL} ../drops/${NEW_BUILD_LABEL}/repository latest-${BUILD_LABEL}
 fi
 
 # Update static release repo with this build
 if [ -n "${SIMREL_NAME}" ]; then
-  upload_composite_repo_files ${NEW_BUILD_LABEL} ../drops/${NEW_BUILD_LABEL} ${SIMREL_NAME}
+  upload_composite_repo_files ${NEW_BUILD_LABEL} ../drops/${NEW_BUILD_LABEL}/repository ${SIMREL_NAME}
 fi
 
 
