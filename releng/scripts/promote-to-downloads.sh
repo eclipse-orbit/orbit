@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 # The default seems to be 0022
 # We need user (genie.orbit) and group (tools.orbit) to match
 umask 0002
