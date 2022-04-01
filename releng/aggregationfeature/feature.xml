@@ -250,6 +250,7 @@
   <plugin id="org.apache.xmlrpc.client" version="3.1.3.qualifier"/>
   <plugin id="org.apache.xmlrpc.common" version="3.1.3.qualifier"/>
   <plugin id="org.apache.xmlrpc.server" version="3.1.3.qualifier"/>
+  <plugin id="org.apache.xml.resolver" version="1.2.0.qualifier"/>
   <plugin id="org.apache.ws.commons.util" version="1.0.2.qualifier"/>
   <plugin id="org.apache.wsil4j" version="1.0.0.qualifier"/>
 
