@@ -13,7 +13,7 @@ function make_composite_repo_files () {
   name=$1
   location=$2
 
-  timestamp=$(date -u +"v%Y%m%d%H%M%S")
+  timestamp=$(date +%s%3N)
 
   cat << EOF > compositeArtifacts.xml
 <?compositeArtifactRepository version='1.0.0'?>
