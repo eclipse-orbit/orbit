@@ -55,9 +55,9 @@ NEW_BUILD_LABEL=${BUILD_LABEL}${BUILD_TIME}
 
 # Promote orbit-recipes build to download location
 ORBIT_DOWNLOAD_LOC=/home/data/httpd/download.eclipse.org/tools/orbit/downloads
-echo "1" > ${repoDir}/files.count
+echo "1" > files.count
 ssh genie.orbit@projects-storage.eclipse.org mkdir -p ${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
-scp -r ${repoDir} genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
+scp -r ${repoDir} files.count genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
 
 # Copy the aggregated repository archive
 buildRepoZipPath=`find releng/repository-all/target/ -name "orbit-buildrepo-*.zip"`
