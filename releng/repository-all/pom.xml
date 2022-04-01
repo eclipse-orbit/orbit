@@ -31,27 +31,6 @@
         </configuration>
         <executions>
           <execution>
-            <id>mirror-orbit-old</id>
-            <phase>prepare-package</phase>
-            <goals>
-              <goal>mirror</goal>
-            </goals>
-            <configuration>
-              <source>
-                <repository>
-                  <url>https://download.eclipse.org/tools/orbit/downloads/drops/${orbitOldRBuild}/repository</url>
-                  <layout>p2</layout>
-                </repository>
-              </source>
-              <ius>
-                <iu>
-                  <id>org.eclipse.orbit.category.all</id>
-                </iu>
-              </ius>
-              <includePacked>false</includePacked>
-            </configuration>
-          </execution>
-          <execution>
             <id>mirror-orbit-recipes</id>
             <phase>prepare-package</phase>
             <goals>
