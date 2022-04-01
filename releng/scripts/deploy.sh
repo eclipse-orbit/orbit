@@ -95,40 +95,26 @@ scp index.html genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/dr
 
 ssh genie.orbit@projects-storage.eclipse.org rm -r ${ORBIT_DOWNLOAD_LOC}/../bug506001
 
-. ${scriptDir}/cpp2c-jiro.sh
-pushd $HOME
+. ${scriptDir}/composite-functions.sh
 
 # Update latest-X repository with this build
 if [ "${UPDATE_LATEST_X}" = "true" ]; then
-  mkdir -p ${BUILD_LABEL}-builds/${NEW_BUILD_LABEL} downloads/latest-${BUILD_LABEL}
-  scp -r genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}/repository ${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}
-  cpp2c ${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/repository/ downloads/ latest-${BUILD_LABEL}
-  scp -r downloads/latest-${BUILD_LABEL} genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}
+  upload_composite_repo_files ${NEW_BUILD_LABEL} ../drops/${NEW_BUILD_LABEL} latest-${BUILD_LABEL}
 fi
 
 # Update static release repo with this build
 if [ -n "${SIMREL_NAME}" ]; then
-  mkdir -p downloads
-  mkp2c "${SIMREL_NAME}" ${BUILD_LABEL}-builds/${NEW_BUILD_LABEL} downloads
-  scp -r downloads/${SIMREL_NAME} genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}
+  upload_composite_repo_files ${NEW_BUILD_LABEL} ../drops/${NEW_BUILD_LABEL} ${SIMREL_NAME}
 fi
 
-popd
 
 set +x
 echo "####################################################################################################"
 echo "####################################################################################################"
 echo "####################################################################################################"
-echo "### Build Page : https://download.eclipse.org/tools/orbit/${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/               ###"
-echo "### p2 Repository : https://download.eclipse.org/tools/orbit/${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/repository  ###"
+echo "### Build Page : https://download.eclipse.org/tools/orbit/downloads/drops/${NEW_BUILD_LABEL}     ###"
+echo "### p2 Repository : https://download.eclipse.org/tools/orbit/$downloads/drops/${NEW_BUILD_LABEL} ###"
 echo "####################################################################################################"
 echo "####################################################################################################"
 echo "####################################################################################################"
-
-if [ "${BUILD_LABEL}" = "I" ]; then
-  export SRC_LOCATION=${BUILD_LABEL}-builds/${NEW_BUILD_LABEL}/
-  export DST_LOCATION=downloads/drops
-  ${scriptDir}/promote-to-downloads.sh
-fi
-
 set -x
