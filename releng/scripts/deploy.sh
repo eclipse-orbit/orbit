@@ -103,9 +103,15 @@ if [ "${UPDATE_LATEST_X}" = "true" ]; then
   upload_composite_repo_files ${NEW_BUILD_LABEL} ../drops/${NEW_BUILD_LABEL}/repository latest-${BUILD_LABEL}
 fi
 
-# Update static release repo with this build
+# Update static release repo with this build (this is normally done on all non-I builds)
 if [ -n "${SIMREL_NAME}" ]; then
   upload_composite_repo_files ${NEW_BUILD_LABEL} ../drops/${NEW_BUILD_LABEL}/repository ${SIMREL_NAME}
+fi
+
+if [ -n "${DESCRIPTION}"]; then
+  scp genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/notes.php notes.php
+  sed -i '/Intentionally not php-closed, since included from PHP section/ i $notes["'${NEW_BUILD_LABEL}'"]="'${DESCRIPTION}'";' notes.php
+  scp notes.php genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/notes.php
 fi
 
 
