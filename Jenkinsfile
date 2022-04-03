@@ -25,6 +25,10 @@ pipeline {
   stages {
     stage('Prepare') {
       steps {
+        script {
+            currentBuild.displayName = env.SIMREL_NAME + " " + env.BUILD_LABEL + "-build"
+            currentBuild.description = env.DESCRIPTION
+        }
         container('container') {
           git branch: "${BUILD_BRANCH}", url: 'https://git.eclipse.org/r/orbit/orbit-recipes'
         }
