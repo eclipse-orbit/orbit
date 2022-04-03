@@ -89,7 +89,6 @@ spec:
                 ORBIT_DOWNLOAD_LOC=/home/data/httpd/download.eclipse.org/tools/orbit/downloads
                 ${SSH} rm -rf ${ORBIT_DOWNLOAD_LOC}/drops-simrel/
                 ${SSH} mkdir -p ${ORBIT_DOWNLOAD_LOC}/drops-simrel/
-                scp -r releng/repository-simrel/gmf-runtime/target/repository ${SSHUSER}:${ORBIT_DOWNLOAD_LOC}/drops-simrel/gmf-runtime
                 scp -r releng/repository-simrel/pdt/target/repository ${SSHUSER}:${ORBIT_DOWNLOAD_LOC}/drops-simrel/pdt
               '''
           }
