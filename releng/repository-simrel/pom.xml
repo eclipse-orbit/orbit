@@ -24,6 +24,5 @@
 
   <modules>
     <module>pdt</module>
-    <module>gmf-runtime</module>
   </modules>
 </project>
