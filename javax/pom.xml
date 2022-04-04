@@ -17,6 +17,7 @@
   <modules>
     <module>javax.activation_1.2.2</module>
     <module>javax.activation_2.0.0</module>
+    <module>javax.inject_1.0.0</module>
     <module>jakarta.activation_1.2.2</module>
     <module>jakarta.activation_2.0.0</module>
     <module>jakarta.el_4.0.0</module>

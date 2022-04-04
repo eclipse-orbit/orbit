@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="javax.inject" version="1.0.0" status="done">
+    <info>
+      <name>javax.inject</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>javax/javax.inject</location>
+    </info>
+    <contact>
+      <name>Christian Dieztrich</name>
+      <email>christian.dietrich@itemis.de</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="3555"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>javax.inject-1.0.0.jar</package>
+    </legal>
+  </project>
+</ip_log>
