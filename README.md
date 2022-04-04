@@ -68,7 +68,7 @@ following additional information first before you proceed.
 * [Bundle Checklist](https://wiki.eclipse.org/Orbit_Bundle_Checklist)
 * [Additional articles](https://wiki.eclipse.org/Category:Orbit)
 
-It's important to ensure that the bundle you're adding has been approved for use in at least one other Eclipse project on [IPZilla](https://dev.eclipse.org/ipzilla/query.cgi) or [ClearlyDefined](https://clearlydefined.io/). In the latter case, please ensure the license is compatible and that the license score is at least 75. See [IP Prereq Diligence](https://www.eclipse.org/projects/handbook/#ip-prereq-diligence) for further details.
+It's important to ensure that the bundle you're adding has been approved for use in at least one other Eclipse project on [IPZilla](https://dev.eclipse.org/ipzilla/query.cgi) or [ClearlyDefined](https://clearlydefined.io/). In the latter case, please ensure the license is compatible and that the license score is at least 60. See [IP Prereq Diligence](https://www.eclipse.org/projects/handbook/#ip-prereq-diligence) for further details.
 
 ### 1. Pick a Category
 
