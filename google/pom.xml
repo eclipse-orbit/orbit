@@ -15,6 +15,7 @@
   <name>Eclipse Orbit :: Google Recipes</name>
 
   <modules>
+    <module>com.google.protobuf_2.4.1</module>
     <module>com.google.javascript_0.0.20160315</module>
     <module>com.google.guava_27.1.0</module>
     <module>com.google.guava_30.1.0</module>
