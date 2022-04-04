@@ -447,4 +447,7 @@
   <!-- snakeyaml -->
   <plugin id="org.yaml.snakeyaml" version="1.27.0.qualifier" />
 
+  <!-- aopalliance -->
+  <plugin id="org.aopalliance" version="1.0.0.qualifier" />
+
 </feature>

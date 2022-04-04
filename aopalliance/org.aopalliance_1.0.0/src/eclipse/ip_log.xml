@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.aopalliance" version="1.0.0" status="done">
+    <info>
+      <name>org.aopalliance</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>aopalliance/org.aopalliance</location>
+    </info>
+    <contact>
+      <name>Christian Dietrich</name>
+      <email>christian.dietrich@itemis.de</email>
+    </contact>
+    <legal>
+      <ipzilla bug_id="3087"/>
+      <license>
+        <name>Public Domain</name>
+        <reference>http://aopalliance.sourceforge.net/</reference>
+      </license>
+      <package>org.aopalliance-1.0.0.jar</package>
+    </legal>
+  </project>
+</ip_log>
