@@ -41,6 +41,7 @@
     <module>org.apache.xalan_2.7.2</module>
     <module>org.apache.xerces_2.12.2</module>
     <module>org.apache.xml.resolver_1.2.0</module>
+    <module>org.apache.xml.serializer_2.7.2</module>
     <module>org.apache.xmlbeans_3.1.0</module>
     <module>ant</module>
     <module>batik</module>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.xml.serializer" version="2.7.2" status="done">
+    <info>
+      <name>XML Serializer</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/org.apache.xml.serializer</location>
+    </info>
+    <contact>
+      <name>Nitin Dahyabhai</name>
+      <email>thatnitind@gmail.com</email>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/xalan/serializer/2.7.2"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>org.apache.xml.serializer-2.7.2.jar</package>
+    </legal>
+  </project>
+</ip_log>

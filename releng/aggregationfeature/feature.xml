@@ -124,6 +124,7 @@
   <plugin id="org.apache.tika.parsers"  version="1.24.1.qualifier"/>
 
   <plugin id="org.apache.xalan" version="2.7.2.qualifier"/>
+  <plugin id="org.apache.xml.serializer" version="2.7.2.qualifier"/>
 
   <plugin id="org.apache.xerces" version="2.12.2.qualifier"/>
 
