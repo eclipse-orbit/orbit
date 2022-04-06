@@ -218,6 +218,12 @@
   <plugin id="org.objectweb.asm.tree" version="9.2.0.qualifier"/>
   <plugin id="org.objectweb.asm.util" version="9.2.0.qualifier"/>
 
+  <plugin id="org.objectweb.asm" version="9.3.0.qualifier"/>
+  <plugin id="org.objectweb.asm.analysis" version="9.3.0.qualifier"/>
+  <plugin id="org.objectweb.asm.commons" version="9.3.0.qualifier"/>
+  <plugin id="org.objectweb.asm.tree" version="9.3.0.qualifier"/>
+  <plugin id="org.objectweb.asm.util" version="9.3.0.qualifier"/>
+
   <plugin id="org.assertj" version="3.20.2.qualifier"/>
 
   <plugin id="org.apache.commons.codec" version="1.14.0.qualifier"/>
