@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+	<project id="org.apache.xml.resolver" version="1.2.0" status="done">
+		<info>
+			<name>XML Commons External Components XML APIs</name>
+			<repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git
+			</repository>
+			<location>javax/javax.xml</location>
+		</info>
+		<contact>
+			<name>Nitin Dahyabhai</name>
+			<email>thatnitind@gmail.com</email>
+		</contact>
+		<legal>
+			<ipzilla bug_id="9621"/>
+			<license>
+				<name>Apache License, 2.0</name>
+				<reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+			</license>
+			<license>
+				<name>The SAX License</name>
+				<reference>http://www.saxproject.org/copying.html</reference>
+			</license>
+			<license>
+				<name>The W3C License</name>
+				<reference>http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip!/COPYRIGHT.html</reference>
+			</license>
+			<package>javax.xml-1.4.1.jar</package>
+		</legal>
+	</project>
+</ip_log>

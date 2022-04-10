@@ -436,6 +436,7 @@
   <plugin id="javax.validation" version="1.1.0.qualifier" />
   <plugin id="jakarta.websocket" version="2.0.0.qualifier" />
   <plugin id="javax.ws.rs" version="2.1.6.qualifier" />
+  <plugin id="javax.xml" version="1.4.1.qualifier" />
 
   <!-- jaxb -->
   <plugin id="com.sun.xml.bind" version="2.2.0.qualifier" />

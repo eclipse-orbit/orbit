@@ -28,6 +28,7 @@
     <module>jakarta.xml.bind_2.3.3</module>
     <module>jakarta.websocket_2.0.0</module>
     <module>javax.ws.rs_2.1.6</module>
+    <module>javax.xml_1.4.1</module>
   </modules>
 
 </project>
