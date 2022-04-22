@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-base" version="2.13.2" status="done">
+    <info>
+      <name>Jackson-JAXRS: base</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>jackson/com.fasterxml.jackson.jaxrs.jackson-jaxrs-base</location>
+    </info>
+    <contact>
+      <name>Jonah Graham</name>
+      <email>jonah@kichwacoders.com</email>
+      <company>Kichwa Coders Canada, Inc.</company>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.13.2"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>jackson-jaxrs-base-2.13.2.jar</package>
+    </legal>
+  </project>
+</ip_log>
