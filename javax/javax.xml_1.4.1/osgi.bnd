@@ -9,3 +9,6 @@ Export-Package: \
 
 Import-Package: \
  *
+
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.2))"
+Require-Bundle: system.bundle

@@ -18,4 +18,8 @@
       <version>1.4.01</version>
     </dependency>
   </dependencies>
+  <properties>
+    <!-- Permit the use of Require-Bundle (in osgi.bnd file) -->
+    <recipe.removeadditionalheaders></recipe.removeadditionalheaders>
+  </properties>
 </project>
