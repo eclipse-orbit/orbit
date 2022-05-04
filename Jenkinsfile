@@ -26,7 +26,7 @@ pipeline {
     stage('Prepare') {
       steps {
         script {
-            currentBuild.displayName = env.SIMREL_NAME + " " + env.BUILD_LABEL + "-build"
+            currentBuild.displayName = env.SIMREL_NAME + " " + env.BUILD_LABEL + "-build (#" + env.BUILD_NUMBER + ")"
             currentBuild.description = env.DESCRIPTION
         }
         container('container') {
