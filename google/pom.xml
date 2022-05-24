@@ -21,6 +21,7 @@
     <module>com.google.guava_30.1.0</module>
     <module>com.google.gson_2.7.0</module>
     <module>com.google.gson_2.8.9</module>
+    <module>com.google.gson_2.9.0</module>
     <module>com.google.gdata_1.47.1</module>
     <module>com.google.inject_5.0.1</module>
     <module>com.google.inject.assistedinject_5.0.1</module>
