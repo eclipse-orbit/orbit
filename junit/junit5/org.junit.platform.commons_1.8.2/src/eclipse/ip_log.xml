@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.junit.platform.commons" version="1.8.2" status="done">
+    <info>
+      <name>JUnit Platform Commons</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>junit-parent/junit5/org.junit.platform.commons</location>
+    </info>
+    <contact>
+      <name>Jeff Johnston</name>
+      <email>jjohnstn@redhat.com</email>
+      <company>Red Hat Inc.</company>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.junit.platform/junit-platform-commons/1.8.2"/>
+      <license>
+        <name>Eclipse Public License</name>
+        <reference>http://www.eclipse.org/legal/epl-v20.html</reference>
+      </license>
+      <package>junit-platform-commons-1.8.2.jar</package>
+    </legal>
+  </project>
+</ip_log>
