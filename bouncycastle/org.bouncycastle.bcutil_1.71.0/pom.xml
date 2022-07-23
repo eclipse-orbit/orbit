@@ -8,7 +8,7 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>org.bouncycastle.bcutil</artifactId>
-  <version>1.70.0-SNAPSHOT</version>
+  <version>1.71.0-SNAPSHOT</version>
   <packaging>eclipse-bundle-recipe</packaging>
   <name>Bouncy Castle ASN.1 Extension and Utility APIs</name>
 
@@ -22,8 +22,8 @@
   <dependencies>
     <dependency>
       <groupId>org.bouncycastle</groupId>
-      <artifactId>bcutil-jdk15on</artifactId>
-      <version>1.70</version>
+      <artifactId>bcutil-jdk18on</artifactId>
+      <version>1.71</version>
     </dependency>
   </dependencies>
 </project>

@@ -24,10 +24,10 @@
   </properties>
 
   <modules>
-    <module>org.bouncycastle.bcpg_1.70.0</module>
-    <module>org.bouncycastle.bcpkix_1.70.0</module>
-    <module>org.bouncycastle.bcprov_1.70.0</module>
-    <module>org.bouncycastle.bcutil_1.70.0</module>
+    <module>org.bouncycastle.bcpg_1.71.0</module>
+    <module>org.bouncycastle.bcpkix_1.71.0</module>
+    <module>org.bouncycastle.bcprov_1.71.0</module>
+    <module>org.bouncycastle.bcutil_1.71.0</module>
   </modules>
 
 </project>

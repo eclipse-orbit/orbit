@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.bouncycastle.bcpkix" version="1.70.0" status="done">
+  <project id="org.bouncycastle.bcpkix" version="1.71.0" status="done">
     <info>
       <name>Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
@@ -12,12 +12,13 @@
       <company>SAP SE</company>
     </contact>
     <legal>
-      <clearlydefined url="https://clearlydefined.io/definitions/sourcearchive/mavencentral/org.bouncycastle/bcpkix-jdk15on/1.70"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/sourcearchive/mavencentral/org.bouncycastle/bcpkix-jdk18on/1.71"/>
+      <ipzilla bug_id="https://gitlab.eclipse.org/eclipsefdn/emo-team/iplab/-/issues/2662"/>
       <license>
         <name>MIT License</name>
         <reference>http://www.bouncycastle.org/licence.html</reference>
       </license>
-      <package>bcpkix-jdk15on-1.70.jar</package>
+      <package>bcpkix-jdk18on-1.71.jar</package>
     </legal>
   </project>
 </ip_log>

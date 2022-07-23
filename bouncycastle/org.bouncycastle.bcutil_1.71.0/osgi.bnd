@@ -1,7 +1,7 @@
 package-version=${version;===;${Bundle-Version}}
-bcprov-jdk15on-version-range=${range;[===,=+);1.70}
+bcprov-jdk18on-version-range=${range;[===,=+);1.71}
 
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: \
  !about.html,!about_files, \
  *.internal*;x-internal:=true;version="${package-version}";-noimport:=true, \
@@ -9,7 +9,7 @@ Export-Package: \
  *;version="${package-version}";-noimport:=true
 
 Import-Package: \
- org.bouncycastle*;version="${bcprov-jdk15on-version-range}", \
+ org.bouncycastle*;version="${bcprov-jdk18on-version-range}", \
  *;resolution:=optional
 
-Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.5))"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.8))"
