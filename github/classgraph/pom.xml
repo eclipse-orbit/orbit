@@ -15,7 +15,6 @@
   <name>Eclipse Orbit :: Classgraph Recipes</name>
 
   <modules>
-    <module>io.github.classgraph_4.8.138</module>
     <module>io.github.classgraph_4.8.149</module>
   </modules>
 
