@@ -1,0 +1,7 @@
+This directory contains all the files that
+exist on https://download.eclipse.org/tools/orbit
+to serve up the static and dynamic pages there.
+Some of this may be old and useless and probably
+worth cleaning up at some point, but if
+you delete it here, delete it on https://download.eclipse.org/tools/orbit
+too.

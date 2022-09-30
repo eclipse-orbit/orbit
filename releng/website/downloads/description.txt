@@ -1,0 +1,2 @@
+normally this folder contains the "drops", 
+such as subdirectories named M20131015005401

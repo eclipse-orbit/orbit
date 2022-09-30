@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Christopher Guindon" />
+<meta name="keywords" content="eclipse.org, Eclipse Foundation" />
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,100" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="/eclipse.org-common/themes/solstice/public/images/favicon.ico" />
+<title>Orbit Downloads</title>
+
+<link rel="stylesheet" href="/eclipse.org-common/themes/solstice/public/stylesheets/styles.min.css">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style>
+td, th {
+  font-family: monospace, monospace;
+  padding-left: 1em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  padding-right: 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+table.downloads {
+  font-family: monospace, monospace;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+td.latest {
+  text-align: left;
+  padding-left: 1em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  padding-right: 0;
+  width: 100%;
+  background-color: #3b335a;
+  color: #FFFFFF;
+  colspan: 3;
+}
+
+td.main {
+  text-align: left;
+  padding-left: 1em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  padding-right: 0;
+  width: 100%;
+  background-color: #76708C;
+  color: #FFFFFF;
+}
+
+td.main {
+  text-align: left;
+  padding-left: 1em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  padding-right: 0;
+  width: 100%;
+  background-color: #76708C;
+  color: #FFFFFF;
+}
+
+td.name {
+  width: 20%;
+  padding-left: 2em;
+  text-align: left;
+}
+
+th.name {
+  width: 20%;
+  text-align: left;
+  text-style: bold;
+}
+
+td.status {
+  padding-left: 2em;
+  text-align: left;
+}
+
+th.status {
+  text-align: left;
+  text-style: bold;
+}
+
+td.date {
+  width: 30%;
+  padding-left: 2em;
+  text-align: left;
+}
+
+th.date {
+  width: 30%;
+  text-align: left;
+  text-style: bold;
+}
+
+img.cs { /* character size image */
+  border: 0;
+  width: 1em;
+  height: 1em;
+  vertical-align: text-bottom;
+  margin: 0 0.5em 0 0;
+}
+</style>
+
+</head>
+<body class="" id="body_solstice">
+  <a class="sr-only" href="#content">Skip to main content</a>
+  <header role="banner">
+    <div class="container">
+
+      <div id="row-toolbar" class="text-right hidden-print">
+
+        <div id="row-toolbar-col" class="col-md-24">
+          <ul class="list-inline">
+            <!-- leaving space instead of "sign in" -->
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div id="row-logo-search">
+        <div id="header-left" class="col-sm-14 col-md-16 col-lg-19">
+          <div class="row">
+            <div class="hidden-xs">
+              <a href="http://eclipse.org/"><img
+                src="/eclipse.org-common/themes/solstice/public/images/logo/eclipse-800x188.png" alt="Eclipse.org logo"
+                class="logo-eclipse-default img-responsive" /></a>
+            </div>
+            <div id="main-menu" class="navbar row yamm">
+              <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="http://eclipse.org/users/" target="_self">Getting Started </a></li>
+                  <li><a href="http://eclipse.org/membership/" target="_self">Members</a></li>
+                  <li><a href="http://eclipse.org/projects/" target="_self">Projects</a></li>
+                  <li class="dropdown visible-xs"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Community <b
+                      class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="http://marketplace.eclipse.org">Marketplace</a></li>
+                      <li><a href="http://events.eclipse.org">Events</a></li>
+                      <li><a href="//www.planeteclipse.org/">Planet Eclipse</a></li>
+                      <li><a href="http://eclipse.org/community/eclipse_newsletter/">Newsletter</a></li>
+                      <li><a href="https://www.youtube.com/user/EclipseFdn">Videos</a></li>
+                    </ul></li>
+                  <li class="dropdown visible-xs"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Participate <b
+                      class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li>
+                      <li><a href="http://eclipse.org/forums/">Forums</a></li>
+                      <li><a href="http://eclipse.org/mail/">Mailing Lists</a></li>
+                      <li><a href="https://wiki.eclipse.org/">Wiki</a></li>
+                      <li><a href="https://wiki.eclipse.org/IRC">IRC</a></li>
+                      <li><a href="http://eclipse.org/contribute/">How to Contribute</a></li>
+                    </ul></li>
+                  <li class="dropdown visible-xs"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Working Groups
+                      <b class="caret"></b>
+                  </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="http://wiki.eclipse.org/Auto_IWG">Automotive</a></li>
+                      <li><a href="http://iot.eclipse.org">Internet of Things</a></li>
+                      <li><a href="http://locationtech.org">LocationTech</a></li>
+                      <li><a href="http://lts.eclipse.org">Long-Term Support</a></li>
+                      <li><a href="http://polarsys.org">PolarSys</a></li>
+                      <li><a href="http://science.eclipse.org">Science</a></li>
+                    </ul></li>
+                  <!-- More -->
+                  <li class="dropdown hidden-xs"><a data-toggle="dropdown" class="dropdown-toggle">More<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <!-- Content container to add padding -->
+                        <div class="yamm-content">
+                          <div class="row">
+                            <ul class="col-sm-8 list-unstyled">
+                              <li><p>
+                                  <strong>Community</strong>
+                                </p></li>
+                              <li><a href="http://marketplace.eclipse.org">Marketplace</a></li>
+                              <li><a href="http://events.eclipse.org">Events</a></li>
+                              <li><a href="//www.planeteclipse.org/">Planet Eclipse</a></li>
+                              <li><a href="http://eclipse.org/community/eclipse_newsletter/">Newsletter</a></li>
+                              <li><a href="https://www.youtube.com/user/EclipseFdn">Videos</a></li>
+                            </ul>
+                            <ul class="col-sm-8 list-unstyled">
+                              <li><p>
+                                  <strong>Participate</strong>
+                                </p></li>
+                              <li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li>
+                              <li><a href="http://eclipse.org/forums/">Forums</a></li>
+                              <li><a href="http://eclipse.org/mail/">Mailing Lists</a></li>
+                              <li><a href="https://wiki.eclipse.org/">Wiki</a></li>
+                              <li><a href="https://wiki.eclipse.org/IRC">IRC</a></li>
+                              <li><a href="http://eclipse.org/contribute/">How to Contribute</a></li>
+                            </ul>
+                            <ul class="col-sm-8 list-unstyled">
+                              <li><p>
+                                  <strong>Working Groups</strong>
+                                </p></li>
+                              <li><a href="http://wiki.eclipse.org/Auto_IWG">Automotive</a></li>
+                              <li><a href="http://iot.eclipse.org">Internet of Things</a></li>
+                              <li><a href="http://locationtech.org">LocationTech</a></li>
+                              <li><a href="http://lts.eclipse.org">Long-Term Support</a></li>
+                              <li><a href="http://polarsys.org">PolarSys</a></li>
+                              <li><a href="http://science.eclipse.org">Science</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul></li>
+                </ul>
+              </div>
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+                    class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
+                <a href="http://eclipse.org/" class="navbar-brand visible-xs"><img
+                  src="/eclipse.org-common/themes/solstice/public/images/logo/eclipse-800x188.png" alt="Eclipse.org logo"
+                  width="180" class="logo-eclipse-default" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="header-right" class="form-inline col-sm-10 col-md-8 col-lg-5 hidden-print hidden-xs">
+          <div id="header-right-container">
+            <div id="custom-search-form">
+              <form action="//www.google.com/cse" id="form-eclipse-search" role="form" class="input-group">
+                <input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" /> <input id="search-box"
+                  placeholder="Search eclipse.org" type="text" name="q" size="25" class="form-control" /> <span
+                  class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </span>
+              </form>
+            </div>
+            <!-- /input-group -->
+            <script type="text/javascript"
+              src="//www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&amp;lang=en"></script>
+            <a id="btn-call-for-action" href="http://eclipse.org/downloads/" class="btn btn-huge btn-warning"><i
+              class="fa fa-download"></i> Packages</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+  <section id="breadcrumb" class="defaut-breadcrumbs hidden-print">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li><a href="https://www.eclipse.org/">Home</a></li>
+        <li><a href="https://www.eclipse.org/projects/">Projects</a></li>
+        <li><a href="https://www.eclipse.org/orbit/">Orbit</a></li>
+                <li class="active">
+          <?= $pageTitle ?>
+        </li>
+      </ol>
+    </div>
+  </section>
+  <main role="main">
+  <div class="container background-image-none" id="novaContent"><p style="text-align: center;">Reminder: this is <code></code>.  See also <a href="http://download.eclipse.org/tools/orbit">Live public eclipse orbit site</a>.</p><br />Debug Error: <errorentry>
+	<datetime>2015-09-02 14:08:56 (GMT) </datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: QUERY_STRING</errormsg>
+	<scriptname>/home/data/httpd/download.eclipse.org/tools/orbit/commonFiles/errorHandlingInit.php</scriptname>
+	<scriptlinenum>57</scriptlinenum>
+</errorentry>
+
+ <br />
+<h1>Orbit Downloads<a href="https://www.eclipse.org/orbit/"><img src="https://www.eclipse.org/orbit/coolGears.png" alt="Orbit Gears" style="backgroundColor: #FFFFFF; float: right; width: 120px; height: 120px; margin-left: 10px;margin-bottom: 10x; margin-right: 0px; margin-top: 0px;" /></a>
+</h1>
+
+<p>This is the starting page for where you can find the current builds provided by the
+<a href="http://www.eclipse.org/orbit/">Eclipse Orbit Project</a>.
+See our <a href="http://wiki.eclipse.org/Promotion%2C_Release%2C_and_Retention_Policies">Retention Policies</a> for the meaning
+of the different types of builds (I, S, M, R). <a href="http://archive.eclipse.org/tools/orbit/downloads/">Archived Builds</a> are provided
+for previous R-Builds that are no longer in demand, but which we keep on a non-mirrored site, for long term support, historical or academic use.
+As a reminder to committers, see <a href="http://build.eclipse.org/orbit/committers/">
+the "continuous builds" on the build machine</a> to check recent additions for accuracy before they are promoted here to downloads.
+</p>
+
+
+<table class="downloads">
+  <tr id="<b>R</b>ecommended:_Long_term,_persisted_repositories." >
+    <td class="main" colspan="3"><b>R</b>ecommended: Long term, persisted repositories.</td>
+  </tr>
+<tr>
+  <th class="name">Build Name</th>
+  <th class="date">Build Date</th>
+  <th class="name">Notes</th>
+</tr>
+<tr>
+  <td class="name"><a href="drops/R20150821153341/">R20150821153341</a></td>
+  <td class="date">Fri, 21 Aug 2015 -- 15:33  (UTC)</td>
+  <td class="name">Mars.1</td>
+</tr>
+<tr>
+  <td class="name"><a href="drops/R20150519210750/">R20150519210750</a></td>
+  <td class="date">Tue, 19 May 2015 -- 21:07  (UTC)</td>
+  <td class="name">Mars</td>
+</tr>
+<tr>
+  <td class="name"><a href="drops/R20150124073747/">R20150124073747</a></td>
+  <td class="date">Sat, 24 Jan 2015 -- 07:37  (UTC)</td>
+  <td class="name">Luna SR2</td>
+</tr>
+<tr>
+  <td class="name"><a href="drops/R20140525021250/">R20140525021250</a></td>
+  <td class="date">Sun, 25 May 2014 -- 02:12  (UTC)</td>
+  <td class="name">Luna, Luna SR1</td>
+</tr>
+<tr>
+  <td class="name"><a href="drops/R20140114142710/">R20140114142710</a></td>
+  <td class="date">Tue, 14 Jan 2014 -- 14:27  (UTC)</td>
+  <td class="name">Kepler SR2</td>
+</tr>
+<tr>
+  <td class="name"><a href="drops/R20130827064939/">R20130827064939</a></td>
+  <td class="date">Tue, 27 Aug 2013 -- 06:49  (UTC)</td>
+  <td class="name">Kepler SR1</td>
+</tr>
+<tr>
+  <td class="name"><a href="drops/R20130517111416/">R20130517111416</a></td>
+  <td class="date">Fri, 17 May 2013 -- 11:14  (UTC)</td>
+  <td class="name">Kepler</td>
+</tr>
+<tr>
+  <td class="name"><a href="drops/R20130118183705/">R20130118183705</a></td>
+  <td class="date">Fri, 18 Jan 2013 -- 18:37  (UTC)</td>
+  <td class="name">Juno SR2</td>
+</tr>
+<tr>
+  <td class="name"><a href="drops/R20120526062928/">R20120526062928</a></td>
+  <td class="date">Sat, 26 May 2012 -- 06:29  (UTC)</td>
+  <td class="name">Juno, Juno SR1</td>
+</tr>
+  <tr id="<b>I</b>ntegration:_Work_towards_next_Stable_(Milestone)_build_for_Neon" >
+    <td class="main" colspan="3"><b>I</b>ntegration: Work towards next Stable (Milestone) build for Neon</td>
+  </tr>
+<tr>
+  <th class="name">Build Name</th>
+  <th class="date">Build Date</th>
+  <th class="name">Notes</th>
+</tr>
+<tr>
+  <td class="name"><a href="drops/I20150820184356/">I20150820184356</a></td>
+  <td class="date">Thu, 20 Aug 2015 -- 18:43  (UTC)</td>
+  <td class="name">&nbsp;</td>
+</tr>
+<tr>
+  <td class="name"><a href="drops/I20150819151725/">I20150819151725</a></td>
+  <td class="date">Wed, 19 Aug 2015 -- 15:17  (UTC)</td>
+  <td class="name">&nbsp;</td>
+</tr>
+<tr>
+  <td class="name"><a href="drops/I20150818234536/">I20150818234536</a></td>
+  <td class="date">Tue, 18 Aug 2015 -- 23:45  (UTC)</td>
+  <td class="name">&nbsp;</td>
+</tr>
+<tr>
+  <td class="name"><a href="drops/I20150519210750/">I20150519210750</a></td>
+  <td class="date">Tue, 19 May 2015 -- 21:07  (UTC)</td>
+  <td class="name">&nbsp;</td>
+</tr>
+  <tr id="<b>M</b>aintenance:_Work_towards_Mars.1" >
+    <td class="main" colspan="3"><b>M</b>aintenance: Work towards Mars.1</td>
+  </tr>
+<tr>
+  <th class="name">Build Name</th>
+  <th class="date">Build Date</th>
+  <th class="name">Notes</th>
+</tr>
+<tr>
+  <td class="name"><a href="drops/M20150821153341/">M20150821153341</a></td>
+  <td class="date">Fri, 21 Aug 2015 -- 15:33  (UTC)</td>
+  <td class="name">&nbsp;</td>
+</tr>
+</table>
+
+</div>
+</main>
+<!-- /#main-content-container-row -->
+<p id="back-to-top">
+  <a class="visible-xs" href="#top">Back to the top</a>
+</p>
+<footer role="contentinfo">
+
+  <div class="container">
+
+    <div class="row">
+      <section id="footer-eclipse-foundation" class="col-xs-offset-1 col-xs-11 col-sm-7 col-md-6 col-md-offset-0 hidden-print">
+        <h2 class="section-title">Eclipse Foundation</h2>
+        <ul class="nav">
+          <li><a href="http://eclipse.org/org/">About us</a></li>
+          <li><a href="http://eclipse.org/org/foundation/contact.php">Contact Us</a></li>
+          <li><a href="http://eclipse.org/donate">Donate</a></li>
+          <li><a href="http://eclipse.org/org/documents/">Governance</a></li>
+          <li><a href="http://eclipse.org/artwork/">Logo and Artwork</a></li>
+          <li><a href="http://eclipse.org/org/foundation/directors.php">Board of Directors</a></li>
+        </ul>
+      </section>
+      <section id="footer-legal" class="col-xs-offset-1 col-xs-11 col-sm-7 col-md-6 col-md-offset-0 hidden-print ">
+        <h2 class="section-title">Legal</h2>
+        <ul class="nav">
+          <li><a href="http://eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+          <li><a href="http://eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
+          <li><a href="http://eclipse.org/legal/copyright.php">Copyright Agent</a></li>
+          <li><a href="http://eclipse.org/org/documents/epl-v10.php">Eclipse Public License </a></li>
+          <li><a href="http://eclipse.org/legal/">Legal Resources </a></li>
+
+        </ul>
+      </section>
+
+      <section id="footer-useful-links" class="col-xs-offset-1 col-xs-11 col-sm-7 col-md-6 col-md-offset-0 hidden-print">
+        <h2 class="section-title">Useful Links</h2>
+        <ul class="nav">
+          <li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li>
+          <li><a href="//help.eclipse.org/">Documentation</a></li>
+          <li><a href="http://eclipse.org/contribute/">How to Contribute</a></li>
+          <li><a href="http://eclipse.org/mail/">Mailing Lists</a></li>
+          <li><a href="http://eclipse.org/forums/">Forums</a></li>
+          <li><a href="//marketplace.eclipse.org">Marketplace</a></li>
+        </ul>
+      </section>
+
+      <section id="footer-other" class="col-xs-offset-1 col-xs-11 col-sm-7 col-md-6 col-md-offset-0 hidden-print">
+
+        <h2 class="section-title">Other</h2>
+        <ul class="nav">
+          <li><a href="http://eclipse.org/ide/">IDE and Tools</a></li>
+          <li><a href="http://eclipse.org/projects">Community of Projects</a></li>
+          <li><a href="http://eclipse.org/org/workinggroups/">Working Groups</a></li>
+        </ul>
+
+        <ul class="list-inline social-media">
+          <li><a href="https://twitter.com/EclipseFdn"><i class="fa fa-twitter-square"></i></a></li>
+          <li><a href="https://plus.google.com/+Eclipse"><i class="fa fa-google-plus-square"></i></a></li>
+          <li><a href="https://www.facebook.com/eclipse.org"><i class="fa fa-facebook-square"></i> </a></li>
+          <li><a href="https://www.youtube.com/user/EclipseFdn"><i class="fa fa-youtube-square"></i></a></li>
+        </ul>
+
+      </section>
+      <div id="copyright" class="col-xs-offset-1 col-sm-14 col-md-24 col-md-offset-0">
+        <div>
+          <span class="hidden-print"><img
+            src="/eclipse.org-common/themes/solstice/public/images/logo/eclipse-logo-bw-800x188.png"
+            alt="Eclipse.org black and white logo" width="166" height="39" id="logo-eclipse-white" /></span>
+          <p id="copyright-text">Copyright &copy; 2014 The Eclipse Foundation. All Rights Reserved.</p>
+        </div>
+      </div>
+      <a href="#" class="scrollup">Back to the top</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/eclipse.org-common/themes/solstice/public/javascript/main.min.js"></script>
+</body>
+</html>
