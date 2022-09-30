@@ -6,7 +6,6 @@ pipeline {
   }
   agent any
   stages {
-  stages {
     stage('Upload') {
       steps {
         sshagent ( ['projects-storage.eclipse.org-bot-ssh']) {
