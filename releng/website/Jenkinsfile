@@ -1,0 +1,19 @@
+pipeline {
+  options {
+    timestamps()
+    disableConcurrentBuilds()
+    timeout(time: 180, unit: 'MINUTES')
+  }
+  agent any
+  stages {
+  stages {
+    stage('Upload') {
+      steps {
+        sshagent ( ['projects-storage.eclipse.org-bot-ssh']) {
+          // Add additional files here that should be copied from the primary record in the git repo to the download site
+          sh 'scp -r releng/scripts/website/downloads/index.php genie.orbit@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit/downloads'
+        }
+      }
+    }
+  }
+}
