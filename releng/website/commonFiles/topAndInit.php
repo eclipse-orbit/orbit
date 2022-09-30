@@ -4,7 +4,7 @@
 <table border="0" width="100%">
 	<tr>
 		<td width="50%"><?php echo $indexTop; ?></td>
-		<td width="50%" align="right"><a href="http://www.eclipse.org/orbit/">
+		<td width="50%" align="right"><a href="https://projects.eclipse.org/projects/tools.orbit">
 				<img border="0" alt="Orbit unofficial download logo"
 				src="../commonFiles/coolGears.png" height="120" width="120" />
 		</a></td>
