@@ -6,15 +6,15 @@ include $relativePath . '/commonFiles/DL.header.php.html';
 include $relativePath . '/commonFiles/tinyReminder.php';
 include $relativePath . '/commonFiles/setDateToUTC.php';
 include $relativePath . '/commonFiles/errorHandlingInit.php';
-
+ 
 ?>
 
 <h1><?php echo "$pageTitle" ?>
-<a href="https://www.eclipse.org/orbit/"><img src="https://www.eclipse.org/orbit/coolGears.png" alt="Orbit Gears" style="backgroundColor: #FFFFFF; float: right; width: 120px; height: 120px; margin-left: 10px;margin-bottom: 10x; margin-right: 0px; margin-top: 0px;" /></a>
+<a href="https://projects.eclipse.org/projects/tools.orbit"><img src="../commonFiles/coolGears.png" alt="Orbit Gears" style="backgroundColor: #FFFFFF; float: right; width: 120px; height: 120px; margin-left: 10px;margin-bottom: 10x; margin-right: 0px; margin-top: 0px;" /></a>
 </h1>
 
 <p>This is the starting page for where you can find the current builds provided by the
-<a href="http://www.eclipse.org/orbit/">Eclipse Orbit Project</a>.
+<a href="https://projects.eclipse.org/projects/tools.orbit">Eclipse Orbit Project</a>.
 See our <a href="http://wiki.eclipse.org/Promotion%2C_Release%2C_and_Retention_Policies">Retention Policies</a> for the meaning
 of the different types of builds (I, S, M, R). <a href="http://archive.eclipse.org/tools/orbit/downloads/">Archived Builds</a> are provided
 for previous R-Builds that are no longer in demand, but which we keep on a non-mirrored site, for long term support, historical or academic use.
