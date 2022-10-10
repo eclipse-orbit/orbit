@@ -254,10 +254,10 @@
   <plugin id="org.apache.ws.commons.util" version="1.0.2.qualifier"/>
   <plugin id="org.apache.wsil4j" version="1.0.0.qualifier"/>
 
-  <plugin id="org.bouncycastle.bcpg" version="1.71.0.qualifier"/>
-  <plugin id="org.bouncycastle.bcpkix" version="1.71.0.qualifier"/>
-  <plugin id="org.bouncycastle.bcprov" version="1.71.0.qualifier"/>
-  <plugin id="org.bouncycastle.bcutil" version="1.71.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcpg" version="1.72.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcpkix" version="1.72.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcprov" version="1.72.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcutil" version="1.72.0.qualifier"/>
 
   <plugin id="org.eclipse.orbit.mongodb" version="3.2.2.qualifier"/>
 

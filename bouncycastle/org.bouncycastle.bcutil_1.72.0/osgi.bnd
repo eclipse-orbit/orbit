@@ -1,5 +1,5 @@
 package-version=${version;===;${Bundle-Version}}
-bcprov-jdk18on-version-range=${range;[===,=+);1.71}
+bcprov-jdk18on-version-range=${range;[===,=+);1.72}
 
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: \

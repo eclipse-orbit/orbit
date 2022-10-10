@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.bouncycastle.bcprov" version="1.71.0" status="done">
+  <project id="org.bouncycastle.bcprov" version="1.72.0" status="done">
     <info>
       <name>Bouncy Castle Provider</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
@@ -12,13 +12,12 @@
       <company>SAP SE</company>
     </contact>
     <legal>
-      <clearlydefined url="https://clearlydefined.io/definitions/sourcearchive/mavencentral/org.bouncycastle/bcprov-jdk18on/1.71"/>
-      <ipzilla bug_id="https://gitlab.eclipse.org/eclipsefdn/emo-team/iplab/-/issues/3008"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/sourcearchive/mavencentral/org.bouncycastle/bcprov-jdk18on/1.72"/>
       <license>
         <name>MIT License</name>
         <reference>http://www.bouncycastle.org/licence.html</reference>
       </license>
-      <package>bcprov-jdk18on-1.71.jar</package>
+      <package>bcprov-jdk18on-1.72.jar</package>
     </legal>
   </project>
 </ip_log>
