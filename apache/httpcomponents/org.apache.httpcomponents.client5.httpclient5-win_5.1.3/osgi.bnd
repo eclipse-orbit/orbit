@@ -7,7 +7,7 @@ commons-codec-version=${version;===;1.13}
 
 httpcore5-version-range=${range;[===,+);${httpcore5-version}}
 httpcore5-h2-version-range=${range;[===,+);${httpcore5-h2-version}}
-slf4j-api-version-range=${range;[===,+);${slf4j-api-version}}
+slf4j-api-version-range=${range;[==,3);${slf4j-api-version}}
 conscrypt-openjdk-uber-version-range=${range;[===,+);${conscrypt-openjdk-uber-version}}
 commons-codec-version-range=${range;[===,+);${commons-codec-version}}
 
