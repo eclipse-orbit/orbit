@@ -1,0 +1,85 @@
+package-version=${version;===;${Bundle-Version}}
+batik-anim-version-range=${range;[===,+);1.15}
+batik-anim-version=${version;===;1.15}
+batik-awt-util-version-range=${range;[===,+);1.15}
+batik-awt-util-version=${version;===;1.15}
+batik-css-version-range=${range;[===,+);1.15}
+batik-css-version=${version;===;1.15}
+batik-dom-version-range=${range;[===,+);1.15}
+batik-dom-version=${version;===;1.15}
+batik-gvt-version-range=${range;[===,+);1.15}
+batik-gvt-version=${version;===;1.15}
+batik-parser-version-range=${range;[===,+);1.15}
+batik-parser-version=${version;===;1.15}
+batik-script-version-range=${range;[===,+);1.15}
+batik-script-version=${version;===;1.15}
+batik-shared-resources-version-range=${range;[===,+);1.15}
+batik-shared-resources-version=${version;===;1.15}
+batik-svg-dom-version-range=${range;[===,+);1.15}
+batik-svg-dom-version=${version;===;1.15}
+batik-util-version-range=${range;[===,+);1.15}
+batik-util-version=${version;===;1.15}
+batik-xml-version-range=${range;[===,+);1.15}
+batik-xml-version=${version;===;1.15}
+xmlgraphics-commons-version-range=${range;[===,+);2.7}
+xmlgraphics-commons-version=${version;===;2.7}
+xml-apis-ext-version-range=${range;[===,+);1.3.0}
+xml-apis-ext-version=${version;===;1.3.0}
+xalan-version=${version;===;2.7.2}
+rhino-version-range=${range;[===,+);1.7.7}
+rhino-version=${version;===;1.7.7}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.apache.batik.anim.dom;version="${batik-anim-version-range}", \
+ org.apache.batik.anim.timing;version="${batik-anim-version-range}", \
+ org.apache.batik.anim.values;version="${batik-anim-version-range}", \
+ org.apache.batik.anim;version="${batik-anim-version-range}", \
+ org.apache.batik.css.engine.value.svg12;version="${batik-css-version-range}", \
+ org.apache.batik.css.engine.value.svg;version="${batik-css-version-range}", \
+ org.apache.batik.css.engine.value;version="${batik-css-version-range}", \
+ org.apache.batik.css.engine;version="${batik-css-version-range}", \
+ org.apache.batik.dom.events;version="${batik-dom-version-range}", \
+ org.apache.batik.dom.svg12;version="${batik-svg-dom-version-range}", \
+ org.apache.batik.dom.svg;version="${batik-svg-dom-version-range}", \
+ org.apache.batik.dom.util;version="${batik-dom-version-range}", \
+ org.apache.batik.dom.xbl;version="${batik-dom-version-range}", \
+ org.apache.batik.dom;version="${batik-dom-version-range}", \
+ org.apache.batik.ext.awt.color;version="${batik-awt-util-version-range}", \
+ org.apache.batik.ext.awt.geom;version="${batik-awt-util-version-range}", \
+ org.apache.batik.ext.awt.image.renderable;version="${batik-awt-util-version-range}", \
+ org.apache.batik.ext.awt.image.spi;version="${batik-awt-util-version-range}", \
+ org.apache.batik.ext.awt.image;version="${batik-awt-util-version-range}", \
+ org.apache.batik.ext.awt;version="${batik-awt-util-version-range}", \
+ org.apache.batik.gvt.event;version="${batik-gvt-version-range}", \
+ org.apache.batik.gvt.filter;version="${batik-gvt-version-range}", \
+ org.apache.batik.gvt.flow;version="${batik-gvt-version-range}", \
+ org.apache.batik.gvt.font;version="${batik-gvt-version-range}", \
+ org.apache.batik.gvt.renderer;version="${batik-gvt-version-range}", \
+ org.apache.batik.gvt.text;version="${batik-gvt-version-range}", \
+ org.apache.batik.gvt;version="${batik-gvt-version-range}", \
+ org.apache.batik.parser;version="${batik-parser-version-range}", \
+ org.apache.batik.script.rhino;version="${batik-script-version-range}", \
+ org.apache.batik.script;version="${batik-script-version-range}", \
+ org.apache.batik.xml;version="${batik-xml-version-range}", \
+ org.apache.xml.utils;version="${xalan-version}", \
+ org.apache.xmlgraphics.java2d.color.profile;version="${xmlgraphics-commons-version}", \
+ org.apache.xmlgraphics.java2d.color;version="${xmlgraphics-commons-version}", \
+ org.apache.xpath.objects;version="${xalan-version}", \
+ org.apache.xpath;version="${xalan-version}", \
+ org.mozilla.javascript;resolution:=optional, \
+ org.w3c.dom.svg;version="1.1", \
+ org.w3c.dom.xpath, \
+ org.w3c.dom.smil, \
+ org.w3c.dom.css, \
+ *;resolution:=optional
+
+
+Require-Bundle: \
+ org.apache.batik.util;bundle-version="${batik-util-version-range}"
