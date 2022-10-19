@@ -15,10 +15,10 @@ include $relativePath . '/commonFiles/errorHandlingInit.php';
 
 <p>This is the starting page for where you can find the current builds provided by the
 <a href="https://projects.eclipse.org/projects/tools.orbit">Eclipse Orbit Project</a>.
-See our <a href="http://wiki.eclipse.org/Promotion%2C_Release%2C_and_Retention_Policies">Retention Policies</a> for the meaning
-of the different types of builds (I, S, M, R). <a href="http://archive.eclipse.org/tools/orbit/downloads/">Archived Builds</a> are provided
+See our <a href="https://wiki.eclipse.org/Promotion%2C_Release%2C_and_Retention_Policies">Retention Policies</a> for the meaning
+of the different types of builds (I, S, M, R). <a href="https://archive.eclipse.org/tools/orbit/downloads/">Archived Builds</a> are provided
 for previous R-Builds that are no longer in demand, but which we keep on a non-mirrored site, for long term support, historical or academic use.
-As a reminder to committers, see <a href="http://ci.eclipse.org/orbit/">
+As a reminder to committers, see <a href="https://ci.eclipse.org/orbit/">
 the "continuous builds" on the build machine</a> to check recent additions for accuracy before they are promoted here to downloads.
 </p>
 

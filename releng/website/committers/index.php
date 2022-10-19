@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" href="http://dev.eclipse.org/default_style.css">
+<link rel="stylesheet" href="https://dev.eclipse.org/default_style.css">
 <title>Eclipse Orbit Committers Downloads</title>
 
 <style>
@@ -22,7 +22,7 @@ img.cs { /* character size image */
 $serverName = $_SERVER ["SERVER_NAME"];
 
 if (! stristr ( $serverName, "eclipse.org" )) {
-  echo '<center><p>Reminder: this is <font color="#FF0000">', $serverName, '</font>  See also <a href="http://download.eclipse.org/tools/orbit" target="_top">Live public eclipse orbit site</a>.</center><hr />';
+  echo '<center><p>Reminder: this is <font color="#FF0000">', $serverName, '</font>  See also <a href="https://download.eclipse.org/tools/orbit" target="_top">Live public eclipse orbit site</a>.</center><hr />';
 }
 
 if (function_exists ( "date_default_timezone_set" )) {
@@ -70,13 +70,13 @@ if ($C == 0) {
 
   <p>
     The Orbit "committer builds" have moved. Please use (and update your
-    bookmarks) <a href="http://build.eclipse.org/orbit/committers">http://build.eclipse.org/orbit/committers</a>.
+    bookmarks) <a href="https://build.eclipse.org/orbit/committers">https://build.eclipse.org/orbit/committers</a>.
   </p>
 
   <p>
     As always, the "regular builds", for most users and consumers are
     available at <a
-      href="http://download.eclipse.org/tools/orbit/downloads/">http://download.eclipse.org/tools/orbit/downloads/</a>.
+      href="https://download.eclipse.org/tools/orbit/downloads/">https://download.eclipse.org/tools/orbit/downloads/</a>.
   </p>
 
   <!-- footer -->
@@ -84,7 +84,7 @@ if ($C == 0) {
     <hr />
     <p>
       All downloads are provided under the terms and conditions of the <a
-        href="http://www.eclipse.org/legal/epl/notice.php">Eclipse.org
+        href="https://www.eclipse.org/legal/epl/notice.php">Eclipse.org
         Software User Agreement</a> unless otherwise specified.
     </p>
 

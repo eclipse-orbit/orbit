@@ -1,3 +1,3 @@
 <?php
-        header("location: http://download.eclipse.org/tools/orbit/downloads/");
+        header("location: https://download.eclipse.org/tools/orbit/downloads/");
 ?>
