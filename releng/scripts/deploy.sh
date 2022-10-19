@@ -93,7 +93,7 @@ curl -v -o index.html -d @- "https://www.eclipse.org/orbit/scripts/iplog.php?rep
 </repository>
 EOF
 ## Until the index.html generation can be fixed, don't copy it to normal place
-scp index.html genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}/index-broken.html
+scp index.html genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}/
 
 ssh genie.orbit@projects-storage.eclipse.org rm -r ${ORBIT_DOWNLOAD_LOC}/../bug506001
 
