@@ -366,8 +366,7 @@
   <plugin id="org.ggf.drmaa" version="1.0.0.qualifier"/>
 
   <!-- Mockito -->
-  <plugin id="org.mockito" version="2.13.0.qualifier"/>
-  <plugin id="org.mockito" version="2.23.0.qualifier"/>
+  <plugin id="org.mockito.mockito-core" version="4.8.1.qualifier"/>
   <plugin id="net.bytebuddy.byte-buddy" version="1.7.9.qualifier"/>
   <plugin id="net.bytebuddy.byte-buddy-agent" version="1.7.9.qualifier"/>
   <plugin id="net.bytebuddy.byte-buddy" version="1.9.0.qualifier"/>

@@ -6,10 +6,10 @@
     <artifactId>orbit-recipes</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>mockito-parent</artifactId>
+  <artifactId>mockito</artifactId>
   <packaging>pom</packaging>
   <name>Eclipse Orbit :: Mockito Recipes</name>
   <modules>
-    <module>mockito2</module>
+    <module>org.mockito.mockito-core_4.8.1</module>
   </modules>
 </project>
