@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.sun.jna.platform" version="5.12.1" status="done">
+    <info>
+      <name>Java Native Access Platform</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>jna-parent/com.sun.jna.platform</location>
+    </info>
+    <contact>
+      <name>Matthias Sohn</name>
+      <email>matthias.sohn@sap.com</email>
+      <company>SAP SE</company>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/sourcearchive/mavencentral/net.java.dev.jna/jna-platform/5.12.1"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>jna-platform-5.12.1.jar</package>
+    </legal>
+  </project>
+</ip_log>

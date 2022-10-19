@@ -23,5 +23,7 @@
     <module>com.sun.jna.platform_5.6.0</module>
     <module>com.sun.jna_5.8.0</module>
     <module>com.sun.jna.platform_5.8.0</module>
+    <module>com.sun.jna_5.12.1</module>
+    <module>com.sun.jna.platform_5.12.1</module>
   </modules>
 </project>
