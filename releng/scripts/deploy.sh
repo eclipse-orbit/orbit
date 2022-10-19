@@ -86,13 +86,14 @@ scp -r bug506001 genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/
 
 ### This line goes to www.eclipse.org and runs a php script to generate the index file. That php script relies on stuff uploaded to the bug506001 location above
 ### XXX: The iplog.php could just use repoPath instead of faking the location in like this.
-curl -v -o index.html -d @- "http://www.eclipse.org/orbit/scripts/iplog.php?repoPath=tools/orbit/downloads/drops/${NEW_BUILD_LABEL}/repository&buildURL=${BUILD_URL}&zipFileSize=${zipFileSize}" << EOF
+curl -v -o index.html -d @- "https://www.eclipse.org/orbit/scripts/iplog.php?repoPath=tools/orbit/downloads/drops/${NEW_BUILD_LABEL}/repository&buildURL=${BUILD_URL}&zipFileSize=${zipFileSize}" << EOF
 <?compositeArtifactRepository version='1.0.0'?>
 <repository name="fake xml file, just enough to run iplog.php">
 <child location="../../${NEW_BUILD_LABEL}/repository"/>
 </repository>
 EOF
-scp index.html genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
+## Until the index.html generation can be fixed, don't copy it to normal place
+scp index.html genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}/index-broken.html
 
 ssh genie.orbit@projects-storage.eclipse.org rm -r ${ORBIT_DOWNLOAD_LOC}/../bug506001
 
