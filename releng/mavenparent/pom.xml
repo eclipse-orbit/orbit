@@ -60,8 +60,8 @@
 
     <!-- versions used for plug-ins below -->
     <tycho-version>2.0.0</tycho-version>
-    <maven-resources-version>3.1.0</maven-resources-version>
-    <maven-dependency-version>3.1.2</maven-dependency-version>
+    <maven-resources-version>3.3.0</maven-resources-version>
+    <maven-dependency-version>3.3.0</maven-dependency-version>
 
     <!-- versions of the EBR plug-in to use -->
     <ebr-version>1.4.0-SNAPSHOT</ebr-version>
@@ -485,17 +485,17 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.1</version>
+          <version>3.10.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-antrun-plugin</artifactId>
-          <version>3.0.0</version>
+          <version>3.1.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-assembly-plugin</artifactId>
-          <version>3.3.0</version>
+          <version>3.4.2</version>
         </plugin>
         <plugin>
           <groupId>org.eclipse.tycho</groupId>
@@ -583,7 +583,7 @@
         <plugin>
           <groupId>org.eclipse.cbi.maven.plugins</groupId>
           <artifactId>eclipse-jarsigner-plugin</artifactId>
-          <version>1.3.2</version>
+          <version>1.3.4</version>
         </plugin>
       </plugins>
 
