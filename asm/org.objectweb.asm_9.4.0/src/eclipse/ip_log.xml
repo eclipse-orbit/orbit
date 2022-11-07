@@ -12,7 +12,7 @@
       <company>SonarSource</company>
     </contact>
     <legal>
-      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.ow2.asm/asm/9.3"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.ow2.asm/asm/9.4"/>
       <license>
         <name>New BSD license</name>
         <reference>http://opensource.org/licenses/BSD-3-Clause</reference>
