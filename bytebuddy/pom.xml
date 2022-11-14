@@ -14,5 +14,7 @@
     <module>net.bytebuddy.byte-buddy-agent_1.7.9</module>
     <module>net.bytebuddy.byte-buddy_1.9.0</module>
     <module>net.bytebuddy.byte-buddy-agent_1.9.0</module>
+    <module>net.bytebuddy.byte-buddy_1.12.18</module>
+    <module>net.bytebuddy.byte-buddy-agent_1.12.18</module>
   </modules>
 </project>
