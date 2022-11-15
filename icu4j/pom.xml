@@ -15,7 +15,7 @@
   <name>Eclipse Orbit :: ICU4J Recipes</name>
 
   <modules>
-    <module>com.ibm.icu_67.1.0</module>
+    <module>com.ibm.icu_72.1.0</module>
   </modules>
 
 </project>
