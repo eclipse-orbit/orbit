@@ -38,6 +38,7 @@ pipeline {
       steps {
         container('container') {
           sh 'mvn -V -B -e clean install -Declipse-sign=true -Dartifact-comparator=true'
+          sh 'mvn -V -B -e clean install -Declipse-sign=true -Dartifact-comparator=true -f releng/aggregation-mirror-osgi/pom.xml'
           sh 'mvn -V -B -e clean install -Declipse-sign=true -Dartifact-comparator=true -f releng/aggregationfeature/pom.xml'
         }
       }

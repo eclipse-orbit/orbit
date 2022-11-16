@@ -16,6 +16,15 @@
 
   <name>Eclipse Orbit :: P2 Repository</name>
 
+  <repositories>
+    <repository>
+      <id>eclipse-platform</id>
+        <!-- See comment in aggregation-mirror-osgi/pom.xml -->
+        <url>file:/${project.basedir}/../aggregation-mirror-osgi/target/repository</url>
+      <layout>p2</layout>
+    </repository>
+  </repositories>
+
   <build>
     <plugins>
 

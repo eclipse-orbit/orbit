@@ -17,6 +17,14 @@
 
   <name>Eclipse Orbit :: Bundles Aggregation Feature</name>
 
+  <repositories>
+    <repository>
+      <id>eclipse-platform</id>
+        <!-- See comment in aggregation-mirror-osgi/pom.xml -->
+        <url>file:/${project.basedir}/../aggregation-mirror-osgi/target/repository</url>
+      <layout>p2</layout>
+    </repository>
+  </repositories>
   <build>
     <plugins>
       <plugin>

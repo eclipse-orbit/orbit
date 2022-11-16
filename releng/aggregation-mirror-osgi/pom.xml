@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.eclipse.orbit.bundles</groupId>
+    <artifactId>orbit-bundles-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../mavenparent</relativePath>
+  </parent>
+
+  <!-- Some bundles have dependencies on OSGi bundles to successfully resolve them
+        in the target platform. Because we are trying to break the cyclic dependency from
+        Eclipse Plafrom to Orbit we mirror just the required bundles with aggregation-mirror-osgi
+        and add them to the target platform -->
+
+  <artifactId>org.eclipse.orbit.releng.recipes.feature.aggregation.mirror-osgi</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Eclipse Orbit :: Bundles Aggregation Feature (mirror OSGi)</name>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho.extras</groupId>
+        <artifactId>tycho-p2-extras-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <configuration>
+          <destination>${project.build.directory}/repository</destination>
+          <includeOptional>true</includeOptional>
+          <includeNonGreedy>true</includeNonGreedy>
+          <compress>true</compress>
+          <append>true</append>
+        </configuration>
+        <executions>
+          <execution>
+            <id>mirror-orbit-recipes</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>mirror</goal>
+            </goals>
+            <configuration>
+              <source>
+                <repository>
+                  <url>https://download.eclipse.org/eclipse/updates/4.23/</url>
+                  <layout>p2</layout>
+                </repository>
+              </source>
+              <ius>
+                <iu>
+                  <id>org.eclipse.osgi</id>
+                </iu>
+                <iu>
+                  <id>org.eclipse.osgi.services</id>
+                </iu>
+                <iu>
+                  <id>org.eclipse.osgi.util</id>
+                </iu>
+              </ius>
+              <includePacked>false</includePacked>
+              <followOnlyFilteredRequirements>true</followOnlyFilteredRequirements>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

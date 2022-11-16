@@ -36,6 +36,7 @@ the bundles directly from Maven in any Tycho build.
 ### Generate p2 repository
 
 1. Go into the repository root folder.
+2. `mvn clean install -f releng/aggregation-mirror-osgi/pom.xml`
 2. `mvn clean install -f releng/aggregationfeature/pom.xml`
 3. `mvn clean package -f releng/repository/pom.xml`
 
