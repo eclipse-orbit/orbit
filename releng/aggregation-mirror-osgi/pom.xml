@@ -45,7 +45,7 @@
             <configuration>
               <source>
                 <repository>
-                  <url>https://download.eclipse.org/eclipse/updates/4.23/</url>
+                  <url>https://download.eclipse.org/eclipse/updates/4.26/</url>
                   <layout>p2</layout>
                 </repository>
               </source>
