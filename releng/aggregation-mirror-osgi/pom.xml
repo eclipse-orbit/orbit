@@ -53,12 +53,6 @@
                 <iu>
                   <id>org.eclipse.osgi</id>
                 </iu>
-                <iu>
-                  <id>org.eclipse.osgi.services</id>
-                </iu>
-                <iu>
-                  <id>org.eclipse.osgi.util</id>
-                </iu>
               </ius>
               <includePacked>false</includePacked>
               <followOnlyFilteredRequirements>true</followOnlyFilteredRequirements>

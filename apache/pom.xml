@@ -48,7 +48,6 @@
     <module>org.apache.xmlbeans_3.1.0</module>
     <module>ant</module>
     <module>batik</module>
-    <module>felix</module>
     <module>httpcomponents</module>
     <module>jclouds</module>
     <module>lucene</module>
