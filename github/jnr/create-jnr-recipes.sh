@@ -7,14 +7,15 @@ function ebr () {
 # Edit these as needed
 GID='com.github.jnr'
 VERSIONS=(
-0.9.15
-0.25
-2.1.12
-3.0.54
-0.28
+0.10.3
+0.32.13
+2.2.11
+3.1.15
+0.38.17
 1.0.2
-1.2.23
-1.2.23
+1.0.0
+1.3.9
+1.3.9
 )
 ARTIDS=(
 jnr-constants
@@ -23,6 +24,7 @@ jnr-ffi
 jnr-posix
 jnr-unixsocket
 jnr-x86asm
+jnr-a64asm
 jffi
 jffi-native
 )
@@ -33,10 +35,11 @@ com.github.jnr.ffi
 com.github.jnr.posix
 com.github.jnr.unixsocket
 com.github.jnr.x86asm
+com.github.jnr.a64asm
 com.github.jnr.jffi
 com.github.jnr.jffi.native
 )
-CLASSIFIERS[7]=native
+CLASSIFIERS[8]=native
 
 for (( i=0; i< ${#ARTIDS[@]}; i++ )); do
   ebr ${GID} ${ARTIDS[${i}]} ${VERSIONS[${i}]} "${CLASSIFIERS[${i}]}" ${BSNS[${i}]}

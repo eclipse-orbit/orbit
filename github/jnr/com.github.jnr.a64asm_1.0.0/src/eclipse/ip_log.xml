@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.github.jnr.a64asm" version="1.0.0" status="done">
+    <info>
+      <name>jnr-a64asm</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git/jnr/com.git</repository>
+      <location>hub.jnr.a64asm</location>
+    </info>
+    <contact>
+      <name>Jeff Johnston</name>
+      <email>jjohnstn@redhat.com</email>
+      <company>Red Hat</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="22814"/>
+      <license>
+        <name>Apache-2.0 License</name>
+        <reference>https://github.com/jnr/jnr-a64asm/blob/master/LICENSE</reference>
+      </license>
+      <package>jnr-a64asm-1.0.0.jar</package>
+    </legal>
+  </project>
+</ip_log>

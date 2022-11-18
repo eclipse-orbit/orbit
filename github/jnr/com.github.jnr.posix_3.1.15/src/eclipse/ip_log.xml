@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="com.github.jnr.posix" version="3.1.15" status="done">
+    <info>
+      <name>jnr-posix</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git/jnr/com.git</repository>
+      <location>hub.jnr.posix</location>
+    </info>
+    <contact>
+      <name>Tony Homer</name>
+      <email>tony.homer@intel.com</email>
+      <company>Intel Corporation</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="21980"/>
+      <license>
+        <name>Eclipse Public License v2.0</name>
+        <reference>http://www.eclipse.org/legal/epl-v20.html</reference>
+      </license>
+      <package>jnr-posix-3.1.15.jar</package>
+    </legal>
+  </project>
+</ip_log>
