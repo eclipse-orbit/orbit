@@ -12,7 +12,7 @@
       <company>Intel Corporation</company>
     </contact>
     <legal>
-      <ipzilla bug_id="22020"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/jakarta.activation/jakarta.activation-api/2.0.0"/>
       <license>
         <name>New BSD license</name>
         <reference>http://opensource.org/licenses/BSD-3-Clause</reference>

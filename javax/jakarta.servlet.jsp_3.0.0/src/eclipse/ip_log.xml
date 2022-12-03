@@ -12,7 +12,7 @@
       <company>IBM Corporation</company>
     </contact>
     <legal>
-      <ipzilla bug_id="22020"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/jakarta.servlet.jsp/jakarta.servlet.jsp-api/3.0.0"/>
       <license>
         <name>Eclipse Public License</name>
         <reference>http://www.eclipse.org/legal/epl-2.0</reference>

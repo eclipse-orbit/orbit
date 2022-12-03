@@ -12,7 +12,7 @@
       <company>Intel Corporation</company>
     </contact>
     <legal>
-      <ipzilla bug_id="22020"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.glassfish.jersey.connectors/jersey-apache-connector/2.30.1"/>
       <license>
         <name>Eclipse Public License</name>
         <reference>http://www.eclipse.org/legal/epl-v20.html</reference>

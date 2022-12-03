@@ -12,7 +12,7 @@
       <company>Intel Corporation</company>
     </contact>
     <legal>
-      <ipzilla bug_id="22020"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/jakarta.ws.rs/jakarta.ws.rs-api/2.1.6"/>
       <license>
         <name>Eclipse Public License</name>
         <reference>https://www.eclipse.org/legal/epl-v20.html</reference>

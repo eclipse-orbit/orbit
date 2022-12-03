@@ -12,7 +12,7 @@
       <company>Intel Corporation</company>
     </contact>
     <legal>
-      <ipzilla bug_id="22020"/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.glassfish.hk2/hk2-locator/2.6.1"/>
       <license>
         <name>Eclipse Public License</name>
         <reference>http://www.eclipse.org/legal/epl-v10.html</reference>
