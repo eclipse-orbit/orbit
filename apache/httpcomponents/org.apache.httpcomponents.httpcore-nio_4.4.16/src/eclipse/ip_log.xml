@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.httpcomponents.httpcore-nio" version="4.4.16" status="done">
+    <info>
+      <name>Apache HttpCore NIO</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/httpcomponents/org.apache.httpcomponents.httpcore-nio</location>
+    </info>
+    <contact>
+      <name>Matthias Sohn</name>
+      <email>matthias.sohn@sap.com</email>
+      <company>SAP SE</company>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.apache.httpcomponents/httpcore-nio/4.4.16"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>httpcore-nio-4.4.16.jar</package>
+    </legal>
+  </project>
+</ip_log>

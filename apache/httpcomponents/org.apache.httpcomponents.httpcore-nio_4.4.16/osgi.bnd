@@ -1,0 +1,14 @@
+package-version=${version;===;${Bundle-Version}}
+httpcore-version-range=${range;[===,+);4.4.16}
+httpcore-version=${version;===;4.4.16}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ org.apache.http.*;version="${httpcore-version-range}", \
+ *;resolution:=optional
