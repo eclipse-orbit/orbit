@@ -1,9 +1,5 @@
 package-version=${version;===;${Bundle-Version}}
 
-Import-Package: \
- com.google.gson.*;version="${range;[==,+);${package-version}}", \
- *;resolution:=optional
-
 Export-Package: \
  !about.html,!about_files, \
  *.internal.*;x-internal:=true;version="${package-version}", \
@@ -11,5 +7,9 @@ Export-Package: \
  *.impl.*;x-internal:=true;version="${package-version}", \
  *;version="${package-version}"
 
+Import-Package: \
+ com.google.gson.*;version="${range;[==,+);${package-version}}", \
+ *;resolution:=optional
+
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7, JavaSE-1.8
