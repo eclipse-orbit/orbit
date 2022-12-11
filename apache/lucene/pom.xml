@@ -23,6 +23,9 @@
     <module>org.apache.lucene.core_8.4.1</module>
     <module>org.apache.lucene.analyzers-common_8.4.1</module>
     <module>org.apache.lucene.analyzers-smartcn_8.4.1</module>
+    <module>org.apache.lucene.core_9.4.2</module>
+    <module>org.apache.lucene.analysis-common_9.4.2</module>
+    <module>org.apache.lucene.analysis-smartcn_9.4.2</module>
   </modules>
 
 </project>
