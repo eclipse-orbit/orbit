@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.apache.commons.lang3" version="3.12.0" status="done">
+    <info>
+      <name>Apache Commons Lang</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>apache-parent/org.apache.commons.lang3</location>
+    </info>
+    <contact>
+      <name>Marco Miller</name>
+      <email>marco.miller@ericsson.com</email>
+      <company>Ericsson</company>
+    </contact>
+    <legal>
+      <ipzilla bug_id="23120"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>commons-lang3-3.12.0.jar</package>
+    </legal>
+  </project>
+</ip_log>
