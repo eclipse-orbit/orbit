@@ -177,6 +177,7 @@
   <plugin id="org.antlr.runtime"   version="4.5.1.qualifier"/>
   <plugin id="org.antlr.runtime"   version="4.7.1.qualifier"/>
   <plugin id="org.antlr.runtime"   version="4.7.2.qualifier"/>
+  <plugin id="org.antlr.runtime"   version="4.10.1.qualifier"/>
 
   <plugin id="org.freemarker" version="2.3.22.qualifier"/>
 
