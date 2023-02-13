@@ -19,7 +19,6 @@ pipeline {
   }
   environment {
     MAVEN_OPTS = "-Xmx2G"
-    scriptDir= "./releng/scripts"
     repoDir = "releng/repository/target/repository"
   }
   stages {
@@ -54,7 +53,7 @@ pipeline {
       steps {
         container('container') {
           sshagent ( ['projects-storage.eclipse.org-bot-ssh']) {
-            sh '${scriptDir}/deploy.sh'
+            sh 'releng/scripts/deploy.sh'
           }
         }
       }
