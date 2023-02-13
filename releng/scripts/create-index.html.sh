@@ -12,8 +12,6 @@ zipFileSize=$5 # 322M
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 pageTitle="Orbit Build $buildlabel"
-downloadUrlPrefix='https://www.eclipse.org/downloads/download.php?file=/tools/orbit/committers/drops/${buildlabel}/'
-downloadWithRedirectUrlPrefix='https://www.eclipse.org/downloads/download.php?r=1&file=/tools/orbit/committers/drops/${buildlabel}/'
 
 cat - <<HEADER
 <!DOCTYPE html>
@@ -302,11 +300,11 @@ echo "<a href=\"reporeports/\">CBI Repository Analysis Reports</a><br />"
 
 echo "<h2>Orbit Build Repository</h2>"
 echo "<p>For HTTP access, a p2 repository for this specific build can be found by adding 'repository' to the end of this download site URL, namely:<br />"
-echo "<a href=\"${repoPath}\">${repoPath}</a></p>"
+echo "<a href=\"$repoPath\">$repoPath</a></p>"
 
 echo "<h2>Zipped Orbit Build Repository</h2>"
 echo "<p>The following zip file is a compressed-archive version of the above repository, for those that need or desire to have a copy of the whole repository on their local machine:<br />"
-echo "<a href=\"{$downloadUrlPrefix}orbit-buildrepo-$buildlabel.zip\">orbit-buildrepo-$buildlabel.zip</a> (<a href=\"checksum/orbit-buildrepo-$buildlabel.zip.md5\">md5</a>) (<a href=\"checksum/orbit-buildrepo-$buildlabel.zip.sha1\">sha1</a>) $zipFileSize</p>"
+echo "<a href=\"orbit-buildrepo-$buildlabel.zip\">orbit-buildrepo-$buildlabel.zip</a> (<a href=\"checksum/orbit-buildrepo-$buildlabel.zip.md5\">md5</a>) (<a href=\"checksum/orbit-buildrepo-$buildlabel.zip.sha1\">sha1</a>) $zipFileSize</p>"
 
 echo "<h2>Individual Bundles</h2>"
 
@@ -329,7 +327,7 @@ echo "<th>Source</th>"
 echo "<th>Version</th>"
 echo "</tr>"
 
-xsltproc -stringparam repoPath "$repoPath" ${DIR}/repo-index.xsl $contentFile
+xsltproc -stringparam repoPath "$repoPath" $DIR/repo-index.xsl $contentFile
 
 echo "</table>"
 
