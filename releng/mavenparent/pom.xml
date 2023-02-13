@@ -64,7 +64,7 @@
     <maven-dependency-version>3.3.0</maven-dependency-version>
 
     <!-- versions of the EBR plug-in to use -->
-    <ebr-version>1.4.0-SNAPSHOT</ebr-version>
+    <ebr-version>2.0.0-SNAPSHOT</ebr-version>
 
     <!-- force update of Eclipse IP info on every execution -->
     <forceIpFilesUpdate>false</forceIpFilesUpdate>

@@ -1,7 +1,7 @@
 Eclipse Orbit Recipes
 =====================
 
-This repositories hosts recipes for building OSGi bundles as part of the Eclipse Orbit project. This repository is based on functionality provided by the [Eclipse EBR project](https://github.com/eclipse/ebr).
+This repositories hosts recipes for building OSGi bundles as part of the Eclipse Orbit project. This repository is based on functionality provided by the [Eclipse EBR maven plug-ins](https://github.com/eclipse/ebr).
 
 
 The Very Short Version
@@ -17,7 +17,7 @@ Prerequisites
 This project uses Maven for assembling of OSGi bundles based on artifacts in Maven Central or
 any other accessible Maven repository.
 
-1. Install Java (JDK 8 preferred) and Maven.
+1. Install Java 11 (Java 8 and Java 17 don't work) and Maven.
 2. Clone this repository and go into the repository root folder.
 Please ensure you cloned using the [Gerrit URL](https://wiki.eclipse.org/Gerrit#Gerrit_push_URL).
 
@@ -69,7 +69,7 @@ following additional information first before you proceed.
 * [Bundle Checklist](https://wiki.eclipse.org/Orbit_Bundle_Checklist)
 * [Additional articles](https://wiki.eclipse.org/Category:Orbit)
 
-It's important to ensure that the bundle you're adding has been approved for use in at least one other Eclipse project on [IPZilla](https://dev.eclipse.org/ipzilla/query.cgi) or [ClearlyDefined](https://clearlydefined.io/). In the latter case, please ensure the license is compatible and that the license score is at least 60. See [IP Prereq Diligence](https://www.eclipse.org/projects/handbook/#ip-prereq-diligence) for further details.
+It's important to ensure that the bundle you're adding has been approved for use. See [IP Provenance](https://wiki.eclipse.org/Orbit/Bundle_Checklist#IP_Provenance) for some instructions. See [IP Prereq Diligence](https://www.eclipse.org/projects/handbook/#ip-prereq-diligence) for further details.
 
 ### 1. Pick a Category
 
@@ -101,17 +101,6 @@ create a recipe including required Eclipse IP information based on data availabl
     # do a test build (this will create a default ip_log.xml)
     # (note the -DirtyWorkingTree=ignore to ignore uncommitted Git changes for now)
     mvn -U clean package -DdirtyWorkingTree=warning
-
-    # hidden gem: automatically create a CQ for an Eclipse project
-    # (use carefully, creates the CQ if none is referenced in the ip_log.xml file)
-    # mvn -V clean package -DsubmitCqsToProject=<Eclipse.project.id> -DcqCryptography=<Yes|No|Unknown|Explanation> -DdirtyWorkingTree=warning
-    # (once the CQ is created, source to upload can be found in 'target/sources-for-eclipse-ipzilla')
-    # (after uploading the source, wait for approval)
-
-    # enter any non-PB CQ number into the IP log and add any missing information (your name, e-mail etc.)
-    # You may also specify a ClearlyDefined URL (if present) by replacing the <ipzilla bug_id=""/> with <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/com.example.group/artifact/x.y.z" (of course replacing the URL with the appropriate one for the bundle you're adding)
-
-    $EDITOR src/eclipse/ip_log.xml
 
     # review the generated about files
     ls -la src/main/resources/about_files
