@@ -44,7 +44,7 @@ chmod -R g+w releng/repository-report/target/reporeports/
 scp -r releng/repository-report/target/reporeports/ genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}
 
 # Generate and copy index page
-repoPath=tools/orbit/downloads/drops/${NEW_BUILD_LABEL}/repository
+repoPath=https://download.eclipse.org/tools/orbit/downloads/drops/${NEW_BUILD_LABEL}/repository
 ${DIR}/create-index.html.sh $contentFile $NEW_BUILD_LABEL $BUILD_URL $repoPath $zipFileSize > index.html
 scp index.html genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/drops/${NEW_BUILD_LABEL}/
 
