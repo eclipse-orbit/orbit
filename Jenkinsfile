@@ -29,7 +29,7 @@ pipeline {
             currentBuild.description = env.DESCRIPTION
         }
         container('container') {
-          git branch: "${BUILD_BRANCH}", url: 'https://git.eclipse.org/r/orbit/orbit-recipes'
+          git branch: "${BUILD_BRANCH}", url: 'https://github.com/eclipse/orbit.git'
         }
       }
     }
