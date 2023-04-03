@@ -64,9 +64,9 @@ function upload_composite_repo_files () {
   d=$(mktemp -d)
   pushd $d
   make_composite_repo_files ${name} ${location}
-  ssh genie.orbit@projects-storage.eclipse.org rm -r ${ORBIT_DOWNLOAD_LOC}/${download_loc}
+  ssh genie.orbit@projects-storage.eclipse.org rm -rf ${ORBIT_DOWNLOAD_LOC}/${download_loc}
   ssh genie.orbit@projects-storage.eclipse.org mkdir -p ${ORBIT_DOWNLOAD_LOC}/${download_loc}
   scp -r * genie.orbit@projects-storage.eclipse.org:${ORBIT_DOWNLOAD_LOC}/${download_loc}
   popd
-  rm -r $d
+  rm -rf $d
 }
