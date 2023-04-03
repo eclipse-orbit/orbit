@@ -18,9 +18,9 @@
 
   <scm>
     <!-- reset SCM information so that we get a good Maven default -->
-    <connection>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</connection>
-    <developerConnection>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</developerConnection>
-    <url>http://git.eclipse.org/c/orbit/recipes.git/</url>
+    <connection>scm:git:https://github.com/eclipse/orbit.git</connection>
+    <developerConnection>scm:git:https://github.com/eclipse/orbit.git</developerConnection>
+    <url>https://github.com/eclipse/orbit/</url>
   </scm>
 
   <modules>

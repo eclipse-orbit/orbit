@@ -14,9 +14,9 @@
   <description>Maven parent for Orbit recipes.</description>
 
   <scm>
-    <connection>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</connection>
-    <developerConnection>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</developerConnection>
-    <url>http://git.eclipse.org/c/orbit/recipes.git/</url>
+    <connection>scm:git:https://github.com/eclipse/orbit.git</connection>
+    <developerConnection>scm:git:https://github.com/eclipse/orbit.git</developerConnection>
+    <url>https://github.com/eclipse/orbit/</url>
   </scm>
 
   <properties>
@@ -70,7 +70,7 @@
     <forceIpFilesUpdate>false</forceIpFilesUpdate>
 
     <!-- property for generating Eclipse source reference bundle headers -->
-    <tycho.scmUrl>scm:git:https://git.eclipse.org/r/p/orbit/recipes.git</tycho.scmUrl>
+    <tycho.scmUrl>scm:git:https://github.com/eclipse/orbit.git</tycho.scmUrl>
 
     <!-- by default complain if working tree is dirty (error|warning|ignore) -->
     <dirtyWorkingTree>error</dirtyWorkingTree>
