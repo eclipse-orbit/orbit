@@ -3,11 +3,13 @@ Eclipse Orbit Recipes
 
 This repositories hosts recipes for building OSGi bundles as part of the Eclipse Orbit project. This repository is based on functionality provided by the [Eclipse EBR maven plug-ins](https://github.com/eclipse/ebr).
 
+The output of the Eclipse Orbit builds are located on download.eclipse.org: <https://download.eclipse.org/tools/orbit/downloads/>
+
 
 The Very Short Version
 ----------------------
 
-See [Adding Bundles To Orbit in 5 Minutes](https://wiki.eclipse.org/Orbit/Adding_Bundles_To_Orbit_In_5_Minutes) as a quick explanation of the contribution process.
+See [Adding Bundles To Orbit in 5 Minutes](Add-bundle-in-5-minutes.md) as a quick explanation of the contribution process.
 
 
 
@@ -19,7 +21,6 @@ any other accessible Maven repository.
 
 1. Install Java 11 (Java 8 and Java 17 don't work) and Maven.
 2. Clone this repository and go into the repository root folder.
-Please ensure you cloned using the [Gerrit URL](https://wiki.eclipse.org/Gerrit#Gerrit_push_URL).
 
 
 
@@ -65,11 +66,11 @@ How to add recipes
 Adding recipes to this repository is part of the general process for adding bundles to Orbit. Please read the
 following additional information first before you proceed.
 
-* [Adding Bundles to Orbit](https://wiki.eclipse.org/Orbit/Adding_Bundles_to_Orbit)
-* [Bundle Checklist](https://wiki.eclipse.org/Orbit_Bundle_Checklist)
-* [Additional articles](https://wiki.eclipse.org/Category:Orbit)
+* [Adding Bundles to Orbit](Add-bundle.md)
+* [Bundle Checklist](Bundle-checklist.md)
+* [Older articles](https://wiki.eclipse.org/Category:Orbit) (these items are from the old Orbit wiki and are retained for reference, but they may contain out of date information)
 
-It's important to ensure that the bundle you're adding has been approved for use. See [IP Provenance](https://wiki.eclipse.org/Orbit/Bundle_Checklist#IP_Provenance) for some instructions. See [IP Prereq Diligence](https://www.eclipse.org/projects/handbook/#ip-prereq-diligence) for further details.
+It's important to ensure that the bundle you're adding has been approved for use. See [IP Provenance](Bundle-checklist.md#ip-provenance) for some instructions. See [IP Prereq Diligence](https://www.eclipse.org/projects/handbook/#ip-prereq-diligence) for further details.
 
 ### 1. Pick a Category
 
@@ -89,34 +90,34 @@ This ensure that proper Orbit defaults are used when creating recipes (for examp
 The preferred method for creating recipes is by consuming a Maven artifact. The EBR Maven plug-in can be used to
 create a recipe including required Eclipse IP information based on data available in Maven artifact poms.
 
-    # create the recipe for a specific Maven artifact
-    # the recipe will be created in a folder named "<symbolicname-of-the-orbit-bundle>_<version>"
-    mvn ebr:create-recipe -DgroupId=<maven-source-groupId> -DartifactId=<maven-source-artifactId> -Dversion=<maven-source-version> -DbundleSymbolicName=<symbolicname-of-the-orbit-bundle>
+```sh
+# create the recipe for a specific Maven artifact
+# the recipe will be created in a folder named "<symbolicname-of-the-orbit-bundle>_<version>"
+mvn ebr:create-recipe -DgroupId=<maven-source-groupId> -DartifactId=<maven-source-artifactId> -Dversion=<maven-source-version> -DbundleSymbolicName=<symbolicname-of-the-orbit-bundle>
 
-    # modify recipe pom and osgi.bnd to suit the needs of the bundle
-    cd <new-recipe-folder>
-    $EDITOR pom.xml
-    $EDITOR osgi.bnd
+# modify recipe pom and osgi.bnd to suit the needs of the bundle
+cd <new-recipe-folder>
+$EDITOR pom.xml
+$EDITOR osgi.bnd
 
-    # do a test build (this will create a default ip_log.xml)
-    # (note the -DirtyWorkingTree=ignore to ignore uncommitted Git changes for now)
-    mvn -U clean package -DdirtyWorkingTree=warning
+# do a test build (this will create a default ip_log.xml)
+# (note the -DirtyWorkingTree=ignore to ignore uncommitted Git changes for now)
+mvn -U clean package -DdirtyWorkingTree=warning
 
-    # review the generated about files
-    ls -la src/main/resources/about_files
-    cat src/main/resources/about.html
+# review the generated about files
+ls -la src/main/resources/about_files
+cat src/main/resources/about.html
 
-    # add new recipe to category pom
-    $EDITOR ../pom.xml
+# add new recipe to category pom
+$EDITOR ../pom.xml
 
-    # update the build feature with your bundle
-    $EDITOR ../../releng/aggregationfeature/feature.xml
+# update the build feature with your bundle
+$EDITOR ../../releng/aggregationfeature/feature.xml
 
-    # add, commit the recipe to Git and push to Gerrit for review
-    git add .; git commit -m "Added org.example.foo 1.2.3"
-    # NOTE: Please ensure you push using the following command so that you don't bypass the code review:
-    git push origin HEAD:refs/for/master
-
+# add, commit the recipe to Git and push to Gerrit for review
+git add .; git commit -m "Added org.example.foo 1.2.3"
+# NOTE: Please push via Pull Request to ensure you don't bypass code review
+```
 
 ### 3. Troubleshooting
 
