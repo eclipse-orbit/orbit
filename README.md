@@ -100,6 +100,7 @@ cd <new-recipe-folder>
 $EDITOR pom.xml
 $EDITOR osgi.bnd
 
+
 # do a test build (this will create a default ip_log.xml)
 # (note the -DirtyWorkingTree=ignore to ignore uncommitted Git changes for now)
 mvn -U clean package -DdirtyWorkingTree=warning
