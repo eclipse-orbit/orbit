@@ -42,7 +42,7 @@ Milestones - see comments as you go through the list.
     3.  Make sure `DESCRIPTION` is set to the description desired on the
         downloads page (at least e.g. 2022-06 M1, can include additional
         notes and URLs. Cannot include double-quotes, e.g.
-        <a href='https://download.eclipse.org/tools/orbit/downloads/2022-03'>`2022-03`</a>)
+        `<a href='https://download.eclipse.org/tools/orbit/downloads/2022-03'>2022-03</a>`)
     4.  Leave everything else as-is, and click build
     5.  Once the build succeeds, click the 'Keep this build forever'
         button
