@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ip_log version="1.0">
-  <project id="org.jacoco.report" version="0.8.8" status="done">
+  <project id="org.jacoco.report" version="0.8.9" status="done">
     <info>
       <name>JaCoCo Report</name>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
@@ -17,7 +17,7 @@
         <name>Eclipse Public License</name>
         <reference>https://www.eclipse.org/legal/epl-2.0/</reference>
       </license>
-      <package>org.jacoco.report-0.8.8.jar</package>
+      <package>org.jacoco.report-0.8.9.jar</package>
     </legal>
   </project>
 </ip_log>
