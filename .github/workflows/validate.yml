@@ -10,6 +10,8 @@ jobs:
       with:
         java-version: 11
         distribution: 'temurin'
+        # Don't cache maven artifacts because we are doing mvn install below which would
+        # mean we would be caching build outputs and not ending up with a clean build.
     - name: Build
       run: |
          mvn clean install --batch-mode --update-snapshots
