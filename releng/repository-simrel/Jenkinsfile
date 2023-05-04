@@ -66,7 +66,7 @@ spec:
     stage('Prepare') {
       steps {
         container('container') {
-          git branch: "master", url: 'https://github.com/eclipse/orbit.git'
+          git branch: "main", url: 'https://github.com/eclipse/orbit.git'
         }
       }
     }
