@@ -38,7 +38,7 @@ must add it to the feature so the builder is aware that we should build
 it. Please update `releng/aggregationfeature/feature.xml` in
 [orbit-recipes](https://git.eclipse.org/c/orbit/orbit-recipes.git/) with
 an entry for your new bundle. (you don't need one for the source bundle)
-Changes to the Orbit feature are done in the master branch on Git.
+Changes to the Orbit feature are done in the main branch on Git.
 
 <plugin id="javax.servlet" version="2.3.0.qualifier" />
 
