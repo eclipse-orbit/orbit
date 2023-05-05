@@ -46,7 +46,6 @@
     <module>icu4j</module>
     <module>immutables</module>
     <module>jackson</module>
-    <module>jacoco</module>
     <module>javax</module>
     <module>jaxb</module>
     <module>jcraft</module>
