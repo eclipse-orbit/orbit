@@ -3,7 +3,7 @@
   <project id="com.konghq.unirest-java" version="3.4.2" status="done">
     <info>
       <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
-      <location>github-parent/ejml-parent/com.konghq.unirest-java</location>
+      <location>github-parent/unirest-parent/com.konghq.unirest-java</location>
     </info>
     <contact>
       <name>Philip Wenig</name>
