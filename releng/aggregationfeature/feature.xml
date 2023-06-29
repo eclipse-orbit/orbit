@@ -301,9 +301,6 @@
     <!-- virtuald -->
     <plugin id="com.github.virtuald.curvesapi" version="1.6.0.qualifier"/>
 
-  <!-- JSoup -->
-  <plugin id="org.jsoup" version="1.14.3.qualifier"/>
-
   <!-- Maven Resolver (ex-Eclipse Aether) -->
   <plugin id="org.apache.maven.resolver.api" version="1.0.3.qualifier"/>
   <plugin id="org.apache.maven.resolver.connector.basic" version="1.0.3.qualifier"/>
