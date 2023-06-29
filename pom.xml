@@ -60,7 +60,6 @@
     <module>reactivestreams</module>
     <module>snakeyaml</module>
     <module>sourceforge</module>
-    <module>tukaani</module>
     <module>uom</module>
     <module>xml</module>
   </modules>
