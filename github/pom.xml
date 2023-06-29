@@ -25,7 +25,6 @@
     <module>jruby</module>
     <module>mongodb</module>
     <module>mozilla</module>
-    <module>oshi</module>
     <module>unirest</module>
     <module>virtuald</module>
   </modules>
