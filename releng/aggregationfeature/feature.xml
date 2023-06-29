@@ -139,10 +139,6 @@
 
   <!-- Mina sshd -->
   <plugin id="net.i2p.crypto.eddsa" version="0.3.0.qualifier"/>
-  <plugin id="org.apache.sshd.osgi" version="2.8.0.qualifier"/>
-  <plugin id="org.apache.sshd.sftp" version="2.8.0.qualifier"/>
-  <plugin id="org.apache.sshd.osgi" version="2.9.2.qualifier"/>
-  <plugin id="org.apache.sshd.sftp" version="2.9.2.qualifier"/>
 
   <!-- Logging -->
   <plugin id="org.slf4j.api"            version="1.7.30.qualifier"/>
