@@ -58,7 +58,6 @@
     <module>netty</module>
     <module>objenesis</module>
     <module>reactivestreams</module>
-    <module>snakeyaml</module>
     <module>sourceforge</module>
     <module>tukaani</module>
     <module>uom</module>
