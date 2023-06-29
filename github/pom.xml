@@ -23,7 +23,6 @@
     <module>javaewah</module>
     <module>jnr</module>
     <module>jruby</module>
-    <module>jsoup</module>
     <module>mongodb</module>
     <module>mozilla</module>
     <module>oshi</module>
