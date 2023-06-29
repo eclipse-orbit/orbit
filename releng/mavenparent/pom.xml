@@ -94,6 +94,9 @@
     <!-- Reference repository for the old-style Orbit R-build from CVS -->
     <orbitOldRBuild>R20201118194144</orbitOldRBuild>
 
+    <!-- Reference repository for the direct from Maven dependencies -->
+    <orbitDirectFromMaven>2023-09</orbitDirectFromMaven>
+
     <!-- Root directory of releng or other directories can be referenced,
          overridden in projects at a different depth from the root. Default
          is 2 up because a plurality of recipes are 2. -->
@@ -155,6 +158,13 @@
       <id>eclipse-orbit-old</id>
       <layout>p2</layout>
       <url>https://download.eclipse.org/tools/orbit/downloads/drops/${orbitOldRBuild}/repository/</url>
+    </repository>
+    <!-- Many of the bundles have dependencies on direct from maven items. Rather than trying
+         to consume directly from maven we leverage the aggregated version  -->
+    <repository>
+      <id>eclipse-orbit-maven</id>
+      <layout>p2</layout>
+      <url>https://download.eclipse.org/oomph/simrel-maven/${orbitDirectFromMaven}/</url>
     </repository>
   </repositories>
 
