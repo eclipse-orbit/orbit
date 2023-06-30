@@ -22,7 +22,6 @@
     <module>java-diff-utils</module>
     <module>javaewah</module>
     <module>jnr</module>
-    <module>jruby</module>
     <module>mongodb</module>
     <module>mozilla</module>
     <module>unirest</module>

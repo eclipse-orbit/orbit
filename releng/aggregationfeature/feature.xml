@@ -273,9 +273,6 @@
   <!-- Docker client -->
   <plugin id="org.mandas.docker-client" version="3.2.1.qualifier"/>
 
-  <plugin id="org.jcodings" version="1.0.18.qualifier"/>
-  <plugin id="org.joni" version="2.1.11.qualifier"/>
-
   <!-- JNA -->
   <plugin id="com.sun.jna" version="4.1.0.qualifier"/>
   <plugin id="com.sun.jna.platform" version="4.1.0.qualifier"/>
