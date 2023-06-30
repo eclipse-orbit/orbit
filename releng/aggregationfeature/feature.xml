@@ -85,8 +85,6 @@
   <plugin id="org.apache.batik.shared.resources" version="1.16.0.qualifier"/>
   <plugin id="org.apache.xmlgraphics" version="2.7.0.qualifier"/>
 
-  <plugin id="org.apache.commons.cli" version="1.4.0.qualifier"/>
-
   <plugin id="org.apache.commons.compress" version="1.22.0.qualifier"/>
   <plugin id="org.apache.commons.collections" version="3.2.2.qualifier"/>
   <plugin id="org.apache.commons.collections4" version="4.4.0.qualifier"/>

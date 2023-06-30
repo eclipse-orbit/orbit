@@ -15,7 +15,6 @@
   <name>Eclipse Orbit :: Apache Recipes</name>
 
   <modules>
-    <module>org.apache.commons.cli_1.4.0</module>
     <module>org.apache.commons.codec_1.14.0</module>
     <module>org.apache.commons.collections_3.2.2</module>
     <module>org.apache.commons.collections4_4.4.0</module>
