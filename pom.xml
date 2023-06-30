@@ -29,7 +29,6 @@
     <module>args4j</module>
     <module>assertj</module>
     <module>apache</module>
-    <module>bouncycastle</module>
     <module>bytebuddy</module>
     <module>commonmark</module>
     <module>cup</module>
