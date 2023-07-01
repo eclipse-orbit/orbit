@@ -15,15 +15,7 @@
   <name>Eclipse Orbit :: JNA Recipes</name>
 
   <modules>
-    <module>com.sun.jna_4.1.0</module>
-    <module>com.sun.jna.platform_4.1.0</module>
     <module>com.sun.jna_4.5.1</module>
     <module>com.sun.jna.platform_4.5.1</module>
-    <module>com.sun.jna_5.6.0</module>
-    <module>com.sun.jna.platform_5.6.0</module>
-    <module>com.sun.jna_5.8.0</module>
-    <module>com.sun.jna.platform_5.8.0</module>
-    <module>com.sun.jna_5.12.1</module>
-    <module>com.sun.jna.platform_5.12.1</module>
   </modules>
 </project>

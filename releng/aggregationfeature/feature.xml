@@ -260,17 +260,8 @@
   <plugin id="org.joni" version="2.1.11.qualifier"/>
 
   <!-- JNA -->
-  <plugin id="com.sun.jna" version="4.1.0.qualifier"/>
-  <plugin id="com.sun.jna.platform" version="4.1.0.qualifier"/>
   <plugin id="com.sun.jna" version="4.5.1.qualifier"/>
   <plugin id="com.sun.jna.platform" version="4.5.1.qualifier"/>
-  <plugin id="com.sun.jna" version="5.6.0.qualifier"/>
-  <plugin id="com.sun.jna.platform" version="5.6.0.qualifier"/>
-  <plugin id="com.sun.jna" version="5.8.0.qualifier"/>
-  <plugin id="com.sun.jna.platform" version="5.8.0.qualifier"/>
-  <plugin id="com.sun.jna" version="5.12.1.qualifier"/>
-  <plugin id="com.sun.jna.platform" version="5.12.1.qualifier"/>
-
   <!-- Unirest Java -->
   <plugin id="com.konghq.unirest-java" version="3.4.2.qualifier"/>
 
