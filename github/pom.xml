@@ -21,7 +21,6 @@
     <module>eddsa</module>
     <module>java-diff-utils</module>
     <module>jnr</module>
-    <module>jruby</module>
     <module>mongodb</module>
     <module>mozilla</module>
     <module>unirest</module>
