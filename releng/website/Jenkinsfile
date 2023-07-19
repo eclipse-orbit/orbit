@@ -11,6 +11,7 @@ pipeline {
         sshagent ( ['projects-storage.eclipse.org-bot-ssh']) {
           // Add additional files here that should be copied from the primary record in the git repo to the download site
           sh 'scp -r releng/website/downloads/index.php genie.orbit@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit/downloads'
+          sh 'scp -r releng/website/downloads/dlconfig.php genie.orbit@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit/downloads'
           sh 'scp -r releng/website/commonFiles/DL.header.php.html genie.orbit@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit/commonFiles'
           sh 'scp -r releng/website/commonFiles/topAndInit.php genie.orbit@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit/commonFiles'
         }
