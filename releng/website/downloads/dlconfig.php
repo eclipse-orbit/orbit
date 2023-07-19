@@ -5,13 +5,13 @@ $relativePath="..";
 $dropPrefix = array();
 $dropPrefix[]="R";
 $dropPrefix[]="S";
-$dropPrefix[]="I";
+$dropPrefix[]="N";
 $dropPrefix[]="M";
 
 $dropType = array();
 $dropType[]="<b>R</b>ecommended: Long term, persisted repositories.";
 $dropType[]="<b>S</b>table: To be used for Milestone builds";
-$dropType[]="<b>I</b>ntegration: Work towards next Stable (Milestone) build for SimRel";
+$dropType[]="<b>N</b>ightly: Consume by aggregator to produce simrel-orbit nightly build";
 $dropType[]="<b>M</b>aintenance: Work towards Oxygen.3a";
 
 // the "prefix" array and dropType array must be of same size, defined in right order
