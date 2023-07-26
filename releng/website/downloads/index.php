@@ -13,22 +13,35 @@ include $relativePath . '/commonFiles/errorHandlingInit.php';
 <a href="https://projects.eclipse.org/projects/tools.orbit"><img src="../commonFiles/coolGears.png" alt="Orbit Gears" style="backgroundColor: #FFFFFF; float: right; width: 120px; height: 120px; margin-left: 10px;margin-bottom: 10x; margin-right: 0px; margin-top: 0px;" /></a>
 </h1>
 
-<p>This is the starting page for where you can find the current builds provided by the
+<h2>
+  Orbit Restructuring
+</h2>
+<p>
+  Please see the <a href="https://github.com/orgs/eclipse-orbit/discussions/49">Orbit Restructuring Plan</a> for details on how and
+  where to consume Orbit bundles going forward. This page provides access to the historical builds based on Eclipse Bundle Recipes.
+</p>
+
+<p>This is the starting page for where you can find the <b>historical</b> builds provided by the
 <a href="https://projects.eclipse.org/projects/tools.orbit">Eclipse Orbit Project</a>.
 See our <a href="https://wiki.eclipse.org/Promotion%2C_Release%2C_and_Retention_Policies">Retention Policies</a> for the meaning
-of the different types of builds (I, S, M, R). <a href="https://archive.eclipse.org/tools/orbit/downloads/">Archived Builds</a> are provided
+of the different types of builds (N, S, R). <a href="https://archive.eclipse.org/tools/orbit/downloads/">Archived Builds</a> are provided
 for previous R-Builds that are no longer in demand, but which we keep on a non-mirrored site, for long term support, historical or academic use.
 As a reminder to committers, see <a href="https://ci.eclipse.org/orbit/">
 the "continuous builds" on the build machine</a> to check recent additions for accuracy before they are promoted here to downloads.
 </p>
 
-<p>In addition to the static release repositories referenced in the 'Notes' section, there are 'latest-X' repositories provided for convenience where consumers may wish to use a particular build type.
+<p>In addition to the static release repositories referenced in the 'Notes' section, there are 'latest-X' repositories provided for convenience where consumers may wish to use a particular build type. These URLs will be updated to point to the latest infrastructure according to the <a href="https://github.com/orgs/eclipse-orbit/discussions/49">Orbit Restructuring Plan</a>.
+<a href="latest-N">latest-N</a>,
 <a href="latest-I">latest-I</a>, 
 <a href="latest-S">latest-S</a>, and
 <a href="latest-R">latest-R</a>
 are available.
 </p>
-
+<p>
+  latest-N will continue to only point at these historical builds to allow rebuilds of these historical items.
+  latest-N is consume by <a href="https://github.com/eclipse-orbit/orbit-simrel/blob/7827ed627401976c7fd22cd96c3503e3e64053cf/orbit-aggregation/orbit.aggr#L11">orbit-simrel's aggregator</a>
+  to produce the new URLs.
+</p>
 <?php
 $latestTimeStamp=array();
 $latestFile = array();

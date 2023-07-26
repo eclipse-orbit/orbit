@@ -1,6 +1,13 @@
 Eclipse Orbit Recipes
 =====================
 
+Orbit Restructuring
+-------------------
+
+Please see the [Orbit Restructuring Plan](https://github.com/orgs/eclipse-orbit/discussions/49) for details on how and
+where to consume Orbit bundles going forward. New recipes, barring very special cases, should be contributed to the
+[orbit-simrel](https://github.com/eclipse-orbit/orbit-simrel) repository where you can find contibution instructions.
+
 This repositories hosts recipes for building OSGi bundles as part of the Eclipse Orbit project. This repository is based on functionality provided by the [Eclipse EBR maven plug-ins](https://github.com/eclipse/ebr).
 
 The output of the Eclipse Orbit builds are located on download.eclipse.org: <https://download.eclipse.org/tools/orbit/downloads/>
