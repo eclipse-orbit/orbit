@@ -1,0 +1,10 @@
+<?compositeArtifactRepository version='1.0.0'?>
+<repository name='Stable Orbit Aggregation'
+    type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1690422378727'/>
+  </properties>
+  <children size='1'>
+    <child location='https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/2023-09'/>
+  </children>
+</repository>

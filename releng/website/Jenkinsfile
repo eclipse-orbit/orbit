@@ -16,6 +16,8 @@ pipeline {
           sh 'scp -r releng/website/commonFiles/topAndInit.php genie.orbit@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit/commonFiles'
           sh 'scp -r releng/website/downloads/latest-I/compositeContent.xml genie.orbit@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit/downloads/latest-I'
           sh 'scp -r releng/website/downloads/latest-I/compositeArtifacts.xml genie.orbit@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit/downloads/latest-I'
+          sh 'scp -r releng/website/downloads/latest-S/compositeContent.xml genie.orbit@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit/downloads/latest-S'
+          sh 'scp -r releng/website/downloads/latest-S/compositeArtifacts.xml genie.orbit@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/tools/orbit/downloads/latest-S'
         }
       }
     }
