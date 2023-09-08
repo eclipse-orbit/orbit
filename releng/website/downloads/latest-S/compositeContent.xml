@@ -2,9 +2,9 @@
 <repository name='Stable Orbit Aggregation'
     type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1690422378727'/>
+    <property name='p2.timestamp' value='1694197952781'/>
   </properties>
   <children size='1'>
-    <child location='https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/2023-09'/>
+    <child location='https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/milestone/latest'/>
   </children>
 </repository>
