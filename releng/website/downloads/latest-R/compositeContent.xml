@@ -1,0 +1,10 @@
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='Stable Orbit Aggregation'
+    type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1694197952781'/>
+  </properties>
+  <children size='1'>
+    <child location='https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/release/latest'/>
+  </children>
+</repository>
